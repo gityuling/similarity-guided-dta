@@ -357,7 +357,7 @@ def main() -> None:
                                      "fold": f, "model": model, **metrics})
     table_file("identity.tex", "KIBA performance with disjoint canonical chemical identities.",
                "tab:identity", "lrrr", "Predictor & MSE & Pearson & Mean CI", identity_rows,
-               r"MSE and Pearson give the unweighted five-fold mean $\pm$ sample fold SD; CI denotes concordance index. All predictors share the same folds, deep predictions and training-only neighbor evidence, with training seed 20261012. Blend and gate parameters use validation predictions only. The gate has lower MSE in all five folds than each listed control; these direction counts are descriptive, without a new significance test. Published drug-ID baseline scores are not evaluated under this protocol.")
+               r"MSE and Pearson give the unweighted five-fold mean $\pm$ sample fold SD; CI denotes concordance index. All predictors share the same folds, deep learning model outputs and training-only neighbor evidence, with training seed 20261012. Blend and gate parameters use validation predictions only. The gate has lower MSE in all five folds than each listed control; these direction counts are descriptive, without a new significance test. Published drug-ID baseline scores are not evaluated under this protocol.")
     table_file("identity_folds.tex", "Complete strict-identity KIBA fold results, training seed 20261012.",
                "tab:identity_folds", "rlrrr", "Fold & Predictor & MSE & Pearson & C-index", identity_folds,
                r"Fold indices 0--4 are displayed as 1--5. All planned folds are retained. C-index denotes concordance index. These results use different partitions from the drug-ID-cold benchmark.")

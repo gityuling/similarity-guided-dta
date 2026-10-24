@@ -16435,8 +16435,8 @@
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/identity.tex",
-    "bytes": 1183,
-    "sha256": "1b857e7d5623f492c40d0f763cf9e4ded093ff34dfd12a9cbb3917b89a9b0fb9",
+    "bytes": 1194,
+    "sha256": "160b77dbb9c9923b14ce3a0c9739e17dffa821c9827ffdecfc5d415d89b7a8e7",
     "group": "repository"
   },
   {
@@ -16489,8 +16489,8 @@
   },
   {
     "path": "DTA_affinity/manuscript/bib/tools/build_tables.py",
-    "bytes": 31607,
-    "sha256": "142fc779aae452ff3010e186e1ebf08bf019abddf05aa53f768a06db2dc3dbfe",
+    "bytes": 31618,
+    "sha256": "f1bea9487e5298d9c36984382da0cf92789ad11721ff8dae9aed752163352cc9",
     "group": "repository"
   },
   {
