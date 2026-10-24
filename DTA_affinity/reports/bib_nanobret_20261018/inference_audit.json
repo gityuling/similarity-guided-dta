@@ -1,0 +1,79 @@
+{
+  "fold_checks": [
+    {
+      "fold": 0,
+      "queries": 1167,
+      "compounds": 10,
+      "train_validation_overlap": 0,
+      "reference_max_errors": {
+        "deep": 0.0004145315657950732,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 0.0001692581734591414,
+        "similarity_gate": 0.00022816594543861868
+      }
+    },
+    {
+      "fold": 1,
+      "queries": 1167,
+      "compounds": 10,
+      "train_validation_overlap": 0,
+      "reference_max_errors": {
+        "deep": 0.0008149067336571392,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 0.00039755239099648065,
+        "similarity_gate": 0.0005106528642269126
+      }
+    },
+    {
+      "fold": 2,
+      "queries": 1167,
+      "compounds": 10,
+      "train_validation_overlap": 0,
+      "reference_max_errors": {
+        "deep": 0.0004110357098134898,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 0.00011751089566303108,
+        "similarity_gate": 8.379317192463986e-05
+      }
+    },
+    {
+      "fold": 3,
+      "queries": 1167,
+      "compounds": 10,
+      "train_validation_overlap": 0,
+      "reference_max_errors": {
+        "deep": 0.00040295720243932465,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 8.4310601787152e-05,
+        "similarity_gate": 0.00010664216368816426
+      }
+    },
+    {
+      "fold": 4,
+      "queries": 1167,
+      "compounds": 10,
+      "train_validation_overlap": 0,
+      "reference_max_errors": {
+        "deep": 0.00030570198913970614,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 8.104283208254515e-05,
+        "similarity_gate": 0.00012694255592649029
+      }
+    }
+  ],
+  "training_performed": false,
+  "endpoint_values_read": false,
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "files": [
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/fold_predictions.csv",
+      "bytes": 693620,
+      "sha256": "921d7118ddf25dc9b2a6d5eab824dfa56c3731492553f4bc8c19d8ee6e047503"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/predictions.csv",
+      "bytes": 140215,
+      "sha256": "bdef52d6a88985f05bb877e3b33ba5c5ef53a99cbca4dedc13925588fe8d4800"
+    }
+  ]
+}

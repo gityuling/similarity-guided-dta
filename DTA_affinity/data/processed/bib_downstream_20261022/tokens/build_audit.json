@@ -1,0 +1,86 @@
+{
+  "data_table": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/reports/bib_downstream_20261022/query_table.csv",
+  "table_sha256": "41b04f9026cc63c3295f355ebc70799c693e65ca74ed18c2e37c989387f2124f",
+  "cache_dir": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens",
+  "benchmark_pairs": 228,
+  "unique_drugs": 228,
+  "unique_proteins": 7,
+  "max_explicit_H_atoms": 127,
+  "molecules_over_256_atoms_retained": 0,
+  "available_at_start": {
+    "drugs": 0,
+    "proteins": 0
+  },
+  "reusable_from_explicit_legacy_roots": {
+    "drugs": 0,
+    "proteins": 7
+  },
+  "remaining_after_reuse": {
+    "drugs": 228,
+    "proteins": 0
+  },
+  "legacy_provenance": "Explicitly selected existing caches are shape/length/finite checked; their original checkpoint hashes are not independently recoverable. Omit --reuse-cache to regenerate every entity.",
+  "requested_reuse_roots": [
+    "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens"
+  ],
+  "copied": [
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/17dbd30c3a3ccb7420537914a95d3f54.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/17dbd30c3a3ccb7420537914a95d3f54.npy",
+      "sha256": "aaf6405690cf31499e2932ac9bb224333ae62d97317daf6b7942fb85e4f06479"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ffa33b20a6193bbcabaca30bbccb53be.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/ffa33b20a6193bbcabaca30bbccb53be.npy",
+      "sha256": "a8ea1eaa7a9376c005ce47b350f2db7e0b7c3c05b20a5c1ba73ba2c2a73e3e98"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/e738af340c97db8838eaaca382c140e1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/e738af340c97db8838eaaca382c140e1.npy",
+      "sha256": "db6c4aded3a17928ad1f1569034cef505ea5015a1ee221902bdfa5515daaecbb"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ee0753c4f68e188bddb0c66890beee23.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/ee0753c4f68e188bddb0c66890beee23.npy",
+      "sha256": "a5e60763606ee9c768602cd6501b7c5a5618ddc1bc058b1d42a9dd9e7bc453d7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d24f1ea01ac4c8d96e75dd9550a0fb09.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/d24f1ea01ac4c8d96e75dd9550a0fb09.npy",
+      "sha256": "ccc6f018fb1d39d04315fe6dee9abfdbd8ff6b645a0ef406e0cad2150219496c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/281176f6331d962dc37690a120e0acd1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/281176f6331d962dc37690a120e0acd1.npy",
+      "sha256": "a07e96328778b0c5b4786a8816bfbc135955bd74da08d0bc6d0e8ed024cf4cb3"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b89f0ae73bbb390fff82f35e5b453aa1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_downstream_20261022/tokens/proteins/b89f0ae73bbb390fff82f35e5b453aa1.npy",
+      "sha256": "3b68fed1c759a349d23a85308348a379c049fea62ae943d20219f42e0f90a3f7"
+    }
+  ],
+  "extractor": "build_bindingdb_articles_kd_tokens.py UniMol2Extractor / save_protein_tokens",
+  "unimol2_weights": "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt",
+  "esm2_model": "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model",
+  "protein_max_tokens": 1024,
+  "drug_max_batched_atoms": 96,
+  "dry_run": false,
+  "reuse_only": false,
+  "model_sha256": {
+    "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt": "48e1ba230119a5f286b81dd71bec4889aebebffa03e66d9241f3ceb7bede9a5e",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/config.json": "16d490981c34b2d73e6b967a53d4dd7b9d6100ddb933382dc5256446935970e4",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/model.safetensors": "c82661e60305b0c3d747e3c4ba308f4762f6df99ef0c1911712871cdcb6d6d15"
+  },
+  "extractor_sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8",
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "generated_drugs": 228,
+  "generated_proteins": 0,
+  "failed_drugs": 0,
+  "failed_proteins": 0,
+  "remaining": {
+    "drugs": [],
+    "proteins": []
+  },
+  "complete": true
+}

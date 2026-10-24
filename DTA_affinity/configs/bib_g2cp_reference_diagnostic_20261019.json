@@ -1,0 +1,15 @@
+{
+  "splits": ["train", "val"],
+  "cells": ["A375", "A549", "MCF7", "PC3", "HT29"],
+  "seeds": [20261019, 20261020, 20261021],
+  "mixture_alpha": 0.25,
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 20261019,
+  "annotation_rule": "Equal mean of all source-annotated KIBA targets available in the frozen genetic training library; no target chosen using response agreement",
+  "matched_count_rule": "For each annotated drug/cell, take the same number of top-ranked DTA targets, with equal weights",
+  "chemical_mean_rule": "Training chemical responses: average signatures within BRD ID, then BRD IDs within parent, then parents equally; exclude query parent for training-query diagnostics",
+  "centering_rule": "Subtract the same training-chemical mean vector from prediction and observation; this is a supplementary specificity diagnostic, not revised LINCS preprocessing",
+  "scope": "Post-result exploratory diagnosis on train/validation only. Validation was used for G2CP checkpoint and original blend selection; it is not an independent confirmation set.",
+  "annotation_limit": "Source annotations are incomplete and not independently biochemically revalidated. An unannotated target is unknown, not a confirmed negative. This is a privileged-information reference, not an attainable upper bound.",
+  "test_policy": "No new test scoring, fitting, target selection, or model training"
+}

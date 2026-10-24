@@ -1,0 +1,18 @@
+{
+  "stage": "development prototype and external coverage audit; not confirmation",
+  "cells": ["A375", "A549", "MCF7", "PC3", "HT29"],
+  "splits": ["train", "val"],
+  "alpha_grid": [0.01, 0.03, 0.1, 0.3],
+  "prior_strength": 2.0,
+  "gene_modules": 20,
+  "gene_folds": 5,
+  "bootstrap_repeats": 2000,
+  "seed": 20261021,
+  "selection": "One common alpha selected by strict TRAIN drug-macro held-gene MSE of response-only sparse model. Tie: larger alpha. No target annotations used for hyperparameter selection.",
+  "model": "Nonnegative weighted Lasso on genetic-library-mean-centered signatures, with fixed query-independent chemical-training mean background (leave-own-parent-out for train). Intercept, dictionary RMS and response RMS estimated on fit genes only. DTA percentile penalty weights are [1+2*(1-rank)] normalized to mean one. Coefficients are response contributions, not occupancy or causal effects.",
+  "gene_holdout": "20 complete-linkage modules from genetic TRAIN library gene correlations; modules allocated deterministically to five balanced folds. Same folds across methods/queries per cell. Internal feature holdout, not independent experiment.",
+  "retrieval": "Full-gene fit after alpha freezing; rank nonnegative standardized contributions, zero coefficients tied. Existing source annotation positives only; unknown is not negative. Development endpoint only.",
+  "external_policy": "Metadata/structure/assay coverage and historical exposure audit only. No external model scores, external label-driven tuning or new test expression scoring. Final confirmation cohort requires separate freeze after feasibility.",
+  "primary_development_comparisons": ["sparse_similarity_gate vs sparse_response", "sparse_similarity_gate vs similarity_gate", "sparse_similarity_gate vs similarity_gate_plus_observed_equal", "sparse_similarity_gate vs sparse_deep", "sparse_similarity_gate vs sparse_fixed_blend"],
+  "scope": "Computational-only; old 59 compounds are exposed development material. Old train/val split retained, old test excluded from prototype. Historical upstream encoder exposure not fully excluded."
+}

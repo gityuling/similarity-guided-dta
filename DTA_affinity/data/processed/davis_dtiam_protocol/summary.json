@@ -1,0 +1,227 @@
+{
+  "reference": "DTIAM official Davis data_split_dta.py",
+  "outer_splitter": "KFold(n_splits=5, shuffle=True, random_state=0)",
+  "inner_validation": "deterministic 10% of outer training rows/entities",
+  "pairs": 30056,
+  "drugs": 68,
+  "proteins": 442,
+  "censored_floor_pairs": 20931,
+  "settings": {
+    "warm_start": [
+      {
+        "fold": 0,
+        "rows": {
+          "train": 21640,
+          "test": 6012,
+          "val": 2404
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 442,
+        "val_proteins": 440,
+        "test_proteins": 442
+      },
+      {
+        "fold": 1,
+        "rows": {
+          "train": 21641,
+          "test": 6011,
+          "val": 2404
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 442,
+        "val_proteins": 440,
+        "test_proteins": 442
+      },
+      {
+        "fold": 2,
+        "rows": {
+          "train": 21641,
+          "test": 6011,
+          "val": 2404
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 442,
+        "val_proteins": 442,
+        "test_proteins": 442
+      },
+      {
+        "fold": 3,
+        "rows": {
+          "train": 21641,
+          "test": 6011,
+          "val": 2404
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 442,
+        "val_proteins": 441,
+        "test_proteins": 442
+      },
+      {
+        "fold": 4,
+        "rows": {
+          "train": 21641,
+          "test": 6011,
+          "val": 2404
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 442,
+        "val_proteins": 440,
+        "test_proteins": 442
+      }
+    ],
+    "drug_coldstart": [
+      {
+        "fold": 0,
+        "rows": {
+          "train": 21658,
+          "test": 6188,
+          "val": 2210
+        },
+        "train_drugs": 49,
+        "val_drugs": 5,
+        "test_drugs": 14,
+        "train_proteins": 442,
+        "val_proteins": 442,
+        "test_proteins": 442
+      },
+      {
+        "fold": 1,
+        "rows": {
+          "train": 21658,
+          "test": 6188,
+          "val": 2210
+        },
+        "train_drugs": 49,
+        "val_drugs": 5,
+        "test_drugs": 14,
+        "train_proteins": 442,
+        "val_proteins": 442,
+        "test_proteins": 442
+      },
+      {
+        "fold": 2,
+        "rows": {
+          "train": 21658,
+          "test": 6188,
+          "val": 2210
+        },
+        "train_drugs": 49,
+        "val_drugs": 5,
+        "test_drugs": 14,
+        "train_proteins": 442,
+        "val_proteins": 442,
+        "test_proteins": 442
+      },
+      {
+        "fold": 3,
+        "rows": {
+          "train": 21658,
+          "test": 5746,
+          "val": 2652
+        },
+        "train_drugs": 49,
+        "val_drugs": 6,
+        "test_drugs": 13,
+        "train_proteins": 442,
+        "val_proteins": 442,
+        "test_proteins": 442
+      },
+      {
+        "fold": 4,
+        "rows": {
+          "train": 21658,
+          "test": 5746,
+          "val": 2652
+        },
+        "train_drugs": 49,
+        "val_drugs": 6,
+        "test_drugs": 13,
+        "train_proteins": 442,
+        "val_proteins": 442,
+        "test_proteins": 442
+      }
+    ],
+    "protein_coldstart": [
+      {
+        "fold": 0,
+        "rows": {
+          "train": 21624,
+          "test": 6052,
+          "val": 2380
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 318,
+        "val_proteins": 35,
+        "test_proteins": 89
+      },
+      {
+        "fold": 1,
+        "rows": {
+          "train": 21624,
+          "test": 6052,
+          "val": 2380
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 318,
+        "val_proteins": 35,
+        "test_proteins": 89
+      },
+      {
+        "fold": 2,
+        "rows": {
+          "train": 21692,
+          "test": 5984,
+          "val": 2380
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 319,
+        "val_proteins": 35,
+        "test_proteins": 88
+      },
+      {
+        "fold": 3,
+        "rows": {
+          "train": 21692,
+          "test": 5984,
+          "val": 2380
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 319,
+        "val_proteins": 35,
+        "test_proteins": 88
+      },
+      {
+        "fold": 4,
+        "rows": {
+          "train": 21692,
+          "test": 5984,
+          "val": 2380
+        },
+        "train_drugs": 68,
+        "val_drugs": 68,
+        "test_drugs": 68,
+        "train_proteins": 319,
+        "val_proteins": 35,
+        "test_proteins": 88
+      }
+    ]
+  }
+}

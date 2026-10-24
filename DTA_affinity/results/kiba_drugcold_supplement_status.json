@@ -1,0 +1,44 @@
+{
+  "config": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/configs/kiba_drugcold_20261016.json",
+  "config_sha256": "bc6db70cf59f5fa5db55b093e9e49aaf415b06bdbb47c4668b66a65e491afc79",
+  "requested_stages": [
+    "prepare",
+    "prior",
+    "features",
+    "train",
+    "summary"
+  ],
+  "requested_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "log": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/results/logs/kiba_supplement_all_20261016T070752984023Z.log",
+  "completed_stages": [
+    "prepare",
+    "prior",
+    "features",
+    "train",
+    "summary"
+  ],
+  "state": "completed_requested_stages",
+  "updated_utc": "2026-10-16T12:14:42.769489+00:00",
+  "completed_prior_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_training_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "experiment_complete": true,
+  "current_stage": "summary"
+}

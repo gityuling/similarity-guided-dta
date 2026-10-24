@@ -1,0 +1,14 @@
+{
+  "stage": "development feasibility; not confirmatory efficacy analysis",
+  "endpoint": "observed Kinobeads competition at 1000 nM",
+  "target_max_residual": 0.5,
+  "off_target_min_residual": 0.8,
+  "budget": 3,
+  "profiles": {
+    "strict": {"max_sd": 0.1, "max_dose_inversion": 0.1},
+    "reference": {"max_sd": 0.2, "max_dose_inversion": 0.2},
+    "relaxed": {"max_sd": 0.3, "max_dose_inversion": 0.3}
+  },
+  "panel": "all 138 uniquely mapped direct-bead-binding protein/lipid kinases fixed by coverage audit",
+  "interpretation": "Operational point-measurement thresholds, not validated negative binding labels, affinity bounds, or confidence intervals. All profiles reported; no selection on model performance."
+}

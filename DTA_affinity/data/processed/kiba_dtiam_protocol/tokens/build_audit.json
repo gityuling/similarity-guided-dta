@@ -1,0 +1,48 @@
+{
+  "data_table": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+  "table_sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f",
+  "cache_dir": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+  "benchmark_pairs": 118254,
+  "unique_drugs": 2068,
+  "unique_proteins": 229,
+  "max_explicit_H_atoms": 374,
+  "molecules_over_256_atoms_retained": 1,
+  "available_at_start": {
+    "drugs": 0,
+    "proteins": 0
+  },
+  "reusable_from_explicit_legacy_roots": {
+    "drugs": 0,
+    "proteins": 0
+  },
+  "remaining_after_reuse": {
+    "drugs": 2068,
+    "proteins": 229
+  },
+  "legacy_provenance": "Explicitly selected existing caches are shape/length/finite checked; their original checkpoint hashes are not independently recoverable. Omit --reuse-cache to regenerate every entity.",
+  "requested_reuse_roots": [],
+  "copied": [],
+  "extractor": "build_bindingdb_articles_kd_tokens.py UniMol2Extractor / save_protein_tokens",
+  "unimol2_weights": "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt",
+  "esm2_model": "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model",
+  "protein_max_tokens": 1024,
+  "drug_max_batched_atoms": 96,
+  "dry_run": false,
+  "reuse_only": false,
+  "model_sha256": {
+    "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt": "48e1ba230119a5f286b81dd71bec4889aebebffa03e66d9241f3ceb7bede9a5e",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/config.json": "16d490981c34b2d73e6b967a53d4dd7b9d6100ddb933382dc5256446935970e4",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/model.safetensors": "c82661e60305b0c3d747e3c4ba308f4762f6df99ef0c1911712871cdcb6d6d15"
+  },
+  "extractor_sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8",
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "generated_drugs": 2068,
+  "generated_proteins": 229,
+  "failed_drugs": 0,
+  "failed_proteins": 0,
+  "remaining": {
+    "drugs": [],
+    "proteins": []
+  },
+  "complete": true
+}

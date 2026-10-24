@@ -1,0 +1,11 @@
+compound,endpoint,measured_pairs,included_pairs,outside_occupancy_range,explicit_censors,possible_boundary_values,kiba_external,davis_external,eligible_folds
+AMG925,occupancy_pct,240,110,125,0,0,True,True,0|1|2|3|4
+AST487,ic50_nm,240,111,0,0,156,True,False,0|1|2|3|4
+Dasatinib,ic50_nm,240,111,0,0,197,True,False,0|1|2|3|4
+Foretinib,ic50_nm,298,140,0,166,0,True,False,0|1|2|3|4
+GW296115X,occupancy_pct,242,111,71,0,0,True,True,0|1|2|3|4
+GW830263A,occupancy_pct,242,111,89,0,0,True,True,0|1|2|3|4
+LXH254,ic50_nm,240,111,0,0,234,True,True,0|1|2|3|4
+Ponatinib,ic50_nm,298,140,0,189,0,True,True,0|1|2|3|4
+Sorafenib,ic50_nm,240,111,0,0,164,True,False,0|1|2|3|4
+TPKI-39,occupancy_pct,240,111,114,0,0,True,True,0|1|2|3|4

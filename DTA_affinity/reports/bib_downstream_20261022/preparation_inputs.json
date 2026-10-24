@@ -1,0 +1,107 @@
+[
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/ligunity_fep_labels.json",
+    "bytes": 80807,
+    "sha256": "68cf4870e187e03447687b2912bd7c0b7757666f51842ee635ce1cef0b6ec785"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/pubchem_1963317_data.csv",
+    "bytes": 156598,
+    "sha256": "2394e45ac501660da536943044422beebace9f385ebe0a9b3c6a96b1b88e87f6"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/pubchem_1963317_description.json",
+    "bytes": 69757,
+    "sha256": "e9476f70c2f5418bd11013071ae03a5c94ba0356efccfcdc93ed889e4a28c14f"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/ligunity_git_tree.json",
+    "bytes": 64881,
+    "sha256": "6c615550341aae2527209bb87e2f6ce135e4ea88b213721776a261a0f4585a4f"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/ligunity_article.xml",
+    "bytes": 213778,
+    "sha256": "b60d833db7a94c492ba6479852766f7a95949e6f6fe78942679611fb6c297861"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/abl1_article.xml",
+    "bytes": 209919,
+    "sha256": "16e26c4336493dd77be0a46d8a279872e474cc1065bf3ad8bbafc5ccfa6d3ca4"
+  },
+  {
+    "path": "DTA_affinity/scripts/prepare_bib_downstream.py",
+    "bytes": 9709,
+    "sha256": "a35925db97c28f9834eb1ec38bc25db521c610dceea1683dcbf30f23fc461261"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+    "bytes": 97771320,
+    "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+  },
+  {
+    "path": "DTA_affinity/data/processed/davis_dtiam_protocol/table.csv",
+    "bytes": 26912290,
+    "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_selectivity_20261021/compound_audit.csv",
+    "bytes": 367464,
+    "sha256": "e4dc2fd00a80fa5ed4c4744598d56da901d834eb7411d6ffa22da7fb46ad5321"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_g2cp_dta_20261019/annotation_review.csv",
+    "bytes": 18964,
+    "sha256": "57ce79d04d0de35e953e008b3eb557ccf0349fdb57ab49e72c4f2f54824e9634"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_nanobret_20261018/compound_audit.csv",
+    "bytes": 2055,
+    "sha256": "89b62c5fd47d79b7bdd89e611a8913e7b1121ec918433c47385b709fbf8b6a7f"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_cellular_case_external_20261018/query_table.csv",
+    "bytes": 237819,
+    "sha256": "9c05cdc1b6aed6edc7c8ae8d6b38523ec3e2af7b8912e85d26c696d670ba93ce"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/candidate_scores_before_endpoints.csv",
+    "bytes": 123351,
+    "sha256": "3b28dfea44005f987671cb3601cab7edec749b38c17bc0381cb97cfbf4877e3f"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/p38_ligands.sdf",
+    "bytes": 122434,
+    "sha256": "db90aa5812f46b9a73e7f2e71d0bb44b7c23d830a3a40dfca3f12a31bff0ea58"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/cdk8_5cei_new_helix_loop_extra_ligands.sdf",
+    "bytes": 146404,
+    "sha256": "7024a5095847f0caadba2029f98d33c57b8ccbf851c16fd2cfaf2ff14498111d"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/cmet_ligands.sdf",
+    "bytes": 96297,
+    "sha256": "10ba1afb8ce7210d284312f23bf0505dd878d2ebdea76babb6ea641d46903258"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/tyk2_ligands.sdf",
+    "bytes": 44572,
+    "sha256": "8cc5b64c524cc70b70a0075d68d9ea65a4a32e0e50fb88bd9f6678466b6b8a0b"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/syk_4puz_fullmap_ligands.sdf",
+    "bytes": 213424,
+    "sha256": "0eb1fbe23c1e4bd4f08521cdca6e1c8ca852dd8f3e918ed877f670c837727a6e"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/cdk2_ligands.sdf",
+    "bytes": 59016,
+    "sha256": "06f3e239c52531d34405162cf6f68b5bc6de864fee7e73b27bf9b9887b48e040"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/jnk1_manual_flips_ligands.sdf",
+    "bytes": 126854,
+    "sha256": "880876d2494cc6f9d5851273e74935e7caa16c8892eeb4e4ceac444eae22a677"
+  }
+]

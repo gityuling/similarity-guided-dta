@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "file_checksums",
+      "files": 3654,
+      "groups": [
+        "affinity-checkpoints",
+        "davis-features",
+        "external-features",
+        "kiba-features",
+        "repository",
+        "reproduction-data"
+      ]
+    },
+    {
+      "check": "partition_coverage_and_support",
+      "folds": 20
+    },
+    {
+      "check": "benchmark_predictions",
+      "new_fold_results": 30,
+      "reference_folds": 10,
+      "results": {
+        "davis_reference_gate_mse": 0.5686658263232796,
+        "kiba_reference_gate_mse": 0.29843133447786213,
+        "davis_three_seed_gate_mse": 0.5678390302930176,
+        "kiba_three_seed_gate_mse": 0.29782975956003027,
+        "kiba_scaffold_gate_mse": 0.3672079840597897
+      }
+    },
+    {
+      "check": "nanobret_rankings",
+      "pairs": 1167,
+      "metric_rows": 80,
+      "bootstrap_intervals_recomputed": true
+    },
+    {
+      "check": "abl1_screen",
+      "candidates": 80,
+      "budget_rows": 960,
+      "top10": [
+        {
+          "label_rule": "outcome",
+          "model": "deep",
+          "confirmed_hits": 5,
+          "unknown_selected": 0
+        },
+        {
+          "label_rule": "outcome",
+          "model": "similarity_gate",
+          "confirmed_hits": 8,
+          "unknown_selected": 0
+        },
+        {
+          "label_rule": "strict_outcome",
+          "model": "deep",
+          "confirmed_hits": 5,
+          "unknown_selected": 0
+        },
+        {
+          "label_rule": "strict_outcome",
+          "model": "similarity_gate",
+          "confirmed_hits": 5,
+          "unknown_selected": 3
+        }
+      ]
+    }
+  ],
+  "scope": "CPU recalculation from saved predictions; no model retraining."
+}

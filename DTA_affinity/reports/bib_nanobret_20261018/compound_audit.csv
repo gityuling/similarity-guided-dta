@@ -1,0 +1,11 @@
+compound,source_smiles,Canonical_SMILES,parent_connectivity_key,kiba_exact_ids,kiba_parent_ids,davis_exact_ids,davis_parent_ids,eligible_folds,kiba_external,davis_external
+AMG925,OCC(N1CC2=C(CC1)N=C(C=C2)NC3=NC=C4C(N(C5=CN=CC=C54)[C@H]6CC[C@@H](CC6)C)=N3)=O,C[C@H]1CC[C@H](n2c3cnccc3c3cnc(Nc4ccc5c(n4)CCN(C(=O)CO)C5)nc32)CC1,BBUVDDPUURMFOX,,,,,0|1|2|3|4,True,True
+AST487,O=C(NC1=CC=C(C(C(F)(F)F)=C1)CN2CCN(CC2)CC)NC3=CC=C(C=C3)OC4=NC=NC(NC)=C4,CCN1CCN(Cc2ccc(NC(=O)Nc3ccc(Oc4cc(NC)ncn4)cc3)cc2C(F)(F)F)CC1,ODPGGGTTYSGTGO,,,11409972,11409972,0|1|2|3|4,True,False
+Dasatinib,O=C(NC1=C(C)C=CC=C1Cl)C2=CN=C(NC3=NC(C)=NC(N4CCN(CCO)CC4)=C3)S2,Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,ZBNZXTGUTAYRHI,,,3062316,3062316,0|1|2|3|4,True,False
+Foretinib,O=C(C1(C(NC2=CC=C(F)C=C2)=O)CC1)NC3=CC=C(OC4=C5C=C(OC)C(OCCCN6CCOCC6)=CC5=NC=C4)C(F)=C3,COc1cc2c(Oc3ccc(NC(=O)C4(C(=O)Nc5ccc(F)cc5)CC4)cc3F)ccnc2cc1OCCCN1CCOCC1,CXQHYVUVSFXTMY,,,42642645,42642645,0|1|2|3|4,True,False
+GW296115X,COC1=CC2=C(NC3=C2C4=C(C(NC4=O)=O)C5=C3NC6=C5C=C(OC)C=C6)C=C1,COc1ccc2[nH]c3c4[nH]c5ccc(OC)cc5c4c4c(c3c2c1)C(=O)NC4=O,LGTURXDQKJRHSF,,,,,0|1|2|3|4,True,True
+GW830263A,CN(C1=CC=C(C=C1)NC(NC2=CC=C(C(N3CCN(C)CC3)=O)C=C2)=O)C4=CC=NC(NC5=CC=C(C=C5)CS(C)(=O)=O)=N4,CN1CCN(C(=O)c2ccc(NC(=O)Nc3ccc(N(C)c4ccnc(Nc5ccc(CS(C)(=O)=O)cc5)n4)cc3)cc2)CC1,AHDFVTJYNGXCEO,,,,,0|1|2|3|4,True,True
+LXH254,CC1=C(C2=CC(N3CCOCC3)=NC(OCCO)=C2)C=C(NC(C4=CC(C(F)(F)F)=NC=C4)=O)C=C1,Cc1ccc(NC(=O)c2ccnc(C(F)(F)F)c2)cc1-c1cc(OCCO)nc(N2CCOCC2)c1,UEPXBTCUIIGYCY,,,,,0|1|2|3|4,True,True
+Ponatinib,CC1=C(C#CC2=CN=C3N2N=CC=C3)C=C(C(NC4=CC(C(F)(F)F)=C(CN5CCN(C)CC5)C=C4)=O)C=C1,Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12,PHXJVRSECIGDHY,,,,,0|1|2|3|4,True,True
+Sorafenib,O=C(NC1=CC=C(C(C(F)(F)F)=C1)Cl)NC2=CC=C(OC3=CC(C(NC)=O)=NC=C3)C=C2,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,MLDQJTXFUGDVEO,,,216239,216239,0|1|2|3|4,True,False
+TPKI-39,O=C(NC1=CC=CC(OC2=NN3C=CN=C3C=C2)=C1)NC4=CC=CC=C4,O=C(Nc1ccccc1)Nc1cccc(Oc2ccc3nccn3n2)c1,DUACVOORSOOZRH,,,,,0|1|2|3|4,True,True

@@ -1,0 +1,77 @@
+{
+  "case": "BRAF-associated compound prioritization in A375 melanoma cells",
+  "primary_cell": "A375",
+  "cellosaurus_id": "CVCL_0132",
+  "target_gene": "BRAF",
+  "target_uniprot": "P15056",
+  "selection_basis": "Established BRAF V600E A375 context and available known-target training support, selected before scoring. Initial saved-prediction coverage audit found only one evaluable candidate; expand the library before reading endpoint values.",
+  "supersedes_coverage_only_plan": "reports/bib_cellular_case_20261018/plan.json",
+  "dta_protocol": "kiba_identity_20261017",
+  "dta_seed": 20261012,
+  "novel_only": true,
+  "requires_saved_target_prediction": false,
+  "dta_prediction": "Mean of the five frozen identity-disjoint fold models; every candidate absent from all KIBA training/validation/test identities. Apply each fold prior, validation-selected blend and gate before averaging predictions.",
+  "chemical_identity": "RDKit canonical isomeric SMILES retaining salt, charge and tautomer state; no name-only joins",
+  "candidate_library": "All CTRPv2 chemical identities exactly matched to QC-passing A375 LINCS chemical profiles at the fixed dose/time, excluding all KIBA chemical identities; retain every candidate within the existing 512-explicit-atom encoder capacity",
+  "chemical_pert_type": "trt_cp",
+  "chemical_dose_um": 10.0,
+  "chemical_time_hours": 24.0,
+  "genetic_pert_type": "trt_xpr",
+  "genetic_time_hours": 96.0,
+  "quality": "Original QC/dose/time/candidate inclusion unchanged; controls are audited but not subtracted in the primary signature analysis.",
+  "functional_score": "Pearson correlation of released, processed chemical and BRAF-CRISPR signatures across all 978 landmark genes. Do not subtract consensus controls again. Average unique signatures within perturbagen, then perturbagens within chemical identity; average the two BRAF guide signatures.",
+  "combination": "Unweighted mean of candidate-library percentile ranks for DTA affinity and functional concordance; no CTRP-based fitting",
+  "endpoint": "CTRPv2 AUC_curvecurator, finite measured values; lower AUC means stronger cellular response; median across duplicate chemical-identity records",
+  "activity_definition": "AUC_curvecurator < 0.5",
+  "metrics": [
+    "Spearman with negative AUC",
+    "AUROC",
+    "average precision",
+    "precision at 5",
+    "precision at 10",
+    "enrichment at 5",
+    "enrichment at 10"
+  ],
+  "bootstrap": {
+    "unit": "chemical identity",
+    "repeats": 2000,
+    "seed": 20261018,
+    "interval": "paired percentile 95%; conditional on fixed predictions; ranking tie-break by canonical identity"
+  },
+  "minimum_measured_candidates": 30,
+  "interpretation": "Retrospective measured-response-assisted prioritization with a separate cellular viability endpoint; not fully in-silico G2CP inference or independent biochemical affinity validation",
+  "boundaries": [
+    "KIBA target sequence does not encode the A375 BRAF V600E cellular genotype",
+    "Binding affinity does not specify inhibition direction or cellular efficacy",
+    "Chemical and genetic perturbations have different experimental times",
+    "General cellular stress can produce concordance without direct BRAF engagement",
+    "CTRP data were previously used in a separate local DrEval exploratory project; this is not an untouched dataset across the entire workspace",
+    "No model or combination is fitted on the cellular endpoint",
+    "Original raw L1000 plate matrices and a complete author preprocessing log are not locally available; published processed signatures are used without claiming raw-data reconstruction."
+  ],
+  "revision": "signature_review_before_cellular_endpoint_evaluation",
+  "original_plan": {
+    "path": "DTA_affinity/reports/bib_cellular_case_external_20261018/plan.json",
+    "bytes": 3458,
+    "sha256": "795ee9c50845ccbf95dc46448587ba4d23409c9863bc617f660f269f7b84a0e6"
+  },
+  "original_candidate_manifest": {
+    "path": "DTA_affinity/reports/bib_cellular_case_external_20261018/candidate_coverage.csv",
+    "bytes": 473678,
+    "sha256": "337ad0e72f6e9081c24f4efe52c67c5a926b472b0b055da787e28c9c1caa99da"
+  },
+  "preprocessing_decision": "Released signed, replicate-collapsed profiles are treated as processed response signatures. Their metadata and scale are consistent with L1000 Level 5; an exact upstream transformation chain was not supplied and is not claimed to have been reconstructed. Consensus controls are not matched treatment-plate baselines. Preserve the previous subtraction as a sensitivity analysis, never select preprocessing by CTRP performance.",
+  "sensitivity_scores": [
+    "guide_1_concordance",
+    "guide_2_concordance",
+    "legacy_control_subtracted"
+  ],
+  "negative_control": {
+    "type": "permute similarity-gate affinity across all 284 identities before rank averaging with fixed functional scores",
+    "repeats": 2000,
+    "seed": 20261019,
+    "evaluation": "Spearman, AUROC and AP null distributions; Monte Carlo upper-tail probabilities are exploratory, not proof of target specificity"
+  },
+  "primary_comparison": "similarity_gate_plus_functional versus functional_only, Spearman with negative cellular AUC",
+  "secondary_comparison": "similarity_gate_plus_functional versus deep_plus_functional on the identical candidate subset"
+}

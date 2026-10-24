@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Journal of Medicinal Chemistry</journal-title><abbrev-journal-title>J Med Chem</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12951567</article-id><article-id pub-id-type="pmcaid">12951567</article-id><article-id pub-id-type="pmcaiid">12951567</article-id><article-id pub-id-type="pmid">41651452</article-id><article-id pub-id-type="doi">10.1021/acs.jmedchem.5c02916</article-id><title-group><article-title>Cellular Context
+Influences Kinase Inhibitor Selectivity</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Binder</surname><given-names initials="MJ">Matthew J</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Bashore</surname><given-names initials="FM">Frances M</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Dunn Hoffman</surname><given-names initials="KK">Kaitlin K</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Damgaard</surname><given-names initials="C">Cameron</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Slater</surname><given-names initials="M">Michael</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Drewry</surname><given-names initials="DH">David H</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Robers</surname><given-names initials="MB">Matthew B</given-names></name><xref ref-type="aff" rid="aff3">§</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Axtman</surname><given-names initials="AD">Alison D</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref rid="cor2" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+Structural
+Genomics Consortium, UNC Eshelman School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina
+27599, United States
+</aff><aff id="aff2">
+<label>‡</label>
+UNC
+Lineberger Comprehensive Cancer Center, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina
+27599, United States
+</aff><aff id="aff3">
+<label>§</label>
+Promega
+Corporation, 2800 Woods Hollow Road, Madison, Wisconsin
+53711, United States
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>matt.robers@promega.com</email>.</p></fn><fn id="cor2"><label>*</label><p>
+Email: <email>alison.axtman@unc.edu</email>.</p></fn></author-notes><pub-date><day>6</day><month>2</month><year>2026</year></pub-date><volume>69</volume><issue>4</issue><fpage>4208</fpage><page-range>4208–4220</page-range><pub-history><event event-type="pmc-release"><date><day>3</day><month>3</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY-NC-ND 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916.pdf" content-type="pmc-pdf"><?cloudpmc-path 5993/12951567/9ec1e96470e0/jm5c02916.pdf?><?cloudpmc-bucket app?><?size 5897930?></self-uri><related-article related-article-type="correction-forward"><bold>This article has been corrected.</bold> See <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC13528193">J Med Chem. 2026 Aug 8;69(16):20069</ext-link>.</related-article><related-article related-article-type="preprint"><bold>Previous version available:</bold> This article is based on a previously available preprint posted on bioRxiv on October 10, 2025: "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12632604">Cellular Selectivity Analyses Reveal Distinguishing Profiles for Type II Kinase Inhibitors</ext-link>".</related-article><abstract id="abstract1"><title>Abstract</title><p>A pivotal part of
+kinase chemical probe and drug development
+is
+assessment of the selectivity of a putative lead compound. While there
+is no consensus around the panel size or the type of assay(s) that
+are most appropriate, there is concurrence that gauging the number
+of on- and off-targets of a kinase inhibitor is essential. As pharmacology
+takes place in cells, we have compared profiling results for ten kinase
+inhibitors generated using the cell-free assays to those obtained
+when a panel of cellular target engagement NanoBRET assays is used
+to assess selectivity in intact cells. This is the first systematic
+comparison of these two approaches across a broad kinase panel. Comparison
+of the data sets demonstrates divergent results that can influence
+chemical probe prioritization. We identify unanticipated kinase interactions
+in cells for type II kinase inhibitors that are not observed in biochemical,
+cell-free systems. Furthermore, we characterize TPKI-39 as a DDR1,
+DDR2, and FLT1 chemical probe based on its in-cell selectivity profile.</p></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="jm5c02916_0011.jpg"><?cloudpmc-path blobs/5993/12951567/7dee47b2d661/jm5c02916_0011.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 558?><?original-width 387?><?scaled-height 558?><?scaled-width 387?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="jm5c02916_0009.jpg"><?cloudpmc-path blobs/5993/12951567/7dee47b2d661/jm5c02916_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 558?><?original-width 387?><?scaled-height 558?><?scaled-width 387?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Oct 9; Accepted 2026 Jan 20; Revised 2026 Jan 14; Collection date 2026 Feb 26.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><title>Introduction</title><p>Small
+molecule chemical probes are essential
+tools that enable
+the study of biological pathways and disease.<italic>
+−
+
+</italic> By identifying
+and utilizing potent and selective inhibitors, termed chemical probes,
+the function of proteins and their downstream biological effects,
+especially implications in disease phenotypes, can be illuminated.
+Chemical probes are distinct from drugs in that the focus of their
+development centers around potency and selectivity rather than safety
+and efficacy. First suggested by Workman and Collins in 2010, a set
+of criteria have been agreed upon by the Chemical Probes Portal and
+Structural Genomics Consortium (SGC) defining chemical probes. These criteria include biochemical potency &lt;100
+nM, in-cell potency &lt;1 μM, &gt; 30-fold selectivity over
+closely
+related proteins, and availability of a structurally related negative
+control compound.<italic>
+,
+</italic>
+</p><p>Selectivity is a key metric
+for chemical probes, perhaps especially
+so for those targeting protein kinases. Protein kinases are a class
+of enzymes that catalyze transfer of the γ-phosphate group of
+ATP onto serine, threonine, or tyrosine substrate residues. As all
+kinases must bind ATP to carry out their enzymatic activity, protein
+kinase domains are comprised of certain canonical structural features
+that can make achieving sufficient selectivity between on- and off-target
+ATP sites challenging. Kinases can be further classified as in an “active”
+or “inactive” conformation based on the relative orientations
+of these structural features. Namely,
+these include the αC-helix and DFG (Asp-Phe-Gly) motif of the
+activation segment.</p><p>The typical kinase domain is divided into
+an N-terminal lobe and
+larger C-terminal lobe, connected by a hinge region. This hinge region
+serves as the interface between the two lobes and is the orthosteric
+binding site for both ATP and ATP-competitive kinase inhibitors. The N-terminal lobe contains the αC-helix,
+which makes a critical salt bridge interaction with the β3-sheet
+in the active conformation. This positioning, where the helix is pointed
+inward, is referred to as the “αC-in” orientation.
+The DFG motif, contained within the C-terminal lobe, begins the activation
+loop of the kinase. The positioning of the aspartic acid residue of
+the DFG motif is another key determinant of kinase activity. In the
+active state, the Asp is directed inward (DFG-in) and can coordinate
+Mg<sup>2+</sup>, which is important for ATP binding.</p><p>Certain
+small molecule inhibitors have been found to bind exclusively
+to either the active or inactive conformation of their target kinases
+and have been classified based on these preferences. As many as seven
+different kinase inhibitor types have been proposed, including both
+orthosteric and allosteric modulators, as well as covalent binders. Here, we will focus on the most common classes
+of orthosteric inhibitors: type I and type II. Type I inhibitors bind
+to the ATP-binding site of the active kinase conformation, with both
+the αC-helix and DFG motif positioned inward. Type II inhibitors,
+conversely, bind the ATP-binding site of the inactive kinase, with
+αC-out and DFG-out. This structural difference can be seen in <xref rid="fig1" ref-type="fig">Figure 
+</xref>, which compares
+c-Abl bound to dasatinib (left) and imatinib
+(right), type I and type II inhibitors,
+respectively. Originally, it was proposed that type II inhibitors
+may be inherently more selective than type I due to the more unique
+conformational states of inactive kinases, increasing their value
+for chemical probe and drug discovery efforts. However, further investigation has largely disproven this
+idea. In fact, type II inhibitors may
+sample different conformational space that imparts them with unique
+selectivity profiles when compared to their type I counterparts.<italic>
+,
+</italic> Regardless, selectivity remains a top priority when developing compounds.</p><fig id="fig1" position="float"><?disp-level 2?><label>1</label><caption><p>Structural
+comparison of type I versus type II binding modes. (A)
+Crystal structure of dasatinib (pink), a type I inhibitor, bound to
+c-Abl (PDB code: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/2GQG" ext-link-type="uri">2GQG</ext-link>). (B) Crystal structure of imatinib (yellow), a type II inhibitor,
+bound to c-Abl (PDB code: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/1IEP" ext-link-type="uri">1IEP</ext-link>). The activation loop containing the DFG motif is
+highlighted.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="jm5c02916_0001.jpg"><?cloudpmc-path blobs/5993/12951567/ec5464135140/jm5c02916_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 780?><?original-width 992?><?scaled-height 520?><?scaled-width 661?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0001.gif"><?cloudpmc-path blobs/5993/12951567/d7c2167aacbb/jm5c02916_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To quickly and comprehensively
+evaluate the selectivity
+of a lead
+inhibitor, high-throughput kinase profiling panels have been developed.
+These panels contain representative kinases from the major families: TK, TKL, AGC, CAMK, CK1, CMGC, STE, and atypical,
+as well as mutant kinase constructs and lipid kinases. To date, the
+Eurofins DiscoverX panel has achieved the broadest coverage, with
+468 kinases included, representing more than 80% of the human kinome.
+This panel consists of competitive binding assays between a promiscuous
+kinase ligand attached to a solid support and a compound of interest. DNA-tagged kinases are allowed to bind to the
+promiscuous ligand and compound is added at a single concentration.
+While off-target hits are displaced from the solid support by the
+compound of interest, kinases that remain bound after washing can
+be quantified via qPCR. Results are returned as percent of control
+(PoC), which is relative to the assay result when no competing compound
+was added. This panel allows for the quantitative evaluation of kinome-wide
+selectivity in a cell-free format, providing a convenient and robust
+platform to identify novel interactions and chemical starting points
+for understudied kinases.</p><p>For a complementary evaluation of
+target occupancy in a physiological
+context, NanoLuc-bioluminescence resonance energy transfer (NanoBRET)
+cellular target engagement assays can be performed in live cells.
+NanoBRET assays, developed by Promega in collaboration with the Structural
+Genomics Consortium, allow for a direct assessment of the engagement
+of a protein target by a compound in a cellular setting.<italic>
+−
+
+</italic> These assays require a tracer molecule, a heterobifunctional compound
+consisting of a ligand with known affinity to the target protein conjugated
+to a fluorophore. This tracer molecule binds to the transiently transfected
+NanoLuc (NLuc)-tagged full-length kinase, and upon the addition of
+an NLuc substrate, an energy transfer occurs between NLuc and the
+fluorophore on the tracer. Addition of a compound that competes with
+binding of the tracer results in a loss of luminescence signal. Akin
+to the biochemical kinome profiling techniques, NanoBRET assays run
+in parallel can also be used to quickly evaluate selectivity of a
+compound across the kinome. To date,
+NanoBRET assays have been enabled for more than 300 kinases. Kinase
+targets with NanoBRET assays are well-distributed among the kinase
+families and generally overlap with the biochemical panels. By screening a compound of interest at a single
+concentration, percent occupancy can be determined for each kinase
+in the panel. The NanoBRET assay assessment of direct target engagement
+contrasts with immunoassays, which indirectly confirm biological effect
+by assaying downstream kinase substrates of the kinase of interest.
+Herein, we systematically compare kinase inhibitor selectivity obtained
+through cell-free and in-cell profiling approaches and highlight the
+power of using in-cell target engagement assays to identify previously
+unknown kinase targets and uncover the exquisite cellular selectivity
+of certain type II inhibitors. We demonstrate that cellular profiling
+of kinase inhibitor selectivity is informative for the development
+of high-quality chemical probes. The implications of our findings
+should resonate with scientists across multiple fields with interest
+in optimization of kinase-targeting small molecules via the most rigorous
+methodology.</p></sec><sec id="sec2" disp-level="1"><title>Results and Discussion</title><p>Comparison
+of type I and type
+II inhibitors in larger cell-free
+assay panels has taught us that there are no universal trends that
+establish one or the other binding mode as a more selective class. A side-by-side comparison of global cell-free
+and in-cell data has not been reported in the literature, providing
+an opportunity to benchmark and explore the value of using both methods
+for chemical probe optimization.</p><sec id="sec2.1" disp-level="2"><title>Profiling of the Binding of Widely Used Kinase
+Inhibitors Surfaces
+Otherwise Undetected In-Cell Interactions of Type II Inhibitors</title><p>Taking advantage of previously published and/or database-housed
+cell-free data sets, we planned experiments aimed at comparing the
+cell-free broad profiling results with the results obtained when in-cell
+profiling was executed. The Library of Integrated Network-based Cellular
+Signatures (LINCS) houses a compendium of cell-free data sets. These data, alongside published profiling efforts,
+enable the designed comparisons.<italic>
+,,
+</italic>
+</p><sec id="sec2.1.1" disp-level="3"><title>Type II Kinase Inhibitors Sample Unique Intracellular
+Conformational
+Space</title><p>To start, a sentinel set of four widely used kinase
+inhibitors, dasatinib, sorafenib, AST487, and foretinib, (<xref rid="fig2" ref-type="fig">Figure 
+</xref>A) were chosen for
+which there was published broad biochemical profiling data as well
+as dose–response follow-up values. This included one type I
+and three type II inhibitors with varied kinome-wide selectivity.
+Based on their cell-free profiling, these
+inhibitors are incredibly promiscuous, allowing us to sample many
+putative inhibitor-kinase interactions. The promiscuity of these kinases
+can be better understood if the number of wild-type kinases that bind
+with high affinity (<italic>K</italic>
+<sub>d</sub> &lt; 100 nM) in
+the Eurofins DiscoverX cell-free panel are tabulated: 52 for dasatinib,
+16 for sorafenib, 66 for AST487, and 111 for foretinib. Furthermore,
+it was anticipated that through use of full-length kinases in their
+dynamic intracellular state in the NanoBRET assay, novel interactions
+might also be pinpointed. These inhibitors were screened in the cell-free
+assay panel with the broadest kinome-wide coverage, which is offered
+by Eurofins DiscoverX. This panel employs
+binding assays that are executed in the absence of ATP, often with
+truncated kinases. In the 468-member <italic>scan</italic>MAX panel,
+for example, 78% of kinases (363) are partial constructs while 22%
+of kinases (105) are full-length. We profiled these four inhibitors
+using a cell-based NanoBRET selectivity panel consisting of 240–300
+kinases. To compare the results generated in the cell-free platform
+with those produced using the cell-based selectivity screen, we examined
+the data obtained after running the binding assays in dose–response
+format (<italic>K</italic>
+<sub>d</sub> values for the Eurofins DiscoverX
+panel and IC<sub>50</sub> values for
+the NanoBRET panel) for human, wild-type kinases. This analysis is
+shown in <xref rid="fig2" ref-type="fig">Figure 
+</xref>,
+where all values between 1 and 10,000 nM are plotted. A correlation
+line has been drawn to better illustrate those kinases that bind with
+equal affinity in cell-free and cellular assays. Kinases that diverge
+from the central line are either more active in cell-free assays (blue)
+or in cell-based assays (red and green). We observed consensus in
+the binding of the inhibitor to many of the same kinases in each panel.
+It is worth noting that the primary kinase targets of these inhibitors,
+when present in both panels, were identified as high affinity binders.
+As an example, for dasatinib, which inhibits BCR-ABL, EGFR, SRC, LCK,
+YES, FYN, KIT, EPHA2, and PDGFRB, high
+affinity binding to ABL, SRC, LCK, YES1, FYN, KIT, and EPHA2 was identified
+in both the in-cell and cell-free data. For all these kinases, however,
+the cell-free affinity was &lt;1 nM so they are not among the kinases
+plotted in <xref rid="fig2" ref-type="fig">Figure 
+</xref>C. For sorafenib, RET, FLT3, and KIT are primary target kinases found to bind with high affinity in both the
+in-cell and cell-free panels that are also plotted in <xref rid="fig2" ref-type="fig">Figure 
+</xref>D. Other primary targets, including
+B/C-RAF, VEGFR1/2/3, and PDGFRB, were
+absent from either one or both panels. Finding these primary drug
+targets in our data sets further validates our method.</p><fig id="fig2" position="float"><?disp-level 4?><label>2</label><caption><p>Comparison of <italic>K</italic>
+<sub>d</sub> and IC<sub>50</sub> values generated for select
+kinase
+inhibitors in cell-free binding and cell-based binding assays, respectively,
+when inhibitors were screened in dose–response format. (A)
+Structures of a sentinel set of nonselective kinase inhibitors chosen
+for in-cell selectivity assessment. (B) A key is included to aid in
+data interpretation. Data is shown for (C) dasatinib (type I), (D)
+sorafenib (type II), and (E) AST487 (type II), and (F) foretinib (type
+II). (G) A table is included to highlight those kinases present in
+both panels that were active in the cell-based, but not cell-free
+assay panel. Kinases colored green in the panels C–F are those
+featured in the table (G), for which no binding was observed in the
+cell-free assay but an IC<sub>50</sub> was recorded in the corresponding
+cell-based assay.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="jm5c02916_0002.jpg"><?cloudpmc-path blobs/5993/12951567/021ca42ac3da/jm5c02916_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 971?><?original-width 1002?><?scaled-height 4044?><?scaled-width 4175?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0002.gif"><?cloudpmc-path blobs/5993/12951567/d1dd8fac9bf0/jm5c02916_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>For each inhibitor, the
+cell-based selectivity
+panel identified
+fewer kinases that bound with high affinity than in the cell-free
+panel. This is likely the result of poor cellular permeability of
+the inhibitors coupled with ATP competition in cells, as ATP is not
+present in the cell-free DiscoverX panel assays. Unsurprisingly, more
+kinase–inhibitor interactions overall were identified when
+the larger in-cell panel of 300 kinases was used to profile foretinib
+(<xref rid="fig2" ref-type="fig">Figure 
+</xref>F) versus
+when only 240 kinases were included in the panel (<xref rid="fig2" ref-type="fig">Figure 
+</xref>C–E). The number of
+interactions could also be influenced by the greater promiscuity of
+foretinib versus the other inhibitors. The four inhibitors consistently
+bound with higher affinity in the following NanoBRET assays: DDR2,
+RIPK2, CLK1, NTRK1, NTRK2, MAPK14, MUSK, and TNNI3K. A table of interactions
+captured in the cell-based assay that were missed in cell-free assays
+are captured in <xref rid="fig2" ref-type="fig">Figure 
+</xref>G. These interactions are shown in <xref rid="fig2" ref-type="fig">Figure 
+</xref>C–F as green stars and text. Notably,
+potent in-cell affinity of AST487 for STK11 was observed. Strikingly,
+many more cell-based interactions were identified for the type II
+inhibitors when compared to the type I inhibitor, revealing binding
+interactions that may have been otherwise overlooked. The number of
+“missed interactions” is similarly increased when comparing
+type II to type I inhibitors. It is possible that many kinases may
+adopt DFG-out conformations that are not sampled with active protein
+in cell-free assays. In-cell profiling of type II inhibitors, therefore,
+captures additional interactions when compared to their cell-free
+selectivity profile.</p></sec><sec id="sec2.1.2" disp-level="3"><title>Cell-Free and In-Cell Selectivity Fingerprints
+Confirm Unique
+Type II Trends</title><p>To expand on this preliminary analysis, we
+next compared single-concentration selectivity data for two type II
+inhibitors, LXH254 and ponatinib, and
+a type I kinase inhibitor, AMG925, in
+the same panels of binding assays (<xref rid="fig3" ref-type="fig">Figure 
+</xref>A). For this
+analysis, the single concentration (1 μM) data from the cell-free
+profiling (DiscoverX) was plotted versus the percent occupancy generated
+in the cell-based NanoBRET selectivity panel consisting of 240–300
+kinases. DiscoverX percent of control values were converted to percent
+inhibition values to simplify data display (% inhibition = 100–PoC).
+Only the wild-type, human kinases that demonstrated &gt;50% binding
+in
+both assay formats are plotted in <xref rid="fig3" ref-type="fig">Figure 
+</xref>. Once again, a correlation line was drawn
+to help with data visualization. In-cell dose–response follow-up
+for LXH254 demonstrated the following IC<sub>50</sub> values: DDR1
+IC<sub>50</sub> = 25 nM, DDR2 IC<sub>50</sub> = 86 nM, and MAPK11
+IC<sub>50</sub> = 870 nM. This finding, where percent occupancy data
+is predictive of dose–response follow-up results, has previously
+been observed for inhibitors of CK2 and PIKfyve.<italic>
+−
+
+</italic> Corresponding <italic>K</italic>
+<sub>d</sub> values for LXH254 were reported: DDR1 <italic>K</italic>
+<sub>d</sub> = 1.8 nM and DDR2 <italic>K</italic>
+<sub>d</sub> = 10 nM. The few kinases plotted in <xref rid="fig3" ref-type="fig">Figure 
+</xref>C is unsurprising
+given the high selectivity of LXH254.</p><fig id="fig3" position="float"><?disp-level 4?><label>3</label><caption><p>Comparison of percent inhibition and percent
+occupancy values generated
+for two kinase inhibitors in cell-free binding and cell-based binding
+assays, respectively, when inhibitors were profiled at 1 μM.
+(A) Structures of all compounds shown in panel (A). (B) A key is included
+to aid in data interpretation. Data is shown for (C) LXH254 (type
+II), (D) AMG925 (type I), and (E) ponatinib (type II). Calculation
+of % inhibition: 100 - PoC.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="jm5c02916_0003.jpg"><?cloudpmc-path blobs/5993/12951567/5e3140001267/jm5c02916_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 537?><?original-width 1002?><?scaled-height 2236?><?scaled-width 4175?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0003.gif"><?cloudpmc-path blobs/5993/12951567/929be17268fc/jm5c02916_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Several of the kinases with highest cell-free affinity were also found to have high affinity in cells
+for AMG925 (<xref rid="fig3" ref-type="fig">Figure 
+</xref>D). When the same cell-free binding assays were executed in dose–response
+format to determine <italic>K</italic>
+<sub>d</sub> values, high affinity
+binding of AMG925 was confirmed for many of the same kinases. This
+finding validated the single concentration cell-free screening as
+predictive of the more comprehensive dose–response profiling. The in-cell data, however, suggests that the
+potency of many of these kinases is diminished in intact cells, and
+the in-cell selectivity of AMG925 is much improved when compared to
+its cell-free profile. Only 30 kinases bind AMG925 with high affinity
+(&lt;10 PoC) at 1 μM in the cell-free panel. As is often the
+case, even fewer kinases (6 with % occupancy &gt;50) bind when AMG925
+is profiled in cells. As previously discussed, this is due to ATP
+competition and compound permeability being factors in the in-cell
+assays that are absent when the cell-free system is used. Kinases
+that bind to AMG925 with high affinity in the cell-free panel (&gt;99%
+PoC) that are also present in the in-cell panel, including CSNK2A2,
+NTRK2, DYRK1A, FLT3, CLK1, and DYRK1B, still bind to AMG925 in cells
+but with an occupancy value &lt;50% (8–39% occupancy).</p><p>Since ponatinib was screened in a larger cell-based panel, more
+overlapping kinases were identified in common between the cell-free
+and cell-based profiling. When compared to LXH254 and AMG925, ponatinib
+is much more nonselective, binding with &gt;50% occupancy to 63 of
+300
+kinases in the cell-based panel and &lt;50% of control for 253 of
+403 wild-type human kinases in the cell-free panel. The overlap of
+these kinases was high, resulting in many points plotted in <xref rid="fig3" ref-type="fig">Figure 
+</xref>E. Only three kinases
+showed higher in-cell affinity when compared to cell-free binding
+data: FLT3, EPHA2, and TIE1. Once again, STK11 emerged as demonstrating
+high affinity binding in the NanoBRET panel (84% occupancy) but weak
+inhibition in the cell-free binding assay (28% inhibition), solidifying
+it as an outlier kinase with unique in-cell binding characteristics.
+These data support that even in single-concentration profiling, in-cell
+profiling of type II inhibitors can identify distinct interactions
+that are not captured in cell-free screening.</p></sec></sec><sec id="sec2.2" disp-level="2"><title>Frequent Hitter
+Kinases Revealed by Live-Cell NanoBRET Target
+Engagement</title><p>Intrigued by the novel interactions identified
+for type II inhibitors in our sentinel panel (<xref rid="fig2" ref-type="fig">Figure 
+</xref>A: sorafenib, AST487, and foretinib) in kinome-wide
+NanoBRET assays, we explored whether a subset of kinases may represent
+“frequent hitters” and
+demonstrate intrinsic vulnerability to engagement by this chemotype
+in live cells. Therefore, beyond the sentinel set, we profiled a broader
+panel of FDA-approved type II kinase inhibitors and repeatedly detected robust cellular engagement of three
+kinasesPIP4K2C, STK11 (LKB1), and RIPK1that are not
+cataloged as canonical type II kinase targets (<xref rid="fig4" ref-type="fig">Figures 
+</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">S1</ext-link>). Their appearance across multiple chemotypes
+implies that each can adopt a type II/DFG-out back pocket pose, expanding
+the structural definition of the type II kinome. From a discovery
+standpoint, compounds that exploit the type II binding channel may
+represent attractive starting points for chemical probe campaigns
+aimed at these three kinases. From a translational perspective, their
+hidden engagement by marketed drugs adds mechanistic context to both
+efficacy and safety observations in the current targeted kinase inhibition
+landscape. There are limited examples of potent and/or selective type
+I kinase inhibitors of PIP4K2C (a lipid kinase), STK11 (a tumor suppressor
+kinase), and RIPK1 (an innate immunity kinase). RIPK1 has also been
+targeted with type III allosteric inhibitors that extend into the
+back pocket of the kinase.<italic>
+−
+
+
+</italic> Several approved type II kinase inhibitors reach
+free plasma or tissue concentrations that overlap or hover near their
+NanoBRET potencies for these kinases. Understanding such interactions
+helps rationalize unexpected clinical activity (benefit) or adverse
+events (liability) and guides biomarker selection for combination
+studies.</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>Evaluation of type II inhibitors versus frequent hitter kinases
+reveals high affinity intracellular interactions for (A) PIP4K2C,
+(B) STK11, and (C) RIPK1. (D) IC<sub>50</sub> values from these assays
+have been tabulated. Each data point represents the mean of two technical
+replicates.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="jm5c02916_0004.jpg"><?cloudpmc-path blobs/5993/12951567/23390e6c1d22/jm5c02916_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 473?><?original-width 840?><?scaled-height 1971?><?scaled-width 3500?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0004.gif"><?cloudpmc-path blobs/5993/12951567/c9e764917fda/jm5c02916_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><sec id="sec2.2.1" disp-level="3"><title>Cabozantinib Potently Engages PIP4K2C in
+Cells</title><p>While
+PIP4K2C was engaged by several FDA-approved type II inhibitors in
+the high micromolar range, more potent engagement was observed with
+the FDA-approved inhibitor cabozantinib (<xref rid="fig4" ref-type="fig">Figure 
+</xref>A). As an inhibitor of multiple receptor
+tyrosine kinases, the precise mechanism of action of cabozantinib
+in the cancers for which it is approved is only partially determined
+and attributed to activity at MET, AXL, RET, and VEGFR2. The potent
+engagement of cabozantinib with PIP4K2C is noteworthy, as cabozantinib
+attains a total <italic>C</italic>
+<sub>max</sub> exceeding its NanoBRET
+IC<sub>50</sub> of 83 nM. Though speculative,
+this unexpected engagement may underlie critical elements of its mechanism
+of action as an immune-oncological (I/O) combination therapy. PIP4K2C
+impacts cytokine release in mice, a phenomenon
+perhaps paralleled in the immune-permissive tumor microenvironment
+seen with cabozantinib combination therapies.
+</p></sec><sec id="sec2.2.2" disp-level="3"><title>Ponatinib Potently Engages Tumor Suppressor STK11 (LKB1)
+in Cells</title><p>As a well-studied tumor suppressor, pharmacological
+STK11 blockade is conceptually worrisome. STK11 emerged as a frequent
+hitter in type II drug profiling in the NanoBRET system, demonstrating
+engagement of cabozantinib, ripretinib, and tivozanib in the low micromolar
+range (<xref rid="fig4" ref-type="fig">Figure 
+</xref>B).
+Ponatinib engaged STK11 and several other kinases more potently in
+cellular NanoBRET studies compared to cell-free analysis. Ponatinib
+demonstrates engagement of STK11 with a NanoBRET IC<sub>50</sub> = 110 nM,
+below its total reported clinical <italic>C</italic>
+<sub>max</sub>. Thus, off-target inhibition of the
+tumor-suppressing function of STK11 may represent a critical liability.
+Ponatinib shows a uniquely high incidence of toxicities, and STK11/AMPK suppression in endothelial cells
+offers a plausible molecular link. These findings position STK11 as
+a previously unrecognized off-target liability for type II scaffolds
+and highlight NanoBRET target engagement assays as a critical filter
+for detecting interactions that may still influence efficacy–toxicity
+profiles.</p></sec><sec id="sec2.2.3" disp-level="3"><title>Tovorafenib Potently Engages RIPK1 in Cells</title><p>Developed
+as a pan-RAF inhibitor, tovorafenib demonstrated low micromolar affinity
+for RIPK1 in cells (<xref rid="fig4" ref-type="fig">Figure 
+</xref>C), below its FDA-reported total <italic>C</italic>
+<sub>max</sub>. Since RIPK1 modulates necroptosis
+and neuroinflammation, this interaction could positively influence
+antitumor immunity. However, such engagement may also impart neuroinflammatory
+adverse events as a potential liability, meriting orthogonal confirmation
+and further studies. Although a causal link between such collateral
+interactions and clinical manifestations remains speculative, live-cell
+NanoBRET assay profiling unveils a set of hitherto hidden type II
+interactions that could reshape our understanding of kinase selectivity.
+Moreover, as conformationally selective chemotypes, type II kinase
+inhibitors could uncover unique kinase conformational dynamics present
+in cells that diverge from those observed in isolated systems.</p></sec></sec><sec id="sec2.3" disp-level="2"><title>A Focused Screen of Select KCGS Compounds Confirm Type II Inhibitors
+as More Selective in Cells</title><p>To further explore the potential
+type II vulnerability in cells and complement our growing data set,
+we sought to compare cell-free and cell-based data for additional
+type II inhibitors. We selected inhibitors with Eurofins DiscoverX
+data because it offers the most comprehensive cell-free data and evaluated
+these compounds in the 240-membered NanoBRET panel. A mix of type
+I (GW296115X) and type II inhibitors (GW830263A and TPKI-39) were
+chosen from the kinase chemogenomic set (KCGS). For KCGS compounds, complete cell-free profiling data had
+been obtained and published, and <italic>K</italic>
+<sub>d</sub> and/or
+orthogonal follow-up assays have been executed, providing a compendium
+of cell-free data for each. Our analyses of the cell-free data for
+the compounds selected suggested that their selectivity should be
+variable. Based on the kinome-wide, cell-free profiling data, GW830263A
+and GW296115X were identified as promiscuous inhibitors, binding to
+more kinases than TPKI-39.</p><p>We show the selectivity fingerprints
+for these compounds in the Eurofins DiscoverX panel and NanoBRET selectivity
+panel in <xref rid="fig5" ref-type="fig">Figure 
+</xref> when
+profiled at a common concentration of 1 μM. As was done in <xref rid="fig3" ref-type="fig">Figure 
+</xref>, data from the cell-free
+profiling (DiscoverX) was converted to percent inhibition and plotted
+versus the percent occupancy generated in the cell-based NanoBRET
+selectivity panel consisting of 240 kinases. Only the wild-type, human
+kinases that demonstrated &gt;50% binding in both assay formats are
+plotted
+in <xref rid="fig5" ref-type="fig">Figure 
+</xref> and a correlation
+line was drawn. Examination of the data sets revealed good agreement
+of data for kinases in both panels. The biochemical potency of each
+compound was notably higher when compared to the cell-based assay
+results. The simplest explanation for this finding is that competition
+with ATP in the cell reduces the measured affinity of inhibitors.
+A large portion of cell-free data, however, was not replicated in
+the cell-based format (data not shown). There was, however, correlative
+cell-free inhibition data for most of the high affinity binding kinases
+in cells.</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>Comparison of percent inhibition and percent occupancy values generated
+for three kinase inhibitors in cell-free binding and cell-based binding
+assays, respectively. Data and structures are shown for (A) GW296115X
+(type I), (B) GW830263A (type II), and (C) TPKI-39 (type II).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="jm5c02916_0005.jpg"><?cloudpmc-path blobs/5993/12951567/a9eed52e7d63/jm5c02916_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1071?><?original-width 1004?><?scaled-height 4464?><?scaled-width 4183?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0005.gif"><?cloudpmc-path blobs/5993/12951567/8f0782c84ac5/jm5c02916_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><sec id="sec2.3.1" disp-level="3"><title>In-Cell Profiling Reveals <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/GW296115" ext-link-type="uri">GW296115</ext-link> as Best Available Tool to
+Study BRSK Biology</title><p><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/GW296115" ext-link-type="uri">GW296115</ext-link> has been used as a BRSK2 inhibitor
+based on our publication, which described it as a cell-active inhibitor
+of this kinase. Orthogonal, enzymatic
+assays were pursued and confirmed potent inhibition (IC<sub>50</sub> ≤ 160 nM) of 27 of the 36 highest affinity kinases based
+on cell-free broad screening. A salt form of this compound, GW296115X,
+has also been extensively characterized in the DiscoverX cell-free
+panel. As expected, these two compounds
+have similar cell-free profiles in terms of the most high affinity
+kinases and kinome-wide selectivity scores. The 240-member cell-based
+panel was used to profile GW296115X, which resulted in a much-improved
+kinome-wide selectivity profile in cells (<xref rid="fig5" ref-type="fig">Figure 
+</xref>). Many of the potent cell-free binding kinases
+did not demonstrate high occupancy in the cell-based screen. BRSK2
+was still among the high affinity binders in cells, while BRSK1 just
+missed the in-cell occupancy threshold for inclusion on the graph
+(42% occupancy). Based upon this in-cell selectivity profile, we assert
+that GW296115X is among the most selective tools to interrogate BRSK
+biology in cells. Since BRSK1 and BRSK2 have not been extensively
+characterized, there is great value in identifying chemical tools
+like GW296115X to accelerate discoveries related to their function.</p></sec><sec id="sec2.3.2" disp-level="3"><title>GW830263A Is Another Type II Inhibitor That Engages PIP4K2C</title><p>Like cabozantinib and other type II inhibitors (<xref rid="fig4" ref-type="fig">Figure 
+</xref>A), GW830263A was found to
+bind PIP4K2C with high occupancy in cells. This interaction was also
+identified in the cell-free Eurofins DiscoverX panel. As observed
+for other type II inhibitors, the in-cell profile of GW830263A identifies
+fewer interactions than the cell-free screening (<xref rid="fig5" ref-type="fig">Figure 
+</xref>B). This type II inhibitor
+represents a chemical starting point that makes high affinity in-cell
+interactions with kinases from many different families across the
+kinome and could be further optimized toward a chemical probe for
+any of these.</p></sec></sec><sec id="sec2.4" disp-level="2"><title>TPKI-39 Is Confirmed To Be an Orthogonal
+DDR Chemical Probe
+Based on In-Cell Profiling Results</title><p>TPKI-39 is a type II inhibitor
+that demonstrated high affinity binding to 15 kinases with PoC &lt;
+35 when profiled in the DiscoverX 468-member cell-free panel at 1
+μM. Many of these kinases were confirmed to bind when the same
+assays were run in dose–response format, yielding <italic>K</italic>
+<sub>d</sub> values &lt;100 nM for seven kinases chosen for follow-up
+analysis. TPKI-39 was also profiled in a chemical proteomics target
+engagement study using Kinobeads, and DDR2 and PDGFRB were identified
+as binding to TPKI-39 in cancer cell lysates. To supplement these data, we selected TPKI-39 for screening in the
+240-member NanoBRET selectivity panel. As shown in <xref rid="fig5" ref-type="fig">Figure 
+</xref>C, TPKI-39 demonstrated occupancy
+in cells and inhibition in cell-free assays ≥ 50% for only
+DDR1 when screened at 1 μM. Of note, DDR2 was identified as
+a high affinity binder (84% occupancy) in the cell-based assay panel
+but did not bind (1% inhibition) when profiled in the cell-free assay
+panel. As a next step, we collated the DiscoverX and 240 cell-based
+panel single-concentration data and selected a panel of kinases for
+follow-up in dose–response format (<xref rid="tbl1" ref-type="table">Table 
+</xref>). Where possible, NanoBRET assays were prioritized
+for follow-up purposes. If no NanoBRET assay was available, we executed
+enzymatic assays to confirm cell-free results. Kinases that are present
+in the K240 screen and did not demonstrate occupancy ≥ 50%
+are indicated in red in <xref rid="tbl1" ref-type="table">Table 
+</xref>. Of the 15 kinases with PoC &lt; 35, only 6 were not in the
+K240 panel (NP in <xref rid="tbl1" ref-type="table">Table 
+</xref>). There are also 46 kinases in the 240-member panel that are not
+present in the cell-free assay platform used. As was the case for
+many other inhibitors, high affinity cell-free data did not replicate
+when TPKI-39 was profiled in the 240-member in-cell panel (<xref rid="fig5" ref-type="fig">Figure 
+</xref>C), resulting in
+a more selective profile for TPKI-39 in cells.</p><table-wrap id="tbl1" position="float"><?disp-level 3?><label>1</label><caption><title>Combined Kinome-Wide Profiling Data
+and Follow-Up for TPKI-39<sup/>
+</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="fx1" xlink:href="jm5c02916_0008.jpg"><?cloudpmc-path blobs/5993/12951567/08ba8c61195d/jm5c02916_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1624?><?original-width 2400?><?scaled-height 560?><?scaled-width 827?></graphic><table-wrap-foot><fn id="t1fn1"><label>1</label><p>NT: not tested;
+NP: not present;
+NB: no binding in K240.</p></fn></table-wrap-foot></table-wrap><p>Based on full-curve NanoBRET assays, TPKI-39 only
+demonstrates
+in-cell binding to DDR1, DDR2, and FLT1 (colored green in <xref rid="tbl1" ref-type="table">Table 
+</xref>) and binds with a
+similar affinity to all three kinases (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">Figure S2</ext-link>). As an orthogonal measurement, TPKI-39 inhibits each of
+these kinases with an enzymatic IC<sub>50</sub> &lt; 400 nM. While
+robust NanoBRET assays for CIT, PDGFRA, PDGFRB, and FLT4 have not
+yet been enabled, the enzymatic IC<sub>50</sub> values imply that
+high affinity binding of TPKI-39 to these kinases does not result
+in enzymatic inhibition (CIT and PDGFRB) and/or different protein
+constructs were used in the respective assays. The NanoBRET IC<sub>50</sub> value for KIT aligned well with its 19% occupancy value
+when TPKI-39 was screened broadly in the 240-member in-cell panel
+at 1 μM. We collected the enzymatic inhibition data for most
+putative off-target kinases and found good correlation between the
+enzymatic data and cell-based data for TIE2, ABL1, and MAP3K19, but
+not for CSF1R. Based on these data, we concluded that TPKI-39 represents
+a chemical probe for interrogating DDR1/DDR2/FLT1 inhibition in cells.
+It is worth noting that the cell-free DiscoverX data in isolation
+suggests high affinity binding of several kinases (CIT, KIT, PDGFRB,
+PDGFRA, TIE2, ABL1, MAP3K19) and a missed interaction with DDR2. Several
+of these kinases, including KIT, CSF1R, TIE2, ABL1, and MAP3K19, did
+not recapitulate this efficacious binding in cells. If the cell-free
+profiling were considered alone, a high-quality chemical probe would
+have been overlooked due to its suboptimal selectivity fingerprint.
+TPKI-39 provides a tangible example of how the use of in-cell selectivity
+profiling can guide chemical probe prioritization as well as how it
+complements rather than replaces cell-free screening.</p><p>With a
+putative chemical probe in hand, we sought a structurally
+similar analog that lacks DDR1 and DDR2 affinity. Based on broad cell-free
+screening, TPKI-41 (<xref rid="fig6" ref-type="fig">Figure 
+</xref>) demonstrated good kinome-wide
+selectivity (S<sub>35</sub>(1 μM) = 0.047) and lacked affinity
+for DDR1 (55 PoC), DDR2 (58 PoC), and FLT1 (21 PoC) when profiled
+at 1 μM. For reference, a lower PoC corresponds with higher
+affinity binding, and a lower selectivity score (S<sub>35</sub>(1
+μM)) corresponds with higher kinome-wide selectivity. To confirm
+these data in cells, we executed the respective NanoBRET assays. TPKI-41
+was found to be inactive versus DDR1 and DDR2 (IC<sub>50</sub> &gt;
+10
+μM for both) and exhibit minimal cellular target engagement
+with off-target kinase FLT1 (4400 nM, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">Figure S3</ext-link>).</p><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>Structure of TPKI-41 and best available DDR1/2 probes.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="jm5c02916_0006.jpg"><?cloudpmc-path blobs/5993/12951567/2d13365f3a87/jm5c02916_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 789?><?original-width 2400?><?scaled-height 273?><?scaled-width 830?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0006.gif"><?cloudpmc-path blobs/5993/12951567/20b7b5dbb51d/jm5c02916_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>There are currently five chemical probes listed
+on the chemical
+probes portal for use with DDR1 and DDR2
+(<xref rid="fig6" ref-type="fig">Figure 
+</xref>). Several
+have also been nominated as DDR probes by the SGC. Reported Eurofins
+DiscoverX cell-free selectivity profiles for these structurally distinct
+chemotypes, when profiled at either 100 nM or 1 μM, are listed
+in <xref rid="tbl2" ref-type="table">Table 
+</xref>. The S<sub>10</sub> score of TPKI-39 at 1 μM in the cell-free DiscoverX
+panel is 0.02, which is comparable to available probe molecules. However,
+to our knowledge, in-cell selectivity data have not been collected
+for these alternative DDR1/2 chemical probes. As shown in <xref rid="tbl2" ref-type="table">Table 
+</xref>, most DDR chemical
+probes, like TPKI-39, exhibit potent cellular target engagement of
+DDR1 and DDR2, with the exception of ALW-II-49–7, which has
+not yet been evaluated. DDR1-IN-1 also
+shows modest selectivity for DDR1 versus DDR2 in the respective NanoBRET
+assays (<xref rid="tbl2" ref-type="table">Table 
+</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">Figure S4</ext-link>). The cell-free profiling data for
+SR-302, BAY-826, and DDR1-IN-1<italic>
+,
+</italic> at 100 nM indicate that these
+inhibitors should be employed at lower concentrations to engage DDR1/2
+in cells while minimizing off-target inhibition (<xref rid="tbl2" ref-type="table">Table 
+</xref>). DDR1-IN-1 and DDR-TRK-1 have
+similar reported selectivity: S<sub>1</sub>(1 μM) = 0.01.<italic>
+−
+
+</italic> Similar to TPKI-39, most reported DDR1/2 probes also inhibit several
+off-target kinases. None of the chemical probes reported, however,
+have overlapping off-target kinases with TPKI-39 at the recommended
+doses, making it a useful orthogonal probe to those in the literature.
+TPKI-39 is a potent DDR1/DDR2 chemical probe, with only FLT1 as an
+off-target kinase at 1 μM in cells. Furthermore, to our knowledge,
+it is currently the only probe with available broad in-cell selectivity
+profiling data. Therefore, TPKI-39 is a complementary chemical probe
+to the current suite of available probes to interrogate DDR1 and 2
+biology in cells.</p><table-wrap id="tbl2" position="float"><?disp-level 3?><label>2</label><caption><title>Potency and Selectivity Data for Available
+DDR1/2 Chemical Probes</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1">compound</th><th align="center" colspan="1" rowspan="1">selectivity
+score: S<sub>10</sub> (concentration)<sup/>
+</th><th align="center" colspan="1" rowspan="1">DDR1 IC<sub>50</sub> (nM)</th><th align="center" colspan="1" rowspan="1">DDR2 IC<sub>50</sub> (nM)</th><th align="center" colspan="1" rowspan="1">off-target kinases (NanoBRET IC<sub>50</sub>, nM)</th><th align="center" colspan="1" rowspan="1">recommended
+cellular dose</th></tr></thead><tbody><tr><td rowspan="2" align="left" colspan="1">SR-302</td><td rowspan="2" align="left" colspan="1">0.005 (100 nM)</td><td rowspan="2" align="left" colspan="1">23<sup/>
+</td><td rowspan="2" align="left" colspan="1">18<sup/>
+</td><td align="left" colspan="1" rowspan="1">MAPK11 (196)</td><td rowspan="2" align="left" colspan="1">100 nM</td></tr><tr><td align="left" colspan="1" rowspan="1">MAPK14 (125)</td></tr><tr><td rowspan="3" align="left" colspan="1">DDR-TRK-1</td><td rowspan="3" align="left" colspan="1">0.012 (1 μM)</td><td rowspan="3" align="left" colspan="1">104<sup/>
+</td><td rowspan="3" align="left" colspan="1">175<sup/>
+</td><td align="left" colspan="1" rowspan="1">TRKA (448)</td><td rowspan="3" align="left" colspan="1">1 μM</td></tr><tr><td align="left" colspan="1" rowspan="1">TRKB (14.2)</td></tr><tr><td align="left" colspan="1" rowspan="1">TRKC</td></tr><tr><td rowspan="2" align="left" colspan="1">BAY-826</td><td rowspan="2" align="left" colspan="1">0.015 (100 nM)</td><td rowspan="2" align="left" colspan="1">1.5<sup/>
+</td><td rowspan="2" align="left" colspan="1">0.54<sup/>
+</td><td align="left" colspan="1" rowspan="1">TIE1 (11)</td><td rowspan="2" align="left" colspan="1">13 nM</td></tr><tr><td align="left" colspan="1" rowspan="1">TEK (1.7)</td></tr><tr><td rowspan="3" align="left" colspan="1">ALW-II-49–7</td><td rowspan="3" align="left" colspan="1">0.07 (1 μM)</td><td rowspan="3" align="left" colspan="1">19<sup/>
+</td><td rowspan="3" align="left" colspan="1">12<sup/>
+</td><td align="left" colspan="1" rowspan="1">RAF1</td><td rowspan="3" align="left" colspan="1">1–2 μM</td></tr><tr><td align="left" colspan="1" rowspan="1">LYN</td></tr><tr><td align="left" colspan="1" rowspan="1">EPHB2</td></tr><tr><td align="left" colspan="1" rowspan="1">DDR1-IN-1</td><td align="left" colspan="1" rowspan="1">S<sub>1</sub> = 0.01 (1
+μM)</td><td align="left" colspan="1" rowspan="1">330<sup/> (86<sup/>)</td><td align="left" colspan="1" rowspan="1">1200<sup/>
+</td><td align="left" colspan="1" rowspan="1"> </td><td align="left" colspan="1" rowspan="1">50–200 nM</td></tr><tr><td align="left" colspan="1" rowspan="1">TPKI-39</td><td align="left" colspan="1" rowspan="1">0.02 (1 μM)</td><td align="left" colspan="1" rowspan="1">380<sup/>
+</td><td align="left" colspan="1" rowspan="1">120<sup/>
+</td><td align="left" colspan="1" rowspan="1">FLT1</td><td align="left" colspan="1" rowspan="1">1 μM</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>S<sub>10</sub>(concentration)
+is
+a selectivity score from a kinome-wide profiling effort where 10 is
+the percent of control (PoC) threshold being considered for the calculation
+(DMSO = 100 PoC) and the concentration is that used in the selectivity
+screen; the score is calculated by dividing the number of kinases
+below the threshold by the total number of kinases screened.</p></fn><fn id="t2fn2"><label>b</label><p>NanoBRET cellular target engagement
+in a dose–response format.</p></fn><fn id="t2fn3"><label>c</label><p>Enzymatic inhibition in a radiometric
+assay in dose–response format.</p></fn><fn id="t2fn4"><label>d</label><p>EC<sub>50</sub> of blocking collagen-induced
+p-DDR1­(Y513) autophosphorylation in U2OS cells.</p></fn></table-wrap-foot></table-wrap><p>To confirm inhibition of DDR1 signaling
+by TPKI-39
+in cells, we
+analyzed DDR1 phosphorylation by Western blot. DDR1 has been well-documented
+to be activated by both fibrillar and basement membrane collagens.<italic>
+,
+</italic> Upon collagen binding to the extracellular domain, receptor clustering
+is induced, facilitating the process of autophosphorylation. Tyrosine
+residues are phosphorylated in multiple domains of DDR1, including
+Y792, Y796, and Y797 in the kinase domain, which are required for activity, as well as Y513 in the intracellular
+juxtamembrane domain, which is important for binding of downstream
+protein substrates.<italic>
+,
+</italic> Since Y513 is not included in
+each of the five main DDR1 isoforms, we chose to transiently transfect
+HeLa cells with a plasmid encoding the canonical DDR1b sequence. As
+shown in <xref rid="fig7" ref-type="fig">Figures 
+</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">S5</ext-link>, treatment with TPKI-39 was able to inhibit
+DDR1 autophosphorylation to basal levels observed without collagen
+activation in a comparable fashion to established chemical probe DDR1-IN-1.<italic>
+,
+</italic> The negative control, TPKI-41, had no inhibitory effect. These results
+support the biological activity of TPKI-39 in a cellular setting.</p><fig id="fig7" position="float"><?disp-level 3?><label>7</label><caption><p>Inhibition
+of DDR1 autophosphorylation by TPKI-39. (A) Western
+blotting analysis of TPKI-39 treatment of HeLa cells transiently transfected
+with cDNA encoding DDR1b isoform. Indicated samples were cotreated
+with collagen I and TPKI-39. DDR1-IN-1 and TPKI-41 were included as
+positive and negative controls, respectively. (B) ImageJ quantification
+of DDR1 Western blots. Data is reported as ratio of pDDR1 to total
+DDR1, normalized to activation by collagen in the absence of inhibitor.
+Samples are normalized to β-actin loading control. Results are
+representative of <italic>n</italic> = 3 independent experiments.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="jm5c02916_0007.jpg"><?cloudpmc-path blobs/5993/12951567/0509f7fbc762/jm5c02916_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 781?><?original-width 2088?><?scaled-height 260?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c02916_0007.gif"><?cloudpmc-path blobs/5993/12951567/5cd5fcc59811/jm5c02916_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec3" disp-level="1"><title>Conclusions</title><p>Iteratively benchmarking
+selectivity is
+critical during development
+of small molecule kinase inhibitors. Here, we highlight the power
+of using cell-based methods, such as NanoBRET cellular target engagement
+assays, for evaluating selectivity. While current cell-free assay
+panels are highly sensitive, robust, and comprehensive, in-cell selectivity
+screening has uncovered high affinity type II interactions that were
+missed in cell-free profiling. By placing selectivity assays within
+the context of the cellular environment, biological relevance is increased.
+Our results support the notion that by interrogating full-length kinases
+in live cells, unique conformational dynamics can be observed for
+certain kinase inhibitors that may be less evident with kinase domains
+in isolation. Additionally, the use of cell-free panels alone may
+paint an incomplete picture of the kinome-wide selectivity of a lead
+compound by flagging interactions that are less relevant in a cellular
+environment. Best practice should involve employing a combination
+of both cell-free and cell-based assays for the most confident selectivity
+assessment. TPKI-39 serves as an excellent example of these principles:
+a chemical probe that may have been overlooked if cell-free selectivity
+data were considered in isolation. While its cell-free data profile
+showed engagement of numerous off-target kinases with high affinity,
+in-cell profiling and follow-up assays illuminated its utility as
+a potent and selective chemical probe for DDR1/2 and FLT1.</p></sec><sec id="sec4" disp-level="1"><title>Experimental Section</title><sec id="sec4.1" disp-level="2"><title>Compound Characterization</title><p>Commercially available compounds
+used in <xref rid="fig2" ref-type="fig">Figures 
+</xref>, , , and  and <xref rid="tbl2" ref-type="table">Table 
+</xref> were purchased as indicated below.</p><table-wrap position="anchor" id="array1"><table><tr><td align="center" colspan="1" rowspan="1">
+<bold>Compound</bold>
+</td><td align="center" colspan="1" rowspan="1">
+<bold>Supplier</bold>
+</td><td align="center" colspan="1" rowspan="1">
+<bold>Cat No</bold>.</td></tr><tr><td align="center" colspan="1" rowspan="1">Dasatinib</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S1021</td></tr><tr><td align="center" colspan="1" rowspan="1">Sorafenib</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S7397</td></tr><tr><td align="center" colspan="1" rowspan="1">AST487</td><td align="center" colspan="1" rowspan="1">Cayman
+Chemical</td><td align="center" colspan="1" rowspan="1">19477</td></tr><tr><td align="center" colspan="1" rowspan="1">Foretinib</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S1111</td></tr><tr><td align="center" colspan="1" rowspan="1">LXH254</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S8745</td></tr><tr><td align="center" colspan="1" rowspan="1">AMG925</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S7533</td></tr><tr><td align="center" colspan="1" rowspan="1">Ponatinib</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S1490</td></tr><tr><td align="center" colspan="1" rowspan="1">Bosutinib</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S1014</td></tr><tr><td align="center" colspan="1" rowspan="1">Cabozantinib</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-13016</td></tr><tr><td align="center" colspan="1" rowspan="1">Nilotinib</td><td align="center" colspan="1" rowspan="1">Selleckchem</td><td align="center" colspan="1" rowspan="1">S1033</td></tr><tr><td align="center" colspan="1" rowspan="1">Axitinib</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-10065</td></tr><tr><td align="center" colspan="1" rowspan="1">Ripretinib</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-112306</td></tr><tr><td align="center" colspan="1" rowspan="1">Tivozanib</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-10977</td></tr><tr><td align="center" colspan="1" rowspan="1">Tovorafenib</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-15246</td></tr><tr><td align="center" colspan="1" rowspan="1">ALW-II-49–7</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-18833</td></tr><tr><td align="center" colspan="1" rowspan="1">DDR1-IN-1</td><td align="center" colspan="1" rowspan="1">MedChemExpress</td><td align="center" colspan="1" rowspan="1">HY-13979</td></tr></table></table-wrap><p>GW296115X, GW830263A, TPKI-39,
+and TPKI-41, which were used in <xref rid="fig5" ref-type="fig">Figures 
+</xref> and , are part of
+KCGS, PKIS, and/or PKIS2. DMSO
+stock solutions of these compounds are housed at and were provided
+by UNC. DMSO stock solutions of BAY-826, SR-302, and DDR-TRK-1 (<xref rid="tbl2" ref-type="table">Table 
+</xref>) were provided by
+the SGC as part of their donated chemical probes program. All compounds
+used were confirmed to be &gt;95% pure by HPLC analysis.</p></sec><sec id="sec4.2" disp-level="2"><title>Cell Culture</title><p>Human embryonic kidney (HEK293) cells
+(hypotriploid, female, fetal) were obtained from ATCC (CRL-1573).
+HEK293 cells were cultured in Dulbecco’s Modified Eagle’s
+medium (DMEM, Gibco, #11965092) supplemented with 10% fetal bovine
+serum (FBS). HEK293 cells were incubated at 37 °C in 5% CO<sub>2</sub> and passaged every 72 h with 0.05% trypsin (Gibco, #25300054)
+not allowing them to reach confluency. HeLa cells were obtained from
+ATCC (CCL-2) and cultured in DMEM (Gibco, #11965092) supplemented
+with 10% FBS. HeLa cells were incubated at 37 °C in 5% CO<sub>2</sub> and passaged every 72 h with 0.05% trypsin (Gibco, #25300054)
+not allowing them to reach confluency.</p></sec><sec id="sec4.3" disp-level="2"><title>NanoBRET Assays</title><p>Kinase constructs used with associated
+tracer concentrations: KIT-NLuc (0.063 μM K-4), KDR-NLuc (0.5
+μM K-9), DDR1-NLuc (0.031 μM K-4), DDR2-NLuc (0.063 μM
+K-4), FLT1-NLuc (0.33 μM K-9), PIP4K2C-NLuc (0.063 μM
+K-8), NLuc-STK11 (0.5 μM K-10), and NLuc-RIPK1 (0.33 μM
+K-9). NanoBRET assays were performed as previously described.<italic>
+,
+</italic> HEK293 cells were transfected with NLuc tagged kinase constructs
+as previously described, and 100 μL of HEK293 cells in DMEM
++ 10% FBS were plated in 96-well plates (Corning, #3917) at a cell
+density of 2 × 10<sup>5</sup> cells/mL. After 16–20 h,
+HEK293 complete media was replaced with Opti-MEM without phenol red,
+with 100 μL in no tracer wells, 95 μL in tracer only wells,
+and 85 μL in tracer and compound wells. Plates were incubated
+with compound at 37 °C in 5% CO<sub>2</sub> for 2 h. BRET was
+generated as recommended in the manufacturer’s protocol (50
+μL of a 3X solution of NanoBRET NanoGlo substrate and extracellular
+inhibitor). Raw milliBRET units (mBU) were read on a GloMax Discover
+(Promega) with a donor emission wavelength (450 nm) and an acceptor
+wavelength (600 nm). mBU were calculated by dividing the acceptor
+values by the donor values, subtracting an average of the no tracer
+containing wells, and multiplying by 1000. Log­(inhibitor) vs response
+(three parameter) dose–response curves in mBU were normalized
+in GraphPad and used to generate an IC<sub>50</sub>.</p></sec><sec id="sec4.4" disp-level="2"><title>Enzymatic Assays</title><p>Radiometric assays were performed
+at the Km value for ATP of the specific kinase at Reaction Biology
+Corporation (RBC). Compounds were tested in a 10-point dose–response
+format to generate the IC<sub>50</sub>. Details of the assay protocol,
+including substrate, protein constructs, and controls are available
+at the RBC Web site: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.reactionbiology.com/list-kinase-targets-us-facility" ext-link-type="uri">https://www.reactionbiology.com/list-kinase-targets-us-facility</ext-link>.</p></sec><sec id="sec4.5" disp-level="2"><title>Selectivity Profiling Using K240 and K300 Assays</title><p>Kinase
+selectivity profiling in the K240 and K300 NanoBRET panels was performed
+by Promega’s Tailored R&amp;D Solutions (TRS) Screening Services
+team. TRS has optimized and adopted NanoBRET TE for high-throughput
+compound selectivity profiling of kinase inhibitors. Each panel was run in technical duplicate and the average
+values obtained plus standard deviation are displayed in the respective <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">SI</ext-link> file. The choice of tracers and appropriate
+concentrations for the K300 NanoBRET panel, which are the same as
+used in the K240 NanoBRET panel, have also been included as an <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">SI</ext-link> file.</p></sec><sec id="sec4.6" disp-level="2"><title>Western Blotting</title><p>HeLa cells were seeded overnight at
+300–350 K cells/well and transiently transfected with cDNA
+encoding DDR1b isoform for 20–24 h. Media was replaced with
+fresh media containing the indicated concentrations of DMSO, TPKI-39,
+DDR1-IN-1, or TPKI-41. Cells were pretreated for 1 h before media
+was exchanged for media containing the same compound concentration
+as well as 50 ug/mL rat tail collagen I (Enzo, ALX-522–435–0020)
+and treated for an additional 24 h. Cells were washed with PBS and
+scraped in 1X RIPA buffer supplemented with Halt protease/phosphatase
+inhibitor cocktail (Thermo). Twenty μg total protein was run
+on 4–12% tris-glycine gels (Thermo) and transferred to PVDF
+membranes. Phospho-blots were blocked in 5% BSA in TBST for 2 h, washed
+3 × 5 min with TBST and incubated overnight with mouse β-actin
+and rabbit DDR1 antibodies (CST). Total DDR1 blots were blocked in
+5% dry milk in TBST for 2 h, washed 3 × 5 min with TBST and incubated
+overnight with mouse β-actin and rabbit DDR1 antibody (CST).
+The following day, blots were washed 3 × 10 min with TBST, incubated
+90 min with fluorescent (LICOR) or HRP-linked (Invitrogen) secondary
+antibodies and washed 3 × 10 min. Blots were imaged using iBright
+(Thermo) and quantified with ImageJ.</p></sec></sec><sec id="sec22" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 5993/12951567/d1ee54ca47a1/jm5c02916_si_001.pdf?><?cloudpmc-bucket app?><?size 1125240?></media></supplementary-material><supplementary-material id="sifile2" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_002.csv" mimetype="text" mime-subtype="plain"><?cloudpmc-path 5993/12951567/c9e3613e09d3/jm5c02916_si_002.csv?><?cloudpmc-bucket app?><?size 4763?></media></supplementary-material><supplementary-material id="sifile3" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_003.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path 5993/12951567/fdca782695d6/jm5c02916_si_003.xlsx?><?cloudpmc-bucket app?><?size 245207?></media></supplementary-material><supplementary-material id="sifile4" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_004.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path 5993/12951567/7930be9f8fec/jm5c02916_si_004.xlsx?><?cloudpmc-bucket app?><?size 190561?></media></supplementary-material><supplementary-material id="sifile5" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_005.csv" mimetype="text" mime-subtype="plain"><?cloudpmc-path 5993/12951567/5e0f8500398c/jm5c02916_si_005.csv?><?cloudpmc-bucket app?><?size 5897?></media></supplementary-material></sec><sec id="ACK-d14e1228-autogenerated" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>Kinase constructs for NanoBRET
+assays run at UNC were kindly
+provided by Promega with NLuc tag orientations listed: KIT-NLuc, KDR-NLuc,
+DDR1-NLuc, DDR2-NLuc, and FLT1-NLuc. Coral was used to make the kinome
+illustrations in the Table of Contents graphic. Coral was developed
+in the Phanstiel Lab at UNC; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://phanstiel-lab.med.unc.edu/CORAL" ext-link-type="uri">http://phanstiel-lab.med.unc.edu/CORAL</ext-link>. The SGC is a registered charity (number
+1097737) that receives funds from Bayer AG, Boehringer Ingelheim,
+the Canada Foundation for Innovation, Eshelman Institute, Genentech,
+Genome Canada through Ontario Genomics Institute, EU/EFPIA/OICR/McGill/KTH/Diamond,
+Innovative Medicines Initiative 2 Joint Undertaking, Janssen, Merck
+KGaA (aka EMD in Canada and USA), Pfizer, the São Paulo Research
+Foundation-FAPESP, and Takeda. This work was supported in part by
+an NIH T32 Chemistry-Biology Interface training grant (5T32GM135122).</p></sec><sec id="glossary1" sec-type="glossary" disp-level="1"><title>Glossary</title><def-list id="dl1"><title>Abbreviations Used</title><def-item><term>AGC</term><def><p>protein kinase A, G, C</p></def></def-item><def-item><term>ATP</term><def><p>adenosine triphosphate</p></def></def-item><def-item><term>c-Abl</term><def><p>Abelson tyrosine-protein
+kinase 1</p></def></def-item><def-item><term>CAMK</term><def><p>calcium/calmodulin-dependent
+protein kinases</p></def></def-item><def-item><term>cDNA</term><def><p>complementary DNA</p></def></def-item><def-item><term>CK1</term><def><p>casein kinase 1</p></def></def-item><def-item><term>
+<italic>C</italic>
+<sub>max</sub>
+</term><def><p>maximum concentration</p></def></def-item><def-item><term>CMGC</term><def><p>Cyclin-dependent kinase, mitogen-activated
+protein kinase, glycogen synthase kinase, CDC2-like kinase</p></def></def-item><def-item><term>DFG</term><def><p>Aspartic acid-phenylalanine-glycine</p></def></def-item><def-item><term>DMSO</term><def><p>dimethyl sulfoxide</p></def></def-item><def-item><term>DNA</term><def><p>deoxyribonucleic
+acid</p></def></def-item><def-item><term>FDA</term><def><p>Food and
+Drug Administration</p></def></def-item><def-item><term>h</term><def><p>hour</p></def></def-item><def-item><term>IC<sub>50</sub>
+</term><def><p>half maximal inhibitory concentration</p></def></def-item><def-item><term>KCGS</term><def><p>kinase chemogenomic set</p></def></def-item><def-item><term>K<sub>d</sub>
+</term><def><p>equilibrium dissociation
+constant</p></def></def-item><def-item><term>K<sub>m</sub>
+</term><def><p>Michaelis constant</p></def></def-item><def-item><term>LINCS</term><def><p>Library of Integrated Network-based Cellular Signatures</p></def></def-item><def-item><term>min</term><def><p>minute</p></def></def-item><def-item><term>NanoBRET</term><def><p>bioluminescence
+resonance energy transfer using NanoLuc</p></def></def-item><def-item><term>NLuc</term><def><p>nM, nanomolar</p></def></def-item><def-item><term>pDDR1</term><def><p>phospho-DDR1</p></def></def-item><def-item><term>PoC</term><def><p>Percent of Control</p></def></def-item><def-item><term>SGC</term><def><p>Structural Genomics Consortium</p></def></def-item><def-item><term>STE</term><def><p>sterile kinase</p></def></def-item><def-item><term>TK</term><def><p>tyrosine kinase</p></def></def-item><def-item><term>TKL</term><def><p>tyrosine kinase-like</p></def></def-item><def-item><term>μM</term><def><p>micromolar</p></def></def-item></def-list></sec><sec id="notes-1" disp-level="1"><p>The Supporting Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c02916?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c02916</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Compound structures, NanoBRET
+curves, and biological
+replicates of TPKI-39 Western blots (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item><list-item><p>Molecular Formula Strings file (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_002.csv" ext-link-type="uri">CSV</ext-link>)</p></list-item><list-item><p>Percent occupancy
+data (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_003.xlsx" ext-link-type="uri">XLSX</ext-link>)</p></list-item><list-item><p>Cell-free profiling data (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_004.xlsx" ext-link-type="uri">XLSX</ext-link>)</p></list-item><list-item><p>K300 tracer conditions (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c02916/suppl_file/jm5c02916_si_005.csv" ext-link-type="uri">CSV</ext-link>)</p></list-item></list></sec><sec id="notes-2" disp-level="1"><label>∥.</label><p>M.J.B.
+and F.M.B. contributed equally to
+this work. All authors
+have given approval to the final version of the manuscript.</p></sec><sec id="notes-3" disp-level="1"><p>The authors
+declare the following competing financial interest(s): K.K.D.H., M.B.R.,
+C.D., and M.S. are employees of Promega. Promega owns patents related
+to NanoBRET technology.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Frye S. V.. The art
+of the chemical probe. Nat. Chem. Biol. 2010;6(3):159–161. doi: 10.1038/nchembio.296.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nchembio.296"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20154659"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Chem. Biol.&amp;title=The art of the chemical probe&amp;author=S. V. Frye&amp;volume=6&amp;issue=3&amp;publication_year=2010&amp;pages=159-161&amp;pmid=20154659&amp;doi=10.1038/nchembio.296&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Arrowsmith C. H., Audia J. E., Austin C., Baell J., Bennett J., Blagg J., Bountra C., Brennan P. E., Brown P. J., Bunnage M. E., Buser-Doepner C., Campbell R. M., Carter A. J., Cohen P., Copeland R. A., Cravatt B., Dahlin J. L., Dhanak D., Edwards A. M., Frederiksen M., Frye S. V., Gray N., Grimshaw C. E., Hepworth D., Howe T., Huber K. V. M., Jin J., Knapp S., Kotz J. D., Kruger R. G., Lowe D., Mader M. M., Marsden B., Mueller-Fahrnow A., Müller S., O’Hagan R. C., Overington J. P., Owen D. R., Rosenberg S. H., Ross R., Roth B., Schapira M., Schreiber S. L., Shoichet B., Sundström M., Superti-Furga G., Taunton J., Toledo-Sherman L., Walpole C., Walters M. A., Willson T. M., Workman P., Young R. N., Zuercher W. J.. The promise
+and peril of chemical probes. Nat. Chem. Biol. 2015;11(8):536–541. doi: 10.1038/nchembio.1867.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nchembio.1867"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4706458"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26196764"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Chem. Biol.&amp;title=The promise and peril of chemical probes&amp;author=C. H. Arrowsmith&amp;author=J. E. Audia&amp;author=C. Austin&amp;author=J. Baell&amp;author=J. Bennett&amp;volume=11&amp;issue=8&amp;publication_year=2015&amp;pages=536-541&amp;pmid=26196764&amp;doi=10.1038/nchembio.1867&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Antolin A. A., Workman P., Al-Lazikani B.. Public resources for chemical probes:
+the journey so far and the road ahead. Future
+Med. Chem. 2021;13(8):731–747. doi: 10.4155/fmc-2019-0231.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4155/fmc-2019-0231"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31778323"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Future Med. Chem.&amp;title=Public resources for chemical probes: the journey so far and the road ahead&amp;author=A. A. Antolin&amp;author=P. Workman&amp;author=B. Al-Lazikani&amp;volume=13&amp;issue=8&amp;publication_year=2021&amp;pages=731-747&amp;pmid=31778323&amp;doi=10.4155/fmc-2019-0231&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Workman P., Collins I.. Probing the probes: fitness factors for small molecule
+tools. Chem. Biol. 2010;17(6):561–577. doi: 10.1016/j.chembiol.2010.05.013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chembiol.2010.05.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2905514"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20609406"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Biol.&amp;title=Probing the probes: fitness factors for small molecule tools&amp;author=P. Workman&amp;author=I. Collins&amp;volume=17&amp;issue=6&amp;publication_year=2010&amp;pages=561-577&amp;pmid=20609406&amp;doi=10.1016/j.chembiol.2010.05.013&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Johnson L. N., Noble M. E. M., Owen D. J.. Active
+and Inactive Protein Kinases:
+Structural Basis for Regulation. Cell. 1996;85(2):149–158. doi: 10.1016/S0092-8674(00)81092-2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0092-8674(00)81092-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8612268"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell&amp;title=Active and Inactive Protein Kinases: Structural Basis for Regulation&amp;author=L. N. Johnson&amp;author=M. E. M. Noble&amp;author=D. J. Owen&amp;volume=85&amp;issue=2&amp;publication_year=1996&amp;pages=149-158&amp;pmid=8612268&amp;doi=10.1016/S0092-8674(00)81092-2&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Arter C., Trask L., Ward S., Yeoh S., Bayliss R.. Structural
+features of the protein kinase domain and targeted binding by small-molecule
+inhibitors. J. Biol. Chem. 2022;298(8):102247.  doi: 10.1016/j.jbc.2022.102247.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jbc.2022.102247"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9382423"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35830914"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=Structural features of the protein kinase domain and targeted binding by small-molecule inhibitors&amp;author=C. Arter&amp;author=L. Trask&amp;author=S. Ward&amp;author=S. Yeoh&amp;author=R. Bayliss&amp;volume=298&amp;issue=8&amp;publication_year=2022&amp;pages=102247&amp;pmid=35830914&amp;doi=10.1016/j.jbc.2022.102247&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Roskoski R. Jr.. Classification
+of small molecule protein kinase inhibitors
+based upon the structures of their drug-enzyme complexes. Pharmacol. Res. 2016;103:26–48. doi: 10.1016/j.phrs.2015.10.021.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.phrs.2015.10.021"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26529477"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Pharmacol. Res.&amp;title=Classification of small molecule protein kinase inhibitors based upon the structures of their drug-enzyme complexes&amp;author=R. Roskoski&amp;volume=103&amp;publication_year=2016&amp;pages=26-48&amp;pmid=26529477&amp;doi=10.1016/j.phrs.2015.10.021&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Tokarski J. S., Newitt J. A., Chang C. Y. J., Cheng J. D., Wittekind M., Kiefer S. E., Kish K., Lee F. Y. F., Borzillerri R., Lombardo L. J., Xie D., Zhang Y., Klei H. E.. The structure
+of Dasatinib (BMS-354825) bound to activated ABL kinase domain elucidates
+its inhibitory activity against imatinib-resistant ABL mutants. Cancer Res. 2006;66(11):5790–5797. doi: 10.1158/0008-5472.CAN-05-4187.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/0008-5472.CAN-05-4187"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16740718"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Res.&amp;title=The structure of Dasatinib (BMS-354825) bound to activated ABL kinase domain elucidates its inhibitory activity against imatinib-resistant ABL mutants&amp;author=J. S. Tokarski&amp;author=J. A. Newitt&amp;author=C. Y. J. Chang&amp;author=J. D. Cheng&amp;author=M. Wittekind&amp;volume=66&amp;issue=11&amp;publication_year=2006&amp;pages=5790-5797&amp;pmid=16740718&amp;doi=10.1158/0008-5472.CAN-05-4187&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Nagar B., Bornmann W. G., Pellicena P., Schindler T., Veach D. R., Miller W. T., Clarkson B., Kuriyan J.. Crystal structures
+of the kinase domain of c-Abl in complex with the small molecule inhibitors
+PD173955 and imatinib (STI-571) Cancer Res. 2002;62(15):4236–4243.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12154025"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Res.&amp;title=Crystal structures of the kinase domain of c-Abl in complex with the small molecule inhibitors PD173955 and imatinib (STI-571)&amp;author=B. Nagar&amp;author=W. G. Bornmann&amp;author=P. Pellicena&amp;author=T. Schindler&amp;author=D. R. Veach&amp;volume=62&amp;issue=15&amp;publication_year=2002&amp;pages=4236-4243&amp;pmid=12154025&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Noble M. E.
+M., Endicott J. A., Johnson L. N.. Protein kinase inhibitors: insights
+into drug design from structure. Science. 2004;303(5665):1800–1805. doi: 10.1126/science.1095920.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.1095920"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15031492"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Protein kinase inhibitors: insights into drug design from structure&amp;author=M. E. M. Noble&amp;author=J. A. Endicott&amp;author=L. N. Johnson&amp;volume=303&amp;issue=5665&amp;publication_year=2004&amp;pages=1800-1805&amp;pmid=15031492&amp;doi=10.1126/science.1095920&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Zhao Z., Wu H., Wang L., Liu Y., Knapp S., Liu Q., Gray N. S.. Exploration of type II binding mode: A privileged approach
+for kinase inhibitor focused drug discovery? ACS Chem. Biol. 2014;9(6):1230–1241. doi: 10.1021/cb500129t.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cb500129t"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4068218"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24730530"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Chem. Biol.&amp;title=Exploration of type II binding mode: A privileged approach for kinase inhibitor focused drug discovery?&amp;author=Z. Zhao&amp;author=H. Wu&amp;author=L. Wang&amp;author=Y. Liu&amp;author=S. Knapp&amp;volume=9&amp;issue=6&amp;publication_year=2014&amp;pages=1230-1241&amp;pmid=24730530&amp;doi=10.1021/cb500129t&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Lake E. W., Muretta J. M., Thompson A. R., Rasmussen D. M., Majumdar A., Faber E. B., Ruff E. F., Thomas D. D., Levinson N. M.. Quantitative conformational profiling
+of kinase inhibitors
+reveals origins of selectivity for Aurora kinase activation states. Proc. Natl. Acad. Sci. U.S.A. 2018;115(51):E11894–E11903. doi: 10.1073/pnas.1811158115.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1811158115"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6304972"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30518564"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proc. Natl. Acad. Sci. U.S.A.&amp;title=Quantitative conformational profiling of kinase inhibitors reveals origins of selectivity for Aurora kinase activation states&amp;author=E. W. Lake&amp;author=J. M. Muretta&amp;author=A. R. Thompson&amp;author=D. M. Rasmussen&amp;author=A. Majumdar&amp;volume=115&amp;issue=51&amp;publication_year=2018&amp;pages=E11894-E11903&amp;pmid=30518564&amp;doi=10.1073/pnas.1811158115&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Manning G., Whyte D. B., Martinez R., Hunter T., Sudarsanam S.. The protein
+kinase complement of the human genome. Science. 2002;298(5600):1912–1934. doi: 10.1126/science.1075762.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.1075762"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12471243"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=The protein kinase complement of the human genome&amp;author=G. Manning&amp;author=D. B. Whyte&amp;author=R. Martinez&amp;author=T. Hunter&amp;author=S. Sudarsanam&amp;volume=298&amp;issue=5600&amp;publication_year=2002&amp;pages=1912-1934&amp;pmid=12471243&amp;doi=10.1126/science.1075762&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Davis M. I., Hunt J. P., Herrgard S., Ciceri P., Wodicka L. M., Pallares G., Hocker M., Treiber D. K., Zarrinkar P. P.. Comprehensive
+analysis of kinase inhibitor selectivity. Nat.
+Biotechnol. 2011;29(11):1046–1051. doi: 10.1038/nbt.1990.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nbt.1990"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22037378"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Biotechnol.&amp;title=Comprehensive analysis of kinase inhibitor selectivity&amp;author=M. I. Davis&amp;author=J. P. Hunt&amp;author=S. Herrgard&amp;author=P. Ciceri&amp;author=L. M. Wodicka&amp;volume=29&amp;issue=11&amp;publication_year=2011&amp;pages=1046-1051&amp;pmid=22037378&amp;doi=10.1038/nbt.1990&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Vasta J. D., Corona C. R., Wilkinson J., Zimprich C. A., Hartnett J. R., Ingold M. R., Zimmerman K., Machleidt T., Kirkland T. A., Huwiler K. G., Ohana R. F., Slater M., Otto P., Cong M., Wells C. I., Berger B., Hanke T., Glas C., Ding K., Drewry D. H., Huber K. V. M., Willson T. M., Knapp S., Müller S., Meisenheimer P. L., Fan F., Wood K. V., Robers M. B.. Quantitative,
+Wide-Spectrum Kinase Profiling in Live Cells for Assessing the Effect
+of Cellular ATP on Target Engagement. Cell Chem.
+Biol. 2018;25(2):206–214. doi: 10.1016/j.chembiol.2017.10.010.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chembiol.2017.10.010"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5814754"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29174542"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Chem. Biol.&amp;title=Quantitative, Wide-Spectrum Kinase Profiling in Live Cells for Assessing the Effect of Cellular ATP on Target Engagement&amp;author=J. D. Vasta&amp;author=C. R. Corona&amp;author=J. Wilkinson&amp;author=C. A. Zimprich&amp;author=J. R. Hartnett&amp;volume=25&amp;issue=2&amp;publication_year=2018&amp;pages=206-214&amp;pmid=29174542&amp;doi=10.1016/j.chembiol.2017.10.010&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Robers M. B., Dart M. L., Woodroofe C. C., Zimprich C. A., Kirkland T. A., Machleidt T., Kupcho K. R., Levin S., Hartnett J. R., Zimmerman K., Niles A. L., Ohana R. F., Daniels D. L., Slater M., Wood M. G., Cong M., Cheng Y., Wood K. V.. Target
+engagement and drug residence time can be observed
+in living cells with BRET. Nat. Commun. 2015;6:10091.  doi: 10.1038/ncomms10091.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/ncomms10091"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4686764"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26631872"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=Target engagement and drug residence time can be observed in living cells with BRET&amp;author=M. B. Robers&amp;author=M. L. Dart&amp;author=C. C. Woodroofe&amp;author=C. A. Zimprich&amp;author=T. A. Kirkland&amp;volume=6&amp;publication_year=2015&amp;pages=10091&amp;pmid=26631872&amp;doi=10.1038/ncomms10091&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Wells C. I., Vasta J. D., Corona C. R., Wilkinson J., Zimprich C. A., Ingold M. R., Pickett J. E., Drewry D. H., Pugh K. M., Schwinn M. K., Hwang B. B., Zegzouti H., Huber K. V. M., Cong M., Meisenheimer P. L., Willson T. M., Robers M. B.. Quantifying CDK inhibitor selectivity
+in live cells. Nat. Commun. 2020;11(1):2743.  doi: 10.1038/s41467-020-16559-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-020-16559-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7265341"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32488087"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=Quantifying CDK inhibitor selectivity in live cells&amp;author=C. I. Wells&amp;author=J. D. Vasta&amp;author=C. R. Corona&amp;author=J. Wilkinson&amp;author=C. A. Zimprich&amp;volume=11&amp;issue=1&amp;publication_year=2020&amp;pages=2743&amp;pmid=32488087&amp;doi=10.1038/s41467-020-16559-0&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Robers M. B., Wilkinson J. M., Vasta J. D., Berger L. M., Berger B. T., Knapp S.. Single tracer-based
+protocol for broad-spectrum kinase profiling
+in live cells with NanoBRET. STAR Protoc. 2021;2(4):100822.  doi: 10.1016/j.xpro.2021.100822.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.xpro.2021.100822"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8449129"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34568844"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=STAR Protoc.&amp;title=Single tracer-based protocol for broad-spectrum kinase profiling in live cells with NanoBRET&amp;author=M. B. Robers&amp;author=J. M. Wilkinson&amp;author=J. D. Vasta&amp;author=L. M. Berger&amp;author=B. T. Berger&amp;volume=2&amp;issue=4&amp;publication_year=2021&amp;pages=100822&amp;pmid=34568844&amp;doi=10.1016/j.xpro.2021.100822&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Dopfer J., Vasta J. D., Müller S., Knapp S., Robers M. B., Schwalm M. P.. tracerDB: a crowdsourced
+fluorescent tracer database
+for target engagement analysis. Nat. Commun. 2024;15(1):5646.  doi: 10.1038/s41467-024-49896-5.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-024-49896-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11226670"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38969708"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=tracerDB: a crowdsourced fluorescent tracer database for target engagement analysis&amp;author=J. Dopfer&amp;author=J. D. Vasta&amp;author=S. Müller&amp;author=S. Knapp&amp;author=M. B. Robers&amp;volume=15&amp;issue=1&amp;publication_year=2024&amp;pages=5646&amp;pmid=38969708&amp;doi=10.1038/s41467-024-49896-5&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Kwarcinski F. E., Brandvold K. R., Phadke S., Beleh O. M., Johnson T. K., Meagher J. L., Seeliger M. A., Stuckey J. A., Soellner M. B.. Conformation-Selective
+Analogues of Dasatinib Reveal Insight into Kinase Inhibitor Binding
+and Selectivity. ACS Chem. Biol. 2016;11(5):1296–1304. doi: 10.1021/acschembio.5b01018.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acschembio.5b01018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7306399"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26895387"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Chem. Biol.&amp;title=Conformation-Selective Analogues of Dasatinib Reveal Insight into Kinase Inhibitor Binding and Selectivity&amp;author=F. E. Kwarcinski&amp;author=K. R. Brandvold&amp;author=S. Phadke&amp;author=O. M. Beleh&amp;author=T. K. Johnson&amp;volume=11&amp;issue=5&amp;publication_year=2016&amp;pages=1296-1304&amp;pmid=26895387&amp;doi=10.1021/acschembio.5b01018&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Stathias V., Turner J., Koleti A., Vidovic D., Cooper D., Fazel-Najafabadi M., Pilarczyk M., Terryn R., Chung C., Umeano A., Clarke D. J. B., Lachmann A., Evangelista J. E., Ma’ayan A., Medvedovic M., Schürer. LINCS Data Portal 2.0: next generation
+access point for perturbation-response signatures. Nucleic Acids Res. 2020;48(D1):D431–D439. doi: 10.1093/nar/gkz1023.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nar/gkz1023"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7145650"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31701147"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nucleic Acids Res.&amp;title=LINCS Data Portal 2.0: next generation access point for perturbation-response signatures&amp;author=V. Stathias&amp;author=J. Turner&amp;author=A. Koleti&amp;author=D. Vidovic&amp;author=D. Cooper&amp;volume=48&amp;issue=D1&amp;publication_year=2020&amp;pages=D431-D439&amp;pmid=31701147&amp;doi=10.1093/nar/gkz1023&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Monaco K. A., Delach S., Yuan J., Mishina Y., Fordjour P., Labrot E., McKay D., Guo R., Higgins S., Wang H. Q., Liang J., Bui K., Green J., Aspesi P., Ambrose J., Mapa F., Griner L., Jaskelioff M., Fuller J., Crawford K., Pardee G., Widger S., Hammerman P. S., Engelman J. A., Stuart D. D., Cooke V. G., Caponigro G.. LXH254, a
+Potent and Selective ARAF-Sparing
+Inhibitor of BRAF and CRAF for the Treatment of MAPK-Driven Tumors. Clin. Cancer Res. 2021;27(7):2061–2073. doi: 10.1158/1078-0432.CCR-20-2563.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/1078-0432.CCR-20-2563"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33355204"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Cancer Res.&amp;title=LXH254, a Potent and Selective ARAF-Sparing Inhibitor of BRAF and CRAF for the Treatment of MAPK-Driven Tumors&amp;author=K. A. Monaco&amp;author=S. Delach&amp;author=J. Yuan&amp;author=Y. Mishina&amp;author=P. Fordjour&amp;volume=27&amp;issue=7&amp;publication_year=2021&amp;pages=2061-2073&amp;pmid=33355204&amp;doi=10.1158/1078-0432.CCR-20-2563&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Li Z., Wang X., Eksterowicz J., Gribble M. W. Jr., Alba G. Q., Ayres M., Carlson T. J., Chen A., Chen X., Cho R., Connors R. V., DeGraffenreid M., Deignan J. T., Duquette J., Fan P., Fisher B., Fu J., Huard J. N., Kaizerman J., Keegan K. S., Li C., Li K., Li Y., Lian L., Liu W., Lively S. E., Lo M., Ma J., McMinn D. L., Mihalic J. T., Modi K., Ngo R., Pattabiraman K., Piper D. E., Queva C., Ragains M. L., Suchomel J., Thibault S., Walker N., Wang X., Wang Z., Wanska M., When P. M., Weidner M. F., Zhang A. J., Zhao X., Kamb A., Wickramasinghe D., Dai K., McGee L. R., Medina J. C.. Discovery of AMG 925, a FLT3 and
+CDK4 dual kinase inhibitor with preferential affinity for the activated
+state of FLT3. J. Med. Chem. 2014;57(8):3430–3449. doi: 10.1021/jm500118j.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jm500118j"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24641103"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Discovery of AMG 925, a FLT3 and CDK4 dual kinase inhibitor with preferential affinity for the activated state of FLT3&amp;author=Z. Li&amp;author=X. Wang&amp;author=J. Eksterowicz&amp;author=M. W. Gribble&amp;author=G. Q. Alba&amp;volume=57&amp;issue=8&amp;publication_year=2014&amp;pages=3430-3449&amp;pmid=24641103&amp;doi=10.1021/jm500118j&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Roskoski R. Jr.. Properties of FDA-approved small molecule protein kinase
+inhibitors: A 2024 update. Pharmacol. Res. 2024;200:107059.  doi: 10.1016/j.phrs.2024.107059.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.phrs.2024.107059"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38216005"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Pharmacol. Res.&amp;title=Properties of FDA-approved small molecule protein kinase inhibitors: A 2024 update&amp;author=R. Roskoski&amp;volume=200&amp;publication_year=2024&amp;pages=107059&amp;pmid=38216005&amp;doi=10.1016/j.phrs.2024.107059&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Hulme E. C., Trevethick M. A.. Ligand
+binding assays at equilibrium: validation and
+interpretation. Br. J. Pharmacol. 2010;161(6):1219–1237. doi: 10.1111/j.1476-5381.2009.00604.x.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1476-5381.2009.00604.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3000649"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20132208"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Br. J. Pharmacol.&amp;title=Ligand binding assays at equilibrium: validation and interpretation&amp;author=E. C. Hulme&amp;author=M. A. Trevethick&amp;volume=161&amp;issue=6&amp;publication_year=2010&amp;pages=1219-1237&amp;pmid=20132208&amp;doi=10.1111/j.1476-5381.2009.00604.x&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Min S. M., Bashore F. M., Smith J. L., Havener T. M., Howell S., Li H., Couñago R. M., Popov K. I., Axtman A. D.. Development
+of a Second-Generation, In Vivo Chemical Probe for PIKfyve. J. Med. Chem. 2025;68(3):3282–3308. doi: 10.1021/acs.jmedchem.4c02531.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.4c02531"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11831680"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39838960"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Development of a Second-Generation, In Vivo Chemical Probe for PIKfyve&amp;author=S. M. Min&amp;author=F. M. Bashore&amp;author=J. L. Smith&amp;author=T. M. Havener&amp;author=S. Howell&amp;volume=68&amp;issue=3&amp;publication_year=2025&amp;pages=3282-3308&amp;pmid=39838960&amp;doi=10.1021/acs.jmedchem.4c02531&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Ong H. W., Yang X., Smith J., Taft-Benz S., Howell S., Dickmander R., Havener T., Sanders M., Brown J., Couñago R., Chang E., Krämer A., Moorman N. J., Heise M., Axtman A. D., Drewry D. H., Willson T. M.. Strategic Fluorination
+to Achieve a Potent, Selective,
+Metabolically-Stable, and Orally-Bioavailable Inhibitor of CSNK2. Molecules. 2024;29(17):4158.  doi: 10.3390/molecules29174158.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/molecules29174158"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11397024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39275006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecules&amp;title=Strategic Fluorination to Achieve a Potent, Selective, Metabolically-Stable, and Orally-Bioavailable Inhibitor of CSNK2&amp;author=H. W. Ong&amp;author=X. Yang&amp;author=J. Smith&amp;author=S. Taft-Benz&amp;author=S. Howell&amp;volume=29&amp;issue=17&amp;publication_year=2024&amp;pages=4158&amp;pmid=39275006&amp;doi=10.3390/molecules29174158&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Ong H. W., Yang X., Smith J. L., Dickmander R. J., Brown J. W., Havener T. M., Taft-Benz S., Howell S., Sanders M. K., Capener J. L., Couñago R. M., Chang E., Krämer A., Moorman N. J., Heise M., Axtman A. D., Drewry D. H., Willson T. M.. More than an Amide
+Bioisostere: Discovery of 1,2,4-Triazole-containing Pyrazolo­[1,5-a]­pyrimidine
+Host CSNK2 Inhibitors for Combatting β-Coronavirus Replication. J. Med. Chem. 2024;67(14):12261–12313. doi: 10.1021/acs.jmedchem.4c00962.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.4c00962"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11284802"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38959455"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=More than an Amide Bioisostere: Discovery of 1,2,4-Triazole-containing Pyrazolo­[1,5-a]­pyrimidine Host CSNK2 Inhibitors for Combatting β-Coronavirus Replication&amp;author=H. W. Ong&amp;author=X. Yang&amp;author=J. L. Smith&amp;author=R. J. Dickmander&amp;author=J. W. Brown&amp;volume=67&amp;issue=14&amp;publication_year=2024&amp;pages=12261-12313&amp;pmid=38959455&amp;doi=10.1021/acs.jmedchem.4c00962&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Hanson S. M., Georghiou G., Thakur M. K., Miller W. T., Rest J. S., Chodera J. D., Seeliger M. A.. What makes a kinase promiscuous for
+inhibitors? Cell Chem. Biol. 2019;26(3):390–399.e395. doi: 10.1016/j.chembiol.2018.11.005.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chembiol.2018.11.005"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6632086"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30612951"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Chem. Biol.&amp;title=What makes a kinase promiscuous for inhibitors?&amp;author=S. M. Hanson&amp;author=G. Georghiou&amp;author=M. K. Thakur&amp;author=W. T. Miller&amp;author=J. S. Rest&amp;volume=26&amp;issue=3&amp;publication_year=2019&amp;pages=390-399.e395&amp;pmid=30612951&amp;doi=10.1016/j.chembiol.2018.11.005&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Xie T., Peng W., Liu Y., Yan C., Maki J., Degterev A., Yuan J., Shi Y.. Structural
+basis of
+RIP1 inhibition by necrostatins. Structure. 2013;21(3):493–499. doi: 10.1016/j.str.2013.01.016.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.str.2013.01.016"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23473668"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Structure&amp;title=Structural basis of RIP1 inhibition by necrostatins&amp;author=T. Xie&amp;author=W. Peng&amp;author=Y. Liu&amp;author=C. Yan&amp;author=J. Maki&amp;volume=21&amp;issue=3&amp;publication_year=2013&amp;pages=493-499&amp;pmid=23473668&amp;doi=10.1016/j.str.2013.01.016&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Harris P. A., Berger S. B., Jeong J. U., Nagilla R., Bandyopadhyay D., Campobasso N., Capriotti C. A., Cox J. A., Dare L., Dong X., Eidam P. M., Finger J. N., Hoffman S. J., Kang J., Kasparcova V., King B. W., Lehr R., Lan Y., Leister L. K., Lich J. D., MacDonald T. T., Miller N. A., Ouellette M. T., Pao C. S., Rahman A., Reilly M. A., Rendina A. R., Rivera E. J., Schaeffer M. C., Sehon C. A., Singhaus R. R., Sun H. H., Swift B. A., Totritis R. D., Vossenkämper A., Ward P., Wisnoski D. D., Zhang D., Marquis R. W., Gough P. J., Bertin J.. Discovery
+of a First-in-Class Receptor Interacting Protein 1 (RIP1) Kinase Specific
+Clinical Candidate (GSK2982772) for the Treatment of Inflammatory
+Diseases. J. Med. Chem. 2017;60(4):1247–1261. doi: 10.1021/acs.jmedchem.6b01751.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.6b01751"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28151659"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Discovery of a First-in-Class Receptor Interacting Protein 1 (RIP1) Kinase Specific Clinical Candidate (GSK2982772) for the Treatment of Inflammatory Diseases&amp;author=P. A. Harris&amp;author=S. B. Berger&amp;author=J. U. Jeong&amp;author=R. Nagilla&amp;author=D. Bandyopadhyay&amp;volume=60&amp;issue=4&amp;publication_year=2017&amp;pages=1247-1261&amp;pmid=28151659&amp;doi=10.1021/acs.jmedchem.6b01751&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Patel S., Webster J. D., Varfolomeev E., Kwon Y. C., Cheng J. H., Zhang J., Dugger D. L., Wickliffe K. E., Maltzman A., Sujatha-Bhaskar S., Kohli P. B., Ramaswamy S., Deshmukh G., Liederer B. M., Fong R., Hamilton G., Lupardus P., Caplazi P., Lee W. P., van Lookeren
+Campagne M., Johnson A., McKenzie B. S., Junttila M. R., Newton K., Vucic D.. RIP1 inhibition blocks inflammatory
+diseases but not tumor growth or metastases. Cell Death Differ. 2020;27(1):161–175. doi: 10.1038/s41418-019-0347-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41418-019-0347-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7206119"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31101885"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Death Differ.&amp;title=RIP1 inhibition blocks inflammatory diseases but not tumor growth or metastases&amp;author=S. Patel&amp;author=J. D. Webster&amp;author=E. Varfolomeev&amp;author=Y. C. Kwon&amp;author=J. H. Cheng&amp;volume=27&amp;issue=1&amp;publication_year=2020&amp;pages=161-175&amp;pmid=31101885&amp;doi=10.1038/s41418-019-0347-0&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Vijayan R. S. K., Hamilton M. M., Pfaffinger D. E., Alvarez F. G., Reyna N. J., Bardenhagen J. P., Shepard H., Rodriguez C., Goodwani S., Lightfoot Y., Maskos K., Johansson S., Kempf G., Xu Q. A., Neumann L., Jiang Y., Do Geck., Jones M., Lewis P., Ray R. T., Cross W. J.. J. B. Allosteric
+targeting of RIPK1: discovery of novel
+inhibitors via parallel virtual screening and structure-guided optimization. RSC Med. Chem. 2025;16(11):5341–5358. doi: 10.1039/D5MD00317B.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D5MD00317B"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12442725"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40969564"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=RSC Med. Chem.&amp;title=J. B. Allosteric targeting of RIPK1: discovery of novel inhibitors via parallel virtual screening and structure-guided optimization&amp;author=R. S. K. Vijayan&amp;author=M. M. Hamilton&amp;author=D. E. Pfaffinger&amp;author=F. G. Alvarez&amp;author=N. J. Reyna&amp;volume=16&amp;issue=11&amp;publication_year=2025&amp;pages=5341-5358&amp;pmid=40969564&amp;doi=10.1039/D5MD00317B&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Kwilas A. R., Ardiani A., Donahue R. N., Aftab D. T., Hodge J. W.. Dual effects
+of a targeted small-molecule inhibitor (cabozantinib) on immune-mediated
+killing of tumor cells and immune tumor microenvironment permissiveness
+when combined with a cancer vaccine. J. Transl.
+Med. 2014;12:294.  doi: 10.1186/s12967-014-0294-y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12967-014-0294-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4236498"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25388653"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Transl. Med.&amp;title=Dual effects of a targeted small-molecule inhibitor (cabozantinib) on immune-mediated killing of tumor cells and immune tumor microenvironment permissiveness when combined with a cancer vaccine&amp;author=A. R. Kwilas&amp;author=A. Ardiani&amp;author=R. N. Donahue&amp;author=D. T. Aftab&amp;author=J. W. Hodge&amp;volume=12&amp;publication_year=2014&amp;pages=294&amp;pmid=25388653&amp;doi=10.1186/s12967-014-0294-y&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Shim H., Wu C., Ramsamooj S., Bosch K. N., Chen Z., Emerling B. M., Yun J., Liu H., Choo-Wing R., Yang Z., Wulf G. M., Kuchroo V. K., Cantley L. C.. Deletion of the gene Pip4k2c, a novel
+phosphatidylinositol kinase, results in hyperactivation of the immune
+system. Proc. Natl. Acad. Sci. U.S.A. 2016;113(27):7596–7601. doi: 10.1073/pnas.1600934113.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1600934113"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4941458"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27313209"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proc. Natl. Acad. Sci. U.S.A.&amp;title=Deletion of the gene Pip4k2c, a novel phosphatidylinositol kinase, results in hyperactivation of the immune system&amp;author=H. Shim&amp;author=C. Wu&amp;author=S. Ramsamooj&amp;author=K. N. Bosch&amp;author=Z. Chen&amp;volume=113&amp;issue=27&amp;publication_year=2016&amp;pages=7596-7601&amp;pmid=27313209&amp;doi=10.1073/pnas.1600934113&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Choueiri T. K., Powles T., Burotto M., Escudier B., Bourlon M. T., Zurawski B., Oyervides Juarez V. M., Hsieh J. J., Basso U., Shah A. Y., Suárez C., Hamzaj A., Goh J. C., Barrios C., Richardet M., Porta C., Kowalyszyn R., Feregrino J. P., Żołnierek J., Pook D., Kessler E. R., Tomita Y., Mizuno R., Bedke J., Zhang J., Maurer M. A., Simsek B., Ejzykowicz F., Schwab G. M., Apolo A. B., Motzer R. J.. Nivolumab plus Cabozantinib
+versus Sunitinib for Advanced Renal-Cell Carcinoma. N. Engl. J. Med. 2021;384(9):829–841. doi: 10.1056/NEJMoa2026982.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJMoa2026982"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8436591"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33657295"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=Nivolumab plus Cabozantinib versus Sunitinib for Advanced Renal-Cell Carcinoma&amp;author=T. K. Choueiri&amp;author=T. Powles&amp;author=M. Burotto&amp;author=B. Escudier&amp;author=M. T. Bourlon&amp;volume=384&amp;issue=9&amp;publication_year=2021&amp;pages=829-841&amp;pmid=33657295&amp;doi=10.1056/NEJMoa2026982&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Ye Y. E., Woodward C. N., Narasimhan N. I.. Absorption,
+metabolism, and excretion
+of [(14)­C]­ponatinib after a single oral dose in humans. Cancer Chemother. Pharmacol. 2017;79(3):507–518. doi: 10.1007/s00280-017-3240-x.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00280-017-3240-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5344956"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28184964"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Chemother. Pharmacol.&amp;title=Absorption, metabolism, and excretion of [(14)­C]­ponatinib after a single oral dose in humans&amp;author=Y. E. Ye&amp;author=C. N. Woodward&amp;author=N. I. Narasimhan&amp;volume=79&amp;issue=3&amp;publication_year=2017&amp;pages=507-518&amp;pmid=28184964&amp;doi=10.1007/s00280-017-3240-x&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Chan O., Talati C., Isenalumhe L., Shams S., Nodzon L., Fradley M., Sweet K., Pinilla-Ibarz J.. Side-effects
+profile and outcomes of ponatinib in the treatment of chronic myeloid
+leukemia. Blood Adv. 2020;4(3):530–538. doi: 10.1182/bloodadvances.2019000268.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/bloodadvances.2019000268"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7013263"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32045474"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood Adv.&amp;title=Side-effects profile and outcomes of ponatinib in the treatment of chronic myeloid leukemia&amp;author=O. Chan&amp;author=C. Talati&amp;author=L. Isenalumhe&amp;author=S. Shams&amp;author=L. Nodzon&amp;volume=4&amp;issue=3&amp;publication_year=2020&amp;pages=530-538&amp;pmid=32045474&amp;doi=10.1182/bloodadvances.2019000268&amp;"/></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Zhang Y., Preigh M., Wang J., Venetsanakos E., Wang Y., Barry E., Corson D.. Taste Profile
+and Relative
+Bioavailability of Tovorafenib Powder for Oral Suspension and Food
+Effect of the Tovorafenib Tablet in Healthy Participants. Clin. Pharmacol. Drug Dev. 2025;14(9):669–679. doi: 10.1002/cpdd.1558.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cpdd.1558"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12402836"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40536406"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Pharmacol. Drug Dev.&amp;title=Taste Profile and Relative Bioavailability of Tovorafenib Powder for Oral Suspension and Food Effect of the Tovorafenib Tablet in Healthy Participants&amp;author=Y. Zhang&amp;author=M. Preigh&amp;author=J. Wang&amp;author=E. Venetsanakos&amp;author=Y. Wang&amp;volume=14&amp;issue=9&amp;publication_year=2025&amp;pages=669-679&amp;pmid=40536406&amp;doi=10.1002/cpdd.1558&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">Drewry D. H., Wells C. I., Andrews D. M., Angell R., Al-Ali H., Axtman A. D., Capuzzi S. J., Elkins J. M., Ettmayer P., Frederiksen M., Gileadi O., Gray N., Hooper A., Knapp S., Laufer S., Luecking U., Michaelides M., Müller S., Muratov E., Denny R. A., Saikatendu K. S., Treiber D. K., Zuercher W. J., Willson T. M.. Progress towards
+a public chemogenomic set for protein kinases and a call for contributions. PLoS One. 2017;12(8):e0181585.  doi: 10.1371/journal.pone.0181585.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0181585"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5540273"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28767711"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Progress towards a public chemogenomic set for protein kinases and a call for contributions&amp;author=D. H. Drewry&amp;author=C. I. Wells&amp;author=D. M. Andrews&amp;author=R. Angell&amp;author=H. Al-Ali&amp;volume=12&amp;issue=8&amp;publication_year=2017&amp;pages=e0181585&amp;pmid=28767711&amp;doi=10.1371/journal.pone.0181585&amp;"/></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">Tamir T. Y., Drewry D. H., Wells C., Major M. B., Axtman A. D.. PKIS deep
+dive yields a chemical starting point for dark kinases and a cell
+active BRSK2 inhibitor. Sci. Rep. 2020;10(1):15826.  doi: 10.1038/s41598-020-72869-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-020-72869-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7522982"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32985588"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=PKIS deep dive yields a chemical starting point for dark kinases and a cell active BRSK2 inhibitor&amp;author=T. Y. Tamir&amp;author=D. H. Drewry&amp;author=C. Wells&amp;author=M. B. Major&amp;author=A. D. Axtman&amp;volume=10&amp;issue=1&amp;publication_year=2020&amp;pages=15826&amp;pmid=32985588&amp;doi=10.1038/s41598-020-72869-9&amp;"/></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Reinecke M., Brear P., Vornholz L., Berger B.-T., Seefried F., Wilhelm S., Samaras P., Gyenis L., Litchfield D. W., Médard G., Müller S., Ruland J., Hyvönen M., Wilhelm M., Kuster B.. Chemical proteomics reveals the target
+landscape of 1,000 kinase inhibitors. Nat. Chem.
+Biol. 2024;20(5):577–585. doi: 10.1038/s41589-023-01459-3.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41589-023-01459-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11062922"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37904048"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Chem. Biol.&amp;title=Chemical proteomics reveals the target landscape of 1,000 kinase inhibitors&amp;author=M. Reinecke&amp;author=P. Brear&amp;author=L. Vornholz&amp;author=B.-T. Berger&amp;author=F. Seefried&amp;volume=20&amp;issue=5&amp;publication_year=2024&amp;pages=577-585&amp;pmid=37904048&amp;doi=10.1038/s41589-023-01459-3&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Miyamoto N., Oguro Y., Takagi T., Iwata H., Miki H., Hori A., Imamura S.. Design, synthesis,
+and evaluation
+of imidazo­[1,2-b]­pyridazine derivatives having a benzamide unit as
+novel VEGFR2 kinase inhibitors. Bioorg. Med.
+Chem. 2012;20(24):7051–7058. doi: 10.1016/j.bmc.2012.10.004.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bmc.2012.10.004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23123015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioorg. Med. Chem.&amp;title=Design, synthesis, and evaluation of imidazo­[1,2-b]­pyridazine derivatives having a benzamide unit as novel VEGFR2 kinase inhibitors&amp;author=N. Miyamoto&amp;author=Y. Oguro&amp;author=T. Takagi&amp;author=H. Iwata&amp;author=H. Miki&amp;volume=20&amp;issue=24&amp;publication_year=2012&amp;pages=7051-7058&amp;pmid=23123015&amp;doi=10.1016/j.bmc.2012.10.004&amp;"/></mixed-citation></ref><ref id="ref44"><mixed-citation id="cit44"><named-content content-type="citation-string">Antolin A. A., Tym J. E., Komianou A., Collins I., Workman P., Al-Lazikani B.. Objective, Quantitative, Data-Driven
+Assessment of
+Chemical Probes. Cell Chem. Biol. 2018;25(2):194–205.e195. doi: 10.1016/j.chembiol.2017.11.004.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chembiol.2017.11.004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5814752"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29249694"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Chem. Biol.&amp;title=Objective, Quantitative, Data-Driven Assessment of Chemical Probes&amp;author=A. A. Antolin&amp;author=J. E. Tym&amp;author=A. Komianou&amp;author=I. Collins&amp;author=P. Workman&amp;volume=25&amp;issue=2&amp;publication_year=2018&amp;pages=194-205.e195&amp;pmid=29249694&amp;doi=10.1016/j.chembiol.2017.11.004&amp;"/></mixed-citation></ref><ref id="ref45"><mixed-citation id="cit45"><named-content content-type="citation-string">Terai H., Tan L., Beauchamp E. M., Hatcher J. M., Liu Q., Meyerson M., Gray N. S., Hammerman P. S.. Characterization of DDR2 Inhibitors
+for the Treatment of DDR2Mutated Nonsmall Cell Lung Cancer. ACS Chem. Biol. 2015;10(12):2687–2696. doi: 10.1021/acschembio.5b00655.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acschembio.5b00655"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4685943"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26390252"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Chem. Biol.&amp;title=Characterization of DDR2 Inhibitors for the Treatment of DDR2Mutated Nonsmall Cell Lung Cancer&amp;author=H. Terai&amp;author=L. Tan&amp;author=E. M. Beauchamp&amp;author=J. M. Hatcher&amp;author=Q. Liu&amp;volume=10&amp;issue=12&amp;publication_year=2015&amp;pages=2687-2696&amp;pmid=26390252&amp;doi=10.1021/acschembio.5b00655&amp;"/></mixed-citation></ref><ref id="ref46"><mixed-citation id="cit46"><named-content content-type="citation-string">Röhm S., Berger B. T., Schröder M., Chatterjee D., Mathea S., Joerger A. C., Pinkas D. M., Bufton J. C., Tjaden A., Kovooru L., Kudolo M., Pohl C., Bullock A. N., Müller S., Laufer S., Knapp S.. Development
+of a Selective Dual Discoidin Domain Receptor (DDR)/p38 Kinase Chemical
+Probe. J. Med. Chem. 2021;64(18):13451–13474. doi: 10.1021/acs.jmedchem.1c00868.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.1c00868"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34506142"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Development of a Selective Dual Discoidin Domain Receptor (DDR)/p38 Kinase Chemical Probe&amp;author=S. Röhm&amp;author=B. T. Berger&amp;author=M. Schröder&amp;author=D. Chatterjee&amp;author=S. Mathea&amp;volume=64&amp;issue=18&amp;publication_year=2021&amp;pages=13451-13474&amp;pmid=34506142&amp;doi=10.1021/acs.jmedchem.1c00868&amp;"/></mixed-citation></ref><ref id="ref47"><mixed-citation id="cit47"><named-content content-type="citation-string">Schneider H., Szabo E., Machado R. A., Broggini-Tenzer A., Walter A., Lobell M., Heldmann D., Süssmeier F., Grünewald S., Weller M.. Novel TIE-2 inhibitor
+BAY-826 displays
+in vivo efficacy in experimental syngeneic murine glioma models. J. Neurochem. 2017;140(1):170–182. doi: 10.1111/jnc.13877.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/jnc.13877"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27787897"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Neurochem&amp;title=Novel TIE-2 inhibitor BAY-826 displays in vivo efficacy in experimental syngeneic murine glioma models&amp;author=H. Schneider&amp;author=E. Szabo&amp;author=R. A. Machado&amp;author=A. Broggini-Tenzer&amp;author=A. Walter&amp;volume=140&amp;issue=1&amp;publication_year=2017&amp;pages=170-182&amp;pmid=27787897&amp;doi=10.1111/jnc.13877&amp;"/></mixed-citation></ref><ref id="ref48"><mixed-citation id="cit48"><named-content content-type="citation-string">Kim H.-G., Tan L., Weisberg E. L., Liu F., Canning P., Choi H.-G., Ezell S., Zhao Z., Wu H., Wang J., Mandinova A., Bullock A. N., Liu Q., Lee S. W., Gray N. S.. Correction to Discovery of a Potent
+and Selective DDR1
+Receptor Tyrosine Kinase Inhibitor. ACS Chem.
+Biol. 2014;9(3):840. doi: 10.1021/cb5000949.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cb5000949"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3800496"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23899692"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Chem. Biol.&amp;title=Correction to Discovery of a Potent and Selective DDR1 Receptor Tyrosine Kinase Inhibitor&amp;author=H.-G. Kim&amp;author=L. Tan&amp;author=E. L. Weisberg&amp;author=F. Liu&amp;author=P. Canning&amp;volume=9&amp;issue=3&amp;publication_year=2014&amp;pages=840&amp;pmid=23899692&amp;doi=10.1021/cb5000949&amp;"/></mixed-citation></ref><ref id="ref49"><mixed-citation id="cit49"><named-content content-type="citation-string">Kim H. G., Tan L., Weisberg E. L., Liu F., Canning P., Choi H. G., Ezell S. A., Wu H., Zhao Z., Wang J., Mandinova A., Griffin J. D., Bullock A. N., Liu Q., Lee S. W., Gray N. S.. Discovery of a potent and selective
+DDR1 receptor tyrosine kinase inhibitor. ACS
+Chem. Biol. 2013;8(10):2145–2150. doi: 10.1021/cb400430t.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cb400430t"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3800496"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23899692"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Chem. Biol.&amp;title=Discovery of a potent and selective DDR1 receptor tyrosine kinase inhibitor&amp;author=H. G. Kim&amp;author=L. Tan&amp;author=E. L. Weisberg&amp;author=F. Liu&amp;author=P. Canning&amp;volume=8&amp;issue=10&amp;publication_year=2013&amp;pages=2145-2150&amp;pmid=23899692&amp;doi=10.1021/cb400430t&amp;"/></mixed-citation></ref><ref id="ref50"><mixed-citation id="cit50"><named-content content-type="citation-string">Wang Z., Bian H., Bartual S. G., Du W., Luo J., Zhao H., Zhang S., Mo C., Zhou Y., Xu Y., Tu Z., Ren X., Lu X., Brekken R. A., Yao L., Bullock A. N., Su J., Ding K.. Structure-Based Design
+of Tetrahydroisoquinoline-7-carboxamides as Selective Discoidin Domain
+Receptor 1 (DDR1) Inhibitors. J. Med. Chem. 2016;59(12):5911–5916. doi: 10.1021/acs.jmedchem.6b00140.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.6b00140"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5053573"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27219676"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Structure-Based Design of Tetrahydroisoquinoline-7-carboxamides as Selective Discoidin Domain Receptor 1 (DDR1) Inhibitors&amp;author=Z. Wang&amp;author=H. Bian&amp;author=S. G. Bartual&amp;author=W. Du&amp;author=J. Luo&amp;volume=59&amp;issue=12&amp;publication_year=2016&amp;pages=5911-5916&amp;pmid=27219676&amp;doi=10.1021/acs.jmedchem.6b00140&amp;"/></mixed-citation></ref><ref id="ref51"><mixed-citation id="cit51"><named-content content-type="citation-string">Vogel W., Gish G. D., Alves F., Pawson T.. The discoidin domain
+receptor tyrosine kinases are activated by collagen. Mol. Cell. 1997;1(1):13–23. doi: 10.1016/S1097-2765(00)80003-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S1097-2765(00)80003-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9659899"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mol. Cell&amp;title=The discoidin domain receptor tyrosine kinases are activated by collagen&amp;author=W. Vogel&amp;author=G. D. Gish&amp;author=F. Alves&amp;author=T. Pawson&amp;volume=1&amp;issue=1&amp;publication_year=1997&amp;pages=13-23&amp;pmid=9659899&amp;doi=10.1016/S1097-2765(00)80003-9&amp;"/></mixed-citation></ref><ref id="ref52"><mixed-citation id="cit52"><named-content content-type="citation-string">Juskaite V., Corcoran D. S., Leitinger B.. Collagen induces
+activation of DDR1
+through lateral dimer association and phosphorylation between dimers. eLife. 2017;6:e25716.  doi: 10.7554/eLife.25716.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.7554/eLife.25716"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5489314"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28590245"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=eLife&amp;title=Collagen induces activation of DDR1 through lateral dimer association and phosphorylation between dimers&amp;author=V. Juskaite&amp;author=D. S. Corcoran&amp;author=B. Leitinger&amp;volume=6&amp;publication_year=2017&amp;pages=e25716&amp;pmid=28590245&amp;doi=10.7554/eLife.25716&amp;"/></mixed-citation></ref><ref id="ref53"><mixed-citation id="cit53"><named-content content-type="citation-string">Kothiwale S., Borza C. M., Lowe E. W. Jr., Pozzi A., Meiler J.. Discoidin domain receptor 1 (DDR1) kinase as target
+for structure-based drug discovery. Drug Discovery
+Today. 2015;20(2):255–261. doi: 10.1016/j.drudis.2014.09.025.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.drudis.2014.09.025"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4336622"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25284748"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Drug Discovery Today&amp;title=Discoidin domain receptor 1 (DDR1) kinase as target for structure-based drug discovery&amp;author=S. Kothiwale&amp;author=C. M. Borza&amp;author=E. W. Lowe&amp;author=A. Pozzi&amp;author=J. Meiler&amp;volume=20&amp;issue=2&amp;publication_year=2015&amp;pages=255-261&amp;pmid=25284748&amp;doi=10.1016/j.drudis.2014.09.025&amp;"/></mixed-citation></ref><ref id="ref54"><mixed-citation id="cit54"><named-content content-type="citation-string">Borza C. M., Bolas G., Zhang X., Browning
+Monroe M. B., Zhang M. Z., Meiler J., Skwark M. J., Harris R. C., Lapierre L. A., Goldenring J. R., Hook M., Rivera J., Brown K. L., Leitinger B., Tyska M. J., Moser M., Böttcher R. T., Zent R., Pozzi A.. The Collagen Receptor
+Discoidin Domain Receptor 1b Enhances Integrin beta1-Mediated Cell
+Migration by Interacting With Talin and Promoting Rac1 Activation. Front. Cell Dev. Biol. 2022;10:836797.  doi: 10.3389/fcell.2022.836797.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fcell.2022.836797"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8928223"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35309920"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Cell Dev. Biol.&amp;title=The Collagen Receptor Discoidin Domain Receptor 1b Enhances Integrin beta1-Mediated Cell Migration by Interacting With Talin and Promoting Rac1 Activation&amp;author=C. M. Borza&amp;author=G. Bolas&amp;author=X. Zhang&amp;author=M. B. Browning Monroe&amp;author=M. Z. Zhang&amp;volume=10&amp;publication_year=2022&amp;pages=836797&amp;pmid=35309920&amp;doi=10.3389/fcell.2022.836797&amp;"/></mixed-citation></ref><ref id="ref55"><mixed-citation id="cit55"><named-content content-type="citation-string">Lemeer S., Bluwstein A., Wu Z., Leberfinger J., Muller K., Kramer K., Kuster B.. Phosphotyrosine mediated
+protein interactions of the discoidin domain receptor 1. J. Proteomics. 2012;75(12):3465–3477. doi: 10.1016/j.jprot.2011.10.007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jprot.2011.10.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22057045"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Proteomics&amp;title=Phosphotyrosine mediated protein interactions of the discoidin domain receptor 1&amp;author=S. Lemeer&amp;author=A. Bluwstein&amp;author=Z. Wu&amp;author=J. Leberfinger&amp;author=K. Muller&amp;volume=75&amp;issue=12&amp;publication_year=2012&amp;pages=3465-3477&amp;pmid=22057045&amp;doi=10.1016/j.jprot.2011.10.007&amp;"/></mixed-citation></ref><ref id="ref56"><mixed-citation id="cit56"><named-content content-type="citation-string">Wells C. I., Drewry D. H., Pickett J. E., Tjaden A., Krämer A., Müller S., Gyenis L., Menyhart D., Litchfield D. W., Knapp S., Axtman A. D.. Development of a Potent and Selective
+Chemical Probe for the Pleiotropic Kinase CK2. Cell Chem. Biol. 2021;28:546–558.e510. doi: 10.1016/j.chembiol.2020.12.013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chembiol.2020.12.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8864761"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33484635"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Chem. Biol.&amp;title=Development of a Potent and Selective Chemical Probe for the Pleiotropic Kinase CK2&amp;author=C. I. Wells&amp;author=D. H. Drewry&amp;author=J. E. Pickett&amp;author=A. Tjaden&amp;author=A. Krämer&amp;volume=28&amp;publication_year=2021&amp;pages=546-558.e510&amp;pmid=33484635&amp;doi=10.1016/j.chembiol.2020.12.013&amp;"/></mixed-citation></ref><ref id="ref57"><mixed-citation id="cit57"><named-content content-type="citation-string">Elkins J. M., Fedele V., Szklarz M., Abdul Azeez K. R., Salah E., Mikolajczyk J., Romanov S., Sepetov N., Huang X. P., Roth B. L., Al Haj Zen A., Fourches D., Muratov E., Tropsha A., Morris J., Teicher B. A., Kunkel M., Polley R., Lackey K. E., Atkinson F. L., Overington J. P., Bamborough P., Müller S., Price D. J., Willson T. M., Drewry D. H., Knapp S., Zuercher W. J.. Comprehensive characterization
+of
+the Published Kinase Inhibitor Set. Nat. Biotechnol. 2016;34(1):95–103. doi: 10.1038/nbt.3374.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nbt.3374"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26501955"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Biotechnol.&amp;title=Comprehensive characterization of the Published Kinase Inhibitor Set&amp;author=J. M. Elkins&amp;author=V. Fedele&amp;author=M. Szklarz&amp;author=K. R. Abdul Azeez&amp;author=E. Salah&amp;volume=34&amp;issue=1&amp;publication_year=2016&amp;pages=95-103&amp;pmid=26501955&amp;doi=10.1038/nbt.3374&amp;"/></mixed-citation></ref><ref id="ref58"><mixed-citation id="cit58"><named-content content-type="citation-string">Wells C. I., Drewry D. H., Pickett J. E., Tjaden A., Krämer A., Müller S., Gyenis L., Menyhart D., Litchfield D. W., Knapp S., Axtman A. D.. Development of a potent and Selective
+Chemical Probe for the Pleiotropic Kinase CK2. Cell Chem. Biol. 2021;28:546–558.e510. doi: 10.1016/j.chembiol.2020.12.013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chembiol.2020.12.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8864761"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33484635"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Chem. Biol.&amp;title=Development of a potent and Selective Chemical Probe for the Pleiotropic Kinase CK2&amp;author=C. I. Wells&amp;author=D. H. Drewry&amp;author=J. E. Pickett&amp;author=A. Tjaden&amp;author=A. Krämer&amp;volume=28&amp;publication_year=2021&amp;pages=546-558.e510&amp;pmid=33484635&amp;doi=10.1016/j.chembiol.2020.12.013&amp;"/></mixed-citation></ref><ref id="ref59"><mixed-citation id="cit59"><named-content content-type="citation-string">Nieman A. N., Dunn Hoffman K. K., Dominguez E. R., Wilkinson J., Vasta J. D., Robers M. B., Lam N.. NanoBRET Live-Cell
+Kinase Selectivity Profiling Adapted for High-Throughput Screening. Methods Mol. Biol. 2023;2706:97–124. doi: 10.1007/978-1-0716-3397-7_8.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-1-0716-3397-7_8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37558944"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Methods Mol. Biol.&amp;title=NanoBRET Live-Cell Kinase Selectivity Profiling Adapted for High-Throughput Screening&amp;author=A. N. Nieman&amp;author=K. K. Dunn Hoffman&amp;author=E. R. Dominguez&amp;author=J. Wilkinson&amp;author=J. D. Vasta&amp;volume=2706&amp;publication_year=2023&amp;pages=97-124&amp;pmid=37558944&amp;doi=10.1007/978-1-0716-3397-7_8&amp;"/></mixed-citation></ref><ref id="ref60"><mixed-citation id="cit60"><named-content content-type="citation-string">Metz K. S., Deoudes E. M., Berginski M. E., Jimenez-Ruiz I., Aksoy B. A., Hammerbacher J., Gomez S. M., Phanstiel D. H.. Coral:
+Clear and Customizable Visualization of Human Kinome Data. Cell Syst. 2018;7(3):347–350.e1. doi: 10.1016/j.cels.2018.07.001.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cels.2018.07.001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6366324"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30172842"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Syst.&amp;title=Coral: Clear and Customizable Visualization of Human Kinome Data&amp;author=K. S. Metz&amp;author=E. M. Deoudes&amp;author=M. E. Berginski&amp;author=I. Jimenez-Ruiz&amp;author=B. A. Aksoy&amp;volume=7&amp;issue=3&amp;publication_year=2018&amp;pages=347-350.e1&amp;pmid=30172842&amp;doi=10.1016/j.cels.2018.07.001&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 5993/12951567/d1ee54ca47a1/jm5c02916_si_001.pdf?><?cloudpmc-bucket app?><?size 1125240?></media></supplementary-material><supplementary-material id="db_ds_supplementary-material2_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_002.csv" mimetype="text" mime-subtype="plain"><?cloudpmc-path 5993/12951567/c9e3613e09d3/jm5c02916_si_002.csv?><?cloudpmc-bucket app?><?size 4763?></media></supplementary-material><supplementary-material id="db_ds_supplementary-material3_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_003.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path 5993/12951567/fdca782695d6/jm5c02916_si_003.xlsx?><?cloudpmc-bucket app?><?size 245207?></media></supplementary-material><supplementary-material id="db_ds_supplementary-material4_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_004.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path 5993/12951567/7930be9f8fec/jm5c02916_si_004.xlsx?><?cloudpmc-bucket app?><?size 190561?></media></supplementary-material><supplementary-material id="db_ds_supplementary-material5_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c02916_si_005.csv" mimetype="text" mime-subtype="plain"><?cloudpmc-path 5993/12951567/5e0f8500398c/jm5c02916_si_005.csv?><?cloudpmc-bucket app?><?size 5897?></media></supplementary-material></sec></sec></body></article>

@@ -1,0 +1,188 @@
+{
+  "raw_measurements": 2520,
+  "included_pairs": 1167,
+  "included_compounds": 10,
+  "included_targets": 140,
+  "exclusions": {
+    "no_unique_kiba_uniprot_gene_alias": 1086,
+    "complex_or_modified_construct": 201,
+    "kiba_sequence_differs_from_current_canonical": 64,
+    "duplicate_source_target_ambiguous_construct": 2
+  },
+  "source_sheet_checks": [
+    {
+      "sheet": "Dasatinib K240 DR",
+      "measurements": 240,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "Sorafenib K240 DR",
+      "measurements": 240,
+      "formatted_blank_rows": 241
+    },
+    {
+      "sheet": "AST487 K240 DR",
+      "measurements": 240,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "Foretinib K300 DR",
+      "measurements": 298,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "LXH254 K240 DR",
+      "measurements": 240,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "AMG-925, 1 uM",
+      "measurements": 240,
+      "formatted_blank_rows": 1
+    },
+    {
+      "sheet": "Ponatinib K300 DR",
+      "measurements": 298,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "GW296115X, 1 uM",
+      "measurements": 242,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "GW830263A, 1 uM",
+      "measurements": 242,
+      "formatted_blank_rows": 0
+    },
+    {
+      "sheet": "TPKI-39, 1 uM",
+      "measurements": 240,
+      "formatted_blank_rows": 0
+    }
+  ],
+  "compound_coverage": [
+    {
+      "compound": "AMG925",
+      "endpoint": "occupancy_pct",
+      "measured_pairs": 240,
+      "included_pairs": 110,
+      "outside_occupancy_range": 125,
+      "explicit_censors": 0,
+      "possible_boundary_values": 0,
+      "kiba_external": true,
+      "davis_external": true,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "AST487",
+      "endpoint": "ic50_nm",
+      "measured_pairs": 240,
+      "included_pairs": 111,
+      "outside_occupancy_range": 0,
+      "explicit_censors": 0,
+      "possible_boundary_values": 156,
+      "kiba_external": true,
+      "davis_external": false,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "Dasatinib",
+      "endpoint": "ic50_nm",
+      "measured_pairs": 240,
+      "included_pairs": 111,
+      "outside_occupancy_range": 0,
+      "explicit_censors": 0,
+      "possible_boundary_values": 197,
+      "kiba_external": true,
+      "davis_external": false,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "Foretinib",
+      "endpoint": "ic50_nm",
+      "measured_pairs": 298,
+      "included_pairs": 140,
+      "outside_occupancy_range": 0,
+      "explicit_censors": 166,
+      "possible_boundary_values": 0,
+      "kiba_external": true,
+      "davis_external": false,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "GW296115X",
+      "endpoint": "occupancy_pct",
+      "measured_pairs": 242,
+      "included_pairs": 111,
+      "outside_occupancy_range": 71,
+      "explicit_censors": 0,
+      "possible_boundary_values": 0,
+      "kiba_external": true,
+      "davis_external": true,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "GW830263A",
+      "endpoint": "occupancy_pct",
+      "measured_pairs": 242,
+      "included_pairs": 111,
+      "outside_occupancy_range": 89,
+      "explicit_censors": 0,
+      "possible_boundary_values": 0,
+      "kiba_external": true,
+      "davis_external": true,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "LXH254",
+      "endpoint": "ic50_nm",
+      "measured_pairs": 240,
+      "included_pairs": 111,
+      "outside_occupancy_range": 0,
+      "explicit_censors": 0,
+      "possible_boundary_values": 234,
+      "kiba_external": true,
+      "davis_external": true,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "Ponatinib",
+      "endpoint": "ic50_nm",
+      "measured_pairs": 298,
+      "included_pairs": 140,
+      "outside_occupancy_range": 0,
+      "explicit_censors": 189,
+      "possible_boundary_values": 0,
+      "kiba_external": true,
+      "davis_external": true,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "Sorafenib",
+      "endpoint": "ic50_nm",
+      "measured_pairs": 240,
+      "included_pairs": 111,
+      "outside_occupancy_range": 0,
+      "explicit_censors": 0,
+      "possible_boundary_values": 164,
+      "kiba_external": true,
+      "davis_external": false,
+      "eligible_folds": "0|1|2|3|4"
+    },
+    {
+      "compound": "TPKI-39",
+      "endpoint": "occupancy_pct",
+      "measured_pairs": 240,
+      "included_pairs": 111,
+      "outside_occupancy_range": 114,
+      "explicit_censors": 0,
+      "possible_boundary_values": 0,
+      "kiba_external": true,
+      "davis_external": true,
+      "eligible_folds": "0|1|2|3|4"
+    }
+  ],
+  "protein_canonical_sequence_matches": 220,
+  "protein_accessions": 229
+}

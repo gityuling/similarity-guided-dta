@@ -1,0 +1,41 @@
+{
+  "repository": "gityuling/similarity-guided-dta",
+  "tag": "v0.1.0",
+  "assets": [
+    {
+      "name": "reproduction-data.tar.gz",
+      "group": "reproduction-data",
+      "bytes": 180302945,
+      "sha256": "44ab04d58b5a2e148704059acc0e43aec9edcfb224186062af82c0bd6cc87d7a",
+      "files": 69
+    },
+    {
+      "name": "affinity-checkpoints.tar.gz",
+      "group": "affinity-checkpoints",
+      "bytes": 1383403335,
+      "sha256": "d43dea296a617cdfcbfd943b3eeae222e1c18c5fc38040b06154723e4bfa20e3",
+      "files": 40
+    },
+    {
+      "name": "davis-features.tar.gz",
+      "group": "davis-features",
+      "bytes": 1253983231,
+      "sha256": "be306dae4e6adeb62fc2c5526cd7cf9df0e020846c37b9cde0a04333aeb2fb27",
+      "files": 447
+    },
+    {
+      "name": "kiba-features.tar.gz",
+      "group": "kiba-features",
+      "bytes": 1297810624,
+      "sha256": "3abdbb02f9905eddd64590b6c4918cf9ae764a2d2bdc1cdf85e30fbd2a6c892b",
+      "files": 2297
+    },
+    {
+      "name": "external-features.tar.gz",
+      "group": "external-features",
+      "bytes": 545132269,
+      "sha256": "7a84baee38da611be181db89601584e782915400d05c17ecf264970b0d760598",
+      "files": 385
+    }
+  ]
+}

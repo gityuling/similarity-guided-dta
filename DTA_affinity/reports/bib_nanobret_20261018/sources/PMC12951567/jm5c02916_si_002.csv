@@ -1,0 +1,24 @@
+Compound name,SMILES,IUPAC Name,K240 data,K300 data,PIP4K2C NB data,STK11 NB data,RIPK1 NB data,DDR1 NB data,DDR2 NB data,DDR1 autophosphorylation data
+Dasatinib,O=C(NC1=C(C)C=CC=C1Cl)C2=CN=C(NC3=NC(C)=NC(N4CCN(CCO)CC4)=C3)S2,N-(2-chloro-6-methylphenyl)-2-((6-(4-(2-hydroxyethyl)piperazin-1-yl)-2-methylpyrimidin-4-yl)amino)thiazole-5-carboxamide,Y,,,,,,,
+Sorafenib,O=C(NC1=CC=C(C(C(F)(F)F)=C1)Cl)NC2=CC=C(OC3=CC(C(NC)=O)=NC=C3)C=C2,4-(4-(3-(4-chloro-3-(trifluoromethyl)phenyl)ureido)phenoxy)-N-methylpicolinamide,Y,,,,,,,
+AST487,O=C(NC1=CC=C(C(C(F)(F)F)=C1)CN2CCN(CC2)CC)NC3=CC=C(C=C3)OC4=NC=NC(NC)=C4,1-(4-((4-ethylpiperazin-1-yl)methyl)-3-(trifluoromethyl)phenyl)-3-(4-((6-(methylamino)pyrimidin-4-yl)oxy)phenyl)urea,Y,,,,,,,
+Foretinib,O=C(C1(C(NC2=CC=C(F)C=C2)=O)CC1)NC3=CC=C(OC4=C5C=C(OC)C(OCCCN6CCOCC6)=CC5=NC=C4)C(F)=C3,"N-(3-fluoro-4-((6-methoxy-7-(3-morpholinopropoxy)quinolin-4-yl)oxy)phenyl)-N-(4-fluorophenyl)cyclopropane-1,1-dicarboxamide",,Y,,,,,,
+LXH254,CC1=C(C2=CC(N3CCOCC3)=NC(OCCO)=C2)C=C(NC(C4=CC(C(F)(F)F)=NC=C4)=O)C=C1,N-(3-(2-(2-hydroxyethoxy)-6-morpholinopyridin-4-yl)-4-methylphenyl)-2-(trifluoromethyl)isonicotinamide,Y,,,,,,,
+AMG925,OCC(N1CC2=C(CC1)N=C(C=C2)NC3=NC=C4C(N(C5=CN=CC=C54)[C@H]6CC[C@@H](CC6)C)=N3)=O,"2-hydroxy-1-(2-((9-((1r,4r)-4-methylcyclohexyl)-9H-pyrido[4',3':4,5]pyrrolo[2,3-d]pyrimidin-2-yl)amino)-7,8-dihydro-1,6-naphthyridin-6(5H)-yl)ethan-1-one",Y,,,,,,,
+Ponatinib,CC1=C(C#CC2=CN=C3N2N=CC=C3)C=C(C(NC4=CC(C(F)(F)F)=C(CN5CCN(C)CC5)C=C4)=O)C=C1,"3-(imidazo[1,2-b]pyridazin-3-ylethynyl)-4-methyl-N-(4-((4-methylpiperazin-1-yl)methyl)-3-(trifluoromethyl)phenyl)benzamide",,Y,,Y,Y,,,
+Cabozantinib,O=C(NC1=CC=C(OC2=C3C=C(C(OC)=CC3=NC=C2)OC)C=C1)C4(C(NC5=CC=C(C=C5)F)=O)CC4,"N-(4-((6,7-dimethoxyquinolin-4-yl)oxy)phenyl)-N-(4-fluorophenyl)cyclopropane-1,1-dicarboxamide",,,Y,Y,Y,,,
+Nilotinib,O=C(C1=CC=C(C(NC2=NC=CC(C3=CC=CN=C3)=N2)=C1)C)NC4=CC(C(F)(F)F)=CC(N5C=NC(C)=C5)=C4,4-methyl-N-(3-(4-methyl-1H-imidazol-1-yl)-5-(trifluoromethyl)phenyl)-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)benzamide,,,Y,Y,Y,,,
+Ripretinib,O=C(NC1=CC=CC=C1)NC2=CC(C3=CC4=C(N(C3=O)CC)C=C(N=C4)NC)=C(C=C2F)Br,"1-(4-bromo-5-(1-ethyl-7-(methylamino)-2-oxo-1,2-dihydro-1,6-naphthyridin-3-yl)-2-fluorophenyl)-3-phenylurea",,,Y,Y,Y,,,
+Tivozanib,O=C(NC1=NOC(C)=C1)NC2=CC=C(OC3=CC=NC4=CC(OC)=C(OC)C=C34)C=C2Cl,"1-(2-chloro-4-((6,7-dimethoxyquinolin-4-yl)oxy)phenyl)-3-(5-methylisoxazol-3-yl)urea",,,Y,Y,Y,,,
+Tovorafenib,NC1=NC=NC(C(N[C@H](C)C2=NC=C(S2)C(NC3=NC=C(C(C(F)(F)F)=C3)Cl)=O)=O)=C1Cl,(R)-2-(1-(6-amino-5-chloropyrimidine-4-carboxamido)ethyl)-N-(5-chloro-4-(trifluoromethyl)pyridin-2-yl)thiazole-5-carboxamide,,,Y,Y,Y,,,
+Axitinib,O=C(NC)C1=C(C=CC=C1)SC2=CC3=C(C=C2)C(/C=C/C4=CC=CC=N4)=NN3,(E)-N-methyl-2-((3-(2-(pyridin-2-yl)vinyl)-1H-indazol-6-yl)thio)benzamide,,,,Y,Y,,,
+Bosutinib,CN1CCN(CCCOC2=C(OC)C=C3C(NC4=CC(OC)=C(Cl)C=C4Cl)=C(C#N)C=NC3=C2)CC1,"4-((2,4-dichloro-5-methoxyphenyl)amino)-6-methoxy-7-(3-(4-methylpiperazin-1-yl)propoxy)quinoline-3-carbonitrile",,,,Y,Y,,,
+GW296115X,COC1=CC2=C(NC3=C2C4=C(C(NC4=O)=O)C5=C3NC6=C5C=C(OC)C=C6)C=C1,"3,9-dimethoxy-12,13-dihydro-5H-indolo[2,3-a]pyrrolo[3,4-c]carbazole-5,7(6H)-dione",Y,,,,,,,
+GW830263A,CN(C1=CC=C(C=C1)NC(NC2=CC=C(C(N3CCN(C)CC3)=O)C=C2)=O)C4=CC=NC(NC5=CC=C(C=C5)CS(C)(=O)=O)=N4,1-(4-(methyl(2-((4-((methylsulfonyl)methyl)phenyl)amino)pyrimidin-4-yl)amino)phenyl)-3-(4-(4-methylpiperazine-1-carbonyl)phenyl)urea,Y,,,,,,,
+TPKI-39,O=C(NC1=CC=CC(OC2=NN3C=CN=C3C=C2)=C1)NC4=CC=CC=C4,"1-(3-(imidazo[1,2-b]pyridazin-6-yloxy)phenyl)-3-phenylurea",Y,,,,,Y,Y,Y
+TPKI-41,O=C(C1=CC(OC2=NN3C(C=C2)=NC=C3)=CC=C1)NC4=CC=CC=C4,"3-(imidazo[1,2-b]pyridazin-6-yloxy)-N-phenylbenzamide",,,,,,Y,Y,Y
+ALW-II-49-7,O=C(N)C1=CC(NC2=CC(C(NC3=CC=CC(C(F)(F)F)=C3)=O)=CC=C2C)=CN=C1,5-((2-methyl-5-((3-(trifluoromethyl)phenyl)carbamoyl)phenyl)amino)nicotinamide,,,,,,,,
+SR-302,O=C(C1=CN=C2C=CC=CN21)NCC3=CC=C(C(N[C@@H](CCC4CCCCC4)C(NC5CN(S(=O)(C)=O)CCC5)=O)=O)C=C3,"N-(4-(((2S)-4-cyclohexyl-1-((1-(methylsulfonyl)piperidin-3-yl)amino)-1-oxobutan-2-yl)carbamoyl)benzyl)imidazo[1,2-a]pyridine-3-carboxamide",,,,,,Y,Y,
+DDR1-IN-1,O=C(C1=CC=C(C(C(F)(F)F)=C1)CN2CCN(CC2)CC)NC3=CC=C(C(OC4=CC5=C(C=C4)NC(C5)=O)=C3)C,4-((4-ethylpiperazin-1-yl)methyl)-N-(4-methyl-3-((2-oxoindolin-5-yl)oxy)phenyl)-3-(trifluoromethyl)benzamide,,,,,,Y,Y,Y
+BAY-826,O=C(C1=CC(C#N)=CC(S(F)(F)(F)(F)F)=C1)NC2=C(C=C(C(N3C4=CC(C5=CN=CC=C5)=NN4C=C3)=C2)C)C,"3-cyano-N-(2,4-dimethyl-5-(6-(pyridin-3-yl)-1H-imidazo[1,2-b]pyrazol-1-yl)phenyl)-5-(pentafluoro-_6-sulfaneyl)benzamide",,,,,,Y,Y,
+DDR-TRK-1,CC1=CN(C=N1)C2=CC(NC(C3=CC=C4C(CN(C[C@@H]4C)C5=CN=CN=C5)=C3)=O)=CC(C(F)(F)F)=C2,"(R)-4-methyl-N-(3-(4-methyl-1H-imidazol-1-yl)-5-(trifluoromethyl)phenyl)-2-(pyrimidin-5-yl)-1,2,3,4-tetrahydroisoquinoline-7-carboxamide",,,,,,Y,Y,

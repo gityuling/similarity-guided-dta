@@ -1,0 +1,222 @@
+{
+  "state": "completed",
+  "stage": "finished",
+  "pid": 442531,
+  "started_utc": "2026-10-18T09:01:35.271387+00:00",
+  "jobs_total": 5,
+  "completed": [
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 0,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f0_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_scaffold_f0_seed20261012_ablation.json",
+        "bytes": 2447,
+        "sha256": "071efc3b9222c4b84245fd7d46f4bab4e5288f6d843e865b2fb4072dcde3588c"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6881968204191039,
+          "mse": 0.47361486363496436,
+          "ci": 0.7705451034754648,
+          "pearson": 0.6450314937557056,
+          "spearman": 0.6867933875126092
+        },
+        "neighbor_prior": {
+          "rmse": 0.6419208906470482,
+          "mse": 0.4120624298490996,
+          "ci": 0.7877466904388358,
+          "pearson": 0.6843319493722385,
+          "spearman": 0.7142472652372273
+        },
+        "fixed_blend": {
+          "rmse": 0.6208622161342428,
+          "mse": 0.38546989142312316,
+          "ci": 0.7994366656505251,
+          "pearson": 0.7071024199897465,
+          "spearman": 0.741371457327497
+        },
+        "similarity_gate": {
+          "rmse": 0.6209096853457827,
+          "mse": 0.3855288373561989,
+          "ci": 0.7992474766020795,
+          "pearson": 0.7079887547315205,
+          "spearman": 0.741063852580834
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 1,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f1_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_scaffold_f1_seed20261012_ablation.json",
+        "bytes": 2445,
+        "sha256": "187906eba7dc2aada82f598fff7d9a08c208cf989eaa95bea8b97ca99f34483d"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6428990654180993,
+          "mse": 0.4133192083154654,
+          "ci": 0.7392029158306603,
+          "pearson": 0.5986617451407681,
+          "spearman": 0.6107715877969617
+        },
+        "neighbor_prior": {
+          "rmse": 0.6556702598625089,
+          "mse": 0.42990348966817,
+          "ci": 0.7406796081003131,
+          "pearson": 0.6056546618540609,
+          "spearman": 0.5996711296858215
+        },
+        "fixed_blend": {
+          "rmse": 0.6065287155848412,
+          "mse": 0.3678770828289973,
+          "ci": 0.7575665894482244,
+          "pearson": 0.6458602656496684,
+          "spearman": 0.646320958642363
+        },
+        "similarity_gate": {
+          "rmse": 0.6052263484463528,
+          "mse": 0.366298932853706,
+          "ci": 0.7600121147747856,
+          "pearson": 0.6480724927353657,
+          "spearman": 0.6518813055890498
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 2,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f2_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_scaffold_f2_seed20261012_ablation.json",
+        "bytes": 2442,
+        "sha256": "dfab9e77c8dda561efda4e8e406a55c07332c930cc771cd880f3dc60abb403cb"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.7218822567143828,
+          "mse": 0.52111399255905,
+          "ci": 0.7692260364041835,
+          "pearson": 0.6671103135506524,
+          "spearman": 0.6865933697926122
+        },
+        "neighbor_prior": {
+          "rmse": 0.6792377045002242,
+          "mse": 0.461363859214734,
+          "ci": 0.7840008534807077,
+          "pearson": 0.6909002515699155,
+          "spearman": 0.7077251760313275
+        },
+        "fixed_blend": {
+          "rmse": 0.6628506902792721,
+          "mse": 0.4393710376037075,
+          "ci": 0.7966048062333013,
+          "pearson": 0.7196834383869131,
+          "spearman": 0.7370525811656758
+        },
+        "similarity_gate": {
+          "rmse": 0.6614406952123763,
+          "mse": 0.4375037932830316,
+          "ci": 0.7977800379257854,
+          "pearson": 0.7210863005136366,
+          "spearman": 0.7390756619693711
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 3,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f3_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_scaffold_f3_seed20261012_ablation.json",
+        "bytes": 2441,
+        "sha256": "fd3726233ee4afca6be589be2aa3f43bf252802095d012ad630f71465ea4f4bc"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6577751468263453,
+          "mse": 0.4326681437824202,
+          "ci": 0.7411396512400537,
+          "pearson": 0.5875035847846504,
+          "spearman": 0.6093866570798111
+        },
+        "neighbor_prior": {
+          "rmse": 0.5897487012980063,
+          "mse": 0.347803530682685,
+          "ci": 0.7720855861462349,
+          "pearson": 0.6652349409338694,
+          "spearman": 0.6729565260114663
+        },
+        "fixed_blend": {
+          "rmse": 0.5761940640485381,
+          "mse": 0.3319995994447708,
+          "ci": 0.7812003784402274,
+          "pearson": 0.6794969029260818,
+          "spearman": 0.6935942981794845
+        },
+        "similarity_gate": {
+          "rmse": 0.5753124821439,
+          "mse": 0.33098445211057526,
+          "ci": 0.7818382964472764,
+          "pearson": 0.6807915759948169,
+          "spearman": 0.6946742527711877
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 4,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f4_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_scaffold_f4_seed20261012_ablation.json",
+        "bytes": 2447,
+        "sha256": "f480f37147d2ee0e614abe843035fa6901326b599966605bd208b0e29c14a59e"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6170180879006949,
+          "mse": 0.38071132079662967,
+          "ci": 0.7439844534454387,
+          "pearson": 0.5917536570501427,
+          "spearman": 0.6226157389875291
+        },
+        "neighbor_prior": {
+          "rmse": 0.6056739289576482,
+          "mse": 0.36684090821899423,
+          "ci": 0.7553184919842713,
+          "pearson": 0.6272341053240333,
+          "spearman": 0.6408322815262703
+        },
+        "fixed_blend": {
+          "rmse": 0.5649226508168076,
+          "mse": 0.31913760140588876,
+          "ci": 0.7749323891891405,
+          "pearson": 0.664855296822674,
+          "spearman": 0.687190341755274
+        },
+        "similarity_gate": {
+          "rmse": 0.5618931434849841,
+          "mse": 0.3157239046954369,
+          "ci": 0.7773817529079484,
+          "pearson": 0.6692851986990829,
+          "spearman": 0.6920930032823887
+        }
+      }
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 5090 D v2",
+  "updated_utc": "2026-10-18T14:16:49.497100+00:00",
+  "job_index": 5
+}

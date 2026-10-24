@@ -1,0 +1,751 @@
+{
+  "data_table": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/reports/bib_nanobret_20261018/query_table.csv",
+  "table_sha256": "670522d392fa030352e5807d0aad30880b556fc408b530ceb65f4a316aeeb850",
+  "cache_dir": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens",
+  "benchmark_pairs": 1167,
+  "unique_drugs": 10,
+  "unique_proteins": 140,
+  "max_explicit_H_atoms": 81,
+  "molecules_over_256_atoms_retained": 0,
+  "available_at_start": {
+    "drugs": 0,
+    "proteins": 0
+  },
+  "reusable_from_explicit_legacy_roots": {
+    "drugs": 0,
+    "proteins": 140
+  },
+  "remaining_after_reuse": {
+    "drugs": 10,
+    "proteins": 0
+  },
+  "legacy_provenance": "Explicitly selected existing caches are shape/length/finite checked; their original checkpoint hashes are not independently recoverable. Omit --reuse-cache to regenerate every entity.",
+  "requested_reuse_roots": [
+    "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens"
+  ],
+  "copied": [
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ccb174681d880da0eae8c0c11a73434c.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/ccb174681d880da0eae8c0c11a73434c.npy",
+      "sha256": "063311e68f03276706527fa5ed9b463b98ad82c11d6131076ee77792c32862b9"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8501faf469e77a9fbdc0166f5a18bcf6.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8501faf469e77a9fbdc0166f5a18bcf6.npy",
+      "sha256": "3aac7411fc826c1cf9db96e1437ecb1551cc501dc50564dd96292331ab05950e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/90e48a696fe33eb2470b05009cc5d288.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/90e48a696fe33eb2470b05009cc5d288.npy",
+      "sha256": "cf78f41d129df3c18fdb79aed69e9521930aded841a4d18efd576fcb656e8ab0"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/74c9b69323bd112084c1b5b385e7e6c5.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/74c9b69323bd112084c1b5b385e7e6c5.npy",
+      "sha256": "e7217208b6384b61f896bb64f8a498571416db548a491e7dcba9cb9cb4f4b505"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/cdc1eb3031dbbbad38e0ebfbc0fd30bd.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/cdc1eb3031dbbbad38e0ebfbc0fd30bd.npy",
+      "sha256": "c04c6a4099de581507f3bccdfb6fdd0ee689c4d02792045ce7a23c403e31718e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/18d18d3a04be6e5ea9c24762d94d5fa1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/18d18d3a04be6e5ea9c24762d94d5fa1.npy",
+      "sha256": "e71bbcc5799697c797bed550c1986dea3d6db9d91cb97b8e57d10e37b6e75137"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/f1e89aa299309140e47590a95eb78c41.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/f1e89aa299309140e47590a95eb78c41.npy",
+      "sha256": "5ee38510df9bb46f9e05393b70e753308ca5cbe0eb5bfe22a838151edaddb7ab"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d2338540fce8e2755f238b1d5066a1a4.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/d2338540fce8e2755f238b1d5066a1a4.npy",
+      "sha256": "0b482f909ad46185fffa16f995e62033f0cb9264490c34da392ee3113f938fa4"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7c465f9a42dc946204c257c884beda6a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7c465f9a42dc946204c257c884beda6a.npy",
+      "sha256": "5f8a390d9d4835be83267e4e7f83fe8dd3f9dabed3d420572193d1efcaa31ffc"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/3d5a3dae8020a80a3d8385a58ef6dba7.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/3d5a3dae8020a80a3d8385a58ef6dba7.npy",
+      "sha256": "2746c311958da33c708bbdb53e3a6eb2412498e088a78e2e4ff48038069b0c6a"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/62e9af939ba47084598b1661c0691b0e.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/62e9af939ba47084598b1661c0691b0e.npy",
+      "sha256": "e5014608bffd39e8636a2be82067860e2ec7927e66e7dffe4429be73bfbf4a7c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/1b3c30c557eb4bf28243fad1bdd2c8b3.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/1b3c30c557eb4bf28243fad1bdd2c8b3.npy",
+      "sha256": "718fad37b995b49efbd57ed1171f02443f1959f06dcfdffbca2d8c6cd1b999c8"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/975d8b611319eb0afd1b7f9439f12ab7.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/975d8b611319eb0afd1b7f9439f12ab7.npy",
+      "sha256": "0e9f5448d986fcff7eb469a1ea161ccc6a9f439380e012687b2e05ebcdf48b9b"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/efac0ba2abc8f0b14c6b6689a0f2d676.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/efac0ba2abc8f0b14c6b6689a0f2d676.npy",
+      "sha256": "656ffd3bde633af43a5408709c680edcf72a5ad2f179aaa055fbfa72617303bd"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/9ece8f2e893fcfdd0f35522f09dbaf3d.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/9ece8f2e893fcfdd0f35522f09dbaf3d.npy",
+      "sha256": "8975d4104342153e9a387d13e100412ae185e7804cda11ca429432ca74df7c36"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8499cbd3d88427da406f6feea6623e42.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8499cbd3d88427da406f6feea6623e42.npy",
+      "sha256": "25efebbb2c43fd953380eecde327773833f72ee8d09b9c75ee7869ee61fdf940"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/0e089d854429c19cf72237b0adf75fe5.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/0e089d854429c19cf72237b0adf75fe5.npy",
+      "sha256": "2715951f72cb069da035c947c1e1958f2469831cc5b0e715342cd15e1bd0a736"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/c30946c08ab398346fe2e6bd336ca8f4.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/c30946c08ab398346fe2e6bd336ca8f4.npy",
+      "sha256": "56b33c43dd2adb70b6f31f406a504bc386716fce7066efb3d28241f448869f90"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/298eb2b0a64ce9a00143db9fa208db71.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/298eb2b0a64ce9a00143db9fa208db71.npy",
+      "sha256": "ba18f1b2fb99fd6f3553571980eb0a0e14909c709e9219431107eef9e5d3c406"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ea23e433f5a0c6913d2c37946d4fbbd0.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/ea23e433f5a0c6913d2c37946d4fbbd0.npy",
+      "sha256": "4722ce3f63a1f42c72ac0ee6fad2f7a21cf83435e1824b8a6b3ab636661a28d9"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/a2092d9052d9794255e32e8e525ff988.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/a2092d9052d9794255e32e8e525ff988.npy",
+      "sha256": "30be08a08ac28d3906071e22dbffdd59c8ea36564a0c731a453794f120127e82"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/82c96c351a3b58cbca8fed3796ac306a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/82c96c351a3b58cbca8fed3796ac306a.npy",
+      "sha256": "15a57460fb59562eda290dc6c2cd45dd63ead44d70ab915e06b45253722d3310"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/2aeabf3a06284a441e14dd03449bb30b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/2aeabf3a06284a441e14dd03449bb30b.npy",
+      "sha256": "759771a1f61c10dff93eb97ef751c3fd4865f752940175a8410a1cd33d890464"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/3493f966633c0810d7651f97b71543bf.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/3493f966633c0810d7651f97b71543bf.npy",
+      "sha256": "e490b9aaf11374426e7dfde2cba59619834e6ac80bb3598f5b20d505f35586c0"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/9881e7f1fbeb971605a72097fd1e8f74.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/9881e7f1fbeb971605a72097fd1e8f74.npy",
+      "sha256": "2cf7807c53fc3dfcbf20d5f0b9af262dff8c458243a039005c179dab11b6cfca"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8014f731ebb9cd8202f732ab6628d989.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8014f731ebb9cd8202f732ab6628d989.npy",
+      "sha256": "8f36d803e555d34038804fa1fd1fd37c185ecaeb1557b2d0f8392a645412daaa"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/588a9529ca3945950ab346adc729f62b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/588a9529ca3945950ab346adc729f62b.npy",
+      "sha256": "3714cf1ebed42d108a4236a5804cce0f0c85fbf11eee038866c84ec743627430"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/2b7018a774a883c2c7404de9d40e9a42.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/2b7018a774a883c2c7404de9d40e9a42.npy",
+      "sha256": "7b2cf9d24b7ff74c33d999f1f1074db772e79efa6ea56ddc814d6c1365fcbddd"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8eb04104be33f0a0cb376ed145e684ff.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8eb04104be33f0a0cb376ed145e684ff.npy",
+      "sha256": "4ede28fbdb291c5ea6df5e9366a75cbf04cd8c9fa888d170fdf325e7b34b6ad0"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/396fb1c0679818238c7a4f02b2f5483e.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/396fb1c0679818238c7a4f02b2f5483e.npy",
+      "sha256": "71975cb0f4c2fa4f28e8bb0b085009f8df5122fe09e8c9e968901795b77f1653"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/14af4e847b53f1b22ddeeb4d1ea574ed.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/14af4e847b53f1b22ddeeb4d1ea574ed.npy",
+      "sha256": "190f69c7ab567773edee1dfe6cc014f505760485c2b9b549a836ec44fc016663"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/a7304385fbc7627192b1408cd0b46dda.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/a7304385fbc7627192b1408cd0b46dda.npy",
+      "sha256": "dd9bef6b7b25f4a5ce2ba0a9daa0a6e8a09da51638dc1554eb864472bb4fa42e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8be8a7f8e1c9ca3efbd704414e0c0723.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8be8a7f8e1c9ca3efbd704414e0c0723.npy",
+      "sha256": "9628a9da221033be420eb95d05ca5c00abae0aac2d48cdaa6139e0eccf3b9fcc"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8796575e0fb5dd7e832a65b1b3995fab.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8796575e0fb5dd7e832a65b1b3995fab.npy",
+      "sha256": "bf4d2c9eac4779c12df81c3c3877295e45ae9020ead5d66b909ada2de26067c1"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/986a9393aebc695a16c7b3e597670046.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/986a9393aebc695a16c7b3e597670046.npy",
+      "sha256": "ac464e88397bfc41454e1d750f2c15e2da112fd1de5476e283d2cba65c1a70ca"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/1409a6a3e2e73fd8d0d60e56f0585b8f.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/1409a6a3e2e73fd8d0d60e56f0585b8f.npy",
+      "sha256": "cee59b0b793da94730747e9cba8550c038698ecfe462c09c88b59b6688e7ac8e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/9c91e351def88da35f1a3e60c94dfb6b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/9c91e351def88da35f1a3e60c94dfb6b.npy",
+      "sha256": "e869fbb06820af78e420c7ffd2d53254d2a5015ef64fe05c423eabf3ab698b7a"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/c1e8589e21da02f05e1a688a075debff.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/c1e8589e21da02f05e1a688a075debff.npy",
+      "sha256": "6f15429f06e4dc064337afde9e51a285890d4dcb1c02c9398581aa9afa83e416"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/55d9582b969948fcda3098f410b53e15.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/55d9582b969948fcda3098f410b53e15.npy",
+      "sha256": "efa6cf0e78a7706adc665fdda8e8520ad7dbefa652cd4c2208d03ab1700f2f03"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/68890ebfbaef7a43297d6a7c4324f0fb.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/68890ebfbaef7a43297d6a7c4324f0fb.npy",
+      "sha256": "8b0d617d62df8edc36b02132ccc8a64cba806f4853ba515a0276e144b6abec7e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/572e4a542b2a0965f318925d94d9bd0d.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/572e4a542b2a0965f318925d94d9bd0d.npy",
+      "sha256": "b2e15609176c4f9dce3db64de3d8f30683bc6a1ac9561eac460cece01950bb81"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/751c83ccaa7e8981affa3780720de9ec.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/751c83ccaa7e8981affa3780720de9ec.npy",
+      "sha256": "fa7732e25e802d524dc6f6b86112876d94b11618310305e8149bb061b631f14e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7f34fb4ef08d9050f8fe27c6d6f995bb.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7f34fb4ef08d9050f8fe27c6d6f995bb.npy",
+      "sha256": "465f0a3c5e2096362038b24f6b58ad5bc7d522307cf5c3e774a08a3acce4bb9e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/f6cb250af125a396596a42297e16bc0a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/f6cb250af125a396596a42297e16bc0a.npy",
+      "sha256": "22ff9dff13be7f86378d659f1737e5daed7ece21cd9fbd8f047f991da95338d8"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/861c0e725f3985dfafb5e602f3449b03.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/861c0e725f3985dfafb5e602f3449b03.npy",
+      "sha256": "2f9df06df19ea614c6bf0a4a773e686d23c70b77e4223da899b7ab672a971181"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/f4d8af21819414fddabe0b9f660a4c04.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/f4d8af21819414fddabe0b9f660a4c04.npy",
+      "sha256": "6e6dc57b09661c5e81513753a1a9d6286b97bdb2484a41f89c91ff8b1a129bf5"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/c26ff33bdbe0e78410bbdb19e92c5ab8.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/c26ff33bdbe0e78410bbdb19e92c5ab8.npy",
+      "sha256": "c95ff02b4fd14e6f70f72b808db732ec98314197e7af2bc29dcb4ef122bfc4a8"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/70ae0f4d12c76a65b6e0e49cee557282.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/70ae0f4d12c76a65b6e0e49cee557282.npy",
+      "sha256": "3e49a794ad4d69b22b83b0d1ea0aff491505b9874823a1ac5e0b573b52a9c392"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ff979336cee28cd90ab6bf1b580e1160.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/ff979336cee28cd90ab6bf1b580e1160.npy",
+      "sha256": "d3ec0c9b63a7d31e90c33b4191d5c84790e23cbd3db4a611cdd64732394090e1"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/50ff5c8e696e1310ea19fdc4c894ebc3.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/50ff5c8e696e1310ea19fdc4c894ebc3.npy",
+      "sha256": "51f25b5026f2ebd8abca3c74bb2068b06278116a0ed703dd66cf866a7b2308ec"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/22b838d24d13b1a0768a8c4750a19051.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/22b838d24d13b1a0768a8c4750a19051.npy",
+      "sha256": "770cd75cbc3e244d40bade17f64bc037edfaf7e3a750fa2f099943b4a5e02fc1"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/638c4a64d52d6951aeba1a615d93068f.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/638c4a64d52d6951aeba1a615d93068f.npy",
+      "sha256": "d59bd603f4b19b39ecfa8ce1b294f4afa98e339a2b51cad4940baf0cdc3e2a1c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/632616f7ccb30252cd89afba2784beec.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/632616f7ccb30252cd89afba2784beec.npy",
+      "sha256": "9d8b5123ef83b809bb303f076ee1250e6f8c212692952fb0c05817707d7d86f3"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/4da4a28a5ddea0c62c113e19a4a784f7.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/4da4a28a5ddea0c62c113e19a4a784f7.npy",
+      "sha256": "ba12e84165e87e64366dada6ba9cb2eaa56a3e7728c668d79292e2630a5270ca"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/cfa5e46a13b97a4e61374b1180cfc383.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/cfa5e46a13b97a4e61374b1180cfc383.npy",
+      "sha256": "d71845c88e8deb27e214a9928aa0803f501249dc64c4b4ed5246328ca662963a"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/eb452f495b6f82c2b40124948382f85d.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/eb452f495b6f82c2b40124948382f85d.npy",
+      "sha256": "4f3f6fcda38d486d15965fed349002873fc33dc2a7bf4a1928aed078eb0acbfd"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/408c333701ec7e889d495aeb32d7ae10.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/408c333701ec7e889d495aeb32d7ae10.npy",
+      "sha256": "40d8b2213ef4df5e839a7328e245988f69281b803c59db0e94d37fd71dd31dfe"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/a4554222869c00fd751dc364e23f6a4d.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/a4554222869c00fd751dc364e23f6a4d.npy",
+      "sha256": "9a9efc14975af1f0f29255a092bf4840ffb048fca547aec341c54eb792172bd5"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/f3a0bdc4353e4ea4a196667871ac3d6d.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/f3a0bdc4353e4ea4a196667871ac3d6d.npy",
+      "sha256": "9000d83cfeb8e98fa8e05aa09ba87153ba9da58060b1e5a4de98f2b104d7bb2e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/e855d2b1a5703611f79ea65ce6f048da.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/e855d2b1a5703611f79ea65ce6f048da.npy",
+      "sha256": "0341be20ad47a65222f76dae6ad5783722a03baa4e0255ff0bbdf587c0945934"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7f92278498a105fffa782a04873e8dd9.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7f92278498a105fffa782a04873e8dd9.npy",
+      "sha256": "5ba42a895fd6d2fdf26b5730eaac613bd8da33a42bfa0a6e4b4ba276d16a279f"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d7b557e3c789e6436b0e0c7ca23ef7e0.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/d7b557e3c789e6436b0e0c7ca23ef7e0.npy",
+      "sha256": "2a0239749dbe44d628332b364c7a696d61663c092442b67be4eef00889d334de"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/c699ae0a92fc5cd855420130fb067bab.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/c699ae0a92fc5cd855420130fb067bab.npy",
+      "sha256": "c01ce5fcb5379bee957052b26e4da4666dd55ff6d848ebe5fa2dea0f928ba0f5"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/463416708d3e33694dfdfeca60b1b2b1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/463416708d3e33694dfdfeca60b1b2b1.npy",
+      "sha256": "bc4315119b1a399522bc8a6bb1f4df4d08da43b77a6ad3ed11fddda9d181acfc"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/06a47ffcc300b3340ae364cbdaf040be.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/06a47ffcc300b3340ae364cbdaf040be.npy",
+      "sha256": "1cc06445c3993c35ac5f6daf7ee0ead081bb73abf1f8f2804f99a9034c6e2a74"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/c636ab9e52c09404269d250fc260150c.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/c636ab9e52c09404269d250fc260150c.npy",
+      "sha256": "05a228fb9b5d3ef15f0244e99085913a4b2c89434556faff52a1546899df1b8d"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/9d86072d7de176f6bd300aeb3f1a84a9.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/9d86072d7de176f6bd300aeb3f1a84a9.npy",
+      "sha256": "b8c4320d045a30da0ee038934dc4c65585ca854f6842ac222b67e15761ba13e4"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ecf54d89a60264a682a4dfc85a7ade07.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/ecf54d89a60264a682a4dfc85a7ade07.npy",
+      "sha256": "8d7f3f7fbe3b3ac1e90055861a23d6082951752d472f1a77ea751a5717a99b4e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8d988d2500c4f5a5b5e4062cdc2e0551.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8d988d2500c4f5a5b5e4062cdc2e0551.npy",
+      "sha256": "1267bfbb37322343c10c60023bec684e6c5f894434346319645cae3a29b82849"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/4ec88a661c26c4267a606e83cb51d1b8.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/4ec88a661c26c4267a606e83cb51d1b8.npy",
+      "sha256": "6118fe1ba95c4fb48f1bdf8608a2d5a3ea1fa66a6be60a06aee64ba98078cbf7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b34856872be278010271203e00bee542.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/b34856872be278010271203e00bee542.npy",
+      "sha256": "9a282989149062609be9b3afb7b7db8cb14e07803bdaf6085b99091c7d2dacb8"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/a6d5668e6f8a2e8004fd184d3d35af31.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/a6d5668e6f8a2e8004fd184d3d35af31.npy",
+      "sha256": "e73207c075bd548bc0d06535c5696ca6162713cf596c351a073a55c43d0316a1"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/2d08539d96bfcf232fef5c4c1b6fdb30.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/2d08539d96bfcf232fef5c4c1b6fdb30.npy",
+      "sha256": "6c7442d1b806e7dea146837824fecda902339c17cb582b5cd41e123e1a142b4b"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ee0753c4f68e188bddb0c66890beee23.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/ee0753c4f68e188bddb0c66890beee23.npy",
+      "sha256": "a5e60763606ee9c768602cd6501b7c5a5618ddc1bc058b1d42a9dd9e7bc453d7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/6b8130cbabd4a6cf226098056d1e81c3.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/6b8130cbabd4a6cf226098056d1e81c3.npy",
+      "sha256": "6a6c6c602e60403c6c6152a4dce1b8f27f92285a566c7ac8ebbc0206cb413cda"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7319b21e0d5b3e8342fa71c29192f156.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7319b21e0d5b3e8342fa71c29192f156.npy",
+      "sha256": "4912f439e7cf700e2ffec1107045deae921a27023b19a366da14fab72035ad45"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d24f1ea01ac4c8d96e75dd9550a0fb09.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/d24f1ea01ac4c8d96e75dd9550a0fb09.npy",
+      "sha256": "ccc6f018fb1d39d04315fe6dee9abfdbd8ff6b645a0ef406e0cad2150219496c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7948b05b7667086c771b5ab7aeb51f78.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7948b05b7667086c771b5ab7aeb51f78.npy",
+      "sha256": "2c7363a78d81297145880caf59ed44d36111c9d103784f1fb3578678f368fe91"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8327a2021ef972c9fd08b00c654310be.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8327a2021ef972c9fd08b00c654310be.npy",
+      "sha256": "740926dc5e69421dd70ffb96d8ca460d4e59f6252f6fe7078523b0ddf89bc264"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/4a99a7644710818e8173e9bbb71bee17.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/4a99a7644710818e8173e9bbb71bee17.npy",
+      "sha256": "b1047b5307eecb5d0050ffea5993eeeac6610e0b705e8e353da75ed05dd404a7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/68b99c3e1ac5798d34d84de46a1bf420.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/68b99c3e1ac5798d34d84de46a1bf420.npy",
+      "sha256": "638d6003d628fcbe997d420c6a8fd7827381ef70f86aa801f5a55a83db94cfc4"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/1dd26f451aea463f58467576eff14899.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/1dd26f451aea463f58467576eff14899.npy",
+      "sha256": "7198ce6eb711d7a072cb4a3ffcd399b5352bb978e2dc8666b839593d54a8ddc7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7268c70554be57a866fd90ed8056f69b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7268c70554be57a866fd90ed8056f69b.npy",
+      "sha256": "b12dff94850dbfb85fd570f092a59ae9e486d71b750f1c7f2f6866858b27321b"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/bc739105238eb6e59a00ef883d06430b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/bc739105238eb6e59a00ef883d06430b.npy",
+      "sha256": "81b748fba6915d67b2a875a7e72e4dcdfeae1232ab547bd8c80002f0efc13728"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/5d3aedc2cdcf7b145380ccd8e677b1fa.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/5d3aedc2cdcf7b145380ccd8e677b1fa.npy",
+      "sha256": "a1435194f1e519b7119195f136c7c5fff93de04feb8545497cfaf03a88b89cf6"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/e1b98e9e9860af72c52228381c77726c.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/e1b98e9e9860af72c52228381c77726c.npy",
+      "sha256": "00225874a24b2f61e216bf1d57162930a2793c8fe1a0d76acce3b44b205ccab6"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/3f490da953d0c1399bcf00f7a6746b5e.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/3f490da953d0c1399bcf00f7a6746b5e.npy",
+      "sha256": "4c9efeee6b211aefd39c4aeb1108ede7719e639bc01d3d78f95f8ea89010ea13"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/82e1ef0871fe512226d2b7508b3f4dbe.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/82e1ef0871fe512226d2b7508b3f4dbe.npy",
+      "sha256": "82906a78895561fd867d005fb1b837576957d144f3085deef7230d34d1145368"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/805bae60f57cdd008ca3aa26c44edba9.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/805bae60f57cdd008ca3aa26c44edba9.npy",
+      "sha256": "954aa1f3719b831f50ceaee06dde749b366faaa1ae93ccd56717737c8a8068f8"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b042873d6b5cb29dcaf26721af6c5995.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/b042873d6b5cb29dcaf26721af6c5995.npy",
+      "sha256": "8b31bbe11c433624a277e2a85a8d6f0a639cd36c5e13968a9e14e7c612160a3e"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/281176f6331d962dc37690a120e0acd1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/281176f6331d962dc37690a120e0acd1.npy",
+      "sha256": "a07e96328778b0c5b4786a8816bfbc135955bd74da08d0bc6d0e8ed024cf4cb3"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b7eba0f2f92ad245dc0cdafc864b37bd.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/b7eba0f2f92ad245dc0cdafc864b37bd.npy",
+      "sha256": "6acc0ca897626569f34d2f6d5527fef0ba4af049dd834bd0234b94491a28861a"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/1e6544f1539195eeda77573e594ae6bf.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/1e6544f1539195eeda77573e594ae6bf.npy",
+      "sha256": "83d759d9ef164d26ae09e9d2eb376e65dfb07ca8bf86e551a37c8f1700289886"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d7cb57dfd70769758593c4ff8882c5dd.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/d7cb57dfd70769758593c4ff8882c5dd.npy",
+      "sha256": "2d6ad2e4374793c0580c83dd6040b9da7a54bb23636adc709c4ba17d43facdc3"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/ea019cf79d039a451dece6c8a25e0050.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/ea019cf79d039a451dece6c8a25e0050.npy",
+      "sha256": "3132bac156087b544891bcecbf2a992747280ae52cc87bc5f86f1cf96356f514"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/f753f2b2d9752a30646c83e8630d1df8.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/f753f2b2d9752a30646c83e8630d1df8.npy",
+      "sha256": "5cbe22ee2831de4724acaaa1b4e80f1b6d1405aeadf6572bd47f77826aac0b5f"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b1a5f8955722032e01871e8bd04716cd.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/b1a5f8955722032e01871e8bd04716cd.npy",
+      "sha256": "f269d3cd833231df21672e85c72064b57ad2c9f44df6f8fd9c1645ac7a94eb84"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/eb68eedd814790f1bcd916dd9ff50be2.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/eb68eedd814790f1bcd916dd9ff50be2.npy",
+      "sha256": "d3fe0451fdfb22c8b6667cfc8b74d3b13e9a9f6176c3d4cfa027c9b5c56f6f72"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/0c799cd8eb4a963b013291894bf69e69.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/0c799cd8eb4a963b013291894bf69e69.npy",
+      "sha256": "e7e59394baa4460f0b95504c631ed8745838dbc6c083575d9aa3e444990197b8"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/34b17396116c8742909b0facca8bd675.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/34b17396116c8742909b0facca8bd675.npy",
+      "sha256": "66b19b41cb9e42dec881f29c16c1e44b4e627c299cdd56d63cae04625674a08f"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/676dc3992822c9654f4f67c3eea7f843.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/676dc3992822c9654f4f67c3eea7f843.npy",
+      "sha256": "7a3ed049f50dd731113294f2745e13cd52c5ca614cae85f316281421ed9ccd06"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/64384450345881b482b0cb08336f85ee.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/64384450345881b482b0cb08336f85ee.npy",
+      "sha256": "75aa51cdd6d267013882357f8d11a13383e6a49350e82143e0e699a366c86112"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/64016a73cb830d06c4225bede18f3ee5.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/64016a73cb830d06c4225bede18f3ee5.npy",
+      "sha256": "952781886af493f8b195b2f00f3caf025893dfc1108acbcf103142348d7f0804"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/344a92c32093386f463765b4fc3583fb.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/344a92c32093386f463765b4fc3583fb.npy",
+      "sha256": "cc38b945ada717982fbef5f86317cb992573a2097621372c97fb17cac644352a"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/1620296e269940b19bafa78ca71e003a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/1620296e269940b19bafa78ca71e003a.npy",
+      "sha256": "3693d61721a1e2b611e0dc514f1d53ccc16e211d7afffc8265a53fa8529d0ebb"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/6fdcf11fcf8d897c520438f44f03a3bb.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/6fdcf11fcf8d897c520438f44f03a3bb.npy",
+      "sha256": "aba61c17986cffefccc259649e9c4b9c834aaece13bb8db71ca07ea5b5335bd0"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/21fdbad11ae64c4589b0b46f797f4a35.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/21fdbad11ae64c4589b0b46f797f4a35.npy",
+      "sha256": "941d26fffe86696a758e985d4acd633b808a175e769d58bcda99c2b6e783d44c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/e743d94c91159706cdbd2f2d54625ce6.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/e743d94c91159706cdbd2f2d54625ce6.npy",
+      "sha256": "f67b3ca85d3553c0d8bde28414783c00fddfd7907a93b990fc7237f58ae1aa19"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/e9f351ecc03c35f79f2e8f3612d09fae.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/e9f351ecc03c35f79f2e8f3612d09fae.npy",
+      "sha256": "64a49c3e354e297d8b5b6f73c64a125eadeb9b6e22a49e4d02eac60fbe79ac3c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/13340b7f92d71f6bb33b5af0d941e3cd.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/13340b7f92d71f6bb33b5af0d941e3cd.npy",
+      "sha256": "f86d677e9f423399f1e3bf3caa625892c80533c7d8f822464a41c1a7952e853d"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/3452da2573da72752e984aad8a035a38.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/3452da2573da72752e984aad8a035a38.npy",
+      "sha256": "a1bd6b65924ae919cc49f15bfb657fd7879cb731fb0e9cc54449388dfbc679bf"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/e93d83c1970d960dfc0bf3c997157eef.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/e93d83c1970d960dfc0bf3c997157eef.npy",
+      "sha256": "cbda54a7f68969e4ea9d269599ac3a1e845da2a2c9bdd0c06d4bc3b9643ec3dd"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/eff74a513866fff089a223c2f581c47b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/eff74a513866fff089a223c2f581c47b.npy",
+      "sha256": "8abb149d6225060148a05387fe5da74ec24f56a472cf81a702929a123c58349b"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/cf3cb484bd512a68f0d48eb1cc28c895.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/cf3cb484bd512a68f0d48eb1cc28c895.npy",
+      "sha256": "45aeb54d63defcbab94d49c1879868ec97530e7f8717bb948ab62d731e8149a1"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/aa5ebc040a73c561149ab7792b896666.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/aa5ebc040a73c561149ab7792b896666.npy",
+      "sha256": "806051094bcada0d516bdc1512f52b2d5638b1991917248a7aac5551e1a332bb"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b526ef4440d1c76fc1077b8176a15081.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/b526ef4440d1c76fc1077b8176a15081.npy",
+      "sha256": "afa643deb058bca8e48020322b61b09be1f9d3a5b71b19d0deba76871bd65f4c"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/bffe28f8aa424873f7864a842f842f72.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/bffe28f8aa424873f7864a842f842f72.npy",
+      "sha256": "9b6c0794cf2a08301907e0b23e09be4221d9188ae08ab726f6c43d57178f6636"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/4f35ee5c7e10d2f8f66e8580cd2f9708.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/4f35ee5c7e10d2f8f66e8580cd2f9708.npy",
+      "sha256": "7508bde385bf355d971188f3c4bf11523faba9b295b3bd9693b156337363bb83"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/6a0ad3089d5b24496d0b195f03858630.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/6a0ad3089d5b24496d0b195f03858630.npy",
+      "sha256": "1fc73d5e210925e8debed045d31dd5eec8b48d3a88183b040ea85f22b803eb19"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d4bfe45a8f3d01cbf5eac244d893ba1a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/d4bfe45a8f3d01cbf5eac244d893ba1a.npy",
+      "sha256": "65f55ea0440a09e915ffbe2aad03ce6e84c112ecd00d6ac93c90422640820212"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/cdac56f3fb25a24d9a7c1593498f04e2.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/cdac56f3fb25a24d9a7c1593498f04e2.npy",
+      "sha256": "d75456a52e37c8b96abd980ac35123c5a68ec3ef7f8c50c8cbe85df5ec5f26ff"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/b89f0ae73bbb390fff82f35e5b453aa1.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/b89f0ae73bbb390fff82f35e5b453aa1.npy",
+      "sha256": "3b68fed1c759a349d23a85308348a379c049fea62ae943d20219f42e0f90a3f7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/623517a1f4c11124fed81195b66db89e.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/623517a1f4c11124fed81195b66db89e.npy",
+      "sha256": "888268e955d78ed783e9883606a2ed9b1038198fb249c571c1fec5f99a255657"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/a344473aeb2d246c0679969778ba5145.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/a344473aeb2d246c0679969778ba5145.npy",
+      "sha256": "f873de3e26dcc419da9607de548503b65547566c890fd2fa87d150737a342332"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/5ebf32ad0fac45c779a41a908f76a94b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/5ebf32ad0fac45c779a41a908f76a94b.npy",
+      "sha256": "91aed2a1f10545c1247c5827fdf8535ed739b22c0d6981d7c27017f238a06fb7"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/5513e71898116cb80bd20c78c2d37f1a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/5513e71898116cb80bd20c78c2d37f1a.npy",
+      "sha256": "819c86049e8c8350001c92e042d7b30b792ce07ec8414809cbc92fbdb351c801"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8cfa04da6ce00d2a070a4ba9e758c1a3.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8cfa04da6ce00d2a070a4ba9e758c1a3.npy",
+      "sha256": "cb1be9952cb27559d1a3517eaed575f83260f73ae66dda650e66a568f8560399"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/7e8ffaa24c4c9dbf3298fa9de914fb5a.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/7e8ffaa24c4c9dbf3298fa9de914fb5a.npy",
+      "sha256": "2bb9e1f84a84bff513edd72a557502085ca6f514af13320ddd33f8aecf974a3b"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/092461d2e13ad54ee72be3459cc73d02.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/092461d2e13ad54ee72be3459cc73d02.npy",
+      "sha256": "f96be49345f4af9296e6a95de9de28461a338500a9e9d19fe0169904b2fbdd85"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/59ea148c699183003a9d8d3640b25a20.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/59ea148c699183003a9d8d3640b25a20.npy",
+      "sha256": "4d65698c125df366c28221c4c3b281cc06fa5d3eaa7a66e7f8bd85e9d28cd199"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8f82952583ef414ea4f7db2782a30fe6.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8f82952583ef414ea4f7db2782a30fe6.npy",
+      "sha256": "4b42a7a92cdc84a5e08d0a9eac4de3171fb0f8a90b66d195733e790039718291"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/2f8966ae432b96db8f45f9f59be26c50.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/2f8966ae432b96db8f45f9f59be26c50.npy",
+      "sha256": "3e12d4f452d080a7e108ca177817a8dac47591c4fd9ea4cbaa8800c28fccc605"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/a96cc1fde4a63ebc48b949b16e580fc2.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/a96cc1fde4a63ebc48b949b16e580fc2.npy",
+      "sha256": "b2b288d8c560efca270dde6d560009824c9f5c088ca7b947ba6e778256e081fc"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/3c7cd7c9bc03665bd79e1c91b2e3349f.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/3c7cd7c9bc03665bd79e1c91b2e3349f.npy",
+      "sha256": "8392b9d2bc77fafdb7c5dca18a0f353c1df80be6371d15a8aba51e2453c667ec"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/092ddc60cd051dfc46de654c56f0466b.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/092ddc60cd051dfc46de654c56f0466b.npy",
+      "sha256": "329cb683a3be26358bd74638539b5d9ee6e7204e9ae9202e4960c22c3f9cbc30"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/6402bc6a0f336e0ccb7bf6035eb7eca6.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/6402bc6a0f336e0ccb7bf6035eb7eca6.npy",
+      "sha256": "59274087799779c7cf54f31c8b8afa972264bf066c056c1957d439d9005a9e6f"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/8278583234a3eda2a192d8bb50e1fab8.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/8278583234a3eda2a192d8bb50e1fab8.npy",
+      "sha256": "1c90ea3e4316947dad707e9996c78f1917b8b9f0fc8c3448495b9c7b81277f7a"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/899418d99797aa41d4bc8cc50361b11e.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/899418d99797aa41d4bc8cc50361b11e.npy",
+      "sha256": "360ff16a51718a375368d059392ea5a7b018fccf1034d399fbaf51a0a47ef47f"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/d7ee634af51ee43a99fa384563ca54f2.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/d7ee634af51ee43a99fa384563ca54f2.npy",
+      "sha256": "668c606ab557fc6a9618878cc18cafdf111d4940f2aabebe048fc504a0c36428"
+    },
+    {
+      "source": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/proteins/79e75a9c5077e2c19f2faee1bf7e88fb.npy",
+      "destination": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/bib_nanobret_20261019/tokens/proteins/79e75a9c5077e2c19f2faee1bf7e88fb.npy",
+      "sha256": "55382b5d54f1ef7829284dd9209c353f7df513f6c35d6b7c66df79dbe950f760"
+    }
+  ],
+  "extractor": "build_bindingdb_articles_kd_tokens.py UniMol2Extractor / save_protein_tokens",
+  "unimol2_weights": "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt",
+  "esm2_model": "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model",
+  "protein_max_tokens": 1024,
+  "drug_max_batched_atoms": 96,
+  "dry_run": false,
+  "reuse_only": false,
+  "model_sha256": {
+    "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt": "48e1ba230119a5f286b81dd71bec4889aebebffa03e66d9241f3ceb7bede9a5e",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/config.json": "16d490981c34b2d73e6b967a53d4dd7b9d6100ddb933382dc5256446935970e4",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/model.safetensors": "c82661e60305b0c3d747e3c4ba308f4762f6df99ef0c1911712871cdcb6d6d15"
+  },
+  "extractor_sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8",
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "generated_drugs": 10,
+  "generated_proteins": 0,
+  "failed_drugs": 0,
+  "failed_proteins": 0,
+  "remaining": {
+    "drugs": [],
+    "proteins": []
+  },
+  "complete": true
+}

@@ -1,0 +1,201 @@
+{
+  "config": {
+    "path": "DTA_affinity/configs/bib_validation_20261017.json",
+    "bytes": 1274,
+    "sha256": "8d20de147b8811da38d03649283a1e7aa33a183506c46ee33d21c1ebb85e1f53"
+  },
+  "jobs": [
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "id": "bib_davis_drug_id_f0_seed20261017"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "id": "bib_davis_drug_id_f1_seed20261017"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "id": "bib_davis_drug_id_f2_seed20261017"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "id": "bib_davis_drug_id_f3_seed20261017"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "id": "bib_davis_drug_id_f4_seed20261017"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "id": "bib_davis_drug_id_f0_seed20261018"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "id": "bib_davis_drug_id_f1_seed20261018"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "id": "bib_davis_drug_id_f2_seed20261018"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "id": "bib_davis_drug_id_f3_seed20261018"
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "id": "bib_davis_drug_id_f4_seed20261018"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "id": "bib_kiba_drug_id_f0_seed20261017"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "id": "bib_kiba_drug_id_f1_seed20261017"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "id": "bib_kiba_drug_id_f2_seed20261017"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "id": "bib_kiba_drug_id_f3_seed20261017"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "id": "bib_kiba_drug_id_f4_seed20261017"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "id": "bib_kiba_drug_id_f0_seed20261018"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "id": "bib_kiba_drug_id_f1_seed20261018"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "id": "bib_kiba_drug_id_f2_seed20261018"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "id": "bib_kiba_drug_id_f3_seed20261018"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "id": "bib_kiba_drug_id_f4_seed20261018"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 0,
+      "id": "bib_kiba_identity_f0_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 1,
+      "id": "bib_kiba_identity_f1_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 2,
+      "id": "bib_kiba_identity_f2_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 3,
+      "id": "bib_kiba_identity_f3_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 4,
+      "id": "bib_kiba_identity_f4_seed20261012"
+    }
+  ],
+  "code": [
+    {
+      "path": "DTA_affinity/scripts/run_bib_validation.py",
+      "bytes": 8470,
+      "sha256": "ea627132f07f5fe53acae6e05a720222646a4aae543f0487e97ed4bb3f340bb3"
+    },
+    {
+      "path": "DTA_affinity/scripts/bib_train_worker.py",
+      "bytes": 1743,
+      "sha256": "d9fdc3903dc17f6365154bdc23892f05804e3c96e5c99a41f666469b370f996c"
+    },
+    {
+      "path": "DTA_affinity/scripts/prepare_bib_identity_protocol.py",
+      "bytes": 3323,
+      "sha256": "c65e9eb530dee43cd1c9f7afc04da97315e28c64385695a63d8b29485e1a1864"
+    }
+  ]
+}

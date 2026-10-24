@@ -1,0 +1,81 @@
+{
+  "target_column": "kiba_score",
+  "protocol": "All four predictors share the same deep output and frozen training-only prior. Blend/gate fit on validation rows only. Raw outputs, no affine calibration.",
+  "rows": {
+    "val": 9841,
+    "test": 21951
+  },
+  "fixed_deep_weight": 0.20922966825711867,
+  "gate": {
+    "a": -1.3772854173581752,
+    "b": -0.1983563374299481,
+    "sim_mean": 0.5807646153436192,
+    "sim_std": 0.20502157456412085
+  },
+  "input_sha256": {
+    "deep": "63256358db55198638ebf81e9bdb3ac71f1278424eba27e39a3d18a2b6218f55",
+    "prior": "5e306dda8ba356503d20a25106e59efee0c360935e349453ddc07bbde9aad8a8",
+    "table": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f",
+    "manifest": "999b15dc0faab09055e39263f27dd1e41573026b171aa0c58177c88a674f9606"
+  },
+  "validation": {
+    "deep": {
+      "rmse": 0.6711609616427023,
+      "mse": 0.450457036433157,
+      "ci": 0.7799948350241118,
+      "pearson": 0.6824006636860936,
+      "spearman": 0.7030877979689752
+    },
+    "neighbor_prior": {
+      "rmse": 0.5714148605054494,
+      "mse": 0.3265149428064622,
+      "ci": 0.8161154326014668,
+      "pearson": 0.7765172847026399,
+      "spearman": 0.76831417385743
+    },
+    "fixed_blend": {
+      "rmse": 0.5631916768139323,
+      "mse": 0.31718486483248887,
+      "ci": 0.8222550513680468,
+      "pearson": 0.7828796419422319,
+      "spearman": 0.7818079084949536
+    },
+    "similarity_gate": {
+      "rmse": 0.5629949452382373,
+      "mse": 0.3169633083638058,
+      "ci": 0.8227356986674157,
+      "pearson": 0.7830076014002457,
+      "spearman": 0.7828814880325775
+    }
+  },
+  "test": {
+    "deep": {
+      "rmse": 0.6045026895858487,
+      "mse": 0.36542350171652493,
+      "ci": 0.7900355972676782,
+      "pearson": 0.7105635691103154,
+      "spearman": 0.7201338784811094
+    },
+    "neighbor_prior": {
+      "rmse": 0.580594247239145,
+      "mse": 0.3370896799271894,
+      "ci": 0.8035625537202683,
+      "pearson": 0.7304647871019583,
+      "spearman": 0.7351406952017848
+    },
+    "fixed_blend": {
+      "rmse": 0.5608494808542441,
+      "mse": 0.3145521401744752,
+      "ci": 0.8133780392848458,
+      "pearson": 0.7502819995379443,
+      "spearman": 0.7580878180419256
+    },
+    "similarity_gate": {
+      "rmse": 0.5596725289373874,
+      "mse": 0.31323333964717076,
+      "ci": 0.8145594754924306,
+      "pearson": 0.7515114198318213,
+      "spearman": 0.7607225541074903
+    }
+  }
+}

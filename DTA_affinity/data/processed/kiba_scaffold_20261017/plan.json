@@ -1,0 +1,34 @@
+{
+  "dataset": "kiba",
+  "group": "RDKit non-generic Bemis-Murcko scaffold, includeChirality=False; all acyclic compounds share one group; no salt/tautomer/charge normalization",
+  "outer": "KFold(5, shuffle=True, random_state=0) over sorted unique scaffolds",
+  "inner": "10% of outer-training scaffolds (rounded up), shuffled with seed 20261012+fold",
+  "training_seed": 20261012,
+  "training": {
+    "epochs": 20,
+    "batch_size": 64,
+    "workers": 4,
+    "latent_dim": 512,
+    "lr": 0.0001,
+    "k_ratio": 0.15,
+    "dropout": 0.1,
+    "patience": 5,
+    "pool_fusion": true,
+    "hybrid": true,
+    "target_normalize": true
+  },
+  "table": {
+    "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+    "bytes": 97771320,
+    "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+  },
+  "models": [
+    "deep",
+    "neighbor_prior",
+    "fixed_blend",
+    "similarity_gate"
+  ],
+  "selection": "Same frozen training and validation-only fitting rules; retain all planned folds; no result-based split selection",
+  "comparison": "Matched local controls only; published drug-ID scores are not a same-protocol comparator",
+  "status": "Prepared before predictions; execute after the repeated-seed and identity queue"
+}

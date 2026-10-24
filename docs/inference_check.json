@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "reference_fold": 0,
+  "test_rows": [
+    159,
+    160,
+    161,
+    162
+  ],
+  "maximum_absolute_errors": {
+    "deep": 0.0005609660928822535,
+    "neighbor_prior": 1.7763568394002505e-15,
+    "fixed_blend": 0.00022904913422472362,
+    "similarity_gate": 0.00030945279552341276
+  },
+  "comparison": "CPU float32 against archived CUDA mixed-precision predictions",
+  "tolerances": {
+    "neighbor": 2e-06,
+    "neural_and_fused": 0.02
+  }
+}

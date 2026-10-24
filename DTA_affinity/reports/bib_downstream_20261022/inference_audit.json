@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "fold": 0,
+      "reference_errors": {
+        "deep": 0.0004145315657950732,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 0.0001692581734591414,
+        "similarity_gate": 0.00022816594543861868
+      }
+    },
+    {
+      "fold": 1,
+      "reference_errors": {
+        "deep": 0.0008149067336571392,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 0.00039755239099648065,
+        "similarity_gate": 0.0005106528642269126
+      }
+    },
+    {
+      "fold": 2,
+      "reference_errors": {
+        "deep": 0.0004110357098134898,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 0.00011751089566303108,
+        "similarity_gate": 8.379317192463986e-05
+      }
+    },
+    {
+      "fold": 3,
+      "reference_errors": {
+        "deep": 0.00040295720243932465,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 8.4310601787152e-05,
+        "similarity_gate": 0.00010664216368816426
+      }
+    },
+    {
+      "fold": 4,
+      "reference_errors": {
+        "deep": 0.00030570198913970614,
+        "neighbor_prior": 1.7763568394002505e-15,
+        "fixed_blend": 8.104283208254515e-05,
+        "similarity_gate": 0.00012694255592649029
+      }
+    }
+  ],
+  "training_performed": false,
+  "endpoint_values_read_by_predictor": false,
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "outputs": [
+    {
+      "path": "DTA_affinity/reports/bib_downstream_20261022/fold_predictions.csv",
+      "bytes": 156326,
+      "sha256": "b71fcb60f3e5a3ee6ad6d3517f3033cfcd3b0dbc7204bfed9adf2e8465481da0"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_downstream_20261022/predictions.csv",
+      "bytes": 31623,
+      "sha256": "d1278fee4a577a0908e3fc26e1c2b4e5cbe7f367638bb917731b0c686a800b54"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "training_config": "configs/bib_validation_20261017.json",
+  "statistics": {
+    "bootstrap_repeats": 10000,
+    "bootstrap_seed": 20261017,
+    "bootstrap_unit": "canonical chemical identity sampled globally; one shared multiplicity per identity across all folds and predictors",
+    "primary_estimand": "unweighted mean of five test-fold MSE differences",
+    "interval": "percentile 95%; fixed predictions only, not training uncertainty",
+    "refinement": "Supersedes the within-fold wording in the frozen training configuration: some KIBA identities occur in multiple outer folds and must share one bootstrap multiplicity. No model settings or predictions changed.",
+    "linear_stacking": "unregularized least squares with intercept fitted on validation predictions only; unconstrained coefficients"
+  },
+  "similarity_edges": [0, 0.3, 0.5, 0.7, 1],
+  "ranking_rule": "Include every benchmark target ID with at least 20 distinct test chemical identities and at least 2 distinct labels; descriptive macro averages. Target IDs may share a protein sequence."
+}

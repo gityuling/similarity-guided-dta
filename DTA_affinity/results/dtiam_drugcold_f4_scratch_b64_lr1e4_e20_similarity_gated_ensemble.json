@@ -1,0 +1,56 @@
+{
+  "protocol": "fit similarity gate and affine calibration only on validation rows; evaluate once on untouched test rows",
+  "rows": {
+    "val": 2652,
+    "test": 5746
+  },
+  "gate": {
+    "formula": "deep_weight = sigmoid(a + b * z_max_tanimoto)",
+    "a": -0.4753729031434878,
+    "b": -0.5334991048967027,
+    "z_mean": 0.39338559795528827,
+    "z_std": 0.1612783280941059,
+    "deep_weight_val_range": [
+      0.16192075115971685,
+      0.4853145950179396
+    ],
+    "deep_weight_test_range": [
+      0.1878274050732173,
+      0.5816942060133515
+    ],
+    "affine_slope": 0.87943699971251,
+    "affine_intercept": 0.5718792588782676
+  },
+  "validation": {
+    "raw": {
+      "rmse": 0.6424973547274928,
+      "mse": 0.4128028508318257,
+      "ci": 0.7363740853894116,
+      "pearson": 0.5391438454613999,
+      "spearman": 0.3720341503554297
+    },
+    "affine": {
+      "rmse": 0.6353944125072672,
+      "mse": 0.40372605944545525,
+      "ci": 0.7363740853894116,
+      "pearson": 0.5391438454613999,
+      "spearman": 0.3720341503554297
+    }
+  },
+  "test": {
+    "raw": {
+      "rmse": 0.7556511179616762,
+      "mse": 0.571008612076731,
+      "ci": 0.7414240317626805,
+      "pearson": 0.4875195511008803,
+      "spearman": 0.4724086662345373
+    },
+    "affine": {
+      "rmse": 0.7513788052754332,
+      "mse": 0.5645701090171373,
+      "ci": 0.7414240317626805,
+      "pearson": 0.4875195511008803,
+      "spearman": 0.4724086662345373
+    }
+  }
+}

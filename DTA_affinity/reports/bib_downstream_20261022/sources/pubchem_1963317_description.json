@@ -1,0 +1,2043 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1963317,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "adst_SDR_ABL-KGP"
+              },
+              "date": {
+                "std": {
+                  "year": 2025,
+                  "month": 5,
+                  "day": 3
+                }
+              }
+            }
+          },
+          "name": "ABL1 kinase (ABL1-N-HiBiT) enzymatic inhibition screen -  Functional assay",
+          "description": [
+            "PI: James Inglese Ph.D.",
+            "National Center for Advancing Translational Sciences (NCATS),",
+            "National Institute of Health (NIH), Maryland ",
+            "",
+            "Discovery and optimization of novel protein-binding ligands underlies many of the methods and applications of biology, drug discovery, clinical diagnostics, and environmental toxicology.  Assays for detecting the interaction of, for example, a molecule with a macromolecular target also referred to here as the target of interest (TOI) is dependent on a compatible output technology. Depending on the nature and knowledge surrounding the TOI, whether a receptor, enzyme, regulatory subunit or scaffold, or a sequence-defined nucleic acid folded into a complex tertiary structure, assay strategies can vary widely.",
+            "Here we exploit ligand-biased changes in the structural dynamics of the target protein to control reporter alpha complementation allowing a non-competitive, non-functional, non-separation measure of ligand-target interaction. Demonstrating the surprising generality of the method we prepared proteins containing an 11 amino acid HiBiT terminal sequence for several targets allowing for ligand-dependent bioluminescence detection when reconstituted with a complementary omega-component, here the LgBiT NLuc fragment (1). ",
+            "Using a chemical library of >1,200 compounds enriched for scaffolds known to be associated with the inhibition of firefly luciferase (FLuc) activity (PubChem AIDs 2309) we first illustrate and compare the Structural Dynamics Response (SDR) assay vs. the standard functional FLuc enzyme assay (2).  Secondly, we show the specificity and sensitivity of the SDR for the Abelson tyrosine kinase (ABL1) compared to the serine/threonine protein kinase A, using an enriched chemical library of 128 compounds selected, in part, for activity annotated with ABL1 kinase activity using the Pharos database (3).",
+            "",
+            "References:",
+            "(1) A. S. Dixon et al., NanoLuc Complementation Reporter Optimized for Accurate Measurement of Protein Interactions in Cells. ACS Chem Biol 11, 400-408 (2016).\u0009",
+            "(2) N. Thorne, M. Shen M, W.A. Lea, A. Simeonov, S. Lovell, D. S. Auld, J. Inglese J Firefly luciferase in chemical biology:  A compendium of inhibitors, mechanistic evaluation of chemotypes, and suggested use as a reporter. Chemistry & Biology, 19, 1060 - 1072  (2012).",
+            "(3) K. J. Kelleher et al., Pharos 2023: an integrated resource for the understudied human proteome. Nucleic Acids Res 51, D1405-D1416 (2023)."
+          ],
+          "protocol": [
+            "PROTOCOL TABLE (as described by Inglese J, Shamu CE and Guy RK. 2007)",
+            "SEQUENCE No. (e.g., 1, 2, 3, etc.); PARAMETER (e.g., C. elegans, Compounds, Incubation, Read, etc.); VALUE and DESCRIPTION. ",
+            "",
+            "1.  Reagent.  Dispense 4 uL ABL1-N-HiBiT enzyme per well at a final enzyme concentration of 10 nM in buffer with 87.5 uM ATP (functional assay) into columns 2-48 of four replicate Greiner 1536-well white, solid bottom high base, medium plates per assay.  Dispense respective buffer without enzyme at 4 uL/well in column 1 of assay plates using BioRaptr 2.",
+            "2.  Compounds.  Library compounds added at 23 nL/well by pin transfer. DMSO neutral control and imatinib positive control added at 25 nL/well, transfer by Mosquito dispenser.   ",
+            "3.  Incubation.  Incubate enzyme and compounds at room temperature for 30 min, protected from light.",
+            "4.  Reagent. (Functional assay) Transfer 25 nL of abltide peptide substrate to each well of four replicate kinase assay plates with Mosquito dispenser.",
+            "5.  Incubation. (Functional assay) Kinase enzyme incubated with peptide substrate for 3 h at room temperature, protected from light. ",
+            "6.  Reagent.  (Functional assay) Add 4 uL/well of Kinase-Glo Plus reagent (Promega) to kinase activity assay plates, in the presence of ATP.",
+            "7.  Detector. (Functional assay) Luminescence measured using CCD-based camera (ViewLux) with settings as follows: Exposure, 1 sec; Gain, High; Speed, Slow; Binning, 2X.",
+            "",
+            "REFERENCES:",
+            "Inglese J, Shamu CE and Guy RK, Reporting data from high throughput screening of small molecule libraries, Nature Chemical Biology, 2007, 3(8): 438-441. doi.org/10.1038/nchembio0807-438."
+          ],
+          "comment": [
+            "Disclaimer:",
+            "Although all reasonable efforts have been made to ensure the accuracy and reliability of the data, caution should be exercised when interpreting the results as artifacts are possible from nonspecific effects such as assay signal interference. The curve fitting and activity calls presented here are based on the NCATS analysis methods. ",
+            "",
+            "Compound Ranking:",
+            "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive. For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+            "2.  For each assay repeat, all inactive compounds, with a ratio activity curve class of 4, activity score is 0. For all active compounds, a score range was given for each curve class type given above. Active compounds have activity score between 40 and 100. For a ratio activity curve class = -1.1, score = 80+abs((log_ac50+4.5)*inf_activity/20). For ratio.curve_class == -1.2 && abs(ratio.max_response) > 6*10, score = 60+abs((log_ac50+4.5)*inf_activity/20). For ratio.curve_class == -2.1 || ( ratio.curve_class==-2.2 && abs(ratio.max_response) > 6*10), score = 40+abs((log_ac50+4.5)*inf_activity/20). For ratio.curve_class == -1.2 || ratio.curve_class == -2.2, score = 20+abs((log_ac50+4.5)*inf_activity/20). Inconclusive compounds, with a donor curve class other than 4, have activity score of 10. Inconclusive compounds have activity score between 1 and 39.",
+            "3.  PUBCHEM_ACTIVITY_SCORE of a compounds is based on the result of the assay repeat panel. If 3 or 4 replicates are active, PUBCHEM_SCORE = 100. If 1 or 2 replicates are active, PUBCHEM_SCORE = 30. If no replicates are active, PUBCHEM_SCORE = 0."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 17637769
+              }
+            },
+            {
+              "xref": {
+                "pmid": 26569370
+              }
+            },
+            {
+              "xref": {
+                "pmid": 22921073
+              }
+            },
+            {
+              "xref": {
+                "pmid": 36624666
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Rep1ABLNHIBITKGP-Outcome",
+              "description": [
+                "Indicates type of outcome for each repeat"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 2,
+              "name": "Rep1ABLNHIBITKGP-Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Rep1ABLNHIBITKGP-Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 4,
+              "name": "Rep1ABLNHIBITKGP-Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 5,
+              "name": "Rep1ABLNHIBITKGP-Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Rep1ABLNHIBITKGP-Activity_Score",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2
+            },
+            {
+              "tid": 7,
+              "name": "Rep1ABLNHIBITKGP-Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "Rep1ABLNHIBITKGP-Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 9,
+              "name": "Rep1ABLNHIBITKGP-Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 10,
+              "name": "Rep1ABLNHIBITKGP-Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 11,
+              "name": "Rep1ABLNHIBITKGP-Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 12,
+              "name": "Rep1ABLNHIBITKGP-Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 13,
+              "name": "Rep1ABLNHIBITKGP-Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 14,
+              "name": "Rep1ABLNHIBITKGP-Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 15,
+              "name": "Rep1ABLNHIBITKGP-Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 16,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.0000973841 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.73841015365906e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 17,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.0002921522 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000292151991743594,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 18,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.0005695054 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000569504976738244,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 19,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.0009722003 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000972200010437518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 20,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.00171 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00170851999428123,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 21,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.00292 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00291660008952022,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 22,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.00438 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00438228016719222,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 23,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.00873 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0087344404309988,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 24,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.013 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0131467999890447,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 25,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.026 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0262033008038998,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 26,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.039 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0394405014812946,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 27,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.079 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.078609898686409,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 28,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.118 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.118321999907494,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 29,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.236 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.235829994082451,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 30,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.355 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.354965001344681,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 31,
+              "name": "Rep1ABLNHIBITKGP-Activity at 0.707 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.707489013671875,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 32,
+              "name": "Rep1ABLNHIBITKGP-Activity at 1.065 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.0648900270462,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 33,
+              "name": "Rep1ABLNHIBITKGP-Activity at 2.122 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.12246990203857,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 34,
+              "name": "Rep1ABLNHIBITKGP-Activity at 3.195 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.19467997550964,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 35,
+              "name": "Rep1ABLNHIBITKGP-Activity at 6.367 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 6.36740016937256,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 36,
+              "name": "Rep1ABLNHIBITKGP-Activity at 9.584 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.58405017852783,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 37,
+              "name": "Rep1ABLNHIBITKGP-Activity at 19.13 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 19.1336002349854,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 38,
+              "name": "Rep1ABLNHIBITKGP-Activity at 28.75 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 28.7521991729736,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 39,
+              "name": "Rep1ABLNHIBITKGP-Activity at 46.00 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 46.0035018920898,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 40,
+              "name": "Rep1ABLNHIBITKGP-Activity at 57.50 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.5042991638184,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 41,
+              "name": "Rep2ABLNHIBITKGP-Outcome",
+              "description": [
+                "Indicates type of outcome for each repeat"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 42,
+              "name": "Rep2ABLNHIBITKGP-Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 43,
+              "name": "Rep2ABLNHIBITKGP-Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 44,
+              "name": "Rep2ABLNHIBITKGP-Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 45,
+              "name": "Rep2ABLNHIBITKGP-Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 46,
+              "name": "Rep2ABLNHIBITKGP-Activity_Score",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2
+            },
+            {
+              "tid": 47,
+              "name": "Rep2ABLNHIBITKGP-Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 48,
+              "name": "Rep2ABLNHIBITKGP-Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 49,
+              "name": "Rep2ABLNHIBITKGP-Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 50,
+              "name": "Rep2ABLNHIBITKGP-Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 51,
+              "name": "Rep2ABLNHIBITKGP-Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 52,
+              "name": "Rep2ABLNHIBITKGP-Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 53,
+              "name": "Rep2ABLNHIBITKGP-Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 54,
+              "name": "Rep2ABLNHIBITKGP-Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 55,
+              "name": "Rep2ABLNHIBITKGP-Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 56,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.0000973841 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.73841015365906e-05,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 57,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.0002921522 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000292151991743594,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 58,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.0005695054 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000569504976738244,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 59,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.0009722003 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000972200010437518,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 60,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.00171 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00170851999428123,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 61,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.00292 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00291660008952022,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 62,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.00438 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00438228016719222,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 63,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.00873 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0087344404309988,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 64,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.013 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0131467999890447,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 65,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.026 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0262033008038998,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 66,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.039 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0394405014812946,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 67,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.079 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.078609898686409,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 68,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.118 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.118321999907494,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 69,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.236 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.235829994082451,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 70,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.355 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.354965001344681,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 71,
+              "name": "Rep2ABLNHIBITKGP-Activity at 0.707 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.707489013671875,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 72,
+              "name": "Rep2ABLNHIBITKGP-Activity at 1.065 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.0648900270462,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 73,
+              "name": "Rep2ABLNHIBITKGP-Activity at 2.122 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.12246990203857,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 74,
+              "name": "Rep2ABLNHIBITKGP-Activity at 3.195 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.19467997550964,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 75,
+              "name": "Rep2ABLNHIBITKGP-Activity at 6.367 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 6.36740016937256,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 76,
+              "name": "Rep2ABLNHIBITKGP-Activity at 9.584 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.58405017852783,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 77,
+              "name": "Rep2ABLNHIBITKGP-Activity at 19.13 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 19.1336002349854,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 78,
+              "name": "Rep2ABLNHIBITKGP-Activity at 28.75 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 28.7521991729736,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 79,
+              "name": "Rep2ABLNHIBITKGP-Activity at 46.00 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 46.0035018920898,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 80,
+              "name": "Rep2ABLNHIBITKGP-Activity at 57.50 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.5042991638184,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 81,
+              "name": "Rep3ABLNHIBITKGP-Outcome",
+              "description": [
+                "Indicates type of outcome for each repeat"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 82,
+              "name": "Rep3ABLNHIBITKGP-Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 83,
+              "name": "Rep3ABLNHIBITKGP-Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 84,
+              "name": "Rep3ABLNHIBITKGP-Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 85,
+              "name": "Rep3ABLNHIBITKGP-Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 86,
+              "name": "Rep3ABLNHIBITKGP-Activity_Score",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2
+            },
+            {
+              "tid": 87,
+              "name": "Rep3ABLNHIBITKGP-Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 88,
+              "name": "Rep3ABLNHIBITKGP-Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 89,
+              "name": "Rep3ABLNHIBITKGP-Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 90,
+              "name": "Rep3ABLNHIBITKGP-Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 91,
+              "name": "Rep3ABLNHIBITKGP-Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 92,
+              "name": "Rep3ABLNHIBITKGP-Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 93,
+              "name": "Rep3ABLNHIBITKGP-Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 94,
+              "name": "Rep3ABLNHIBITKGP-Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 95,
+              "name": "Rep3ABLNHIBITKGP-Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 96,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.0000973841 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.73841015365906e-05,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 97,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.0002921522 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000292151991743594,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 98,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.0005695054 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000569504976738244,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 99,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.0009722003 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000972200010437518,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 100,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.00171 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00170851999428123,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 101,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.00292 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00291660008952022,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 102,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.00438 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00438228016719222,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 103,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.00873 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0087344404309988,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 104,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.013 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0131467999890447,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 105,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.026 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0262033008038998,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 106,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.039 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0394405014812946,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 107,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.079 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.078609898686409,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 108,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.118 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.118321999907494,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 109,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.236 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.235829994082451,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 110,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.355 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.354965001344681,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 111,
+              "name": "Rep3ABLNHIBITKGP-Activity at 0.707 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.707489013671875,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 112,
+              "name": "Rep3ABLNHIBITKGP-Activity at 1.065 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.0648900270462,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 113,
+              "name": "Rep3ABLNHIBITKGP-Activity at 2.122 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.12246990203857,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 114,
+              "name": "Rep3ABLNHIBITKGP-Activity at 3.195 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.19467997550964,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 115,
+              "name": "Rep3ABLNHIBITKGP-Activity at 6.367 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 6.36740016937256,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 116,
+              "name": "Rep3ABLNHIBITKGP-Activity at 9.584 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.58405017852783,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 117,
+              "name": "Rep3ABLNHIBITKGP-Activity at 19.13 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 19.1336002349854,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 118,
+              "name": "Rep3ABLNHIBITKGP-Activity at 28.75 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 28.7521991729736,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 119,
+              "name": "Rep3ABLNHIBITKGP-Activity at 46.00 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 46.0035018920898,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 120,
+              "name": "Rep3ABLNHIBITKGP-Activity at 57.50 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.5042991638184,
+                "unit": 5,
+                "dr_id": 3
+              }
+            },
+            {
+              "tid": 121,
+              "name": "Rep4ABLNHIBITKGP-Outcome",
+              "description": [
+                "Indicates type of outcome for each repeat"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 122,
+              "name": "Rep4ABLNHIBITKGP-Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 123,
+              "name": "Rep4ABLNHIBITKGP-Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 124,
+              "name": "Rep4ABLNHIBITKGP-Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 125,
+              "name": "Rep4ABLNHIBITKGP-Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 126,
+              "name": "Rep4ABLNHIBITKGP-Activity_Score",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2
+            },
+            {
+              "tid": 127,
+              "name": "Rep4ABLNHIBITKGP-Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 128,
+              "name": "Rep4ABLNHIBITKGP-Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 129,
+              "name": "Rep4ABLNHIBITKGP-Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 130,
+              "name": "Rep4ABLNHIBITKGP-Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 131,
+              "name": "Rep4ABLNHIBITKGP-Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 132,
+              "name": "Rep4ABLNHIBITKGP-Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 133,
+              "name": "Rep4ABLNHIBITKGP-Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 134,
+              "name": "Rep4ABLNHIBITKGP-Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 135,
+              "name": "Rep4ABLNHIBITKGP-Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 136,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.0000973841 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.73841015365906e-05,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 137,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.0002921522 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000292151991743594,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 138,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.0005695054 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000569504976738244,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 139,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.0009722003 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000972200010437518,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 140,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.00171 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00170851999428123,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 141,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.00292 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00291660008952022,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 142,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.00438 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00438228016719222,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 143,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.00873 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0087344404309988,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 144,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.013 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0131467999890447,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 145,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.026 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0262033008038998,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 146,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.039 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0394405014812946,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 147,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.079 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.078609898686409,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 148,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.118 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.118321999907494,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 149,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.236 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.235829994082451,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 150,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.355 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.354965001344681,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 151,
+              "name": "Rep4ABLNHIBITKGP-Activity at 0.707 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.707489013671875,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 152,
+              "name": "Rep4ABLNHIBITKGP-Activity at 1.065 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.0648900270462,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 153,
+              "name": "Rep4ABLNHIBITKGP-Activity at 2.122 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.12246990203857,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 154,
+              "name": "Rep4ABLNHIBITKGP-Activity at 3.195 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.19467997550964,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 155,
+              "name": "Rep4ABLNHIBITKGP-Activity at 6.367 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 6.36740016937256,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 156,
+              "name": "Rep4ABLNHIBITKGP-Activity at 9.584 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.58405017852783,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 157,
+              "name": "Rep4ABLNHIBITKGP-Activity at 19.13 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 19.1336002349854,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 158,
+              "name": "Rep4ABLNHIBITKGP-Activity at 28.75 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 28.7521991729736,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 159,
+              "name": "Rep4ABLNHIBITKGP-Activity at 46.00 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 46.0035018920898,
+                "unit": 5,
+                "dr_id": 4
+              }
+            },
+            {
+              "tid": 160,
+              "name": "Rep4ABLNHIBITKGP-Activity at 57.50 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.5042991638184,
+                "unit": 5,
+                "dr_id": 4
+              }
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "",
+              "mol_id": {
+                "protein_accession": "P00519"
+              }
+            },
+            {
+              "name": "",
+              "mol_id": {
+                "gene_id": 25
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "dr": [
+            {
+              "id": 1,
+              "descr": "CR Plot Labels 1",
+              "dn": "Concentration",
+              "rn": "Response",
+              "type": 0
+            },
+            {
+              "id": 2,
+              "descr": "CR Plot Labels 2",
+              "dn": "Concentration",
+              "rn": "Response",
+              "type": 0
+            },
+            {
+              "id": 3,
+              "descr": "CR Plot Labels 3",
+              "dn": "Concentration",
+              "rn": "Response",
+              "type": 0
+            },
+            {
+              "id": 4,
+              "descr": "CR Plot Labels 4",
+              "dn": "Concentration",
+              "rn": "Response",
+              "type": 0
+            }
+          ],
+          "project_category": 3,
+          "assay_group": [
+            "ADST-HiBitSDR-Inglese"
+          ]
+        }
+      }
+    }
+  ]
+}

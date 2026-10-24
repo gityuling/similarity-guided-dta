@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "frozen_files_checked": 46,
+  "source_measurements_checked": 2520,
+  "included_queries_checked": 1167,
+  "fold_predictions_checked": 5835,
+  "metric_rows_checked": 80,
+  "maximum_spearman_recalculation_error": 1.1102230246251565e-16,
+  "copied_feature_files_verified": 140,
+  "checks": [
+    "source values and endpoint directions",
+    "training and validation parent overlap",
+    "same-target support",
+    "original fusion parameters",
+    "fold averaging and coverage",
+    "all per-compound metrics",
+    "macro statistics and compound bootstrap intervals",
+    "encoder cache copy integrity"
+  ],
+  "artifacts": [
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/scores.csv",
+      "bytes": 382705,
+      "sha256": "df7d5818092e62b409b000ac1ddaf37f657c3ebd2658862d4f9dea347204e858"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/per_compound_metrics.csv",
+      "bytes": 10290,
+      "sha256": "6d52f336598e5c92e39638a201cd6ce299b814d1d613624dbb8fb3f62239d1b6"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/analysis.json",
+      "bytes": 69773,
+      "sha256": "03f7d59dd5bd262fe9ce4ef315f29e4cd0458adb1839c036f70d4dba6c7c4226"
+    }
+  ],
+  "verification_code": {
+    "path": "DTA_affinity/scripts/verify_bib_nanobret.py",
+    "bytes": 8483,
+    "sha256": "33967862422f860f10ec8ab9fe0109baadf7e5700f8c687af346eae39a311098"
+  }
+}

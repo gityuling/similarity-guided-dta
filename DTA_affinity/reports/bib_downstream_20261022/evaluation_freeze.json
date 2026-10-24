@@ -1,0 +1,232 @@
+[
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/query_table.csv",
+    "bytes": 220784,
+    "sha256": "41b04f9026cc63c3295f355ebc70799c693e65ca74ed18c2e37c989387f2124f"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/labels.csv",
+    "bytes": 18978,
+    "sha256": "6e99b31940710b60f8274abbe5d73f17a21258ce63d4bacced3888179543814e"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/source_compound_audit.csv",
+    "bytes": 653912,
+    "sha256": "ac48b413d86b4daca0e34bc50ee318a1b756778c84ae0c874582d05455121253"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/cohort_coverage.csv",
+    "bytes": 756,
+    "sha256": "49215c9a460f19465da866cafe530fad924a656106f70823eb205a5f229713cf"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/preparation_inputs.json",
+    "bytes": 4168,
+    "sha256": "52a904160a16f0178f0ca6baa2016c83472feb33bdde7ac6dfc842898a4515d5"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/experimental_label_verification.csv",
+    "bytes": 27227,
+    "sha256": "521db3f0d8a5d09f110b9dfa94aa7d8107be4bffc06ff1d6cbfeaff0b7331cf8"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/EVALUATION_PROTOCOL.md",
+    "bytes": 5941,
+    "sha256": "d1af0482b370fc1be6fa25c6bc1dee414b48b3f1135dfb5f353909bf31e416c2"
+  },
+  {
+    "path": "DTA_affinity/reports/bib_downstream_20261022/sources/pinned_source_verification.json",
+    "bytes": 2348,
+    "sha256": "0163ca656c56279a7fd61c747e73581c2ddb9cf253a7d6505f50940777697ba2"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+    "bytes": 97771320,
+    "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+  },
+  {
+    "path": "DTA_affinity/scripts/run_bib_downstream.py",
+    "bytes": 6348,
+    "sha256": "bd1a6dd88bf87070c6d31c003e245b43eb2c550c15ce6410e23b2634a7000a2c"
+  },
+  {
+    "path": "DTA_affinity/scripts/prepare_bib_downstream.py",
+    "bytes": 9709,
+    "sha256": "a35925db97c28f9834eb1ec38bc25db521c610dceea1683dcbf30f23fc461261"
+  },
+  {
+    "path": "DTA_affinity/scripts/evaluate_bib_downstream.py",
+    "bytes": 7047,
+    "sha256": "a2e4194256ddd035aeecd39084c845c3d99ee0f14a39293156e9e3653ca3d774"
+  },
+  {
+    "path": "DTA_affinity/scripts/predict_bib_cellular_affinity.py",
+    "bytes": 10330,
+    "sha256": "e86975dd0c7bd260a33b12d8559e7146969e216fd517c74051e955d9433abbd8"
+  },
+  {
+    "path": "DTA_affinity/scripts/train_nexusdti_regressor.py",
+    "bytes": 48331,
+    "sha256": "8a10e31535a64a9e0d732804381beb68568b7311b91e30f927fd14c70df2060b"
+  },
+  {
+    "path": "DTA_affinity/scripts/build_kiba_benchmark_tokens.py",
+    "bytes": 7868,
+    "sha256": "e81bef964ea15f78e4c960018597763912e24ad661b6149c8d58dd435ccc681b"
+  },
+  {
+    "path": "DTA_affinity/scripts/build_bindingdb_articles_kd_tokens.py",
+    "bytes": 18225,
+    "sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8"
+  },
+  {
+    "path": "DTA_affinity/results/checkpoints/nexusdti_bib_kiba_identity_f0_seed20261012.pt",
+    "bytes": 37417772,
+    "sha256": "a5b8d73453d6319867129d6a6c5a7a205ba12a4fbdb3007a22e26a4afd4c7e79"
+  },
+  {
+    "path": "DTA_affinity/results/nexusdti_regressor_bib_kiba_identity_f0_seed20261012.json",
+    "bytes": 4155,
+    "sha256": "a571b6435720ca61eeb62847a755b2bf8944754e8b219129514544a69c369f4a"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f0_frozen_prior.json",
+    "bytes": 3729,
+    "sha256": "1a49071dd04abd8aca4813ca9a6cda1fa611035cb3ec5c2ee9bc86d2cabc3519"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f0_seed20261012_ablation.json",
+    "bytes": 2447,
+    "sha256": "4517da0cba32609395a518d3a050fff3c8ea10238c564f5e51cfdabbe10fcd85"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_identity_20261017/folds/drug_coldstart/fold_0.csv",
+    "bytes": 2291751,
+    "sha256": "256ac78a5de9e2f05fbd940e4a35c4751008b6fe4f0fa32c8d6a4a725f538e69"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_kiba_identity_f0_seed20261012_ablation_predictions.csv",
+    "bytes": 4165901,
+    "sha256": "eaeb69964ec8a7ea3b8dbe84169cd84f40061c75b4ef43447e94e175467707d9"
+  },
+  {
+    "path": "DTA_affinity/results/checkpoints/nexusdti_bib_kiba_identity_f1_seed20261012.pt",
+    "bytes": 37417772,
+    "sha256": "e750498402101559573056948d4052a6f0f04791e0cd132c010d90155c0f1255"
+  },
+  {
+    "path": "DTA_affinity/results/nexusdti_regressor_bib_kiba_identity_f1_seed20261012.json",
+    "bytes": 4160,
+    "sha256": "bbcd599b5d0a187482a884c708716844ff725eb948fc071eaaf5346e15d21c1d"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f1_frozen_prior.json",
+    "bytes": 3732,
+    "sha256": "2caad1d68de4e13fbbc644409fddba993ace224531f3501d4ea9472dcccb165b"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f1_seed20261012_ablation.json",
+    "bytes": 2447,
+    "sha256": "a5144a9fe90017cb771afe4283e42ab8cdcc41a8345445840f15f6b15257710e"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_identity_20261017/folds/drug_coldstart/fold_1.csv",
+    "bytes": 2293461,
+    "sha256": "db71199bcbc90330ce9769d557fdc443ac652da82c7dbdfbfb9ce3b82c0caa9d"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_kiba_identity_f1_seed20261012_ablation_predictions.csv",
+    "bytes": 3951203,
+    "sha256": "d8f67060cab5cbd388d60b49c96d8609d1535cc8e18c3435e371ea17386634da"
+  },
+  {
+    "path": "DTA_affinity/results/checkpoints/nexusdti_bib_kiba_identity_f2_seed20261012.pt",
+    "bytes": 37417772,
+    "sha256": "182a09b81c9d8bd74333de46acb9ade6db1cefd5f8afaf852ea22caa38282f08"
+  },
+  {
+    "path": "DTA_affinity/results/nexusdti_regressor_bib_kiba_identity_f2_seed20261012.json",
+    "bytes": 4158,
+    "sha256": "40cbdbf1ec8c43a5c6188627057a09a1b2a32f9c60ce8823c1054c8577e67871"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f2_frozen_prior.json",
+    "bytes": 3734,
+    "sha256": "503939b16f970438d0d5ede27fb45b2bec4336f6164a3b1b6fe960267d3d4370"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f2_seed20261012_ablation.json",
+    "bytes": 2443,
+    "sha256": "946487a147aec81a479445a63c0625b36658ed69b4cb9df30a61611be57184b0"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_identity_20261017/folds/drug_coldstart/fold_2.csv",
+    "bytes": 2293220,
+    "sha256": "74e325945d4a67b5f557b592f206641f8e9d90ae2ee4a063ab00693f195c6dc8"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_kiba_identity_f2_seed20261012_ablation_predictions.csv",
+    "bytes": 3995920,
+    "sha256": "efe606a88bd3b2ce51a4d93662b9ebd536108f5b2d274524bf799a977ad570b6"
+  },
+  {
+    "path": "DTA_affinity/results/checkpoints/nexusdti_bib_kiba_identity_f3_seed20261012.pt",
+    "bytes": 37417772,
+    "sha256": "43a2f188642f8d65b8ab7bc17b6c7a893c37c4114858f6b1149a0b047b11d738"
+  },
+  {
+    "path": "DTA_affinity/results/nexusdti_regressor_bib_kiba_identity_f3_seed20261012.json",
+    "bytes": 4163,
+    "sha256": "052c72cd99f20862a45a1b8979dd41c2515cf92d8419c0d6c095419784dcad7a"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f3_frozen_prior.json",
+    "bytes": 3743,
+    "sha256": "e3e6aeb984bfd4ebc828436088613451fe4ee1927b11661b951afec8439a3eed"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f3_seed20261012_ablation.json",
+    "bytes": 2447,
+    "sha256": "1aaa947ca5aafadd2a8debd2077bf71db1820276209dc0a366b6368ab3694732"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_identity_20261017/folds/drug_coldstart/fold_3.csv",
+    "bytes": 2293803,
+    "sha256": "999b15dc0faab09055e39263f27dd1e41573026b171aa0c58177c88a674f9606"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_kiba_identity_f3_seed20261012_ablation_predictions.csv",
+    "bytes": 3859551,
+    "sha256": "3438b380b5167665b882b4202d5b4aecf182a8fabbb1c105ea412f2edfea3544"
+  },
+  {
+    "path": "DTA_affinity/results/checkpoints/nexusdti_bib_kiba_identity_f4_seed20261012.pt",
+    "bytes": 37417644,
+    "sha256": "2919389d5a16cc6ca19a75623de87318998d717f7fb9a2dc13d9f3f908dc6018"
+  },
+  {
+    "path": "DTA_affinity/results/nexusdti_regressor_bib_kiba_identity_f4_seed20261012.json",
+    "bytes": 3830,
+    "sha256": "40c62ac54a0dcfdd29f337bd52dadad14d0c1e38c2a177520810900caf25e2fa"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f4_frozen_prior.json",
+    "bytes": 3731,
+    "sha256": "f632a0ffe070ad08b2bd265d1c146b4b9d169fe65f61df6f2c9d32cd951c5e2a"
+  },
+  {
+    "path": "DTA_affinity/results/bib_kiba_identity_f4_seed20261012_ablation.json",
+    "bytes": 2444,
+    "sha256": "433f11f4db00cb1f9867ca39740390a05994d6e610e43bcc35b54dc86d9124f2"
+  },
+  {
+    "path": "DTA_affinity/data/processed/kiba_identity_20261017/folds/drug_coldstart/fold_4.csv",
+    "bytes": 2292637,
+    "sha256": "621b30141f4ed0ace6163793b19514c88b99c481809d048aefc7dc0966781bf1"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_kiba_identity_f4_seed20261012_ablation_predictions.csv",
+    "bytes": 4048501,
+    "sha256": "75ff2cd0ae37856c2fbe7346756f80e372ae26263993c7d9fcf96496f5bb6b48"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-18T15:22:58.432766+00:00",
+  "endpoint_evaluation_started": false,
+  "files": [
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/plan.json",
+      "bytes": 5313,
+      "sha256": "9fb68a3b94141d5aa4de857e42872d0bc9eaf803945f5293342bda3d303eba1e"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/functional_scores.csv",
+      "bytes": 47846,
+      "sha256": "deaf06acec2f9147875c28f7caa946ec4e04a26c18cdca57f115552360e2fca4"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/functional_audit.json",
+      "bytes": 4444,
+      "sha256": "6ea8530eca10fc497251e1bdd46325b9819cf99be9bcc403649f7331d9f59351"
+    }
+  ],
+  "code": {
+    "path": "DTA_affinity/scripts/review_bib_cellular_profiles.py",
+    "bytes": 10781,
+    "sha256": "fc578b9c025808b553856c91a5bffb2425b444e141c0eff35021d8d9e67abb15"
+  }
+}

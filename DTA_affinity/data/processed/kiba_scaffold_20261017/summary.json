@@ -1,0 +1,175 @@
+{
+  "plan": {
+    "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/plan.json",
+    "bytes": 1262,
+    "sha256": "815eda996315e0a3efc851b06a5dbe9043aacb5c7b619195af2b452da55fffc7"
+  },
+  "pairs": 118254,
+  "identities": 2068,
+  "scaffolds": 1192,
+  "acyclic_identities": 10,
+  "pairs_removed": 0,
+  "every_test_row_once": true,
+  "folds": [
+    {
+      "fold": 0,
+      "manifest": {
+        "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/folds/drug_coldstart/fold_0.csv",
+        "bytes": 1378120,
+        "sha256": "fff2b17176d6c47cb496fd796a6ab2642e266d2d0e844160a793e4d1ca0c1f11"
+      },
+      "rows": {
+        "test": 27083,
+        "val": 10501,
+        "train": 80670
+      },
+      "scaffolds": {
+        "test": 239,
+        "val": 96,
+        "train": 857
+      },
+      "chemical_identity_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "scaffold_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      }
+    },
+    {
+      "fold": 1,
+      "manifest": {
+        "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/folds/drug_coldstart/fold_1.csv",
+        "bytes": 1383633,
+        "sha256": "6bb62bf34fdc764ed5c540fc227644457997c13f2c78e842cb13cda4fdb15dd3"
+      },
+      "rows": {
+        "test": 22642,
+        "val": 9965,
+        "train": 85647
+      },
+      "scaffolds": {
+        "test": 239,
+        "val": 96,
+        "train": 857
+      },
+      "chemical_identity_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "scaffold_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      }
+    },
+    {
+      "fold": 2,
+      "manifest": {
+        "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/folds/drug_coldstart/fold_2.csv",
+        "bytes": 1382350,
+        "sha256": "d176ec05154d2ac8deff25be9c1e24f4b8298eb3069b3319abcd0fc428dfbde5"
+      },
+      "rows": {
+        "test": 23193,
+        "val": 10331,
+        "train": 84730
+      },
+      "scaffolds": {
+        "test": 238,
+        "val": 96,
+        "train": 858
+      },
+      "chemical_identity_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "scaffold_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      }
+    },
+    {
+      "fold": 3,
+      "manifest": {
+        "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/folds/drug_coldstart/fold_3.csv",
+        "bytes": 1385036,
+        "sha256": "d9144a7e34eaecd6f3497c68771afb969c5aa1c58f2fbebbe476c220cbf43e62"
+      },
+      "rows": {
+        "test": 22257,
+        "val": 9456,
+        "train": 86541
+      },
+      "scaffolds": {
+        "test": 238,
+        "val": 96,
+        "train": 858
+      },
+      "chemical_identity_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "scaffold_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      }
+    },
+    {
+      "fold": 4,
+      "manifest": {
+        "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/folds/drug_coldstart/fold_4.csv",
+        "bytes": 1378222,
+        "sha256": "bc26fcfca9ffa483d0abe0f3b8297567c650c2c7a1939d44dec7f9c9c4e8c00c"
+      },
+      "rows": {
+        "test": 23079,
+        "val": 12452,
+        "train": 82723
+      },
+      "scaffolds": {
+        "test": 238,
+        "val": 96,
+        "train": 858
+      },
+      "chemical_identity_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "scaffold_overlap": {
+        "test/val": 0,
+        "test/train": 0,
+        "val/train": 0
+      },
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      }
+    }
+  ]
+}

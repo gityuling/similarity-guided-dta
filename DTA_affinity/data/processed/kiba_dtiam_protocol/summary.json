@@ -1,0 +1,126 @@
+{
+  "dataset": "KIBA complete DeepDTA/DTIAM benchmark",
+  "label": "native kiba_score; no log transform or pKd floor",
+  "pairs": 118254,
+  "drug_ids": 2111,
+  "canonical_drugs": 2068,
+  "protein_ids": 229,
+  "unique_sequences": 229,
+  "outer_splitter": "KFold(n_splits=5, shuffle=True, random_state=0) over original drug IDs",
+  "inner_validation": "10% of outer-train drug IDs, numpy.default_rng(inner_seed + fold)",
+  "inner_seed": 20261012,
+  "source_sha256": {
+    "ligands_can.txt": "a95797abaf31b17bd2471dbf3e3476f588d5a79797903cc156528f66e55c963b",
+    "proteins.txt": "2ba9dbc2959d88b0740aaf28828c4c611c2dbd1c2019547eb2ec1c3daa192604",
+    "Y": "53857b84218ba3d60293c70ab79e2abd83d615d06218c73c150f6dfb4c7134a6"
+  },
+  "table_sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f",
+  "caveat": "Official drug-ID cold folds contain repeated canonical molecules across partitions; do not describe as strictly chemical-identity-disjoint.",
+  "folds": [
+    {
+      "fold": 0,
+      "rows": {
+        "train": 83984,
+        "val": 9719,
+        "test": 24551
+      },
+      "drug_ids": {
+        "train": 1519,
+        "val": 169,
+        "test": 423
+      },
+      "canonical_train_test_overlap": 10,
+      "canonical_train_val_overlap": 3,
+      "test_rows_with_train_canonical_drug": 343,
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      },
+      "manifest_sha256": "de80ab172f4bd19faba4070dbfa8ae2d6a96bcb6bdd4c7fa305e68fa22882fcc"
+    },
+    {
+      "fold": 1,
+      "rows": {
+        "train": 85379,
+        "val": 9370,
+        "test": 23505
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "canonical_train_test_overlap": 12,
+      "canonical_train_val_overlap": 4,
+      "test_rows_with_train_canonical_drug": 515,
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      },
+      "manifest_sha256": "41b64986834ea7dc88468a48d8bfea863e20c8c82e8019a12d3505408d31676c"
+    },
+    {
+      "fold": 2,
+      "rows": {
+        "train": 86122,
+        "val": 9346,
+        "test": 22786
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "canonical_train_test_overlap": 10,
+      "canonical_train_val_overlap": 2,
+      "test_rows_with_train_canonical_drug": 234,
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      },
+      "manifest_sha256": "39084b67e1c1b5d8724a87147589541b23fdb7c647e6bbb8578ba67c98d47f99"
+    },
+    {
+      "fold": 3,
+      "rows": {
+        "train": 84316,
+        "val": 8781,
+        "test": 25157
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "canonical_train_test_overlap": 7,
+      "canonical_train_val_overlap": 9,
+      "test_rows_with_train_canonical_drug": 296,
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      },
+      "manifest_sha256": "e3a3229dd1d52b1febfdb530d0de788fb9a953bfa6290232108de44a3e5ba0e8"
+    },
+    {
+      "fold": 4,
+      "rows": {
+        "train": 87832,
+        "val": 8167,
+        "test": 22255
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "canonical_train_test_overlap": 12,
+      "canonical_train_val_overlap": 4,
+      "test_rows_with_train_canonical_drug": 190,
+      "unsupported_same_target_rows": {
+        "val": 0,
+        "test": 0
+      },
+      "manifest_sha256": "881b435b97beb5c9848066aec078c35759784f699f2772ea5878687e19010cf5"
+    }
+  ]
+}

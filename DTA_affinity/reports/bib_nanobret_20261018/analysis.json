@@ -1,0 +1,2743 @@
+{
+  "model_training_performed": false,
+  "new_endpoint_weight_fitting": false,
+  "pairs": 1167,
+  "compounds": 10,
+  "macro_metrics": [
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 5,
+      "macro_mean": 0.3026118483151096
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 5,
+      "macro_mean": 0.4711438221185598
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 5,
+      "macro_mean": 0.44679011186676726
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 5,
+      "macro_mean": 0.4478554782093063
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 5,
+      "macro_mean": 0.6122303318027003
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 5,
+      "macro_mean": 0.7458310001402106
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 5,
+      "macro_mean": 0.7177911470839102
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 5,
+      "macro_mean": 0.7144878148167622
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 5,
+      "macro_mean": 0.7118698861620625
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 5,
+      "macro_mean": 0.7999428228044325
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 5,
+      "macro_mean": 0.7876711846211979
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 5,
+      "macro_mean": 0.7907232162411251
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 6,
+      "macro_mean": 1.3584217171717172
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 6,
+      "macro_mean": 1.4810010822510822
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 6,
+      "macro_mean": 1.4810010822510822
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 6,
+      "macro_mean": 1.4492550505050505
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 4,
+      "macro_mean": 0.006948293886972542
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 4,
+      "macro_mean": -0.008997605188206758
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 4,
+      "macro_mean": -0.008222243070616468
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 4,
+      "macro_mean": -0.002596009638493199
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.8376285793716987
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.8925259218072674
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.9062590739196245
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.9093454936727108
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.11072984749455339
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.16125
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.16537166537166537
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.16419184161119646
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 1.8500000000000003
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 6,
+      "macro_mean": 0.3318429284322155
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 6,
+      "macro_mean": 0.3706732486598016
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 6,
+      "macro_mean": 0.37608892599251625
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 6,
+      "macro_mean": 0.3783759319427448
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 6,
+      "macro_mean": 0.7287784948533801
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 6,
+      "macro_mean": 0.7994623105635412
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 6,
+      "macro_mean": 0.7908158685331977
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 6,
+      "macro_mean": 0.7877315576783825
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 6,
+      "macro_mean": 0.40574040960360325
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 6,
+      "macro_mean": 0.505056914683097
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 6,
+      "macro_mean": 0.5080290287664568
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 6,
+      "macro_mean": 0.5106074030453125
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 6,
+      "macro_mean": 2.4747474747474745
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 6,
+      "macro_mean": 3.1136994949494947
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 6,
+      "macro_mean": 3.2729166666666667
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 6,
+      "macro_mean": 3.1888257575757577
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 4,
+      "macro_mean": 0.015864430944706173
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 4,
+      "macro_mean": -0.025378070045501244
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 4,
+      "macro_mean": -0.017095951098244678
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 4,
+      "macro_mean": -0.009558117929677553
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.8376285793716987
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.8925259218072674
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.9062590739196245
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.9093454936727108
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.11072984749455339
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.16125
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.16537166537166537
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.16419184161119646
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 1.8500000000000003
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 1,
+      "macro_mean": 0.5179502915557509
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 1,
+      "macro_mean": 0.6241178276210884
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 1,
+      "macro_mean": 0.6319788425403219
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 1,
+      "macro_mean": 0.6385248177890519
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 1,
+      "macro_mean": 0.7785547785547786
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 1,
+      "macro_mean": 0.8543123543123543
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 1,
+      "macro_mean": 0.8578088578088578
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 1,
+      "macro_mean": 0.8601398601398601
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 1,
+      "macro_mean": 0.846737481350506
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 1,
+      "macro_mean": 0.9086181545146589
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 1,
+      "macro_mean": 0.9128391893035391
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 1,
+      "macro_mean": 0.9168889172813389
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 2,
+      "macro_mean": 1.393939393939394
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 2,
+      "macro_mean": 1.393939393939394
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 2,
+      "macro_mean": 1.393939393939394
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 2,
+      "macro_mean": 1.393939393939394
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 4,
+      "macro_mean": 0.006948293886972542
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 4,
+      "macro_mean": -0.008997605188206758
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 4,
+      "macro_mean": -0.008222243070616468
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 4,
+      "macro_mean": -0.002596009638493199
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.8376285793716987
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.8925259218072674
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.9062590739196245
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.9093454936727108
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.11072984749455339
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.16125
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.16537166537166537
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.16419184161119646
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 1.8500000000000003
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 2,
+      "macro_mean": 0.29210510493067526
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 2,
+      "macro_mean": 0.36222933401177654
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 2,
+      "macro_mean": 0.36141038668262787
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 2,
+      "macro_mean": 0.3560186779841942
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 2,
+      "macro_mean": 0.743599546870575
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 2,
+      "macro_mean": 0.840809968847352
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 2,
+      "macro_mean": 0.8322854715378081
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 2,
+      "macro_mean": 0.813112432738601
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 2,
+      "macro_mean": 0.33602218880680446
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 2,
+      "macro_mean": 0.41462567474313045
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 2,
+      "macro_mean": 0.41073144983696636
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 2,
+      "macro_mean": 0.4077122522460415
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 2,
+      "macro_mean": 1.696969696969697
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 2,
+      "macro_mean": 2.121212121212121
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 2,
+      "macro_mean": 1.9090909090909092
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 2,
+      "macro_mean": 1.9090909090909092
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "deep",
+      "compounds": 4,
+      "macro_mean": 0.015864430944706173
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "neighbor_prior",
+      "compounds": 4,
+      "macro_mean": -0.025378070045501244
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "fixed_blend",
+      "compounds": 4,
+      "macro_mean": -0.017095951098244678
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "model": "similarity_gate",
+      "compounds": 4,
+      "macro_mean": -0.009558117929677553
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.8376285793716987
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.8925259218072674
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.9062590739196245
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.9093454936727108
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 0.11072984749455339
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 0.16125
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 0.16537166537166537
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 0.16419184161119646
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "deep",
+      "compounds": 3,
+      "macro_mean": 1.8500000000000003
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "neighbor_prior",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "fixed_blend",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "model": "similarity_gate",
+      "compounds": 3,
+      "macro_mean": 7.383333333333334
+    }
+  ],
+  "paired_differences": [
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 5,
+      "delta": 0.14524362989419665,
+      "ci95": [
+        0.10985603202566538,
+        0.18780712606691696
+      ],
+      "drug_wins": 5,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 5,
+      "delta": -0.023288343909253495,
+      "ci95": [
+        -0.04822622152239937,
+        0.0016495337038923807
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 5,
+      "delta": 0.0010653663425390313,
+      "ci95": [
+        -0.007063549527067415,
+        0.008389250081818378
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 5,
+      "delta": 0.10225748301406194,
+      "ci95": [
+        0.056729418242576136,
+        0.1770809052059052
+      ],
+      "drug_wins": 5,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 5,
+      "delta": -0.031343185323448486,
+      "ci95": [
+        -0.07435454895981217,
+        0.0013840326340326613
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 5,
+      "delta": -0.0033033322671480515,
+      "ci95": [
+        -0.0149848105111263,
+        0.006937160062160097
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 5,
+      "delta": 0.07885333007906266,
+      "ci95": [
+        0.0492674282811272,
+        0.11019272120220291
+      ],
+      "drug_wins": 5,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 5,
+      "delta": -0.009219606563307493,
+      "ci95": [
+        -0.030593115790139302,
+        0.011422157834751001
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 5,
+      "delta": 0.003052031619927087,
+      "ci95": [
+        -0.006655110781759866,
+        0.01291783696772808
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 6,
+      "delta": 0.09083333333333339,
+      "ci95": [
+        0.0,
+        0.23250000000000015
+      ],
+      "drug_wins": 2,
+      "drug_ties": 4,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 6,
+      "delta": -0.031746031746031744,
+      "ci95": [
+        -0.09523809523809523,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 5,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 6,
+      "delta": -0.031746031746031744,
+      "ci95": [
+        -0.09523809523809523,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 5,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 4,
+      "delta": -0.009544303525465741,
+      "ci95": [
+        -0.04843403782750449,
+        0.019531152962041116
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 4,
+      "delta": 0.006401595549713559,
+      "ci95": [
+        -0.04202993339870573,
+        0.0638315561300196
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 4,
+      "delta": 0.005626233432123269,
+      "ci95": [
+        -0.004630771749922755,
+        0.015883238614169293
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.07171691430101212,
+      "ci95": [
+        0.00917431192660545,
+        0.12727272727272732
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0168195718654434,
+      "ci95": [
+        -1.1102230246251565e-16,
+        0.050458715596330306
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0030864197530863593,
+      "ci95": [
+        0.0,
+        0.009259259259259078
+      ],
+      "drug_wins": 1,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.053461994116643076,
+      "ci95": [
+        -0.06746031746031744,
+        0.19444444444444445
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.002941841611196446,
+      "ci95": [
+        -0.005936379928315416,
+        0.014761904761904754
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": -0.001179823760468916,
+      "ci95": [
+        -0.005494505494505475,
+        0.0019550342130987275
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 5.533333333333334,
+      "ci95": [
+        0.0,
+        11.100000000000001
+      ],
+      "drug_wins": 2,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 6,
+      "delta": 0.046533003510529324,
+      "ci95": [
+        0.027366241981815198,
+        0.0628866868660678
+      ],
+      "drug_wins": 6,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 6,
+      "delta": 0.007702683282943254,
+      "ci95": [
+        -0.004494795794488157,
+        0.023780292166856298
+      ],
+      "drug_wins": 4,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 6,
+      "delta": 0.002287005950228548,
+      "ci95": [
+        -0.0033186352261222857,
+        0.008791538435954588
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 6,
+      "delta": 0.058953062825002546,
+      "ci95": [
+        0.04515020118740304,
+        0.07044120529459567
+      ],
+      "drug_wins": 6,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 6,
+      "delta": -0.011730752885158754,
+      "ci95": [
+        -0.031139024886603306,
+        0.005544429494190299
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 6,
+      "delta": -0.0030843108548152163,
+      "ci95": [
+        -0.016943351565390747,
+        0.007179731945895751
+      ],
+      "drug_wins": 2,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 6,
+      "delta": 0.10486699344170924,
+      "ci95": [
+        0.05936775188217284,
+        0.14721481910297188
+      ],
+      "drug_wins": 6,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 6,
+      "delta": 0.005550488362215521,
+      "ci95": [
+        -0.015653938761528693,
+        0.029895212151268686
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 6,
+      "delta": 0.0025783742788556678,
+      "ci95": [
+        -0.006480471097391076,
+        0.014506233464540752
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 6,
+      "delta": 0.7140782828282829,
+      "ci95": [
+        0.3579545454545456,
+        1.0863494318181806
+      ],
+      "drug_wins": 5,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 6,
+      "delta": 0.07512626262626276,
+      "ci95": [
+        -0.21212121212121193,
+        0.4375000000000002
+      ],
+      "drug_wins": 1,
+      "drug_ties": 4,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 6,
+      "delta": -0.08409090909090906,
+      "ci95": [
+        -0.2522727272727272,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 5,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 4,
+      "delta": -0.02542254887438373,
+      "ci95": [
+        -0.05608023578207062,
+        -0.005591874341874333
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 4,
+      "delta": 0.01581995211582369,
+      "ci95": [
+        -0.021217749830135142,
+        0.06964724464724467
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 4,
+      "delta": 0.0075378331685671245,
+      "ci95": [
+        9.672635819425734e-05,
+        0.014978939978939992
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.07171691430101212,
+      "ci95": [
+        0.00917431192660545,
+        0.12727272727272732
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0168195718654434,
+      "ci95": [
+        -1.1102230246251565e-16,
+        0.050458715596330306
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0030864197530863593,
+      "ci95": [
+        0.0,
+        0.009259259259259078
+      ],
+      "drug_wins": 1,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.053461994116643076,
+      "ci95": [
+        -0.06746031746031744,
+        0.19444444444444445
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.002941841611196446,
+      "ci95": [
+        -0.005936379928315416,
+        0.014761904761904754
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": -0.001179823760468916,
+      "ci95": [
+        -0.005494505494505475,
+        0.0019550342130987275
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 5.533333333333334,
+      "ci95": [
+        0.0,
+        11.100000000000001
+      ],
+      "drug_wins": 2,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "all",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 1,
+      "delta": 0.120574526233301,
+      "ci95": [
+        0.120574526233301,
+        0.120574526233301
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 1,
+      "delta": 0.01440699016796354,
+      "ci95": [
+        0.01440699016796354,
+        0.01440699016796354
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 1,
+      "delta": 0.006545975248730018,
+      "ci95": [
+        0.006545975248730018,
+        0.006545975248730018
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 1,
+      "delta": 0.08158508158508149,
+      "ci95": [
+        0.08158508158508149,
+        0.08158508158508149
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 1,
+      "delta": 0.005827505827505797,
+      "ci95": [
+        0.005827505827505797,
+        0.005827505827505797
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 1,
+      "delta": 0.002331002331002252,
+      "ci95": [
+        0.002331002331002252,
+        0.002331002331002252
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 1,
+      "delta": 0.07015143593083295,
+      "ci95": [
+        0.07015143593083295,
+        0.07015143593083295
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 1,
+      "delta": 0.00827076276668004,
+      "ci95": [
+        0.00827076276668004,
+        0.00827076276668004
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 1,
+      "delta": 0.0040497279777997885,
+      "ci95": [
+        0.0040497279777997885,
+        0.0040497279777997885
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 2,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 2,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "ic50_interior_only",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 2,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 4,
+      "delta": -0.009544303525465741,
+      "ci95": [
+        -0.04843403782750449,
+        0.019531152962041116
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 4,
+      "delta": 0.006401595549713559,
+      "ci95": [
+        -0.04202993339870573,
+        0.0638315561300196
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 4,
+      "delta": 0.005626233432123269,
+      "ci95": [
+        -0.004630771749922755,
+        0.015883238614169293
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.07171691430101212,
+      "ci95": [
+        0.00917431192660545,
+        0.12727272727272732
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0168195718654434,
+      "ci95": [
+        -1.1102230246251565e-16,
+        0.050458715596330306
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0030864197530863593,
+      "ci95": [
+        0.0,
+        0.009259259259259078
+      ],
+      "drug_wins": 1,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.053461994116643076,
+      "ci95": [
+        -0.06746031746031744,
+        0.19444444444444445
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.002941841611196446,
+      "ci95": [
+        -0.005936379928315416,
+        0.014761904761904754
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": -0.001179823760468916,
+      "ci95": [
+        -0.005494505494505475,
+        0.0019550342130987275
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 5.533333333333334,
+      "ci95": [
+        0.0,
+        11.100000000000001
+      ],
+      "drug_wins": 2,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "occupancy_clipped",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 2,
+      "delta": 0.06391357305351891,
+      "ci95": [
+        0.05689795924550707,
+        0.07092918686153077
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 2,
+      "delta": -0.006210656027582348,
+      "ci95": [
+        -0.012796328183728528,
+        0.00037501612856383204
+      ],
+      "drug_wins": 1,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 2,
+      "delta": -0.005391708698433681,
+      "ci95": [
+        -0.00853088545581901,
+        -0.0022525319410483524
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 2,
+      "delta": 0.06951288586802606,
+      "ci95": [
+        0.05720758991787023,
+        0.0818181818181819
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 2,
+      "delta": -0.027697536108751086,
+      "ci95": [
+        -0.054545454545454564,
+        -0.000849617672047609
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 2,
+      "delta": -0.019173038799207065,
+      "ci95": [
+        -0.036363636363636376,
+        -0.0019824412347777542
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 2,
+      "delta": 0.07169006343923706,
+      "ci95": [
+        0.008166969147005446,
+        0.1352131577314687
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 2,
+      "delta": -0.006913422497088921,
+      "ci95": [
+        -0.008995502248875561,
+        -0.004831342745302281
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 2,
+      "delta": -0.0030191975909248,
+      "ci95": [
+        -0.005517241379310346,
+        -0.0005211538025392537
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 2,
+      "delta": 0.21212121212121215,
+      "ci95": [
+        0.0,
+        0.4242424242424243
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 2,
+      "delta": -0.21212121212121193,
+      "ci95": [
+        -0.42424242424242387,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "ic50_nm",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 2,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - deep",
+      "compounds": 4,
+      "delta": -0.02542254887438373,
+      "ci95": [
+        -0.05608023578207062,
+        -0.005591874341874333
+      ],
+      "drug_wins": 0,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 4,
+      "delta": 0.01581995211582369,
+      "ci95": [
+        -0.021217749830135142,
+        0.06964724464724467
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "spearman",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 4,
+      "delta": 0.0075378331685671245,
+      "ci95": [
+        9.672635819425734e-05,
+        0.014978939978939992
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.07171691430101212,
+      "ci95": [
+        0.00917431192660545,
+        0.12727272727272732
+      ],
+      "drug_wins": 3,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0168195718654434,
+      "ci95": [
+        -1.1102230246251565e-16,
+        0.050458715596330306
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "auroc",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0030864197530863593,
+      "ci95": [
+        0.0,
+        0.009259259259259078
+      ],
+      "drug_wins": 1,
+      "drug_ties": 2,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 0.053461994116643076,
+      "ci95": [
+        -0.06746031746031744,
+        0.19444444444444445
+      ],
+      "drug_wins": 2,
+      "drug_ties": 0,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.002941841611196446,
+      "ci95": [
+        -0.005936379928315416,
+        0.014761904761904754
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ap",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": -0.001179823760468916,
+      "ci95": [
+        -0.005494505494505475,
+        0.0019550342130987275
+      ],
+      "drug_wins": 1,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - deep",
+      "compounds": 3,
+      "delta": 5.533333333333334,
+      "ci95": [
+        0.0,
+        11.100000000000001
+      ],
+      "drug_wins": 2,
+      "drug_ties": 1,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - neighbor_prior",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    },
+    {
+      "stratum": "davis_disjoint",
+      "variant": "primary",
+      "endpoint": "occupancy_pct",
+      "metric": "ef10",
+      "comparison": "similarity_gate - fixed_blend",
+      "compounds": 3,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "drug_wins": 0,
+      "drug_ties": 3,
+      "conditional_compound_bootstrap": true
+    }
+  ],
+  "uncertainty": "2000 paired compound-cluster bootstrap draws of macro metric difference, seed 20261019; conditional on fixed models and sampled panels, very few compounds, no multiplicity adjustment; not independent-target bootstrap",
+  "limitations": [
+    "No KIBA-score versus cellular-IC50 MSE",
+    "Cellular engagement does not validate cell killing or disease efficacy",
+    "Generalization limited to measured known kinase targets",
+    "No independent DTIAM predictions for this panel",
+    "Pretrained encoder exposure cannot be excluded"
+  ],
+  "files": [
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/plan.json",
+      "bytes": 2749,
+      "sha256": "18680840542773f245d46d919bd57bb4cabdbf875be2b2d5c5aa9ecf1a268fc0"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/freeze.json",
+      "bytes": 8272,
+      "sha256": "f3f9b022e1afffa821ae8e3f596f2a1b4c063909b61828db3a23ffe049474140"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/predictions.csv",
+      "bytes": 140215,
+      "sha256": "bdef52d6a88985f05bb877e3b33ba5c5ef53a99cbca4dedc13925588fe8d4800"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/scores.csv",
+      "bytes": 382705,
+      "sha256": "df7d5818092e62b409b000ac1ddaf37f657c3ebd2658862d4f9dea347204e858"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/per_compound_metrics.csv",
+      "bytes": 10290,
+      "sha256": "6d52f336598e5c92e39638a201cd6ce299b814d1d613624dbb8fb3f62239d1b6"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/macro_metrics.csv",
+      "bytes": 9337,
+      "sha256": "39ac5e41e85d20c75d1a4ccb55e40f254f27c39c5e7ad0c8cb6b23c0231a6b35"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_nanobret_20261018/top10.csv",
+      "bytes": 137745,
+      "sha256": "b829854d12199cd4f4128c30f5a779f4fc432d42e55c4ab47fc0443b2f312c0e"
+    }
+  ]
+}

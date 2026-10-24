@@ -1,0 +1,95 @@
+{
+  "plan": {
+    "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/plan.json",
+    "bytes": 1262,
+    "sha256": "815eda996315e0a3efc851b06a5dbe9043aacb5c7b619195af2b452da55fffc7"
+  },
+  "audit": {
+    "path": "DTA_affinity/data/processed/kiba_scaffold_20261017/summary.json",
+    "bytes": 4179,
+    "sha256": "dfbf448cd8d5756e226732b7b5bcce0abbc20e13f5c78b048d88e47ed8f3bd6c"
+  },
+  "jobs": [
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 0,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f0_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 1,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f1_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 2,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f2_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 3,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f3_seed20261012"
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "scaffold",
+      "fold": 4,
+      "seed": 20261012,
+      "id": "bib_kiba_scaffold_f4_seed20261012"
+    }
+  ],
+  "code": [
+    {
+      "path": "DTA_affinity/scripts/run_bib_scaffold.py",
+      "bytes": 9947,
+      "sha256": "8c352c86e226f9ff22de3052a2f4229a115a121d4b522d3b1aa17376fa64a5bf"
+    },
+    {
+      "path": "DTA_affinity/scripts/bib_common.py",
+      "bytes": 4713,
+      "sha256": "01ebd746ad8de12b468284d70e4c55df13b308f61013060e9f691423fecdeb2c"
+    },
+    {
+      "path": "DTA_affinity/scripts/bib_train_worker.py",
+      "bytes": 1743,
+      "sha256": "d9fdc3903dc17f6365154bdc23892f05804e3c96e5c99a41f666469b370f996c"
+    },
+    {
+      "path": "DTA_affinity/scripts/train_nexusdti_regressor.py",
+      "bytes": 48331,
+      "sha256": "8a10e31535a64a9e0d732804381beb68568b7311b91e30f927fd14c70df2060b"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_drug_similarity_prior.py",
+      "bytes": 7503,
+      "sha256": "f816354b026c6f5e2f0d3dfb958c32d0cbc1ab4cc75036789e7e2efbb941d8b0"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_affinity_ablation.py",
+      "bytes": 5957,
+      "sha256": "f93ff7987e01517ae7ce6df4e19104c4fe5a056a74c993cf5d6b4efe126573ab"
+    }
+  ],
+  "training": {
+    "epochs": 20,
+    "batch_size": 64,
+    "workers": 4,
+    "latent_dim": 512,
+    "lr": 0.0001,
+    "k_ratio": 0.15,
+    "dropout": 0.1,
+    "patience": 5,
+    "pool_fusion": true,
+    "hybrid": true,
+    "target_normalize": true
+  },
+  "gpu_jobs_at_once": 1
+}

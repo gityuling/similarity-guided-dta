@@ -1,0 +1,1418 @@
+{
+  "created_utc": "2026-10-17T08:42:02.515466+00:00",
+  "scope": "Frozen evidence from completed drug-ID cold runs; no historical source revision is reconstructed",
+  "outer_seed": 0,
+  "inner_seed": 20261012,
+  "original_training_seed": 20261012,
+  "planned_additional_training_seeds": [
+    20261017,
+    20261018
+  ],
+  "identity_definition": "RDKit MolToSmiles(MolFromSmiles(s), isomericSmiles=True); no salt stripping, tautomer or charge normalization",
+  "prior": "Same protein sequence; training labels only; Morgan radius=2, fpSize=2048; validation-selected k/gamma; raw outputs",
+  "fusion": "Validation-only clipped constant blend and L2 slope-regularized sigmoid gate; no test fitting or affine calibration",
+  "datasets": {
+    "davis": {
+      "table": "DTA_affinity/data/processed/davis_dtiam_protocol/table.csv",
+      "label": "pKd_floor",
+      "pairs": 30056,
+      "drug_ids": 68,
+      "canonical_structures": 68,
+      "protein_ids": 442,
+      "unique_sequences": 379,
+      "label_min": 5.0,
+      "label_max": 10.795880017344077,
+      "label_scale": "-log10(Kd_nM / 1e9); retain pKd=5 floor",
+      "features": "dataset/processed_DTI_Token/token_features_davis",
+      "feature_provenance": "Legacy cache; per-file hash/shape verified, original checkpoint lineage not independently recoverable",
+      "folds": [
+        {
+          "fold": 0,
+          "manifest": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+          "rows": {
+            "train": 21658,
+            "val": 2210,
+            "test": 6188
+          },
+          "drug_ids": {
+            "train": 49,
+            "val": 5,
+            "test": 14
+          },
+          "canonical_overlap": {
+            "train/val": 0,
+            "train/test": 0,
+            "val/test": 0
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "dtiam_drugcold_f0",
+            "data_table": "data/processed/davis_dtiam_protocol/table.csv",
+            "manifest_file": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+            "dataset_label": "davis_dtiam_protocol",
+            "epochs": 20,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 40,
+            "gamma": 1.0,
+            "val_mse_raw": 0.48082750395288876,
+            "affine_slope": 0.7902705631762614,
+            "affine_intercept": 1.092780846251406
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f0_scratch_b64_lr1e4_e20.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f0_scratch_b64_lr1e4_e20.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+            "prior_result": "DTA_affinity/results/dtiam_drugcold_f0_morgan_neighbor_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f0_morgan_neighbor_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/dtiam_drugcold_f0_scratch_b64_similarity_gated_ensemble.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f0_scratch_b64_similarity_gated_ensemble_predictions.csv"
+          }
+        },
+        {
+          "fold": 1,
+          "manifest": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+          "rows": {
+            "train": 21658,
+            "val": 2210,
+            "test": 6188
+          },
+          "drug_ids": {
+            "train": 49,
+            "val": 5,
+            "test": 14
+          },
+          "canonical_overlap": {
+            "train/val": 0,
+            "train/test": 0,
+            "val/test": 0
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "dtiam_drugcold_f1",
+            "data_table": "data/processed/davis_dtiam_protocol/table.csv",
+            "manifest_file": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+            "dataset_label": "davis_dtiam_protocol",
+            "epochs": 20,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 40,
+            "gamma": 4.0,
+            "val_mse_raw": 0.43082174822327035,
+            "affine_slope": 0.7898639910013571,
+            "affine_intercept": 0.9120825459934099
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f1_scratch_b64_lr1e4_e20.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f1_scratch_b64_lr1e4_e20.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+            "prior_result": "DTA_affinity/results/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv"
+          }
+        },
+        {
+          "fold": 2,
+          "manifest": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+          "rows": {
+            "train": 21658,
+            "val": 2210,
+            "test": 6188
+          },
+          "drug_ids": {
+            "train": 49,
+            "val": 5,
+            "test": 14
+          },
+          "canonical_overlap": {
+            "train/val": 0,
+            "train/test": 0,
+            "val/test": 0
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "dtiam_drugcold_f2",
+            "data_table": "data/processed/davis_dtiam_protocol/table.csv",
+            "manifest_file": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+            "dataset_label": "davis_dtiam_protocol",
+            "epochs": 20,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 10,
+            "gamma": 4.0,
+            "val_mse_raw": 0.48136552608566613,
+            "affine_slope": 0.7691125150316573,
+            "affine_intercept": 1.1656931187244044
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f2_scratch_b64_lr1e4_e20.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f2_scratch_b64_lr1e4_e20.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+            "prior_result": "DTA_affinity/results/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv"
+          }
+        },
+        {
+          "fold": 3,
+          "manifest": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+          "rows": {
+            "train": 21658,
+            "val": 2652,
+            "test": 5746
+          },
+          "drug_ids": {
+            "train": 49,
+            "val": 6,
+            "test": 13
+          },
+          "canonical_overlap": {
+            "train/val": 0,
+            "train/test": 0,
+            "val/test": 0
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "dtiam_drugcold_f3",
+            "data_table": "data/processed/davis_dtiam_protocol/table.csv",
+            "manifest_file": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+            "dataset_label": "davis_dtiam_protocol",
+            "epochs": 20,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 40,
+            "gamma": 4.0,
+            "val_mse_raw": 0.35275530748027883,
+            "affine_slope": 0.8186454098425459,
+            "affine_intercept": 0.8848486093021678
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f3_scratch_b64_lr1e4_e20.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f3_scratch_b64_lr1e4_e20.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+            "prior_result": "DTA_affinity/results/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv"
+          }
+        },
+        {
+          "fold": 4,
+          "manifest": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+          "rows": {
+            "train": 21658,
+            "val": 2652,
+            "test": 5746
+          },
+          "drug_ids": {
+            "train": 49,
+            "val": 6,
+            "test": 13
+          },
+          "canonical_overlap": {
+            "train/val": 0,
+            "train/test": 0,
+            "val/test": 0
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "dtiam_drugcold_f4",
+            "data_table": "data/processed/davis_dtiam_protocol/table.csv",
+            "manifest_file": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+            "dataset_label": "davis_dtiam_protocol",
+            "epochs": 20,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 40,
+            "gamma": 2.0,
+            "val_mse_raw": 0.445403892592875,
+            "affine_slope": 0.777487944316439,
+            "affine_intercept": 1.060486947346849
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f4_scratch_b64_lr1e4_e20.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f4_scratch_b64_lr1e4_e20.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+            "prior_result": "DTA_affinity/results/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv"
+          }
+        }
+      ],
+      "every_test_row_once": true
+    },
+    "kiba": {
+      "table": "DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+      "label": "kiba_score",
+      "pairs": 118254,
+      "drug_ids": 2111,
+      "canonical_structures": 2068,
+      "protein_ids": 229,
+      "unique_sequences": 229,
+      "label_min": 0.0,
+      "label_max": 17.200179498,
+      "label_scale": "native KIBA score; no log transform",
+      "features": "DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+      "feature_provenance": "Fresh local-weight inference; build_audit.json records model and extractor hashes",
+      "folds": [
+        {
+          "fold": 0,
+          "manifest": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+          "rows": {
+            "train": 83984,
+            "val": 9719,
+            "test": 24551
+          },
+          "drug_ids": {
+            "train": 1519,
+            "val": 169,
+            "test": 423
+          },
+          "canonical_overlap": {
+            "train/val": 3,
+            "train/test": 10,
+            "val/test": 4
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "kiba_dtiam_drugcold_f0",
+            "data_table": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+            "manifest_file": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+            "dataset_label": "kiba_dtiam_protocol",
+            "epochs": 20,
+            "token_dir": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+            "target_column": "kiba_score",
+            "device": "cuda",
+            "save_predictions": true,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20_seed20261012",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 40,
+            "gamma": 4.0,
+            "val_mse_raw": 0.32058334256825266,
+            "affine_slope": 0.9158340090329306,
+            "affine_intercept": 0.9290439913933387
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+            "prior_result": "DTA_affinity/results/kiba_dtiam_drugcold_f0_frozen_morgan_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f0_frozen_morgan_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv"
+          }
+        },
+        {
+          "fold": 1,
+          "manifest": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+          "rows": {
+            "train": 85379,
+            "val": 9370,
+            "test": 23505
+          },
+          "drug_ids": {
+            "train": 1520,
+            "val": 169,
+            "test": 422
+          },
+          "canonical_overlap": {
+            "train/val": 4,
+            "train/test": 12,
+            "val/test": 4
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "kiba_dtiam_drugcold_f1",
+            "data_table": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+            "manifest_file": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+            "dataset_label": "kiba_dtiam_protocol",
+            "epochs": 20,
+            "token_dir": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+            "target_column": "kiba_score",
+            "device": "cuda",
+            "save_predictions": true,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20_seed20261012",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 40,
+            "gamma": 4.0,
+            "val_mse_raw": 0.2818474544656547,
+            "affine_slope": 0.9754399183002024,
+            "affine_intercept": 0.24581545090879559
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+            "prior_result": "DTA_affinity/results/kiba_dtiam_drugcold_f1_frozen_morgan_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f1_frozen_morgan_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv"
+          }
+        },
+        {
+          "fold": 2,
+          "manifest": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+          "rows": {
+            "train": 86122,
+            "val": 9346,
+            "test": 22786
+          },
+          "drug_ids": {
+            "train": 1520,
+            "val": 169,
+            "test": 422
+          },
+          "canonical_overlap": {
+            "train/val": 2,
+            "train/test": 10,
+            "val/test": 1
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "kiba_dtiam_drugcold_f2",
+            "data_table": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+            "manifest_file": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+            "dataset_label": "kiba_dtiam_protocol",
+            "epochs": 20,
+            "token_dir": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+            "target_column": "kiba_score",
+            "device": "cuda",
+            "save_predictions": true,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20_seed20261012",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 10,
+            "gamma": 4.0,
+            "val_mse_raw": 0.26968502708314235,
+            "affine_slope": 0.9082016640363587,
+            "affine_intercept": 1.02995427282294
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+            "prior_result": "DTA_affinity/results/kiba_dtiam_drugcold_f2_frozen_morgan_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f2_frozen_morgan_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv"
+          }
+        },
+        {
+          "fold": 3,
+          "manifest": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+          "rows": {
+            "train": 84316,
+            "val": 8781,
+            "test": 25157
+          },
+          "drug_ids": {
+            "train": 1520,
+            "val": 169,
+            "test": 422
+          },
+          "canonical_overlap": {
+            "train/val": 9,
+            "train/test": 7,
+            "val/test": 3
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "kiba_dtiam_drugcold_f3",
+            "data_table": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+            "manifest_file": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+            "dataset_label": "kiba_dtiam_protocol",
+            "epochs": 20,
+            "token_dir": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+            "target_column": "kiba_score",
+            "device": "cuda",
+            "save_predictions": true,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20_seed20261012",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 10,
+            "gamma": 4.0,
+            "val_mse_raw": 0.2971172651529581,
+            "affine_slope": 0.9008274964914168,
+            "affine_intercept": 1.1437992348165569
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+            "prior_result": "DTA_affinity/results/kiba_dtiam_drugcold_f3_frozen_morgan_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f3_frozen_morgan_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv"
+          }
+        },
+        {
+          "fold": 4,
+          "manifest": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+          "rows": {
+            "train": 87832,
+            "val": 8167,
+            "test": 22255
+          },
+          "drug_ids": {
+            "train": 1520,
+            "val": 169,
+            "test": 422
+          },
+          "canonical_overlap": {
+            "train/val": 4,
+            "train/test": 12,
+            "val/test": 2
+          },
+          "unsupported_same_target_rows": {
+            "val": 0,
+            "test": 0
+          },
+          "checkpoint_args": {
+            "split": "kiba_dtiam_drugcold_f4",
+            "data_table": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+            "manifest_file": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+            "dataset_label": "kiba_dtiam_protocol",
+            "epochs": 20,
+            "token_dir": "/home/lsy/文档/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+            "target_column": "kiba_score",
+            "device": "cuda",
+            "save_predictions": true,
+            "batch_size": 64,
+            "workers": 4,
+            "latent_dim": 512,
+            "lr": 0.0001,
+            "k_ratio": 0.15,
+            "pool_fusion": true,
+            "drug_attention": false,
+            "pocket_fusion": false,
+            "pocket_radius": 48,
+            "pocket_residual": false,
+            "freeze_base": false,
+            "hybrid": true,
+            "censor_aware": false,
+            "censor_floor": 5.0,
+            "activity_aux_only": false,
+            "activity_loss_weight": 0.25,
+            "target_normalize": true,
+            "dropout": 0.1,
+            "init_checkpoint": null,
+            "encoder_init_checkpoint": null,
+            "run_tag": "scratch_b64_lr1e4_e20_seed20261012",
+            "patience": 5,
+            "seed": 20261012
+          },
+          "prior_hyperparameters": {
+            "top_k": 20,
+            "gamma": 4.0,
+            "val_mse_raw": 0.3028755659870109,
+            "affine_slope": 0.952108125736425,
+            "affine_intercept": 0.503766324036445
+          },
+          "artifacts": {
+            "deep_result": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012.json",
+            "deep_checkpoint": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012.pt",
+            "deep_predictions": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+            "prior_result": "DTA_affinity/results/kiba_dtiam_drugcold_f4_frozen_morgan_prior.json",
+            "prior_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f4_frozen_morgan_prior_predictions.csv",
+            "fusion_result": "DTA_affinity/results/kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+            "fusion_predictions": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv"
+          }
+        }
+      ],
+      "every_test_row_once": true
+    }
+  },
+  "files": [
+    {
+      "path": "DTA_affinity/baselines/DTIAM/code/data_process/data_split_dta.py",
+      "bytes": 3772,
+      "sha256": "ac351699b08663d72cea0d8e691cc67a0c70210f878999a0161dcb73aecb3a21"
+    },
+    {
+      "path": "DTA_affinity/baselines/DTIAM/data/dta/davis/Y",
+      "bytes": 240605,
+      "sha256": "9855c4f234ec6dd18295b0e0cd6ee54214cafa908c6eb1d447b47d454fc0294a"
+    },
+    {
+      "path": "DTA_affinity/baselines/DTIAM/data/dta/davis/ligands_can.txt",
+      "bytes": 5306,
+      "sha256": "141094d99510a52091d2ea1b05be7c1f66b2c5fcaeeeb261eaf4cbf2128bde6d"
+    },
+    {
+      "path": "DTA_affinity/baselines/DTIAM/data/dta/davis/proteins.txt",
+      "bytes": 355211,
+      "sha256": "187cedeee10cd3b58af915a2861a5ed0c4ff42a2d728f4dea5e0b47e3d75b291"
+    },
+    {
+      "path": "DTA_affinity/baselines/DTIAM/data/dta/kiba/Y",
+      "bytes": 3867510,
+      "sha256": "53857b84218ba3d60293c70ab79e2abd83d615d06218c73c150f6dfb4c7134a6"
+    },
+    {
+      "path": "DTA_affinity/baselines/DTIAM/data/dta/kiba/ligands_can.txt",
+      "bytes": 165908,
+      "sha256": "a95797abaf31b17bd2471dbf3e3476f588d5a79797903cc156528f66e55c963b"
+    },
+    {
+      "path": "DTA_affinity/baselines/DTIAM/data/dta/kiba/proteins.txt",
+      "bytes": 170137,
+      "sha256": "2ba9dbc2959d88b0740aaf28828c4c611c2dbd1c2019547eb2ec1c3daa192604"
+    },
+    {
+      "path": "DTA_affinity/configs/kiba_drugcold_20261016.json",
+      "bytes": 940,
+      "sha256": "bc6db70cf59f5fa5db55b093e9e49aaf415b06bdbb47c4668b66a65e491afc79"
+    },
+    {
+      "path": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+      "bytes": 537480,
+      "sha256": "cfffe941c252508691a6cf757ba25f6f09bf4fc0d7a4d54498b1639e3af63e63"
+    },
+    {
+      "path": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+      "bytes": 537480,
+      "sha256": "10b7a299015f0b9ac99ed34e78b9c37cf0a42404c3800d177a2439adb4b8b85d"
+    },
+    {
+      "path": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+      "bytes": 537480,
+      "sha256": "d54a75e3d995e2d84e042e123a546191db953310f80ea96cbc8b34fc70016b4f"
+    },
+    {
+      "path": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+      "bytes": 537038,
+      "sha256": "dbe9ae2e62dc9e4022b74f74e73d3eb6b9e01edb69dda06e901f58f8712067c9"
+    },
+    {
+      "path": "DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+      "bytes": 537038,
+      "sha256": "1697321cc80d4e28061ab73e517ea34f0b40557f5af9528c340c110dd288f529"
+    },
+    {
+      "path": "DTA_affinity/data/processed/davis_dtiam_protocol/table.csv",
+      "bytes": 26912290,
+      "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+      "bytes": 2291447,
+      "sha256": "de80ab172f4bd19faba4070dbfa8ae2d6a96bcb6bdd4c7fa305e68fa22882fcc"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+      "bytes": 2293191,
+      "sha256": "41b64986834ea7dc88468a48d8bfea863e20c8c82e8019a12d3505408d31676c"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+      "bytes": 2293958,
+      "sha256": "39084b67e1c1b5d8724a87147589541b23fdb7c647e6bbb8578ba67c98d47f99"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+      "bytes": 2292717,
+      "sha256": "e3a3229dd1d52b1febfdb530d0de788fb9a953bfa6290232108de44a3e5ba0e8"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+      "bytes": 2296847,
+      "sha256": "881b435b97beb5c9848066aec078c35759784f699f2772ea5878687e19010cf5"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+      "bytes": 97771320,
+      "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+    },
+    {
+      "path": "DTA_affinity/data/processed/kiba_dtiam_protocol/tokens/build_audit.json",
+      "bytes": 2061,
+      "sha256": "eb26fe85fba9a288b878c0f7c0267796440b72fe51cf60ccca3b426812d2b0a3"
+    },
+    {
+      "path": "DTA_affinity/data/raw/dtiam_source_data_2025.zip",
+      "bytes": 35044852,
+      "sha256": "2a486c8e678ebada32a8e3cfc044ce878380cae5c33a81f33ff68cf27174c8a9"
+    },
+    {
+      "path": "DTA_affinity/reports/audit_ijms_readiness_20261016.py",
+      "bytes": 15205,
+      "sha256": "7142a0e1771aea73987e048f7ac178bf9b0af37910d6634fc924f9e48bbeb491"
+    },
+    {
+      "path": "DTA_affinity/reports/build_davis_supplement_20261016.py",
+      "bytes": 17293,
+      "sha256": "2c6212dcebc86697d1b95cb150e48bf31eb5d97bdfd3a84ef9c37d21448bc004"
+    },
+    {
+      "path": "DTA_affinity/reports/compare_dtiam_source_data.py",
+      "bytes": 4561,
+      "sha256": "60e79a31bc45e0986ca900776258f73ee08c8f39968ba906d69f561d1a2890e4"
+    },
+    {
+      "path": "DTA_affinity/reports/davis_supplement_20261016.csv",
+      "bytes": 6364121,
+      "sha256": "1bd766dc5b66b3c3b0daa3a7212ba4bbc58d3d2ecae089bebee04a5c25be2e1d"
+    },
+    {
+      "path": "DTA_affinity/reports/davis_supplement_20261016.json",
+      "bytes": 36793,
+      "sha256": "ee2f73b0d19ee2fe4688d2b956ab605c2e0fe350d43b06bd1e102fdf4178aff8"
+    },
+    {
+      "path": "DTA_affinity/reports/dtiam_published_comparison_20261016.json",
+      "bytes": 28392,
+      "sha256": "de5c6961eb6942e1e6c8ed070877787fb7b58957e064660af079e9ab928c5b13"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f0_scratch_b64_lr1e4_e20.pt",
+      "bytes": 37416748,
+      "sha256": "9bf22fedd3de5b5a9e30dff0e29f7c3cf06e06bceb1eabac7fa963910bf459b9"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f1_scratch_b64_lr1e4_e20.pt",
+      "bytes": 37416620,
+      "sha256": "aaa58d6c6aa6c85b5c58499386f481176c759003ad305188e75e9f82b652b829"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f2_scratch_b64_lr1e4_e20.pt",
+      "bytes": 37416684,
+      "sha256": "4f52b0db35d0b1699fa87926ece99cf22e2d2ccef245576ef28a5776426541c6"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f3_scratch_b64_lr1e4_e20.pt",
+      "bytes": 37416812,
+      "sha256": "004d95872a1a6758f89b5fde472e3e0c3cf102484cf60c45a904885c31abfa53"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_dtiam_drugcold_f4_scratch_b64_lr1e4_e20.pt",
+      "bytes": 37416812,
+      "sha256": "e28e04ead587c15049cac9d63c9e0d5a4411fe409dfb49b80ed49d389c652136"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012.pt",
+      "bytes": 37417772,
+      "sha256": "72ddbbf6529a1821b052733810580afae0a7fbffc7a568efd6f220a12c3458fd"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012.pt",
+      "bytes": 37417772,
+      "sha256": "4504cdfd0c746828f00b4f84284387225933717e9819151af4fd126189dd5525"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012.pt",
+      "bytes": 37417772,
+      "sha256": "5a970801ad5cf6b2f8b6f9d9552a9685116a85dc9de051cd35a2c321ef2df2c8"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012.pt",
+      "bytes": 37417772,
+      "sha256": "2292e4196d05633621d24aa196a333301bcc69aaef0cb47e36ad70b82c6a9590"
+    },
+    {
+      "path": "DTA_affinity/results/checkpoints/nexusdti_kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012.pt",
+      "bytes": 37417516,
+      "sha256": "39010e01c23b370bc4e0513dd73d8e86cfcbd1f9310ffc1d85e0ac76a7e19f06"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f0_morgan_neighbor_prior.json",
+      "bytes": 3481,
+      "sha256": "470798919c5550eaf3269164b3eb370f614b0a8cef328a3d8d74a0ed7cb9c6c5"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f0_scratch_b64_similarity_gated_ensemble.json",
+      "bytes": 1466,
+      "sha256": "2ba17c5ef86c44852b9006e7212ec5462220852d39fe1662472fe6bca63a95bf"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+      "bytes": 3479,
+      "sha256": "52d5e6745709c9d35fa122f64c79cc64588bbc530f11c76432d7e9d912564e21"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+      "bytes": 1463,
+      "sha256": "2e9ce101956e1e2e75491a6c3d88c48e1b147126c39eaf3a8c8139ab3e5162d9"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+      "bytes": 3480,
+      "sha256": "1dfe7f87be17dabf8df35da81a7239e275a9340adca08ca4771b3b77c9847db4"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+      "bytes": 1468,
+      "sha256": "120d55c45e01bfa58109496d9a7ce2776342029b2e26c6f0af2a2db6f38558e2"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+      "bytes": 3476,
+      "sha256": "9540b9feedf57573057546ba3c0369a39ec337f3c5bb630c9f16d9927f95a811"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+      "bytes": 1464,
+      "sha256": "c9cdeb940d6fa7b423c506da574e2332c8b8e442cfc2103bff1e4977c22a3fd8"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_morgan_neighbor_prior.json",
+      "bytes": 3477,
+      "sha256": "97b1fe62cbeecb27f626d2839e74cf8e3a2d0e7350ac98d337c7a63880fd344d"
+    },
+    {
+      "path": "DTA_affinity/results/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_similarity_gated_ensemble.json",
+      "bytes": 1461,
+      "sha256": "7255d8dddf05e92a27cf6e513998267c4663ff1fde9906e2004ca02967fa93ee"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_drugcold_supplement_5fold.json",
+      "bytes": 4013,
+      "sha256": "cb745dfa18bedeeb2a2b96529eb15ee62e246aadf800b32a9936d5018968a26e"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f0_frozen_morgan_prior.json",
+      "bytes": 3742,
+      "sha256": "6703ecb00303681fb619bd062cc0140c4eceb9bd0d7419397ac3991801b1da9a"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+      "bytes": 2447,
+      "sha256": "78ffdacf824c6906b56bb7841246f0ce3a109fc155213c7982d77df5fed9c4f0"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f1_frozen_morgan_prior.json",
+      "bytes": 3740,
+      "sha256": "1aed436f7c2757ec56e1c509ab6a6b52bb940cb2fb3ec193231eea82f0f10356"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+      "bytes": 2450,
+      "sha256": "a9863a9e7728c899992e0ad1f98e688ef1f9331c8ed5d3cf4e5e5f2ec5f830df"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f2_frozen_morgan_prior.json",
+      "bytes": 3743,
+      "sha256": "efb6f32c974b470fa3d359247e230a1be2da0ce2425d1099fed76110718acb09"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+      "bytes": 2448,
+      "sha256": "11ed82f5ffe29ef707069b4cff4bcd724512bf04e5089bee5bcb0a6ad6482334"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f3_frozen_morgan_prior.json",
+      "bytes": 3739,
+      "sha256": "5ce8edbcc16871e569cc4b84f83791bb7a9b45cd454180668a96bb21d9c36416"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+      "bytes": 2445,
+      "sha256": "18347bcf5ba82c7fc7792b3011d935835e62ebbe070687b3e9f94395e81d8dc2"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f4_frozen_morgan_prior.json",
+      "bytes": 3740,
+      "sha256": "20c6230ddf98a5165e91448c12f5f09b58dc0fe6c3a44d9c29756ab5f05f5d02"
+    },
+    {
+      "path": "DTA_affinity/results/kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_ablation.json",
+      "bytes": 2444,
+      "sha256": "3f046011da82a0953dd0c840b96af764b0080a5286cbec22cfafe1d28102b631"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f0_scratch_b64_lr1e4_e20.json",
+      "bytes": 2795,
+      "sha256": "127c08e1a99b94dfaac841209e479626c852656ec090aeaf771166d3421c2fea"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f1_scratch_b64_lr1e4_e20.json",
+      "bytes": 2471,
+      "sha256": "6634743a0bba5e19d5854cf50844f7d91f2955c7f4459e91b16e38bf4cecc24a"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f2_scratch_b64_lr1e4_e20.json",
+      "bytes": 2684,
+      "sha256": "cb053599d5ae28461378104cdf903967b982b55489f589b10b778db530ef6051"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f3_scratch_b64_lr1e4_e20.json",
+      "bytes": 3014,
+      "sha256": "8b2a3e57373c18e3343c1b160b97100dc9681788e531176aa8769f376866f8e5"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_dtiam_drugcold_f4_scratch_b64_lr1e4_e20.json",
+      "bytes": 3014,
+      "sha256": "d140a770f297865bcd9adafad3b3f52a8897e660ce21576d56650536cc25fd56"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012.json",
+      "bytes": 4084,
+      "sha256": "3419ad987bd1029fe008ad6b46dd9b077be91b9589f66b13bd6bcbaae5ae7aa1"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012.json",
+      "bytes": 4190,
+      "sha256": "a5b834301ed93098565022253d9471669b57ceef9efdd385e13025f34e4b5b9f"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012.json",
+      "bytes": 4189,
+      "sha256": "5065bcf18c41858137f5ada9886fc2da3182ecafe10706f2c2e05ef120ed1bc1"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012.json",
+      "bytes": 4181,
+      "sha256": "5075d516ea17c1a6df9bbaa397a8e9c19d3ad6fb6c82bd62ca1893e801f3b2a3"
+    },
+    {
+      "path": "DTA_affinity/results/nexusdti_regressor_kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012.json",
+      "bytes": 3423,
+      "sha256": "ebe812bf1367a7e97cf58fe6f5d59e43c85a7e05123c602df73364fdd3b81be3"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f0_morgan_neighbor_prior_predictions.csv",
+      "bytes": 618221,
+      "sha256": "5b74f25fdd47960001a51ee1f7e976b5cf8a9531d4d37806487cc65bef705612"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f0_scratch_b64_similarity_gated_ensemble_predictions.csv",
+      "bytes": 981523,
+      "sha256": "8fcc2a6af5f6d7ca4741f3168995922a9636ca9ef367face5732bd86e9dc35c4"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+      "bytes": 597628,
+      "sha256": "a1c69e6abf5aa471c6441ba940bff84a1e972d4c113515d0e695a4b0fa554a27"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f1_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv",
+      "bytes": 966384,
+      "sha256": "ced6892a31891afc436906f560df3753a7c694e05565fcb64235f6ed4f4e18ac"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+      "bytes": 594989,
+      "sha256": "eeaf15737a77ab9c2c810a7f5fbd5c49b2f727331816d7e5285cffb7b10f4f75"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f2_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv",
+      "bytes": 961538,
+      "sha256": "0b855019069df58abfa9f99c41095e05f82bfcca3e75f01ee03b46a384269d80"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+      "bytes": 605802,
+      "sha256": "e92d8c0236e5fd44798082c06e848bb1ed241d990d618ab73c3490ffe0462f4b"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f3_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv",
+      "bytes": 973606,
+      "sha256": "4a92089e8d4e52070c06ff287768b5fa2010120a9426b136efc0afa9673f5202"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_morgan_neighbor_prior_predictions.csv",
+      "bytes": 614324,
+      "sha256": "78827195c08fda09b955783e979ea8b18a600ed361b0391cbd70ffb7e272c029"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/dtiam_drugcold_f4_scratch_b64_lr1e4_e20_similarity_gated_ensemble_predictions.csv",
+      "bytes": 978962,
+      "sha256": "ee55106aab74b17d24caf86c73edd5b2ee21beda9c5fa403f1de3b36a48df33b"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f0_frozen_morgan_prior_predictions.csv",
+      "bytes": 2663412,
+      "sha256": "0445088fcb92315401589f4eea3badbf670c17052ea518c7ed5ba0b8a782e6df"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv",
+      "bytes": 4144822,
+      "sha256": "d9a5cb0a190d74c2980acbaeacd1e3f85a2c9733ba20206e65a824299d3cf177"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f1_frozen_morgan_prior_predictions.csv",
+      "bytes": 2561589,
+      "sha256": "5df648f59a3b0d03ac9f2fcf9c80e82c6e5b843b5c9faed1badc382ca78f52db"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv",
+      "bytes": 3984695,
+      "sha256": "1c3fd3b617f1760d9dfb97c4ee5ca842193438611df8ddf35666c7b82ad81e4f"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f2_frozen_morgan_prior_predictions.csv",
+      "bytes": 2487526,
+      "sha256": "d435f3ecd9b86bbb30e4a92f13f10e0a9f81560f07c7a1d2d98f440bd28b9371"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv",
+      "bytes": 3876722,
+      "sha256": "0e71d07be030b5577820b0ad77e8755ff79743137c5b09829a14e912f5c14363"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f3_frozen_morgan_prior_predictions.csv",
+      "bytes": 2627220,
+      "sha256": "44a03ef22dd949540aabeabbe6b6174845d308c5e81417d52dc8f5b96c764c77"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv",
+      "bytes": 4091549,
+      "sha256": "cdafb48fe19b2e7aa182b858e16db54f7e8a882e6abd7194716fc1cf1a131459"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f4_frozen_morgan_prior_predictions.csv",
+      "bytes": 2375043,
+      "sha256": "8efb8a0e8465667aaf963ad11e07fc2dbbd1950d591757545c560b7f4fd6c1d2"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv",
+      "bytes": 3690297,
+      "sha256": "52a511b044c39a3663dc2d52e086cbee9b08332bd1aac56b91500d30f4c357ed"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7808836,
+      "sha256": "b95e77638d2572868c5a6011682a3ec7323382e48ac4e8d35575a81a2d57bd7b"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7749074,
+      "sha256": "64c396e9ef41157fd76001f50fad2f34da74ba8974ce47637799901e29238f64"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7756370,
+      "sha256": "083df1085ca6a0e6ee71762902f53a87142061e7b07ff1536b5bbec0348b6c31"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7788533,
+      "sha256": "d248bf73b4919f27303fcab1156fe0bebaeee70beb051c20abc784b3007313db"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7792393,
+      "sha256": "1eaa035b4321b3e80c27d6574d89faec9dd4aab5a8734d4f2355f8b45decd030"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+      "bytes": 960680,
+      "sha256": "b7a42a08a9d9c89e104005ce56768a41f00c01dffce1b5717c0a8be1a1068915"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+      "bytes": 921049,
+      "sha256": "a643621fa9d6edfdb421c707d9a0caa3a5306aadbd21f17f3495e2b8755823ed"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+      "bytes": 900768,
+      "sha256": "6650a662875787805c12da68a6553d01d01e464a79b4da8ddd1c33f608a6691e"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+      "bytes": 950753,
+      "sha256": "e33c7dab10fa60c0e9110c45f9ac4a28cdd23ce8d64fca216e7f2560005cb85f"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_predictions.csv",
+      "bytes": 853916,
+      "sha256": "561a849d6faa1bd9f45110f9e0719b654d055b5c494dcd6ae41cc81305b636cd"
+    },
+    {
+      "path": "DTA_affinity/scripts/bib_common.py",
+      "bytes": 4713,
+      "sha256": "01ebd746ad8de12b468284d70e4c55df13b308f61013060e9f691423fecdeb2c"
+    },
+    {
+      "path": "DTA_affinity/scripts/build_bindingdb_articles_kd_tokens.py",
+      "bytes": 18225,
+      "sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8"
+    },
+    {
+      "path": "DTA_affinity/scripts/build_davis_pooled_features.py",
+      "bytes": 5849,
+      "sha256": "38a37ade1d9220946a480656bfcc538e4415c418188fc185d0dcc1bb354dc518"
+    },
+    {
+      "path": "DTA_affinity/scripts/build_kiba_benchmark_tokens.py",
+      "bytes": 7868,
+      "sha256": "e81bef964ea15f78e4c960018597763912e24ad661b6149c8d58dd435ccc681b"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_affine_calibration.py",
+      "bytes": 8961,
+      "sha256": "03f393019b088df7e9e75a3b24799843fc19c71fbdedae0be6bb47a7602034d6"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_affinity_ablation.py",
+      "bytes": 5957,
+      "sha256": "f93ff7987e01517ae7ce6df4e19104c4fe5a056a74c993cf5d6b4efe126573ab"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_drug_similarity_prior.py",
+      "bytes": 7503,
+      "sha256": "f816354b026c6f5e2f0d3dfb958c32d0cbc1ab4cc75036789e7e2efbb941d8b0"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_similarity_gated_ensemble.py",
+      "bytes": 6357,
+      "sha256": "2af49f54af859176bb187173c79a67e1139380d5a4dbfcbc3dcd9952302046bd"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_validation_ensemble.py",
+      "bytes": 5290,
+      "sha256": "c85d1cb1309b8e80da1247a1f668ca6acaa981d319466068c67034acf2c8f987"
+    },
+    {
+      "path": "DTA_affinity/scripts/extract_dtiam_davis_features.py",
+      "bytes": 3146,
+      "sha256": "ce6c4a02f67d9aa6317e6a496b4648f6eab4d18dcb6928484fd838c7d8bc0cab"
+    },
+    {
+      "path": "DTA_affinity/scripts/freeze_bib_protocol.py",
+      "bytes": 10288,
+      "sha256": "b3d3173f57e1b42bea3d9b5d23c14ace97669bd2d3a855d62dd1716f56cf7b6b"
+    },
+    {
+      "path": "DTA_affinity/scripts/make_splits.py",
+      "bytes": 5025,
+      "sha256": "dd496b61c5ff4a7267ac8939b6d59abe90b11fd74dc8510c3e0dc94f94845a5d"
+    },
+    {
+      "path": "DTA_affinity/scripts/prepare_affinity.py",
+      "bytes": 9379,
+      "sha256": "2dd7cef22ba01f559da3e1b065bdddddbf2a60564274c1d978a50055b047a389"
+    },
+    {
+      "path": "DTA_affinity/scripts/prepare_bindingdb_articles_kd.py",
+      "bytes": 4645,
+      "sha256": "7ed6ad22a13af743273d336bd860cafd583538ebae16037e936173d821050fe5"
+    },
+    {
+      "path": "DTA_affinity/scripts/prepare_dtiam_davis_protocol.py",
+      "bytes": 7463,
+      "sha256": "c8b52e29d58095db95b2c944075a3033b83e9ac76f87fdd4af40624a693695e5"
+    },
+    {
+      "path": "DTA_affinity/scripts/prepare_dtiam_kiba_protocol.py",
+      "bytes": 6490,
+      "sha256": "53e323d7862877e1c19d4a950ea625586e37da66eb645e3ee096a954c859d430"
+    },
+    {
+      "path": "DTA_affinity/scripts/pretrain_bindingdb_articles_kd_encoder.py",
+      "bytes": 14815,
+      "sha256": "cbea4a3d25ce57fabfffe732e0b044b590aa70ae15ac51e5b048c3895c5fe6b0"
+    },
+    {
+      "path": "DTA_affinity/scripts/pretrain_bindingdb_encoder.py",
+      "bytes": 12404,
+      "sha256": "24a85d0bd9eadfef89d4f1d5bcb3168cac693a5cbbf9bfe7c55729bd2b4f1c58"
+    },
+    {
+      "path": "DTA_affinity/scripts/pretrain_kiba_encoder.py",
+      "bytes": 12073,
+      "sha256": "c02ace7c144d71eae5636969d5f0f56539f4c4f371df8b24aa8849e73f329fe1"
+    },
+    {
+      "path": "DTA_affinity/scripts/run_kiba_supplement.py",
+      "bytes": 14095,
+      "sha256": "ea8cc694cae8f2f8aba40dab4e8c3a59f61b0fcdf326096129e21dfc75b2ab76"
+    },
+    {
+      "path": "DTA_affinity/scripts/summarize_bindingdb_kd_matched_scratch_5fold.py",
+      "bytes": 3984,
+      "sha256": "63749bb0801e6db76e2724cbf7c3b8ed67717af2ca7047f2ab20d59d2493a431"
+    },
+    {
+      "path": "DTA_affinity/scripts/summarize_bindingdb_kd_transfer_5fold.py",
+      "bytes": 4877,
+      "sha256": "6810615d0e2e396de51cdc72b2154df7e80d65a0f0077d654c52486fdb6a2a98"
+    },
+    {
+      "path": "DTA_affinity/scripts/summarize_drugcold_5fold.py",
+      "bytes": 3347,
+      "sha256": "f307530afd21d4b8dc83f132a4982a5d0ad63f8bf36b355feb499f86d07d9d56"
+    },
+    {
+      "path": "DTA_affinity/scripts/train_nexusdti_regressor.py",
+      "bytes": 48331,
+      "sha256": "8a10e31535a64a9e0d732804381beb68568b7311b91e30f927fd14c70df2060b"
+    },
+    {
+      "path": "DTA_affinity/scripts/train_pooled_regressor.py",
+      "bytes": 6523,
+      "sha256": "34422e7c7d8e0737e4d0643fd9cf954104225acea10b324449d38723c6629893"
+    },
+    {
+      "path": "DTA_affinity/scripts/validate_data.py",
+      "bytes": 3060,
+      "sha256": "2d3f70d94636193633dcf1f4a848d969051cf928e2537663bc49fab492b564f1"
+    }
+  ],
+  "feature_inventory": {
+    "path": "DTA_affinity/reports/bib_protocol_20261017/feature_inventory.csv",
+    "bytes": 521437,
+    "sha256": "d6448fe0afb11df1847206217217dcef23a8bfefc14b9dd5df721d5e37d0c2e6"
+  },
+  "current_source_snapshot": {
+    "path": "DTA_affinity/reports/bib_protocol_20261017/source_snapshot.zip",
+    "bytes": 286829,
+    "sha256": "951dcd340da2e546459add704d930fa0ec94d82fa07281881ce13207b6b446b9"
+  },
+  "dtiam_git_revision": "61d68b8148a86b2aea657a3e9d707a491de70ad8",
+  "environment": {
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "executable": "/home/lsy/miniconda3/envs/psichic_fp/bin/python",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "rdkit": "2022.09.5",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "torch": "2.11.0+cu128",
+      "scikit-learn": "1.7.2"
+    }
+  },
+  "limitations": [
+    "Project has no Git history; source snapshot records current code, not proof of historical training source.",
+    "Davis legacy token cache has incomplete historical model provenance.",
+    "Davis tests were inspected during development; repeats do not constitute a new holdout.",
+    "DTIAM-study baseline values are reported, not local reproductions.",
+    "KIBA original drug-ID folds contain canonical identity overlap; strict grouped experiments use separate outputs."
+  ]
+}

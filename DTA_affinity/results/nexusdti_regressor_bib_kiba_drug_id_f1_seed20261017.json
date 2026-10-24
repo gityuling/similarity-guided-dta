@@ -1,0 +1,153 @@
+{
+  "dataset": "kiba_drug_id_nexusdti_style_regressor",
+  "data_table": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv",
+  "manifest_file": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+  "token_dir": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/kiba_dtiam_protocol/tokens",
+  "target_column": "kiba_score",
+  "input_sha256": {
+    "data_table": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f",
+    "manifest": "41b64986834ea7dc88468a48d8bfea863e20c8c82e8019a12d3505408d31676c"
+  },
+  "split": "bib_kiba_drug_id_f1",
+  "seed": 20261017,
+  "device": "cuda",
+  "epochs_requested": 20,
+  "epochs_completed": 18,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "patience": 5,
+  "workers": 4,
+  "latent_dim": 512,
+  "k_ratio": 0.15,
+  "pool_fusion": true,
+  "drug_attention": false,
+  "pocket_fusion": false,
+  "pocket_radius": null,
+  "pocket_residual": false,
+  "freeze_base": false,
+  "frozen_base_parameters": 0,
+  "hybrid": true,
+  "censor_aware": false,
+  "censor_floor": 5.0,
+  "activity_aux_only": null,
+  "activity_loss_weight": null,
+  "target_normalize": true,
+  "target_mean": 11.719280281240588,
+  "target_std": 0.8446017431251434,
+  "dropout": 0.1,
+  "initialization": null,
+  "encoder_initialization": null,
+  "run_tag": "seed20261017",
+  "rows_train": 85379,
+  "rows_val": 9370,
+  "rows_test": 23505,
+  "best_val_rmse": 0.5785582065582275,
+  "initial_validation": null,
+  "metrics_train": {
+    "rmse": 0.42405271530151367,
+    "mse": 0.1798207014799118,
+    "ci": 0.884628527573293,
+    "pearson": 0.867615818977356,
+    "spearman": 0.8807755794554619
+  },
+  "metrics_test": {
+    "rmse": 0.5904596447944641,
+    "mse": 0.34864261746406555,
+    "ci": 0.7823126844304316,
+    "pearson": 0.6946275234222412,
+    "spearman": 0.7025548808934422
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4062925500200427,
+      "val_rmse": 0.6806183457374573
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3389408400078406,
+      "val_rmse": 0.6523814797401428
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.30957645420236385,
+      "val_rmse": 0.6195899844169617
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.2897991165462909,
+      "val_rmse": 0.6099869012832642
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.275795447688991,
+      "val_rmse": 0.6130668520927429
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.26421587262442264,
+      "val_rmse": 0.6165832877159119
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.25354559257671216,
+      "val_rmse": 0.606585681438446
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.24427880948853456,
+      "val_rmse": 0.6061756610870361
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.23681767016224775,
+      "val_rmse": 0.589718222618103
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.2272808207631826,
+      "val_rmse": 0.6014512181282043
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.21965951067039455,
+      "val_rmse": 0.5963227152824402
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.21269884825624089,
+      "val_rmse": 0.590333104133606
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.20661982112023783,
+      "val_rmse": 0.5785582065582275
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.2005744063011978,
+      "val_rmse": 0.5903401374816895
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.1956578759753007,
+      "val_rmse": 0.5830087065696716
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.19133668042708193,
+      "val_rmse": 0.5797426700592041
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.18722905630784772,
+      "val_rmse": 0.5806629657745361
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.1848737654601527,
+      "val_rmse": 0.5835537910461426
+    }
+  ],
+  "residual_gate": 0.10889432579278946
+}

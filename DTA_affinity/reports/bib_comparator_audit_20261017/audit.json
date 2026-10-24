@@ -1,0 +1,1072 @@
+{
+  "verified": true,
+  "checked_score_cells": 300,
+  "checked_aggregates": 60,
+  "source": {
+    "doi": "https://doi.org/10.6084/m9.figshare.27896790.v1",
+    "article": "https://www.nature.com/articles/s41467-025-57828-0",
+    "download_url": "https://ndownloader.figshare.com/files/51785909",
+    "archive_md5": "024ccba9d224cfccf2b8835641f9812c",
+    "workbook_member": "Source data/Source data for Fig.3.xlsx",
+    "workbook_sha256": "a400eedf47282d90176aba76e435fd539b1a5627d7336a6ec2fe04a0f5bae222",
+    "retrieved_on": "2026-10-16"
+  },
+  "archive": {
+    "path": "DTA_affinity/data/raw/dtiam_source_data_2025.zip",
+    "bytes": 35044852,
+    "sha256": "2a486c8e678ebada32a8e3cfc044ce878380cae5c33a81f33ff68cf27174c8a9"
+  },
+  "original_extraction": {
+    "path": "DTA_affinity/reports/dtiam_published_comparison_20261016.json",
+    "bytes": 28392,
+    "sha256": "de5c6961eb6942e1e6c8ed070877787fb7b58957e064660af079e9ab928c5b13"
+  },
+  "official_splitter": {
+    "path": "DTA_affinity/baselines/DTIAM/code/data_process/data_split_dta.py",
+    "bytes": 3772,
+    "sha256": "ac351699b08663d72cea0d8e691cc67a0c70210f878999a0161dcb73aecb3a21"
+  },
+  "protocol_freeze": {
+    "path": "DTA_affinity/reports/bib_protocol_20261017/protocol.json",
+    "bytes": 61332,
+    "sha256": "2835c64b5b075c0d992e7f276a44bd909c2182ced27382773d141ea70e2f2840"
+  },
+  "source_workbook_sha256": "a400eedf47282d90176aba76e435fd539b1a5627d7336a6ec2fe04a0f5bae222",
+  "results": [
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "DeepDTA",
+      "metric": "mse",
+      "mean": 0.3250052,
+      "sample_sd": 0.016225689621707923,
+      "per_fold_in_unverified_source_order": [
+        0.308201,
+        0.30917,
+        0.335298,
+        0.345243,
+        0.327114
+      ],
+      "source_cells": "Fig.3a!B5:B9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "MONN",
+      "metric": "mse",
+      "mean": 0.2795334,
+      "sample_sd": 0.014242195908637116,
+      "per_fold_in_unverified_source_order": [
+        0.265984,
+        0.302909,
+        0.273972,
+        0.272855,
+        0.281947
+      ],
+      "source_cells": "Fig.3a!C5:C9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "BACPI",
+      "metric": "mse",
+      "mean": 0.2836934,
+      "sample_sd": 0.021049649576655668,
+      "per_fold_in_unverified_source_order": [
+        0.269254,
+        0.271256,
+        0.310353,
+        0.265115,
+        0.302489
+      ],
+      "source_cells": "Fig.3a!D5:D9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "GraphDTA",
+      "metric": "mse",
+      "mean": 0.2503586,
+      "sample_sd": 0.015490160660884045,
+      "per_fold_in_unverified_source_order": [
+        0.230109,
+        0.24778,
+        0.270265,
+        0.243377,
+        0.260262
+      ],
+      "source_cells": "Fig.3a!E5:E9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "DTIAM",
+      "metric": "mse",
+      "mean": 0.2120238,
+      "sample_sd": 0.007948030743523831,
+      "per_fold_in_unverified_source_order": [
+        0.200113,
+        0.21098,
+        0.221231,
+        0.210903,
+        0.216892
+      ],
+      "source_cells": "Fig.3a!F5:F9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "DeepDTA",
+      "metric": "mse",
+      "mean": 0.6862666000000001,
+      "sample_sd": 0.12101964807542617,
+      "per_fold_in_unverified_source_order": [
+        0.810158,
+        0.665458,
+        0.498057,
+        0.772159,
+        0.685501
+      ],
+      "source_cells": "Fig.3a!J5:J9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "MONN",
+      "metric": "mse",
+      "mean": 0.8205856,
+      "sample_sd": 0.12432147915907371,
+      "per_fold_in_unverified_source_order": [
+        0.77231,
+        0.767907,
+        0.991146,
+        0.673523,
+        0.898042
+      ],
+      "source_cells": "Fig.3a!K5:K9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "BACPI",
+      "metric": "mse",
+      "mean": 0.6709072,
+      "sample_sd": 0.09135353778425881,
+      "per_fold_in_unverified_source_order": [
+        0.689784,
+        0.746195,
+        0.578804,
+        0.572737,
+        0.767016
+      ],
+      "source_cells": "Fig.3a!L5:L9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "GraphDTA",
+      "metric": "mse",
+      "mean": 0.628079,
+      "sample_sd": 0.061466271088296894,
+      "per_fold_in_unverified_source_order": [
+        0.717029,
+        0.603915,
+        0.577099,
+        0.66546,
+        0.576892
+      ],
+      "source_cells": "Fig.3a!M5:M9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "DTIAM",
+      "metric": "mse",
+      "mean": 0.5983246,
+      "sample_sd": 0.07840358409728475,
+      "per_fold_in_unverified_source_order": [
+        0.608079,
+        0.621986,
+        0.532339,
+        0.712203,
+        0.517016
+      ],
+      "source_cells": "Fig.3a!N5:N9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "DeepDTA",
+      "metric": "mse",
+      "mean": 0.43618439999999997,
+      "sample_sd": 0.039884266212380046,
+      "per_fold_in_unverified_source_order": [
+        0.44526,
+        0.470677,
+        0.472383,
+        0.41361,
+        0.378992
+      ],
+      "source_cells": "Fig.3a!R5:R9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "MONN",
+      "metric": "mse",
+      "mean": 0.364494,
+      "sample_sd": 0.04226437737031032,
+      "per_fold_in_unverified_source_order": [
+        0.337298,
+        0.326626,
+        0.434853,
+        0.359963,
+        0.36373
+      ],
+      "source_cells": "Fig.3a!S5:S9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "BACPI",
+      "metric": "mse",
+      "mean": 0.4581908,
+      "sample_sd": 0.010256840215192983,
+      "per_fold_in_unverified_source_order": [
+        0.463527,
+        0.440241,
+        0.464999,
+        0.459231,
+        0.462956
+      ],
+      "source_cells": "Fig.3a!T5:T9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "GraphDTA",
+      "metric": "mse",
+      "mean": 0.4817594,
+      "sample_sd": 0.03913428465297404,
+      "per_fold_in_unverified_source_order": [
+        0.424047,
+        0.462757,
+        0.510991,
+        0.52054,
+        0.490462
+      ],
+      "source_cells": "Fig.3a!U5:U9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "DTIAM",
+      "metric": "mse",
+      "mean": 0.3078552,
+      "sample_sd": 0.018408475186717677,
+      "per_fold_in_unverified_source_order": [
+        0.301256,
+        0.280761,
+        0.325824,
+        0.307614,
+        0.323821
+      ],
+      "source_cells": "Fig.3a!V5:V9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "DeepDTA",
+      "metric": "mse",
+      "mean": 0.22897119999999999,
+      "sample_sd": 0.002426083613563226,
+      "per_fold_in_unverified_source_order": [
+        0.228862,
+        0.228728,
+        0.232258,
+        0.225459,
+        0.229549
+      ],
+      "source_cells": "Fig.3b!B5:B9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "MONN",
+      "metric": "mse",
+      "mean": 0.1874174,
+      "sample_sd": 0.015371121113959118,
+      "per_fold_in_unverified_source_order": [
+        0.178126,
+        0.177841,
+        0.214491,
+        0.183762,
+        0.182867
+      ],
+      "source_cells": "Fig.3b!C5:C9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "BACPI",
+      "metric": "mse",
+      "mean": 0.172286,
+      "sample_sd": 0.00846804608513676,
+      "per_fold_in_unverified_source_order": [
+        0.184423,
+        0.1615,
+        0.17293,
+        0.174512,
+        0.168065
+      ],
+      "source_cells": "Fig.3b!D5:D9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "GraphDTA",
+      "metric": "mse",
+      "mean": 0.1711798,
+      "sample_sd": 0.006574994806081598,
+      "per_fold_in_unverified_source_order": [
+        0.173565,
+        0.166083,
+        0.176574,
+        0.177206,
+        0.162471
+      ],
+      "source_cells": "Fig.3b!E5:E9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "DTIAM",
+      "metric": "mse",
+      "mean": 0.1617672,
+      "sample_sd": 0.003955977906915059,
+      "per_fold_in_unverified_source_order": [
+        0.165302,
+        0.155908,
+        0.15955,
+        0.16456,
+        0.163516
+      ],
+      "source_cells": "Fig.3b!F5:F9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "DeepDTA",
+      "metric": "mse",
+      "mean": 0.4265214,
+      "sample_sd": 0.03600174300363802,
+      "per_fold_in_unverified_source_order": [
+        0.44102,
+        0.379317,
+        0.444645,
+        0.399818,
+        0.467807
+      ],
+      "source_cells": "Fig.3b!J5:J9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "MONN",
+      "metric": "mse",
+      "mean": 0.4361852,
+      "sample_sd": 0.028211759847623818,
+      "per_fold_in_unverified_source_order": [
+        0.467569,
+        0.429144,
+        0.421006,
+        0.400971,
+        0.462236
+      ],
+      "source_cells": "Fig.3b!K5:K9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "BACPI",
+      "metric": "mse",
+      "mean": 0.404441,
+      "sample_sd": 0.03215481262579522,
+      "per_fold_in_unverified_source_order": [
+        0.425714,
+        0.365466,
+        0.399025,
+        0.385442,
+        0.446558
+      ],
+      "source_cells": "Fig.3b!L5:L9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "GraphDTA",
+      "metric": "mse",
+      "mean": 0.3713662,
+      "sample_sd": 0.03859647241264414,
+      "per_fold_in_unverified_source_order": [
+        0.429979,
+        0.348678,
+        0.351469,
+        0.336111,
+        0.390594
+      ],
+      "source_cells": "Fig.3b!M5:M9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "DTIAM",
+      "metric": "mse",
+      "mean": 0.33384780000000003,
+      "sample_sd": 0.029626673711370306,
+      "per_fold_in_unverified_source_order": [
+        0.34913,
+        0.318976,
+        0.32217,
+        0.30169,
+        0.377273
+      ],
+      "source_cells": "Fig.3b!N5:N9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "DeepDTA",
+      "metric": "mse",
+      "mean": 0.3704226,
+      "sample_sd": 0.04492626267897208,
+      "per_fold_in_unverified_source_order": [
+        0.391937,
+        0.382582,
+        0.315087,
+        0.426894,
+        0.335613
+      ],
+      "source_cells": "Fig.3b!R5:R9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "MONN",
+      "metric": "mse",
+      "mean": 0.3322524,
+      "sample_sd": 0.03963713246817939,
+      "per_fold_in_unverified_source_order": [
+        0.356754,
+        0.335312,
+        0.272022,
+        0.376095,
+        0.321079
+      ],
+      "source_cells": "Fig.3b!S5:S9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "BACPI",
+      "metric": "mse",
+      "mean": 0.3818128,
+      "sample_sd": 0.04692594477685027,
+      "per_fold_in_unverified_source_order": [
+        0.391019,
+        0.368746,
+        0.307631,
+        0.422323,
+        0.419345
+      ],
+      "source_cells": "Fig.3b!T5:T9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "GraphDTA",
+      "metric": "mse",
+      "mean": 0.4734564,
+      "sample_sd": 0.06306702355668928,
+      "per_fold_in_unverified_source_order": [
+        0.474407,
+        0.56923,
+        0.393836,
+        0.476099,
+        0.45371
+      ],
+      "source_cells": "Fig.3b!U5:U9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "DTIAM",
+      "metric": "mse",
+      "mean": 0.31118239999999997,
+      "sample_sd": 0.04147199656153534,
+      "per_fold_in_unverified_source_order": [
+        0.352033,
+        0.318789,
+        0.247958,
+        0.341443,
+        0.295689
+      ],
+      "source_cells": "Fig.3b!V5:V9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "DeepDTA",
+      "metric": "pearson",
+      "mean": 0.7749296,
+      "sample_sd": 0.01914848845992811,
+      "per_fold_in_unverified_source_order": [
+        0.785518,
+        0.79376,
+        0.767357,
+        0.745245,
+        0.782768
+      ],
+      "source_cells": "Fig.3c!B5:B9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "MONN",
+      "metric": "pearson",
+      "mean": 0.8117852,
+      "sample_sd": 0.006683601439343904,
+      "per_fold_in_unverified_source_order": [
+        0.817947,
+        0.802014,
+        0.812745,
+        0.808593,
+        0.817627
+      ],
+      "source_cells": "Fig.3c!C5:C9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "BACPI",
+      "metric": "pearson",
+      "mean": 0.8056436,
+      "sample_sd": 0.013990863743886585,
+      "per_fold_in_unverified_source_order": [
+        0.811082,
+        0.821245,
+        0.785118,
+        0.812041,
+        0.798732
+      ],
+      "source_cells": "Fig.3c!D5:D9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "GraphDTA",
+      "metric": "pearson",
+      "mean": 0.82946,
+      "sample_sd": 0.010562147745605563,
+      "per_fold_in_unverified_source_order": [
+        0.840335,
+        0.838009,
+        0.813788,
+        0.826527,
+        0.828641
+      ],
+      "source_cells": "Fig.3c!E5:E9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "warm",
+      "model": "DTIAM",
+      "metric": "pearson",
+      "mean": 0.857972,
+      "sample_sd": 0.006428396184119364,
+      "per_fold_in_unverified_source_order": [
+        0.862785,
+        0.864986,
+        0.851792,
+        0.850744,
+        0.859553
+      ],
+      "source_cells": "Fig.3c!F5:F9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "DeepDTA",
+      "metric": "pearson",
+      "mean": 0.4228918,
+      "sample_sd": 0.017982392324159765,
+      "per_fold_in_unverified_source_order": [
+        0.43124,
+        0.42179,
+        0.448389,
+        0.410785,
+        0.402255
+      ],
+      "source_cells": "Fig.3c!J5:J9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "MONN",
+      "metric": "pearson",
+      "mean": 0.3925774,
+      "sample_sd": 0.13864241396232252,
+      "per_fold_in_unverified_source_order": [
+        0.482974,
+        0.346121,
+        0.175431,
+        0.526108,
+        0.432253
+      ],
+      "source_cells": "Fig.3c!K5:K9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "BACPI",
+      "metric": "pearson",
+      "mean": 0.459402,
+      "sample_sd": 0.12921817804008845,
+      "per_fold_in_unverified_source_order": [
+        0.532735,
+        0.289655,
+        0.441332,
+        0.630041,
+        0.403247
+      ],
+      "source_cells": "Fig.3c!L5:L9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "GraphDTA",
+      "metric": "pearson",
+      "mean": 0.4964698,
+      "sample_sd": 0.049167618670218315,
+      "per_fold_in_unverified_source_order": [
+        0.494695,
+        0.514478,
+        0.426668,
+        0.562211,
+        0.484297
+      ],
+      "source_cells": "Fig.3c!M5:M9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "drug_cold",
+      "model": "DTIAM",
+      "metric": "pearson",
+      "mean": 0.5002834,
+      "sample_sd": 0.06075333939628338,
+      "per_fold_in_unverified_source_order": [
+        0.588946,
+        0.470202,
+        0.431788,
+        0.480169,
+        0.530312
+      ],
+      "source_cells": "Fig.3c!N5:N9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "DeepDTA",
+      "metric": "pearson",
+      "mean": 0.6812514,
+      "sample_sd": 0.036704716499381916,
+      "per_fold_in_unverified_source_order": [
+        0.707413,
+        0.628364,
+        0.666283,
+        0.681922,
+        0.722275
+      ],
+      "source_cells": "Fig.3c!R5:R9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "MONN",
+      "metric": "pearson",
+      "mean": 0.7416722,
+      "sample_sd": 0.03607607863529516,
+      "per_fold_in_unverified_source_order": [
+        0.788113,
+        0.760664,
+        0.691379,
+        0.729386,
+        0.738819
+      ],
+      "source_cells": "Fig.3c!S5:S9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "BACPI",
+      "metric": "pearson",
+      "mean": 0.6594714,
+      "sample_sd": 0.02198267127307327,
+      "per_fold_in_unverified_source_order": [
+        0.69474,
+        0.659011,
+        0.655773,
+        0.634137,
+        0.653696
+      ],
+      "source_cells": "Fig.3c!T5:T9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "GraphDTA",
+      "metric": "pearson",
+      "mean": 0.6612818,
+      "sample_sd": 0.04341286727688002,
+      "per_fold_in_unverified_source_order": [
+        0.731695,
+        0.673396,
+        0.623354,
+        0.638328,
+        0.639636
+      ],
+      "source_cells": "Fig.3c!U5:U9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "davis",
+      "setting": "target_cold",
+      "model": "DTIAM",
+      "metric": "pearson",
+      "mean": 0.785763,
+      "sample_sd": 0.01813319177640826,
+      "per_fold_in_unverified_source_order": [
+        0.81113,
+        0.798976,
+        0.772416,
+        0.773733,
+        0.77256
+      ],
+      "source_cells": "Fig.3c!V5:V9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "DeepDTA",
+      "metric": "pearson",
+      "mean": 0.8238364,
+      "sample_sd": 0.004636345090693738,
+      "per_fold_in_unverified_source_order": [
+        0.819381,
+        0.822367,
+        0.826949,
+        0.830259,
+        0.820226
+      ],
+      "source_cells": "Fig.3d!B5:B9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "MONN",
+      "metric": "pearson",
+      "mean": 0.8572912,
+      "sample_sd": 0.011303790722585045,
+      "per_fold_in_unverified_source_order": [
+        0.862277,
+        0.864202,
+        0.837589,
+        0.864344,
+        0.858044
+      ],
+      "source_cells": "Fig.3d!C5:C9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "BACPI",
+      "metric": "pearson",
+      "mean": 0.8696412,
+      "sample_sd": 0.007538314844844306,
+      "per_fold_in_unverified_source_order": [
+        0.857066,
+        0.877436,
+        0.870749,
+        0.871009,
+        0.871946
+      ],
+      "source_cells": "Fig.3d!D5:D9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "GraphDTA",
+      "metric": "pearson",
+      "mean": 0.8695038,
+      "sample_sd": 0.004102060726025406,
+      "per_fold_in_unverified_source_order": [
+        0.864668,
+        0.873194,
+        0.866991,
+        0.868392,
+        0.874274
+      ],
+      "source_cells": "Fig.3d!E5:E9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "warm",
+      "model": "DTIAM",
+      "metric": "pearson",
+      "mean": 0.88005,
+      "sample_sd": 0.004669764715700366,
+      "per_fold_in_unverified_source_order": [
+        0.8741,
+        0.884383,
+        0.882557,
+        0.883236,
+        0.875974
+      ],
+      "source_cells": "Fig.3d!F5:F9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "DeepDTA",
+      "metric": "pearson",
+      "mean": 0.6372382,
+      "sample_sd": 0.0070986753482604,
+      "per_fold_in_unverified_source_order": [
+        0.631795,
+        0.646606,
+        0.635995,
+        0.629611,
+        0.642184
+      ],
+      "source_cells": "Fig.3d!J5:J9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "MONN",
+      "metric": "pearson",
+      "mean": 0.6433222000000001,
+      "sample_sd": 0.017896346406459592,
+      "per_fold_in_unverified_source_order": [
+        0.628082,
+        0.624075,
+        0.667179,
+        0.653773,
+        0.643502
+      ],
+      "source_cells": "Fig.3d!K5:K9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "BACPI",
+      "metric": "pearson",
+      "mean": 0.6662312,
+      "sample_sd": 0.01759334214127608,
+      "per_fold_in_unverified_source_order": [
+        0.647206,
+        0.678609,
+        0.6901,
+        0.65919,
+        0.656051
+      ],
+      "source_cells": "Fig.3d!L5:L9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "GraphDTA",
+      "metric": "pearson",
+      "mean": 0.6956762,
+      "sample_sd": 0.028474485942682072,
+      "per_fold_in_unverified_source_order": [
+        0.648564,
+        0.698241,
+        0.725402,
+        0.699653,
+        0.706521
+      ],
+      "source_cells": "Fig.3d!M5:M9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "drug_cold",
+      "model": "DTIAM",
+      "metric": "pearson",
+      "mean": 0.7298566,
+      "sample_sd": 0.014422639453303965,
+      "per_fold_in_unverified_source_order": [
+        0.720241,
+        0.719032,
+        0.75412,
+        0.731578,
+        0.724312
+      ],
+      "source_cells": "Fig.3d!N5:N9",
+      "main_table_eligible": true
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "DeepDTA",
+      "metric": "pearson",
+      "mean": 0.6940162,
+      "sample_sd": 0.035641981352051676,
+      "per_fold_in_unverified_source_order": [
+        0.668661,
+        0.732753,
+        0.694054,
+        0.649571,
+        0.725042
+      ],
+      "source_cells": "Fig.3d!R5:R9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "MONN",
+      "metric": "pearson",
+      "mean": 0.7275322,
+      "sample_sd": 0.031074431510487853,
+      "per_fold_in_unverified_source_order": [
+        0.711773,
+        0.759216,
+        0.745091,
+        0.681283,
+        0.740298
+      ],
+      "source_cells": "Fig.3d!S5:S9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "BACPI",
+      "metric": "pearson",
+      "mean": 0.6745668,
+      "sample_sd": 0.03783088917405986,
+      "per_fold_in_unverified_source_order": [
+        0.669326,
+        0.723043,
+        0.702768,
+        0.639293,
+        0.638404
+      ],
+      "source_cells": "Fig.3d!T5:T9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "GraphDTA",
+      "metric": "pearson",
+      "mean": 0.5904968,
+      "sample_sd": 0.013060867953547325,
+      "per_fold_in_unverified_source_order": [
+        0.58484,
+        0.598734,
+        0.59797,
+        0.570041,
+        0.600899
+      ],
+      "source_cells": "Fig.3d!U5:U9",
+      "main_table_eligible": false
+    },
+    {
+      "dataset": "kiba",
+      "setting": "target_cold",
+      "model": "DTIAM",
+      "metric": "pearson",
+      "mean": 0.7489834,
+      "sample_sd": 0.028657304876767445,
+      "per_fold_in_unverified_source_order": [
+        0.710978,
+        0.77327,
+        0.7696,
+        0.725511,
+        0.765558
+      ],
+      "source_cells": "Fig.3d!V5:V9",
+      "main_table_eligible": false
+    }
+  ],
+  "comparability": {
+    "source_of_all_reference_models": "Reported by the DTIAM study, Figure 3 source data; not scores independently extracted from each original model paper",
+    "data_version": "Official DTIAM Davis and KIBA input files; local data and official outer algorithm verified by the protocol freeze",
+    "label_scale": {
+      "davis": "-log10(Kd_nM / 1e9); retain pKd=5 floor",
+      "kiba": "native KIBA score; no log transform"
+    },
+    "outer_split": "Drug IDs in original ligand-dictionary order, KFold(5, shuffle=True, random_state=0)",
+    "aggregation": "Unweighted arithmetic mean and sample SD of five scores",
+    "inner_validation": "Different: local 10% entity-disjoint validation from outer training; DTIAM uses AutoGluon bagging/stacking. Not a controlled same-training comparison.",
+    "feature_encoders": "Different molecular encoders and downstream learners; same target task does not imply matched model capacity or tuning budget",
+    "fold_pairing": "Workbook score order has no verified row-to-fold linkage; no paired test against reported baselines",
+    "strict_identity_protocol": "Not compared to these reported values as if the same split",
+    "per_sample_baseline_predictions": "Unavailable in this audit; no significance against published scores"
+  }
+}

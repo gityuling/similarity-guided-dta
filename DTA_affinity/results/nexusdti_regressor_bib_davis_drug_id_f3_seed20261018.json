@@ -1,0 +1,158 @@
+{
+  "dataset": "davis_drug_id_nexusdti_style_regressor",
+  "data_table": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/davis_dtiam_protocol/table.csv",
+  "manifest_file": "/home/lsy/\u6587\u6863/Drug_repurpose/DTA_affinity/data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+  "token_dir": "/home/lsy/\u6587\u6863/Drug_repurpose/dataset/processed_DTI_Token/token_features_davis",
+  "target_column": "pKd_floor",
+  "input_sha256": {
+    "data_table": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d",
+    "manifest": "dbe9ae2e62dc9e4022b74f74e73d3eb6b9e01edb69dda06e901f58f8712067c9"
+  },
+  "split": "bib_davis_drug_id_f3",
+  "seed": 20261018,
+  "device": "cuda",
+  "epochs_requested": 20,
+  "epochs_completed": 19,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "patience": 5,
+  "workers": 4,
+  "latent_dim": 512,
+  "k_ratio": 0.15,
+  "pool_fusion": true,
+  "drug_attention": false,
+  "pocket_fusion": false,
+  "pocket_radius": null,
+  "pocket_residual": false,
+  "freeze_base": false,
+  "frozen_base_parameters": 0,
+  "hybrid": true,
+  "censor_aware": false,
+  "censor_floor": 5.0,
+  "activity_aux_only": null,
+  "activity_loss_weight": null,
+  "target_normalize": true,
+  "target_mean": 5.478647204166872,
+  "target_std": 0.8903936335223686,
+  "dropout": 0.1,
+  "initialization": null,
+  "encoder_initialization": null,
+  "run_tag": "seed20261018",
+  "rows_train": 21658,
+  "rows_val": 2652,
+  "rows_test": 5746,
+  "best_val_rmse": 0.5824123024940491,
+  "initial_validation": null,
+  "metrics_train": {
+    "rmse": 0.4956456124782562,
+    "mse": 0.2456645667552948,
+    "ci": 0.9054388831875894,
+    "pearson": 0.8344919085502625,
+    "spearman": 0.7468903034981049
+  },
+  "metrics_test": {
+    "rmse": 0.7730510234832764,
+    "mse": 0.5976079106330872,
+    "ci": 0.7652508865763399,
+    "pearson": 0.6325740814208984,
+    "spearman": 0.42803683439725265
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.39385452222894635,
+      "val_rmse": 0.6660646200180054
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3351832177247521,
+      "val_rmse": 0.6698480844497681
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3109554052793768,
+      "val_rmse": 0.6010863780975342
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.29326829878536204,
+      "val_rmse": 0.5974236130714417
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.282642119845166,
+      "val_rmse": 0.633933424949646
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.2750065638821506,
+      "val_rmse": 0.610485851764679
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.26518737996471,
+      "val_rmse": 0.591694712638855
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2570222825385057,
+      "val_rmse": 0.6210524439811707
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2504726399022799,
+      "val_rmse": 0.604803204536438
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.2413510829651144,
+      "val_rmse": 0.6060319542884827
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.2362689315699614,
+      "val_rmse": 0.5830633044242859
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.22948838040761693,
+      "val_rmse": 0.593742311000824
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.22446535437329282,
+      "val_rmse": 0.5904709100723267
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.219671393860374,
+      "val_rmse": 0.5824123024940491
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.213902150297306,
+      "val_rmse": 0.5985036492347717
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.2107457083225603,
+      "val_rmse": 0.6040859818458557
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.20790187337782962,
+      "val_rmse": 0.5955997705459595
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.20398809033385396,
+      "val_rmse": 0.5967587828636169
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.2035775370455,
+      "val_rmse": 0.5885268449783325
+    }
+  ],
+  "residual_gate": 0.11845427006483078
+}

@@ -1,0 +1,169 @@
+{
+  "protocol": "Morgan neighbor prior uses only training rows at the same target; top-k/gamma and affine calibration selected on validation rows, then frozen for test",
+  "rows": {
+    "train": 21658,
+    "val": 2652,
+    "test": 5746
+  },
+  "selected_hyperparameters": {
+    "top_k": 40,
+    "gamma": 2.0,
+    "val_mse_raw": 0.445403892592875,
+    "affine_slope": 0.777487944316439,
+    "affine_intercept": 1.060486947346849
+  },
+  "validation": {
+    "raw": {
+      "rmse": 0.6673858648434764,
+      "mse": 0.445403892592875,
+      "ci": 0.7397970025142504,
+      "pearson": 0.5317069631751975,
+      "spearman": 0.37704467416152676
+    },
+    "affine": {
+      "rmse": 0.6389513350915343,
+      "mse": 0.40825880861525415,
+      "ci": 0.7397970025142504,
+      "pearson": 0.5317069631751976,
+      "spearman": 0.37704487065136233
+    }
+  },
+  "test": {
+    "raw": {
+      "rmse": 0.7847524661548071,
+      "mse": 0.6158364331360516,
+      "ci": 0.7242384971390552,
+      "pearson": 0.44270850378699056,
+      "spearman": 0.44006796842034407
+    },
+    "affine": {
+      "rmse": 0.7694748508916909,
+      "mse": 0.5920915461547899,
+      "ci": 0.7242384971390552,
+      "pearson": 0.44270850378699056,
+      "spearman": 0.440068059659321
+    }
+  },
+  "validation_grid": [
+    {
+      "top_k": 1,
+      "gamma": 0.5,
+      "val_mse_raw": 0.8925141287191286
+    },
+    {
+      "top_k": 1,
+      "gamma": 1.0,
+      "val_mse_raw": 0.8925141287191286
+    },
+    {
+      "top_k": 1,
+      "gamma": 2.0,
+      "val_mse_raw": 0.8925141287191286
+    },
+    {
+      "top_k": 1,
+      "gamma": 4.0,
+      "val_mse_raw": 0.8925141287191286
+    },
+    {
+      "top_k": 3,
+      "gamma": 0.5,
+      "val_mse_raw": 0.6374933339353761
+    },
+    {
+      "top_k": 3,
+      "gamma": 1.0,
+      "val_mse_raw": 0.6289074572662017
+    },
+    {
+      "top_k": 3,
+      "gamma": 2.0,
+      "val_mse_raw": 0.6241290992921839
+    },
+    {
+      "top_k": 3,
+      "gamma": 4.0,
+      "val_mse_raw": 0.6452407439563668
+    },
+    {
+      "top_k": 5,
+      "gamma": 0.5,
+      "val_mse_raw": 0.5829122753020989
+    },
+    {
+      "top_k": 5,
+      "gamma": 1.0,
+      "val_mse_raw": 0.5743637748039392
+    },
+    {
+      "top_k": 5,
+      "gamma": 2.0,
+      "val_mse_raw": 0.5680756743534535
+    },
+    {
+      "top_k": 5,
+      "gamma": 4.0,
+      "val_mse_raw": 0.5922632457646981
+    },
+    {
+      "top_k": 10,
+      "gamma": 0.5,
+      "val_mse_raw": 0.49183512193325307
+    },
+    {
+      "top_k": 10,
+      "gamma": 1.0,
+      "val_mse_raw": 0.48764720268790435
+    },
+    {
+      "top_k": 10,
+      "gamma": 2.0,
+      "val_mse_raw": 0.4832621868024604
+    },
+    {
+      "top_k": 10,
+      "gamma": 4.0,
+      "val_mse_raw": 0.511168117083362
+    },
+    {
+      "top_k": 20,
+      "gamma": 0.5,
+      "val_mse_raw": 0.466870070195045
+    },
+    {
+      "top_k": 20,
+      "gamma": 1.0,
+      "val_mse_raw": 0.4607927876852807
+    },
+    {
+      "top_k": 20,
+      "gamma": 2.0,
+      "val_mse_raw": 0.44976451099375575
+    },
+    {
+      "top_k": 20,
+      "gamma": 4.0,
+      "val_mse_raw": 0.4668618770950174
+    },
+    {
+      "top_k": 40,
+      "gamma": 0.5,
+      "val_mse_raw": 0.4634399340774155
+    },
+    {
+      "top_k": 40,
+      "gamma": 1.0,
+      "val_mse_raw": 0.45710311065648973
+    },
+    {
+      "top_k": 40,
+      "gamma": 2.0,
+      "val_mse_raw": 0.445403892592875
+    },
+    {
+      "top_k": 40,
+      "gamma": 4.0,
+      "val_mse_raw": 0.45688501192037234
+    }
+  ]
+}

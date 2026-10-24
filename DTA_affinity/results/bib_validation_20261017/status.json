@@ -1,0 +1,1060 @@
+{
+  "state": "completed",
+  "jobs_total": 25,
+  "completed": [
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "id": "bib_davis_drug_id_f0_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f0_seed20261017_ablation.json",
+        "bytes": 2453,
+        "sha256": "cb83ec88a7d23b11492090dd110a109095e2a02c70b227f190a8d48fc76e9b34"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.8712264861311052,
+          "mse": 0.7590355901363528,
+          "ci": 0.7099326078610277,
+          "pearson": 0.5128214050142959,
+          "spearman": 0.4356797804205325
+        },
+        "neighbor_prior": {
+          "rmse": 0.8628398873416165,
+          "mse": 0.7444926711876935,
+          "ci": 0.7232727383622211,
+          "pearson": 0.4580951392424121,
+          "spearman": 0.46168038404868567
+        },
+        "fixed_blend": {
+          "rmse": 0.8293512099316954,
+          "mse": 0.6878234294151672,
+          "ci": 0.7375768610526626,
+          "pearson": 0.5458035375507229,
+          "spearman": 0.4889435855024925
+        },
+        "similarity_gate": {
+          "rmse": 0.8151084439659502,
+          "mse": 0.6644017754245926,
+          "ci": 0.7381581185707411,
+          "pearson": 0.5573915152847748,
+          "spearman": 0.48916936453317844
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "id": "bib_davis_drug_id_f1_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f1_seed20261017_ablation.json",
+        "bytes": 2445,
+        "sha256": "09a8606d5df4c37b6bc3e310bfd50cd63ebcb38f9ccd7045cd58b19dded606bb"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.7942324081956029,
+          "mse": 0.6308051182281867,
+          "ci": 0.6794602260098918,
+          "pearson": 0.4897761944210133,
+          "spearman": 0.3084995995908284
+        },
+        "neighbor_prior": {
+          "rmse": 0.792218602835867,
+          "mse": 0.6276103146792131,
+          "ci": 0.720594101373819,
+          "pearson": 0.4895209077293116,
+          "spearman": 0.37872271782653266
+        },
+        "fixed_blend": {
+          "rmse": 0.7676505845380799,
+          "mse": 0.5892874199416557,
+          "ci": 0.7270101747730231,
+          "pearson": 0.514244275764576,
+          "spearman": 0.3885473244560772
+        },
+        "similarity_gate": {
+          "rmse": 0.7660335688587325,
+          "mse": 0.5868074286184466,
+          "ci": 0.7297801441622634,
+          "pearson": 0.5197730234590827,
+          "spearman": 0.39320620100453324
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "id": "bib_davis_drug_id_f2_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f2_seed20261017_ablation.json",
+        "bytes": 2452,
+        "sha256": "b328d9ca3049ae28d388a7341d069652b2eaa8e368785a0eb68881974dea4d2d"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.7740281882269048,
+          "mse": 0.5991196361698247,
+          "ci": 0.6270812540444518,
+          "pearson": 0.3815102895322897,
+          "spearman": 0.24305355988217411
+        },
+        "neighbor_prior": {
+          "rmse": 0.7656651035697002,
+          "mse": 0.5862430508243998,
+          "ci": 0.7043175289313488,
+          "pearson": 0.4772290327624512,
+          "spearman": 0.39025004581030065
+        },
+        "fixed_blend": {
+          "rmse": 0.7172357509595142,
+          "mse": 0.5144271224544583,
+          "ci": 0.6975832938591905,
+          "pearson": 0.4713304315990658,
+          "spearman": 0.3752774612737713
+        },
+        "similarity_gate": {
+          "rmse": 0.7145261842902911,
+          "mse": 0.5105476680364431,
+          "ci": 0.6975258769240654,
+          "pearson": 0.4783716707554913,
+          "spearman": 0.37545170634639746
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "id": "bib_davis_drug_id_f3_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f3_seed20261017_ablation.json",
+        "bytes": 2443,
+        "sha256": "b2c4eaaea10ffdf674f54de9b269af7605fed7b1808f52fed48b5c94d9f234f3"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.8076344685636986,
+          "mse": 0.6522734348121678,
+          "ci": 0.751040533840085,
+          "pearson": 0.6105042241223719,
+          "spearman": 0.40559869019234907
+        },
+        "neighbor_prior": {
+          "rmse": 0.7417691642831581,
+          "mse": 0.5502214930813348,
+          "ci": 0.7934315994750352,
+          "pearson": 0.641641611891683,
+          "spearman": 0.4702001302713428
+        },
+        "fixed_blend": {
+          "rmse": 0.7491584791270525,
+          "mse": 0.5612384268479583,
+          "ci": 0.7984371049650539,
+          "pearson": 0.6764148910373924,
+          "spearman": 0.4781481548095897
+        },
+        "similarity_gate": {
+          "rmse": 0.7130269855013981,
+          "mse": 0.508407482053211,
+          "ci": 0.818283736125901,
+          "pearson": 0.7119597157495726,
+          "spearman": 0.5086877988940346
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "id": "bib_davis_drug_id_f4_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f4_seed20261017_ablation.json",
+        "bytes": 2449,
+        "sha256": "2e9e188cdd2064e958392bcdd0c77c42e9bba3c4d9743f2a52f3dc7414fb496b"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.7635238568448214,
+          "mse": 0.5829686799711913,
+          "ci": 0.702785454813095,
+          "pearson": 0.48752113681673404,
+          "spearman": 0.3978855004713679
+        },
+        "neighbor_prior": {
+          "rmse": 0.7847524717235589,
+          "mse": 0.6158364418762351,
+          "ci": 0.7242384971390552,
+          "pearson": 0.44270850435374354,
+          "spearman": 0.44006796842034407
+        },
+        "fixed_blend": {
+          "rmse": 0.7471899406317876,
+          "mse": 0.5582928073813342,
+          "ci": 0.7380388147094108,
+          "pearson": 0.4897622788714924,
+          "spearman": 0.46556512757185287
+        },
+        "similarity_gate": {
+          "rmse": 0.7467188546550566,
+          "mse": 0.5575890478973595,
+          "ci": 0.7388850104165118,
+          "pearson": 0.4929732750309228,
+          "spearman": 0.46712261210337586
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "id": "bib_davis_drug_id_f0_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f0_seed20261018_ablation.json",
+        "bytes": 2452,
+        "sha256": "acb252f4f010e76245b63208c286813d8971f4a69ab754175084ede329874756"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.8471114722974072,
+          "mse": 0.7175978464978809,
+          "ci": 0.735780699933377,
+          "pearson": 0.5392554575131101,
+          "spearman": 0.4864519840541179
+        },
+        "neighbor_prior": {
+          "rmse": 0.8628398873416165,
+          "mse": 0.7444926711876935,
+          "ci": 0.7232727383622211,
+          "pearson": 0.4580951392424121,
+          "spearman": 0.46168038404868567
+        },
+        "fixed_blend": {
+          "rmse": 0.8245824457551376,
+          "mse": 0.6799362098475245,
+          "ci": 0.7428336489282961,
+          "pearson": 0.5454766104468838,
+          "spearman": 0.49927609323796424
+        },
+        "similarity_gate": {
+          "rmse": 0.8216611795699551,
+          "mse": 0.67512709401229,
+          "ci": 0.7430587067963643,
+          "pearson": 0.5471590801384411,
+          "spearman": 0.49951727257729217
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "id": "bib_davis_drug_id_f1_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f1_seed20261018_ablation.json",
+        "bytes": 2447,
+        "sha256": "1f6e0a0827fe3429d6f3de693509fdab6721b28fd8587732e96cecef354ed91d"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.837657964235156,
+          "mse": 0.701670865046586,
+          "ci": 0.6658737472418473,
+          "pearson": 0.39081496599276405,
+          "spearman": 0.28635224351049693
+        },
+        "neighbor_prior": {
+          "rmse": 0.792218602835867,
+          "mse": 0.6276103146792131,
+          "ci": 0.720594101373819,
+          "pearson": 0.4895209077293116,
+          "spearman": 0.37872271782653266
+        },
+        "fixed_blend": {
+          "rmse": 0.7755586949066637,
+          "mse": 0.6014912892453276,
+          "ci": 0.7265956821693234,
+          "pearson": 0.4971526077779665,
+          "spearman": 0.38795113743688264
+        },
+        "similarity_gate": {
+          "rmse": 0.7787826538746413,
+          "mse": 0.6065024219760293,
+          "ci": 0.726840460342476,
+          "pearson": 0.49628378152365094,
+          "spearman": 0.38858414454574697
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "id": "bib_davis_drug_id_f2_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f2_seed20261018_ablation.json",
+        "bytes": 2450,
+        "sha256": "82b66c32a9e125f2fc1ab2083c5f9b3d788ea8a09279c0a03390933c3a9fed05"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.7632447701660161,
+          "mse": 0.5825425791857747,
+          "ci": 0.6208439976990261,
+          "pearson": 0.36280331262162724,
+          "spearman": 0.2308866943003925
+        },
+        "neighbor_prior": {
+          "rmse": 0.7656651035697002,
+          "mse": 0.5862430508243998,
+          "ci": 0.7043175289313488,
+          "pearson": 0.4772290327624512,
+          "spearman": 0.39025004581030065
+        },
+        "fixed_blend": {
+          "rmse": 0.7063782918791318,
+          "mse": 0.49897029123807995,
+          "ci": 0.6937881613896304,
+          "pearson": 0.47255739683175824,
+          "spearman": 0.36898809881932354
+        },
+        "similarity_gate": {
+          "rmse": 0.6983065642037353,
+          "mse": 0.4876320576100255,
+          "ci": 0.6926846430497532,
+          "pearson": 0.4947942847498433,
+          "spearman": 0.36733518047071556
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "id": "bib_davis_drug_id_f3_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f3_seed20261018_ablation.json",
+        "bytes": 2444,
+        "sha256": "5f372d278b35becfbdbd646ebabee2e6ecb521132de10bcb6d99924f10baf8fb"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.7730510395340051,
+          "mse": 0.597607909724606,
+          "ci": 0.7652508865763399,
+          "pearson": 0.6325740865781198,
+          "spearman": 0.42803683439725265
+        },
+        "neighbor_prior": {
+          "rmse": 0.7417691642831581,
+          "mse": 0.5502214930813348,
+          "ci": 0.7934315994750352,
+          "pearson": 0.641641611891683,
+          "spearman": 0.4702001302713428
+        },
+        "fixed_blend": {
+          "rmse": 0.7281012709217268,
+          "mse": 0.5301314607178339,
+          "ci": 0.7990293885245815,
+          "pearson": 0.6839656383354815,
+          "spearman": 0.47929150057042597
+        },
+        "similarity_gate": {
+          "rmse": 0.71220545966886,
+          "mse": 0.507236616782132,
+          "ci": 0.8093576727059767,
+          "pearson": 0.7005036769294605,
+          "spearman": 0.49556921992241065
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "id": "bib_davis_drug_id_f4_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_davis_drug_id_f4_seed20261018_ablation.json",
+        "bytes": 2451,
+        "sha256": "4d275aae72967c50df5457ebf0e3be95fde44e94345e61baea672a0426297a3d"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.8089014378070101,
+          "mse": 0.6543215360862482,
+          "ci": 0.7013606001942939,
+          "pearson": 0.4328318879630115,
+          "spearman": 0.3962121404990035
+        },
+        "neighbor_prior": {
+          "rmse": 0.7847524717235589,
+          "mse": 0.6158364418762351,
+          "ci": 0.7242384971390552,
+          "pearson": 0.44270850435374354,
+          "spearman": 0.44006796842034407
+        },
+        "fixed_blend": {
+          "rmse": 0.7598604381317491,
+          "mse": 0.5773878854377738,
+          "ci": 0.7394781615831058,
+          "pearson": 0.4704003726531423,
+          "spearman": 0.46800672550038763
+        },
+        "similarity_gate": {
+          "rmse": 0.7549865762835377,
+          "mse": 0.5700047303683381,
+          "ci": 0.7420677701261326,
+          "pearson": 0.48093014914246496,
+          "spearman": 0.4726370401128672
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "id": "bib_kiba_drug_id_f0_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f0_seed20261017_ablation.json",
+        "bytes": 2447,
+        "sha256": "f904e60272402894961ca27d40a7accf65b71227a0074350e748489e931df944"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6444567206473363,
+          "mse": 0.41532446478751883,
+          "ci": 0.7732170964068079,
+          "pearson": 0.6616687477047664,
+          "spearman": 0.6878708082748848
+        },
+        "neighbor_prior": {
+          "rmse": 0.608102474952818,
+          "mse": 0.36978862004374263,
+          "ci": 0.7904834630061096,
+          "pearson": 0.6994278386590818,
+          "spearman": 0.7136662776788417
+        },
+        "fixed_blend": {
+          "rmse": 0.5858156758131883,
+          "mse": 0.3431800060284625,
+          "ci": 0.8041830506221597,
+          "pearson": 0.7232752020367802,
+          "spearman": 0.7478432550570361
+        },
+        "similarity_gate": {
+          "rmse": 0.5844338916576437,
+          "mse": 0.34156297371809835,
+          "ci": 0.8051338381333976,
+          "pearson": 0.7248549485298068,
+          "spearman": 0.7491570572981409
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "id": "bib_kiba_drug_id_f1_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f1_seed20261017_ablation.json",
+        "bytes": 2448,
+        "sha256": "e0ca92b869ee129a53993393250607df47fc2babe8fe46246de44259007950f6"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.5904596867210269,
+          "mse": 0.34864264164269326,
+          "ci": 0.7823126844304316,
+          "pearson": 0.6946275391958625,
+          "spearman": 0.7025548808934422
+        },
+        "neighbor_prior": {
+          "rmse": 0.5404151189297978,
+          "mse": 0.29204850076790745,
+          "ci": 0.8043422456490723,
+          "pearson": 0.7414708986551499,
+          "spearman": 0.7385363736232877
+        },
+        "fixed_blend": {
+          "rmse": 0.5217355223794192,
+          "mse": 0.2722079553125255,
+          "ci": 0.8146998898336736,
+          "pearson": 0.7621939919391649,
+          "spearman": 0.7635924629935908
+        },
+        "similarity_gate": {
+          "rmse": 0.5216276123237277,
+          "mse": 0.27209536593855316,
+          "ci": 0.814805436104218,
+          "pearson": 0.7623220496532137,
+          "spearman": 0.7638134774302163
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "id": "bib_kiba_drug_id_f2_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f2_seed20261017_ablation.json",
+        "bytes": 2449,
+        "sha256": "24f8c9faa6c3693ebaece5eb331737b4ac518469fcbc8a4ffccb4b6418cfc4b8"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6088827601169226,
+          "mse": 0.3707382155676019,
+          "ci": 0.7908742487720091,
+          "pearson": 0.7132051409540718,
+          "spearman": 0.7213002263973449
+        },
+        "neighbor_prior": {
+          "rmse": 0.5615575894537179,
+          "mse": 0.3153469262730704,
+          "ci": 0.8101145364946638,
+          "pearson": 0.7589387808885655,
+          "spearman": 0.7492458047687169
+        },
+        "fixed_blend": {
+          "rmse": 0.5369240211032199,
+          "mse": 0.28828740443765094,
+          "ci": 0.8216839946567152,
+          "pearson": 0.7782041016388477,
+          "spearman": 0.775983087623388
+        },
+        "similarity_gate": {
+          "rmse": 0.5364193223560576,
+          "mse": 0.28774568939693207,
+          "ci": 0.8226132236039474,
+          "pearson": 0.7787296020929562,
+          "spearman": 0.7774985408476529
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "id": "bib_kiba_drug_id_f3_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f3_seed20261017_ablation.json",
+        "bytes": 2447,
+        "sha256": "d49c1b30e9b4d0705fb5d26b9a12306657f20b6ee4edff5f8379a75d51ab8d36"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.5749623040558286,
+          "mse": 0.33058165108518706,
+          "ci": 0.7855753219760697,
+          "pearson": 0.7094183853524373,
+          "spearman": 0.707938811310866
+        },
+        "neighbor_prior": {
+          "rmse": 0.5456775451432748,
+          "mse": 0.29776398327359077,
+          "ci": 0.8074708550305479,
+          "pearson": 0.7436731333701438,
+          "spearman": 0.7391127770815618
+        },
+        "fixed_blend": {
+          "rmse": 0.5177226446896175,
+          "mse": 0.2680367368244119,
+          "ci": 0.8164438428729586,
+          "pearson": 0.7650275184765477,
+          "spearman": 0.7624332686725932
+        },
+        "similarity_gate": {
+          "rmse": 0.5130849085565894,
+          "mse": 0.2632561233885237,
+          "ci": 0.819412996427166,
+          "pearson": 0.769849621637211,
+          "spearman": 0.7675946259848904
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "id": "bib_kiba_drug_id_f4_seed20261017",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f4_seed20261017_ablation.json",
+        "bytes": 2447,
+        "sha256": "8f0bc4ae5114823361d41198f9c6b448b9fd159fa1e66918e1b4ca2d43463265"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6344475614638531,
+          "mse": 0.40252370824742956,
+          "ci": 0.7747577385065791,
+          "pearson": 0.699174099512569,
+          "spearman": 0.6862791988081385
+        },
+        "neighbor_prior": {
+          "rmse": 0.5900333124929741,
+          "mse": 0.34813930985143154,
+          "ci": 0.8027034998680516,
+          "pearson": 0.7396274052621339,
+          "spearman": 0.734655747345002
+        },
+        "fixed_blend": {
+          "rmse": 0.5706103480034355,
+          "mse": 0.32559616924860174,
+          "ci": 0.8100671343910341,
+          "pearson": 0.762207544825612,
+          "spearman": 0.7543680876564876
+        },
+        "similarity_gate": {
+          "rmse": 0.566971880301227,
+          "mse": 0.3214571130523089,
+          "ci": 0.8127695663692266,
+          "pearson": 0.7656598725991092,
+          "spearman": 0.7585209110370105
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "id": "bib_kiba_drug_id_f0_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f0_seed20261018_ablation.json",
+        "bytes": 2447,
+        "sha256": "8a265431916664e4e3d067b07be83fbb2a14600336f79d17b17d1ca234adfb52"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6398422362127311,
+          "mse": 0.4093980872417083,
+          "ci": 0.7744367067435882,
+          "pearson": 0.6637494475198444,
+          "spearman": 0.6903293102420434
+        },
+        "neighbor_prior": {
+          "rmse": 0.608102474952818,
+          "mse": 0.36978862004374263,
+          "ci": 0.7904834630061096,
+          "pearson": 0.6994278386590818,
+          "spearman": 0.7136662776788417
+        },
+        "fixed_blend": {
+          "rmse": 0.5850662484914345,
+          "mse": 0.34230251512384097,
+          "ci": 0.8041708689183841,
+          "pearson": 0.7244760457387587,
+          "spearman": 0.7476083666968323
+        },
+        "similarity_gate": {
+          "rmse": 0.5835575629508157,
+          "mse": 0.34053942927709524,
+          "ci": 0.8053111287220075,
+          "pearson": 0.726160144737366,
+          "spearman": 0.7492810966167419
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "id": "bib_kiba_drug_id_f1_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f1_seed20261018_ablation.json",
+        "bytes": 2446,
+        "sha256": "9342d44349e428e39fac879a75e8b60e68451e73a5e9dd94179e7b6ca6351711"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.5928251730219216,
+          "mse": 0.3514416857684713,
+          "ci": 0.7828601951203701,
+          "pearson": 0.693974183668879,
+          "spearman": 0.7008099857028744
+        },
+        "neighbor_prior": {
+          "rmse": 0.5404151189297978,
+          "mse": 0.29204850076790745,
+          "ci": 0.8043422456490723,
+          "pearson": 0.7414708986551499,
+          "spearman": 0.7385363736232877
+        },
+        "fixed_blend": {
+          "rmse": 0.5224898042003606,
+          "mse": 0.2729955954933312,
+          "ci": 0.8139877412850525,
+          "pearson": 0.7610962964277795,
+          "spearman": 0.7618136640671839
+        },
+        "similarity_gate": {
+          "rmse": 0.5223603952587209,
+          "mse": 0.2728603825348471,
+          "ci": 0.814146957826468,
+          "pearson": 0.7612540939003509,
+          "spearman": 0.7621144159161295
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "id": "bib_kiba_drug_id_f2_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f2_seed20261018_ablation.json",
+        "bytes": 2450,
+        "sha256": "fcc7fa5355c508beb71ff86ba81553034a7511ad3f8bb9af396a1cb8e8c3953b"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6089476047544662,
+          "mse": 0.3708171853362015,
+          "ci": 0.7893914284943888,
+          "pearson": 0.7114600475983888,
+          "spearman": 0.718812170462938
+        },
+        "neighbor_prior": {
+          "rmse": 0.5615575894537179,
+          "mse": 0.3153469262730704,
+          "ci": 0.8101145364946638,
+          "pearson": 0.7589387808885655,
+          "spearman": 0.7492458047687169
+        },
+        "fixed_blend": {
+          "rmse": 0.537113994214741,
+          "mse": 0.28849144278131283,
+          "ci": 0.8214013591804644,
+          "pearson": 0.777915396805352,
+          "spearman": 0.7757001870876119
+        },
+        "similarity_gate": {
+          "rmse": 0.5363122513975261,
+          "mse": 0.28763083099908326,
+          "ci": 0.8222184430295647,
+          "pearson": 0.7787028414421855,
+          "spearman": 0.7770457836754227
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "id": "bib_kiba_drug_id_f3_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f3_seed20261018_ablation.json",
+        "bytes": 2449,
+        "sha256": "b2ee09ad86ba2d2a68b5a3184f8f727488b8402adaea79a9624c5b4019f1c206"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.5759789291501008,
+          "mse": 0.33175172682489684,
+          "ci": 0.7862917945420871,
+          "pearson": 0.7048931314805086,
+          "spearman": 0.7089724937635431
+        },
+        "neighbor_prior": {
+          "rmse": 0.5456775451432748,
+          "mse": 0.29776398327359077,
+          "ci": 0.8074708550305479,
+          "pearson": 0.7436731333701438,
+          "spearman": 0.7391127770815618
+        },
+        "fixed_blend": {
+          "rmse": 0.5183509412785882,
+          "mse": 0.26868769832439837,
+          "ci": 0.8164420740452298,
+          "pearson": 0.7640946483532993,
+          "spearman": 0.762181462869307
+        },
+        "similarity_gate": {
+          "rmse": 0.5139909920533822,
+          "mse": 0.26418673991201996,
+          "ci": 0.8191863112523183,
+          "pearson": 0.7686685677797735,
+          "spearman": 0.7669300530831018
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "id": "bib_kiba_drug_id_f4_seed20261018",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_drug_id_f4_seed20261018_ablation.json",
+        "bytes": 2444,
+        "sha256": "75d360c2e04025f66177f3cf68da7b4fdacecc1c6f2810528c0f59a6ba879174"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6355617818046159,
+          "mse": 0.4039387784906582,
+          "ci": 0.7767725391183006,
+          "pearson": 0.6992717987047288,
+          "spearman": 0.6899304436352427
+        },
+        "neighbor_prior": {
+          "rmse": 0.5900333124929741,
+          "mse": 0.34813930985143154,
+          "ci": 0.8027034998680516,
+          "pearson": 0.7396274052621339,
+          "spearman": 0.734655747345002
+        },
+        "fixed_blend": {
+          "rmse": 0.5720518939428998,
+          "mse": 0.3272433693636586,
+          "ci": 0.810281214271075,
+          "pearson": 0.761347285824955,
+          "spearman": 0.7553262809170599
+        },
+        "similarity_gate": {
+          "rmse": 0.5691705129341129,
+          "mse": 0.3239550727936812,
+          "ci": 0.8124956910644188,
+          "pearson": 0.7641375708283873,
+          "spearman": 0.7585750001948621
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 0,
+      "id": "bib_kiba_identity_f0_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_identity_f0_seed20261012_ablation.json",
+        "bytes": 2447,
+        "sha256": "4517da0cba32609395a518d3a050fff3c8ea10238c564f5e51cfdabbe10fcd85"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.5946262917377555,
+          "mse": 0.3535804268257943,
+          "ci": 0.7823564021728292,
+          "pearson": 0.6911048073015118,
+          "spearman": 0.697740765031537
+        },
+        "neighbor_prior": {
+          "rmse": 0.5441457490431149,
+          "mse": 0.29609459620169254,
+          "ci": 0.8039619743537871,
+          "pearson": 0.7409024786793257,
+          "spearman": 0.7400551488267241
+        },
+        "fixed_blend": {
+          "rmse": 0.5278202388627544,
+          "mse": 0.27859420455313516,
+          "ci": 0.8131519457664954,
+          "pearson": 0.7573406207539206,
+          "spearman": 0.7628460537273972
+        },
+        "similarity_gate": {
+          "rmse": 0.5265343910005424,
+          "mse": 0.2772384649063121,
+          "ci": 0.8149330463094356,
+          "pearson": 0.7586933362107134,
+          "spearman": 0.7643939489364221
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 1,
+      "id": "bib_kiba_identity_f1_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_identity_f1_seed20261012_ablation.json",
+        "bytes": 2447,
+        "sha256": "a5144a9fe90017cb771afe4283e42ab8cdcc41a8345445840f15f6b15257710e"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6052538296955887,
+          "mse": 0.3663321983611767,
+          "ci": 0.7976317302210757,
+          "pearson": 0.7176630721345291,
+          "spearman": 0.734236293111735
+        },
+        "neighbor_prior": {
+          "rmse": 0.5754349727892338,
+          "mse": 0.33112540790894635,
+          "ci": 0.8140949391981621,
+          "pearson": 0.7413107020712681,
+          "spearman": 0.7588835793586287
+        },
+        "fixed_blend": {
+          "rmse": 0.5533910031226811,
+          "mse": 0.3062416023371272,
+          "ci": 0.8256904362734552,
+          "pearson": 0.7643736204486761,
+          "spearman": 0.7865376947901419
+        },
+        "similarity_gate": {
+          "rmse": 0.552681419242192,
+          "mse": 0.30545675117556365,
+          "ci": 0.8268057212199743,
+          "pearson": 0.765273806514511,
+          "spearman": 0.7880632851107031
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 2,
+      "id": "bib_kiba_identity_f2_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_identity_f2_seed20261012_ablation.json",
+        "bytes": 2443,
+        "sha256": "946487a147aec81a479445a63c0625b36658ed69b4cb9df30a61611be57184b0"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6088818322411014,
+          "mse": 0.3707370856332807,
+          "ci": 0.7772976750009017,
+          "pearson": 0.7097155251821456,
+          "spearman": 0.6920036249871452
+        },
+        "neighbor_prior": {
+          "rmse": 0.575527236988232,
+          "mse": 0.3312316005153086,
+          "ci": 0.7959973481368895,
+          "pearson": 0.7390834768927299,
+          "spearman": 0.7253525036261318
+        },
+        "fixed_blend": {
+          "rmse": 0.5534477359974365,
+          "mse": 0.30630439648068813,
+          "ci": 0.8076873615980208,
+          "pearson": 0.7634409785402239,
+          "spearman": 0.750503481885462
+        },
+        "similarity_gate": {
+          "rmse": 0.5508336411230744,
+          "mse": 0.303417700192904,
+          "ci": 0.8095442653592636,
+          "pearson": 0.7660329612830217,
+          "spearman": 0.7540786917349129
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 3,
+      "id": "bib_kiba_identity_f3_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_identity_f3_seed20261012_ablation.json",
+        "bytes": 2447,
+        "sha256": "1aaa947ca5aafadd2a8debd2077bf71db1820276209dc0a366b6368ab3694732"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6045026895858487,
+          "mse": 0.36542350171652493,
+          "ci": 0.7900355972676782,
+          "pearson": 0.7105635691103154,
+          "spearman": 0.7201338784811094
+        },
+        "neighbor_prior": {
+          "rmse": 0.580594247239145,
+          "mse": 0.3370896799271894,
+          "ci": 0.8035625537202683,
+          "pearson": 0.7304647871019583,
+          "spearman": 0.7351406952017848
+        },
+        "fixed_blend": {
+          "rmse": 0.5608494808542441,
+          "mse": 0.3145521401744752,
+          "ci": 0.8133780392848458,
+          "pearson": 0.7502819995379443,
+          "spearman": 0.7580878180419256
+        },
+        "similarity_gate": {
+          "rmse": 0.5596725289373874,
+          "mse": 0.31323333964717076,
+          "ci": 0.8145594754924306,
+          "pearson": 0.7515114198318213,
+          "spearman": 0.7607225541074903
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "protocol": "identity",
+      "seed": 20261012,
+      "fold": 4,
+      "id": "bib_kiba_identity_f4_seed20261012",
+      "result": {
+        "path": "DTA_affinity/results/bib_kiba_identity_f4_seed20261012_ablation.json",
+        "bytes": 2444,
+        "sha256": "433f11f4db00cb1f9867ca39740390a05994d6e610e43bcc35b54dc86d9124f2"
+      },
+      "test": {
+        "deep": {
+          "rmse": 0.6160010281138423,
+          "mse": 0.3794572666373107,
+          "ci": 0.7734173930987343,
+          "pearson": 0.673559287086112,
+          "spearman": 0.6834855442939496
+        },
+        "neighbor_prior": {
+          "rmse": 0.5786555098639509,
+          "mse": 0.3348421990959089,
+          "ci": 0.7898869601927423,
+          "pearson": 0.7170446660667296,
+          "spearman": 0.705425396766863
+        },
+        "fixed_blend": {
+          "rmse": 0.5556124544423364,
+          "mse": 0.3087051995314373,
+          "ci": 0.800693653320921,
+          "pearson": 0.7375488457538497,
+          "spearman": 0.7316654916407181
+        },
+        "similarity_gate": {
+          "rmse": 0.5533866781086063,
+          "mse": 0.3062368155080783,
+          "ci": 0.8031292613153765,
+          "pearson": 0.7401689737052025,
+          "spearman": 0.7368019325341244
+        }
+      }
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 5090 D v2",
+  "config_sha256": "8d20de147b8811da38d03649283a1e7aa33a183506c46ee33d21c1ebb85e1f53",
+  "updated_utc": "2026-10-18T04:23:22.242240+00:00",
+  "job_index": 25
+}

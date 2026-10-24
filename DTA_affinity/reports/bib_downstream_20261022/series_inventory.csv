@@ -1,0 +1,17 @@
+series,protein_id,source_rows,exact_kiba_sequence
+tnks2,Q9H2K2,27,False
+p38,Q16539,34,True
+hif2a,Q99814,41,False
+mcl1,Q07820,42,False
+cdk8,P49336,32,True
+cmet,P08581,24,True
+tyk2,P29597,16,True
+thrombin,P00734,11,False
+eg5,P52732,28,False
+syk,P43405,44,True
+pfkfb3,Q16875,40,False
+cdk2,P24941,16,True
+ptp1b,P18031,23,False
+jnk1,P45983,21,True
+shp2,Q06124,26,False
+bace,P56817,36,False

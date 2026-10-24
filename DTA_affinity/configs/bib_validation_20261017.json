@@ -1,0 +1,21 @@
+{
+  "protocol_freeze": "reports/bib_protocol_20261017/protocol.json",
+  "inner_seed": 20261012,
+  "additional_training_seeds": [20261017, 20261018],
+  "strict_kiba_training_seed": 20261012,
+  "training": {
+    "epochs": 20, "batch_size": 64, "workers": 4, "latent_dim": 512,
+    "lr": 0.0001, "k_ratio": 0.15, "dropout": 0.1, "patience": 5,
+    "pool_fusion": true, "hybrid": true, "target_normalize": true
+  },
+  "selection_rule": "Checkpoint uses validation RMSE; neighbor k/gamma and fusion use validation labels only; retain every planned seed and fold",
+  "strict_identity": "RDKit canonical isomeric SMILES; retain salt/charge/tautomer state; KFold over sorted identities, outer seed=0; 10% remaining identities for validation, inner_seed+fold",
+  "strict_prior_ties": "stable original table order",
+  "statistics": {
+    "bootstrap_repeats": 10000, "bootstrap_seed": 20261017,
+    "bootstrap_unit": "canonical chemical identity sampled within each outer test fold",
+    "primary_estimand": "unweighted mean of five test-fold MSE differences",
+    "interval": "percentile 95%; fixed predictions only, not training uncertainty",
+    "linear_stacking": "unregularized least squares with intercept fitted on validation predictions only; unconstrained coefficients"
+  }
+}

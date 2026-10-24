@@ -1,0 +1,24 @@
+{
+  "date_local": "2026-10-18",
+  "status": "passed",
+  "scope": "Independent post-run validation without retraining or repeating bootstrap",
+  "verified_queue_input_and_result_hashes": 29,
+  "fold_prediction_rows": 1420,
+  "folds_per_candidate": 5,
+  "candidate_identities": 284,
+  "measured_candidates": 256,
+  "active_auc_below_0_5": 5,
+  "fold_averages_match_saved_predictions": true,
+  "independently_recomputed_main_models": 9,
+  "metrics_recomputed": ["spearman", "auroc", "average_precision", "hits_at_5", "hits_at_10"],
+  "percentile_rank_combination_on_all_284_candidates_verified": true,
+  "csv_reading": "pandas float_precision=round_trip is required for exact reproduction of floating-point rank ties; default parsing can perturb tie groups at the last digit",
+  "primary_comparison": {
+    "left": "similarity_gate_plus_functional",
+    "right": "functional_only",
+    "metric": "spearman",
+    "difference": -0.0963342935939262,
+    "paired_percentile_95": [-0.1778493975949093, -0.015131178930246653],
+    "interpretation": "No incremental cellular-ranking benefit from the fixed equal-rank DTA combination in this case. Do not select new weights or thresholds using these endpoints."
+  }
+}

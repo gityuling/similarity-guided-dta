@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-18T13:02:31.099077+00:00",
+  "completed_utc": "2026-10-18T14:16:41.381541+00:00",
+  "wall_seconds": 4450.282468702,
+  "peak_cuda_allocated_bytes": 2623486464,
+  "peak_cuda_reserved_bytes": 3433037824,
+  "gpu": "NVIDIA GeForce RTX 5090 D v2",
+  "torch": "2.11.0+cu128",
+  "scope": "Whole affinity trainer including setup, evaluation and output; excludes pretrained feature extraction"
+}

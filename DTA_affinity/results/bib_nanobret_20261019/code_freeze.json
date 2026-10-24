@@ -1,0 +1,32 @@
+[
+  {
+    "path": "DTA_affinity/scripts/run_bib_nanobret.py",
+    "bytes": 8181,
+    "sha256": "ace5415684bb38a2fe63e563eace1981e96a7b2571f82d579e9104623d2bb84a"
+  },
+  {
+    "path": "DTA_affinity/scripts/evaluate_bib_nanobret.py",
+    "bytes": 6963,
+    "sha256": "40a18d3b7cc6f8cea4847bb58efb2577579c8c24e6deecad37569fde5ef5956b"
+  },
+  {
+    "path": "DTA_affinity/scripts/predict_bib_cellular_affinity.py",
+    "bytes": 10330,
+    "sha256": "e86975dd0c7bd260a33b12d8559e7146969e216fd517c74051e955d9433abbd8"
+  },
+  {
+    "path": "DTA_affinity/scripts/train_nexusdti_regressor.py",
+    "bytes": 48331,
+    "sha256": "8a10e31535a64a9e0d732804381beb68568b7311b91e30f927fd14c70df2060b"
+  },
+  {
+    "path": "DTA_affinity/scripts/build_kiba_benchmark_tokens.py",
+    "bytes": 7868,
+    "sha256": "e81bef964ea15f78e4c960018597763912e24ad661b6149c8d58dd435ccc681b"
+  },
+  {
+    "path": "DTA_affinity/scripts/build_bindingdb_articles_kd_tokens.py",
+    "bytes": 18225,
+    "sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8"
+  }
+]

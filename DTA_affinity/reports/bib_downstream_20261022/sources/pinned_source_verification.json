@@ -1,0 +1,54 @@
+{
+  "commit": "8ae35edba5481aa13de8a5bac6b03c1c1860ef3c",
+  "repository": "https://github.com/IDEA-XL/LigUnity",
+  "verified_files": [
+    {
+      "file": "ligunity_fep_labels.json",
+      "git_path": "test_datasets/FEP/fep_labels.json",
+      "git_blob_sha1": "5112e7b75547eb14353e1d9f1cca9f44b233d46f",
+      "sha256": "68cf4870e187e03447687b2912bd7c0b7757666f51842ee635ce1cef0b6ec785"
+    },
+    {
+      "file": "jnk1_manual_flips_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/jnk1_manual_flips_ligands.sdf",
+      "git_blob_sha1": "05d9a948128312196c6628bf182c0208bfb37f0d",
+      "sha256": "880876d2494cc6f9d5851273e74935e7caa16c8892eeb4e4ceac444eae22a677"
+    },
+    {
+      "file": "tyk2_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/tyk2_ligands.sdf",
+      "git_blob_sha1": "bcb7430967a5367dd76591b24bfffc2580ada2da",
+      "sha256": "8cc5b64c524cc70b70a0075d68d9ea65a4a32e0e50fb88bd9f6678466b6b8a0b"
+    },
+    {
+      "file": "cdk2_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/cdk2_ligands.sdf",
+      "git_blob_sha1": "fd1c132597b7bc785d5e80a99fef6870cf2af4f9",
+      "sha256": "06f3e239c52531d34405162cf6f68b5bc6de864fee7e73b27bf9b9887b48e040"
+    },
+    {
+      "file": "syk_4puz_fullmap_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/syk_4puz_fullmap_ligands.sdf",
+      "git_blob_sha1": "0ab777c99bd6c84d4aadc73420f3967559b372db",
+      "sha256": "0eb1fbe23c1e4bd4f08521cdca6e1c8ca852dd8f3e918ed877f670c837727a6e"
+    },
+    {
+      "file": "cdk8_5cei_new_helix_loop_extra_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/cdk8_5cei_new_helix_loop_extra_ligands.sdf",
+      "git_blob_sha1": "9a7a986058b8c097e316ff237a95f5b3cdd1265a",
+      "sha256": "7024a5095847f0caadba2029f98d33c57b8ccbf851c16fd2cfaf2ff14498111d"
+    },
+    {
+      "file": "cmet_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/cmet_ligands.sdf",
+      "git_blob_sha1": "0136744f986d4f139b786084957fa5bda52b1f35",
+      "sha256": "10ba1afb8ce7210d284312f23bf0505dd878d2ebdea76babb6ea641d46903258"
+    },
+    {
+      "file": "p38_ligands.sdf",
+      "git_path": "test_datasets/FEP/structures/p38_ligands.sdf",
+      "git_blob_sha1": "8242d7fa9edd8093f3f5c314130a1e5b8e4ee212",
+      "sha256": "db90aa5812f46b9a73e7f2e71d0bb44b7c23d830a3a40dfca3f12a31bff0ea58"
+    }
+  ]
+}

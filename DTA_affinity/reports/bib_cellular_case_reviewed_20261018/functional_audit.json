@@ -1,0 +1,127 @@
+{
+  "plan": {
+    "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/plan.json",
+    "bytes": 5313,
+    "sha256": "9fb68a3b94141d5aa4de857e42872d0bc9eaf803945f5293342bda3d303eba1e"
+  },
+  "endpoint_values_read": false,
+  "sources": [
+    {
+      "path": "UniPert-G2CP_reproduce/G2CP/data/LINCS/A375/A375_gene_chem_ctrl_adata.h5ad",
+      "bytes": 94002495,
+      "sha256": "b26efddd6d84b28c1e72571289f5cefa355eb4a1e68f44cde6574962d4cc219b"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_external_20261018/coverage_audit.json",
+      "bytes": 6955,
+      "sha256": "d019c47e3b4ee4e4756500e519d711b478f0f0518b6f8f3655c8fceaff976ccc"
+    },
+    {
+      "path": "UniPert-G2CP_reproduce/analysis_assets/fig6_cause_effect_joint_analysis_ER_case.ipynb",
+      "bytes": 829282,
+      "sha256": "249aacc3ce5f95f86c9b49b5cb8a8ee08c11130c2e2e8640d16e502bb2db90ae"
+    }
+  ],
+  "documentation": {
+    "url": "https://clue.io/connectopedia/data_levels",
+    "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/sources/clue_data_levels.html",
+    "bytes": 110844,
+    "sha256": "c3adac036bef0a2052087bcc575a41d17aea28560b8e02d4800d1b1295cd085c"
+  },
+  "matrix_shape": [
+    16423,
+    978
+  ],
+  "negative_fraction": 0.4962285422695763,
+  "matrix_minimum": -10.000000953674316,
+  "matrix_maximum": 10.000001907348633,
+  "duplicate_sig_ids": 0,
+  "target_guides": [
+    {
+      "sig_id": "XPR010_A375.311_96H:L02",
+      "condition": "BRAF",
+      "pert_id": "BRDN0001146266",
+      "pert_type": "trt_xpr",
+      "pert_time": 96.0,
+      "pert_dose": "",
+      "qc_pass": 1,
+      "nsample": 2,
+      "distil_ids": "XPR010_A375.311_96H_X1_B35:L02|XPR010_A375.311_96H_X3_B35:L02",
+      "det_plates": "XPR010_A375.311_96H_X1_B35|XPR010_A375.311_96H_X3_B35",
+      "bead_batch": "b35",
+      "batch": "1"
+    },
+    {
+      "sig_id": "XPR010_A375.311_96H:N20",
+      "condition": "BRAF",
+      "pert_id": "BRDN0001145345",
+      "pert_type": "trt_xpr",
+      "pert_time": 96.0,
+      "pert_dose": "",
+      "qc_pass": 1,
+      "nsample": 2,
+      "distil_ids": "XPR010_A375.311_96H_X1_B35:N20|XPR010_A375.311_96H_X3_B35:N20",
+      "det_plates": "XPR010_A375.311_96H_X1_B35|XPR010_A375.311_96H_X3_B35",
+      "bead_batch": "b35",
+      "batch": "1"
+    }
+  ],
+  "guide_signature_correlation": 0.6702590430511105,
+  "vehicle_consensus_rows": [
+    16414
+  ],
+  "vector_consensus_rows": [
+    16415,
+    16416,
+    16417,
+    16418,
+    16419,
+    16420,
+    16421,
+    16422
+  ],
+  "batch_field_crosstab": {
+    "ctl_vector.cns": {
+      "0": 0,
+      "1": 0,
+      "2": 8
+    },
+    "ctl_vehicle.cns": {
+      "0": 0,
+      "1": 0,
+      "2": 1
+    },
+    "trt_cp": {
+      "0": 5365,
+      "1": 0,
+      "2": 0
+    },
+    "trt_xpr": {
+      "0": 0,
+      "1": 11049,
+      "2": 0
+    }
+  },
+  "batch_interpretation": "This file's batch field encodes chemical/genetic/control groups, not matched experimental plates.",
+  "legacy_score_maximum_absolute_error": 1.1102230246251565e-16,
+  "primary_vs_legacy_score_pearson": 0.9997327254792191,
+  "data_level_evidence": "Unique sig_id rows, nsample/distil_ids describing replicate collapse, signed standardized values, and the author's direct signature-connectivity analysis. Consistent with Level 5; full raw-to-export pipeline not reconstructed.",
+  "decision": "Released signed, replicate-collapsed profiles are treated as processed response signatures. Their metadata and scale are consistent with L1000 Level 5; an exact upstream transformation chain was not supplied and is not claimed to have been reconstructed. Consensus controls are not matched treatment-plate baselines. Preserve the previous subtraction as a sensitivity analysis, never select preprocessing by CTRP performance.",
+  "outputs": [
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/functional_scores.csv",
+      "bytes": 47846,
+      "sha256": "deaf06acec2f9147875c28f7caa946ec4e04a26c18cdca57f115552360e2fca4"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/measured_profiles.npz",
+      "bytes": 1365552,
+      "sha256": "1f2c89437d9ae9fd375c741e52addf244fa48b78b24478cd851f367befe4dd8d"
+    },
+    {
+      "path": "DTA_affinity/reports/bib_cellular_case_reviewed_20261018/selected_profile_metadata.csv",
+      "bytes": 173466,
+      "sha256": "981ade9a897cb03db2eede194978c125198c3a0d68effa66b817f7107818d981"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "state": "passed",
+  "frozen_input_checks": 67,
+  "query_rows": 228,
+  "fold_rows": 1140,
+  "selection_lists_checked": 960,
+  "series_method_rows_checked": 36,
+  "max_metric_error": 1.1102230246251565e-16,
+  "intervals_recomputed": true,
+  "fusion_formulas_verified": true,
+  "limitations": "No independent GPU rerun; source assay measurements are not re-fitted from dose curves.",
+  "files": {
+    "predictions.csv": "d1278fee4a577a0908e3fc26e1c2b4e5cbe7f367638bb917731b0c686a800b54",
+    "fold_predictions.csv": "b71fcb60f3e5a3ee6ad6d3517f3033cfcd3b0dbc7204bfed9adf2e8465481da0",
+    "evaluation.json": "c61ef2d38060164740350f64f6a3914e03a14209c0ea69c471c0d594d198ea04",
+    "A_budget_curves.csv": "d28e2b50abf5eea404bc46f1ad802000b2f1db6f1885ae1241b7e798ff69c170",
+    "B_series_metrics.csv": "7c9e894f09b8cc052d4e648ed74e345d8c2dafd0f4518a115381390e289271ea",
+    "A_top10_selections.csv": "e4682abeb99a40278b825f158a718833580476582ade24fda827456cca219773",
+    "labels.csv": "6e99b31940710b60f8274abbe5d73f17a21258ce63d4bacced3888179543814e",
+    "fold_stability.csv": "827ee9b5fc5fbd8c1e9d28aa6c80a36a433a0380792fa77850a3a7f163962ff5"
+  }
+}

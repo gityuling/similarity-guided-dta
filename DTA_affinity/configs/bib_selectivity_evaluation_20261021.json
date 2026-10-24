@@ -1,0 +1,19 @@
+{
+  "stage": "retrospective exploratory evaluation",
+  "budget": 3,
+  "target_prefilter_fraction": 0.25,
+  "models": ["deep", "neighbor_prior", "fixed_blend", "similarity_gate", "equal_blend"],
+  "strategies": ["target_only", "target_filtered_margin"],
+  "score_definition": "Average each frozen KIBA identity fold's predictions. For margin, retain ceil(N/4) candidates with highest target scores, then rank target_score minus avoid_score descending. Ties: target score descending, SHA256(parent key) ascending. No conversion to Kd or occupancy.",
+  "primary_endpoint": "Family-macro operational joint-pass lower bound among all three recommendations; unknowns consume budget and contribute zero to this lower bound.",
+  "secondary_endpoints": ["joint-pass upper bound including unknowns", "unknown fraction", "target strong-competition fraction", "avoid limited-competition fraction", "QC-available mean target residual", "QC-available mean avoid residual", "joint-QC observed avoid-minus-target residual"],
+  "qc_profiles": ["strict", "reference", "relaxed"],
+  "primary_qc": "reference",
+  "primary_comparisons": ["similarity_gate margin versus similarity_gate target_only", "similarity_gate margin versus fixed_blend margin", "similarity_gate margin versus deep margin"],
+  "random_control": "Exact expected endpoints for uniform sampling without replacement, budget three; no favorable random seed selection.",
+  "bootstrap_repetitions": 2000,
+  "seed": 20261021,
+  "uncertainty": "Paired family bootstrap conditional on fixed predictions and recommendations; supplementary crossed family/compound exponential-weight resampling. No independent-pair significance claims or retraining uncertainty.",
+  "dti_claim": "No DTA superiority over DTI claim: matched classifier baseline not implemented. Thresholded regression scores are not presented as a fair DTI baseline.",
+  "interpretation": "Operational assay-based selection, not validated negatives, complete kinome selectivity, cell probe qualification, or prospective confirmation. Keep all predefined tasks and all QC profiles regardless of outcome."
+}

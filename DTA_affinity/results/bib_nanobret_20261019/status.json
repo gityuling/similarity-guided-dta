@@ -1,0 +1,23 @@
+{
+  "state": "completed",
+  "pid": 2766544,
+  "started_utc": "2026-10-19T00:19:20.106629+00:00",
+  "gpu_jobs_at_once": 1,
+  "completed_stages": [
+    {
+      "stage": "features",
+      "seconds": 15.891341497997928
+    },
+    {
+      "stage": "inference",
+      "seconds": 18.922261626001273
+    },
+    {
+      "stage": "evaluation",
+      "seconds": 0.563420402999327
+    }
+  ],
+  "updated_utc": "2026-10-19T00:19:58.981390+00:00",
+  "stage": "evaluation",
+  "elapsed_seconds": 38.87475864300359
+}
