@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "code": {
+    "path": "DTA_affinity/scripts/verify_davis_target_id.py",
+    "bytes": 4221,
+    "sha256": "d0af03623272b3741e6bf24d65c259cb3e825806e952392dfa5c19737f26d035"
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "verified_queries": 8398,
+      "target_pools": 442,
+      "max_prediction_error": 3.552713678800501e-15,
+      "excluded_cross_id_rows_across_pools": 27930,
+      "examples": {
+        "BRAF": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.409769031597534
+        },
+        "BRAF(V600E)": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.454210831118905
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "verified_queries": 8398,
+      "target_pools": 442,
+      "max_prediction_error": 5.329070518200751e-15,
+      "excluded_cross_id_rows_across_pools": 27930,
+      "examples": {
+        "BRAF": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.357353815011215
+        },
+        "BRAF(V600E)": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.401681796822308
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "verified_queries": 8398,
+      "target_pools": 442,
+      "max_prediction_error": 3.552713678800501e-15,
+      "excluded_cross_id_rows_across_pools": 27930,
+      "examples": {
+        "BRAF": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.377177508456104
+        },
+        "BRAF(V600E)": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.449213723210387
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "verified_queries": 8398,
+      "target_pools": 442,
+      "max_prediction_error": 2.6645352591003757e-15,
+      "excluded_cross_id_rows_across_pools": 27930,
+      "examples": {
+        "BRAF": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.398990693062387
+        },
+        "BRAF(V600E)": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.4413186278262735
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "verified_queries": 8398,
+      "target_pools": 442,
+      "max_prediction_error": 6.217248937900877e-15,
+      "excluded_cross_id_rows_across_pools": 27930,
+      "examples": {
+        "BRAF": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.280865010764285
+        },
+        "BRAF(V600E)": {
+          "reference_rows": 49,
+          "excluded_sibling_rows": 49,
+          "support_label_mean": 5.333542053614833
+        }
+      }
+    }
+  ],
+  "neural_prediction_files_unchanged": 15,
+  "kiba_id_sequence_bijection": true,
+  "kiba_analysis_unchanged": true
+}

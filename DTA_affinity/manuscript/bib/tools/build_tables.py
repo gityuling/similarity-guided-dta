@@ -19,10 +19,11 @@ SOURCES = {
     "published": PROJECT / "reports/dtiam_published_comparison_20261016.json",
     "kiba_status": PROJECT / "results/kiba_drugcold_supplement_status.json",
     "kiba_config": PROJECT / "configs/kiba_drugcold_20261016.json",
-    "fusion": PROJECT / "reports/bib_fusion_20261017/analysis.json",
+    "fusion": PROJECT / "reports/davis_target_id_20261025/analysis.json",
+    "target_id_amendment": PROJECT / "reports/davis_target_id_20261025/amendment.json",
     "comparator_audit": PROJECT / "reports/bib_comparator_audit_20261017/audit.json",
     "analysis_config": PROJECT / "configs/bib_analysis_20261017.json",
-    "repeated": PROJECT / "results/bib_validation_20261017/progress_summary.json",
+    "repeated": PROJECT / "reports/davis_target_id_20261025/progress_summary.json",
     "identity_audit": PROJECT / "data/processed/kiba_identity_20261017/summary.json",
 }
 LABELS = {
@@ -188,6 +189,11 @@ def fold_table(rows: list[str]) -> None:
 
 def main() -> None:
     raw = {key: json.loads(path.read_text()) for key, path in SOURCES.items()}
+    amendment = raw["target_id_amendment"]
+    for item in [amendment["original_protocol"], amendment["original_analysis"],
+                 *amendment["outputs"], *amendment["neural_predictions_unchanged"]]:
+        if digest(PROJECT.parent / item["path"]) != item["sha256"]:
+            raise RuntimeError("Target-ID correction provenance changed")
     repeated, per_seed = checked_repeats(raw["repeated"])
     identity, identity_wins = checked_identity(raw["repeated"], raw["identity_audit"])
     if not raw["kiba_status"].get("experiment_complete"):
@@ -222,7 +228,7 @@ def main() -> None:
         additional = raw["fusion"]["datasets"][dataset.lower()]["summary"]
         for model, values in additional.items():
             checked = {k: checked_metric(v) for k, v in values.items()}
-            if model in models:
+            if model in models and (dataset != "Davis" or model == "deep"):
                 for metric in ("mse", "pearson", "ci"):
                     if not math.isclose(models[model][metric]["mean"], checked[metric]["mean"], abs_tol=1e-12):
                         raise RuntimeError("Reanalysis changed an original metric")

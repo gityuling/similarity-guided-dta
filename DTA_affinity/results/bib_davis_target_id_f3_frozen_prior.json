@@ -1,0 +1,177 @@
+{
+  "protocol": "Morgan neighbor prior uses only training rows at the same target; top-k/gamma and affine calibration selected on validation rows, then frozen for test",
+  "target_column": "pKd_floor",
+  "reference_key": "protein_id",
+  "reference_groups": 442,
+  "stable_neighbors": false,
+  "input_sha256": {
+    "data_table": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d",
+    "manifest": "dbe9ae2e62dc9e4022b74f74e73d3eb6b9e01edb69dda06e901f58f8712067c9"
+  },
+  "rows": {
+    "train": 21658,
+    "val": 2652,
+    "test": 5746
+  },
+  "selected_hyperparameters": {
+    "top_k": 20,
+    "gamma": 4.0,
+    "val_mse_raw": 0.3077850603998085,
+    "affine_slope": 0.9168418510314745,
+    "affine_intercept": 0.36601368013398417
+  },
+  "validation": {
+    "raw": {
+      "rmse": 0.5547837960861948,
+      "mse": 0.3077850603998085,
+      "ci": 0.8394772076477276,
+      "pearson": 0.68896073998295,
+      "spearman": 0.5677825594897125
+    },
+    "affine": {
+      "rmse": 0.5464218662914996,
+      "mse": 0.2985768559614854,
+      "ci": 0.8394772076477276,
+      "pearson": 0.68896073998295,
+      "spearman": 0.5677933821329777
+    }
+  },
+  "test": {
+    "raw": {
+      "rmse": 0.7474054913025381,
+      "mse": 0.5586149684291883,
+      "ci": 0.7903160732384885,
+      "pearson": 0.6367707800628523,
+      "spearman": 0.4653716553948228
+    },
+    "affine": {
+      "rmse": 0.7548222444756579,
+      "mse": 0.5697566207552699,
+      "ci": 0.7903148657286831,
+      "pearson": 0.6367707800628524,
+      "spearman": 0.4653694364761161
+    }
+  },
+  "validation_grid": [
+    {
+      "top_k": 1,
+      "gamma": 0.5,
+      "val_mse_raw": 0.8816721489520895
+    },
+    {
+      "top_k": 1,
+      "gamma": 1.0,
+      "val_mse_raw": 0.8816721489520895
+    },
+    {
+      "top_k": 1,
+      "gamma": 2.0,
+      "val_mse_raw": 0.8816721489520895
+    },
+    {
+      "top_k": 1,
+      "gamma": 4.0,
+      "val_mse_raw": 0.8816721489520895
+    },
+    {
+      "top_k": 3,
+      "gamma": 0.5,
+      "val_mse_raw": 0.3776894223519301
+    },
+    {
+      "top_k": 3,
+      "gamma": 1.0,
+      "val_mse_raw": 0.37863658006521655
+    },
+    {
+      "top_k": 3,
+      "gamma": 2.0,
+      "val_mse_raw": 0.3919472386029968
+    },
+    {
+      "top_k": 3,
+      "gamma": 4.0,
+      "val_mse_raw": 0.44238156298686016
+    },
+    {
+      "top_k": 5,
+      "gamma": 0.5,
+      "val_mse_raw": 0.352092865101703
+    },
+    {
+      "top_k": 5,
+      "gamma": 1.0,
+      "val_mse_raw": 0.33798826591326625
+    },
+    {
+      "top_k": 5,
+      "gamma": 2.0,
+      "val_mse_raw": 0.3228407774418581
+    },
+    {
+      "top_k": 5,
+      "gamma": 4.0,
+      "val_mse_raw": 0.34345319123956675
+    },
+    {
+      "top_k": 10,
+      "gamma": 0.5,
+      "val_mse_raw": 0.39395937469895465
+    },
+    {
+      "top_k": 10,
+      "gamma": 1.0,
+      "val_mse_raw": 0.36929654813859747
+    },
+    {
+      "top_k": 10,
+      "gamma": 2.0,
+      "val_mse_raw": 0.3265473304845784
+    },
+    {
+      "top_k": 10,
+      "gamma": 4.0,
+      "val_mse_raw": 0.32033599191291595
+    },
+    {
+      "top_k": 20,
+      "gamma": 0.5,
+      "val_mse_raw": 0.41741990326300793
+    },
+    {
+      "top_k": 20,
+      "gamma": 1.0,
+      "val_mse_raw": 0.3939119326246628
+    },
+    {
+      "top_k": 20,
+      "gamma": 2.0,
+      "val_mse_raw": 0.3435054629499464
+    },
+    {
+      "top_k": 20,
+      "gamma": 4.0,
+      "val_mse_raw": 0.3077850603998085
+    },
+    {
+      "top_k": 40,
+      "gamma": 0.5,
+      "val_mse_raw": 0.4681384022861784
+    },
+    {
+      "top_k": 40,
+      "gamma": 1.0,
+      "val_mse_raw": 0.4419012022815426
+    },
+    {
+      "top_k": 40,
+      "gamma": 2.0,
+      "val_mse_raw": 0.3787231537487576
+    },
+    {
+      "top_k": 40,
+      "gamma": 4.0,
+      "val_mse_raw": 0.3104244697243788
+    }
+  ]
+}

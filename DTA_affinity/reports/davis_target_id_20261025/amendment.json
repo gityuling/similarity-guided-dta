@@ -1,0 +1,146 @@
+{
+  "created_utc": "2026-10-25T11:41:45.652238+00:00",
+  "change": "Davis neighbor pools: Sequence -> protein_id",
+  "target_ids": 442,
+  "unique_sequences": 379,
+  "shared_sequence_groups": 18,
+  "target_ids_in_shared_groups": 81,
+  "selection": "Original validation k/gamma grid, sorting rule and fusion objectives; no test selection",
+  "neural_predictions_unchanged": [
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7808836,
+      "sha256": "b95e77638d2572868c5a6011682a3ec7323382e48ac4e8d35575a81a2d57bd7b"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f0_seed20261017_predictions.csv",
+      "bytes": 218014,
+      "sha256": "5e8ff80d4af6b88edc4ed2533114c448aaac337e63738c981aa05f51cbd356db"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f0_seed20261018_predictions.csv",
+      "bytes": 217956,
+      "sha256": "6ab8780660bae2e2730ec29c84692f58854761cc97e60eeccaf8c635542df1c0"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7749074,
+      "sha256": "64c396e9ef41157fd76001f50fad2f34da74ba8974ce47637799901e29238f64"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f1_seed20261017_predictions.csv",
+      "bytes": 211264,
+      "sha256": "ba5cc3ba1b3b76c77641df0764adcc2be1e85cef6813d63db6f40242f58da73f"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f1_seed20261018_predictions.csv",
+      "bytes": 211206,
+      "sha256": "6d2686fb14d19260402038963058c68398827878b22fe915ea6f58eeeea01152"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7756370,
+      "sha256": "083df1085ca6a0e6ee71762902f53a87142061e7b07ff1536b5bbec0348b6c31"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f2_seed20261017_predictions.csv",
+      "bytes": 211875,
+      "sha256": "88b6a39dcdd23e294f154c13dc504658b435de9ea40e47377573d39028dd7ea5"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f2_seed20261018_predictions.csv",
+      "bytes": 211869,
+      "sha256": "551615c4282a61fb061db175709812077f91bd120e6201768f4da7552b644b94"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7788533,
+      "sha256": "d248bf73b4919f27303fcab1156fe0bebaeee70beb051c20abc784b3007313db"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f3_seed20261017_predictions.csv",
+      "bytes": 208800,
+      "sha256": "9a3f8a70940388fdea34f983ff05be898faea5fcc1cd83f2454e6e3d1ce1705b"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f3_seed20261018_predictions.csv",
+      "bytes": 208409,
+      "sha256": "1ed8d73e6959f0018c8e3ab112fd23f2f1a0c070ae258b047dcd8cfb770e83e5"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_affine_calibration_predictions.csv",
+      "bytes": 7792393,
+      "sha256": "1eaa035b4321b3e80c27d6574d89faec9dd4aab5a8734d4f2355f8b45decd030"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f4_seed20261017_predictions.csv",
+      "bytes": 212380,
+      "sha256": "4390c8c1e52f924093c9db4819f6a882c4e996bda247095cc0b5bbeed24ed2ae"
+    },
+    {
+      "path": "DTA_affinity/results/predictions/nexusdti_bib_davis_drug_id_f4_seed20261018_predictions.csv",
+      "bytes": 212289,
+      "sha256": "d6ded6240c911bb5e977d76c19afcbf3d42847f8c95c57bdaccf546daaf9bc55"
+    }
+  ],
+  "original_protocol": {
+    "path": "DTA_affinity/reports/bib_protocol_20261017/protocol.json",
+    "bytes": 61332,
+    "sha256": "2835c64b5b075c0d992e7f276a44bd909c2182ced27382773d141ea70e2f2840"
+  },
+  "original_analysis": {
+    "path": "DTA_affinity/reports/bib_fusion_20261017/analysis.json",
+    "bytes": 69022,
+    "sha256": "223ad8cc6ff8261bcedbf37e87149ecddaa709814af1e395e3feb81d8631de7c"
+  },
+  "original_repeated_summary": {
+    "path": "DTA_affinity/results/bib_validation_20261017/progress_summary.json",
+    "bytes": 64719,
+    "sha256": "9adea7d458bf1406e1435ecc0c403bc20d2fb4e12d310ddd6c7dc21cfac658ec"
+  },
+  "code": [
+    {
+      "path": "DTA_affinity/scripts/recalculate_davis_target_id.py",
+      "bytes": 12817,
+      "sha256": "d68df46722273a7b0d9f5acd9008c44939e0e700713c63899aee89d90bdbdadc"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_target_id_similarity_prior.py",
+      "bytes": 8031,
+      "sha256": "e80d6596e53d79d9788bd249bf5885fd57f386e661be5295f8371532b33b2aca"
+    },
+    {
+      "path": "DTA_affinity/scripts/evaluate_affinity_ablation.py",
+      "bytes": 5957,
+      "sha256": "f93ff7987e01517ae7ce6df4e19104c4fe5a056a74c993cf5d6b4efe126573ab"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "DTA_affinity/reports/davis_target_id_20261025/analysis.json",
+      "bytes": 68719,
+      "sha256": "54d66613208065599207b0dc55b68aac86e772a72ac7d2d75b9ef31ec6933eba"
+    },
+    {
+      "path": "DTA_affinity/reports/davis_target_id_20261025/progress_summary.json",
+      "bytes": 65855,
+      "sha256": "296860906c7285ddf5892403851d324b23430ede80636a2bdfc69d169db91a3b"
+    }
+  ],
+  "reference_mse_before": {
+    "deep": 0.6403229183328796,
+    "neighbor_prior": 0.6248807943297753,
+    "half_blend": 0.573966612351471,
+    "fixed_blend": 0.5767650635469398,
+    "linear_stacking": 0.5958393429287291,
+    "similarity_gate": 0.5686658263232796
+  },
+  "reference_mse_after": {
+    "deep": 0.6403229183328796,
+    "neighbor_prior": 0.6426545460201554,
+    "half_blend": 0.584024383819459,
+    "fixed_blend": 0.5898722253839963,
+    "linear_stacking": 0.5979666984341631,
+    "similarity_gate": 0.5884336549475269
+  }
+}

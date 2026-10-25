@@ -56,12 +56,16 @@ def verify_files(all_files):
 
 
 def benchmark():
-    analysis = read('reports/bib_fusion_20261017/analysis.json')
-    repeated = read('results/bib_validation_20261017/progress_summary.json')
+    analysis = read('reports/davis_target_id_20261025/analysis.json')
+    repeated = read('reports/davis_target_id_20261025/progress_summary.json')
+    correction = read('reports/davis_target_id_20261025/amendment.json')
+    for item in correction['neural_predictions_unchanged'] + correction['outputs']:
+        if sha256(ROOT / item['path']) != item['sha256']:
+            raise RuntimeError('Target-ID correction inputs or outputs changed')
     scaffold = read('results/bib_scaffold_20261018/progress_summary.json')
     results = {}
     for ds in ['davis', 'kiba']:
-        data = frame(f'reports/bib_fusion_20261017/{ds}_oof.csv')
+        data = pd.read_csv(ROOT / analysis['datasets'][ds]['oof']['path'], float_precision='round_trip')
         if not data.row_id.is_unique or set(data.split) != {'test'}:
             raise RuntimeError('Invalid out-of-fold coverage')
         metrics = {}
@@ -124,8 +128,8 @@ def splits():
             if not manifest.row_id.is_unique or set(manifest.row_id) != set(data.row_id):
                 raise RuntimeError('Partition rows differ from benchmark rows')
             joined = data.merge(manifest[['row_id','split']],on='row_id',validate='one_to_one')
-            supported = set(joined.loc[joined.split.eq('train'),'Sequence'])
-            if not set(joined.loc[joined.split.ne('train'),'Sequence']) <= supported:
+            supported = set(joined.loc[joined.split.eq('train'),'protein_id'])
+            if not set(joined.loc[joined.split.ne('train'),'protein_id']) <= supported:
                 raise RuntimeError('Query target lacks training support')
             if protocol == 'drug_id':
                 ids = {s:set(joined.loc[joined.split.eq(s),'drug_idx']) for s in ['train','val','test']}

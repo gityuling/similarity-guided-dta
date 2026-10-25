@@ -16400,37 +16400,37 @@
   {
     "path": "DTA_affinity/manuscript/bib/tables/ablation.tex",
     "bytes": 1721,
-    "sha256": "3eada87bc7d727e81c5c23e942b5cb26ba6c2631fcf2a6b030840f032c666595",
+    "sha256": "03fd5fe6480e1ea8bbe5cab729f03d82412186baaf505ef7b3e82e97ded4b352",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/benchmark.tex",
     "bytes": 2115,
-    "sha256": "f2b391933e927158c32b078cd453f7f01b0f74d0d2695f0c4d3d8ad9bc827a60",
+    "sha256": "ba16ba81a69169c704a954e79dc01a535da73cdd7f252eea95cd7736392609b7",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/bootstrap.tex",
-    "bytes": 1400,
-    "sha256": "c87e6325bfbafafd6c1d343e1ee6bf2c1c5b5e8c747a575b31920e4ff3fbf0ec",
+    "bytes": 1397,
+    "sha256": "135fe2b0259e99f12f3d129a7c04cdfcc2a2bfda1146e7b50c7f6f78fda2880f",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/fold_seed_metrics.csv",
-    "bytes": 13325,
-    "sha256": "68ff5387f596ed9022bd7706784766047e28612a9f28f8cfa68eb0790b83ce98",
+    "bytes": 13326,
+    "sha256": "07717cda5f4dabf6ee9c641ece02d6d94afbff9bc69d17011b40cdabc9152149",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/folds.tex",
     "bytes": 10757,
-    "sha256": "7cae1cc450278b07921b49f2464e1e4b862ca0eee226b3c5468826f5e2c0f604",
+    "sha256": "dccf98a3192de32d18a646bdbea4342f6b32ad6143b2fbe3b99c96f67273b806",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/gate_parameters.tex",
-    "bytes": 1327,
-    "sha256": "3269216b9732f4173fc38a8dfc31b71797cc02b9dafe0613ae0491cea44d1dbd",
+    "bytes": 1328,
+    "sha256": "c896aa24fac767e46f6a6501ce8c5a2d62934454ea32297ef4ebd873783c09c0",
     "group": "repository"
   },
   {
@@ -16459,38 +16459,38 @@
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/metrics.tex",
-    "bytes": 3191,
-    "sha256": "4f674ef2922e40ffaac38e55010e4401d37441b95318310812a24d09f5060e32",
+    "bytes": 3187,
+    "sha256": "fb40770d4b04d3266b0c6b1036314ffda57d01f6f08dfd50c034dbf5855202b0",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/ranking.tex",
     "bytes": 1403,
-    "sha256": "0d8687a83ff76a6f8033a113f55ea1297c9bc577f1e93536c2a8ada80e5e4d5d",
+    "sha256": "9c8fc78122c188bb9b8df0e68d4e3d738d54f25908f5b68d4c130c66463c9b77",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/stability.tex",
     "bytes": 2388,
-    "sha256": "64ca24a6a9f9ab00db688f147ab0bd117baf940d4e288a2d40fa6ca03c6d6210",
+    "sha256": "7add0607c49b510647371520b404a1da199a542fb59e2a5fbe96bf518a383303",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/stacking_parameters.tex",
-    "bytes": 1130,
-    "sha256": "d49a3758064f73f8440dccc653b73e35ffd541250981f67f230ef5d50ee1de7e",
+    "bytes": 1131,
+    "sha256": "bfae84fa673130605e413f8c0de95a87dd55b60ee9ab287c6733e38ccd749d04",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tables/subgroups.tex",
     "bytes": 1953,
-    "sha256": "b99b05d3f22c0a67c745c066f4ffab444848be0563c6dadbc2f51bb85e6e0f2b",
+    "sha256": "a1772b3c4095673eaf4d7be17de579839618e8092cfccc0779c8685d087ea186",
     "group": "repository"
   },
   {
     "path": "DTA_affinity/manuscript/bib/tools/build_tables.py",
-    "bytes": 31618,
-    "sha256": "f1bea9487e5298d9c36984382da0cf92789ad11721ff8dae9aed752163352cc9",
+    "bytes": 32107,
+    "sha256": "c457ff156b55645433b04c7fe6ed1722fb292e42da0688c958360802fd387913",
     "group": "repository"
   },
   {
@@ -17052,6 +17052,60 @@
     "group": "repository"
   },
   {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/amendment.json",
+    "bytes": 6088,
+    "sha256": "4bd221d5eb40d88a12cfd03a81c414f87b0e5d5654dc56f21bcc8b878d09a5bb",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/analysis.json",
+    "bytes": 68719,
+    "sha256": "54d66613208065599207b0dc55b68aac86e772a72ac7d2d75b9ef31ec6933eba",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/davis_oof.csv",
+    "bytes": 7068403,
+    "sha256": "dfab4e27e9d85b8a7ca756df9f1965957b624197c0044070ba5eb62b3e40b653",
+    "group": "reproduction-data"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/fusion_parameters.csv",
+    "bytes": 2404,
+    "sha256": "67aaa8bc76e65d03cd4e66b4968d81ae6a7a0921b911bf642222145af4fba897",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/legacy_evaluate_drug_similarity_prior.py",
+    "bytes": 7503,
+    "sha256": "f816354b026c6f5e2f0d3dfb958c32d0cbc1ab4cc75036789e7e2efbb941d8b0",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/per_target_ranking.csv",
+    "bytes": 430279,
+    "sha256": "196a603831baadb10be9d70da6904aadbcf7bd26acf27e8f03ee13f82298405d",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/progress_summary.json",
+    "bytes": 65855,
+    "sha256": "296860906c7285ddf5892403851d324b23430ede80636a2bdfc69d169db91a3b",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/similarity_subgroups.csv",
+    "bytes": 8672,
+    "sha256": "cd4cc6c8db77f3c6d280377782077bc177649e12126130a2531c57215a02b7b2",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/reports/davis_target_id_20261025/verification.json",
+    "bytes": 2975,
+    "sha256": "2fb427f5a00abb366776f4819771a9208472f77f2155a25da383716d8d873670",
+    "group": "repository"
+  },
+  {
     "path": "DTA_affinity/reports/dtiam_published_comparison_20261016.json",
     "bytes": 28392,
     "sha256": "de5c6961eb6942e1e6c8ed070877787fb7b58957e064660af079e9ab928c5b13",
@@ -17115,6 +17169,126 @@
     "path": "DTA_affinity/results/bib_davis_drug_id_f4_seed20261018_ablation.json",
     "bytes": 2451,
     "sha256": "4d275aae72967c50df5457ebf0e3be95fde44e94345e61baea672a0426297a3d",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f0_frozen_prior.json",
+    "bytes": 3789,
+    "sha256": "4ccacd55ece469c1b0ac0576580dca64ca018cee25d401177bebbf15d98c15a8",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f0_seed20261012_ablation.json",
+    "bytes": 2448,
+    "sha256": "4f6be8b23885ca29e3a02181245e6bc358b98c55d219bc7b24e0d38c29af0c58",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f0_seed20261017_ablation.json",
+    "bytes": 2444,
+    "sha256": "9544fd18bbf8ab6bc6a99a67a7d76b8158a00dcb67ed42e981c2819761dc8229",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f0_seed20261018_ablation.json",
+    "bytes": 2445,
+    "sha256": "a6826f2570b81c62d6d3fb05422a26263896e814e8da67449058e2dacda14b58",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f1_frozen_prior.json",
+    "bytes": 3794,
+    "sha256": "7bb899ed6587db4ba1d9cd8f9c506486d8cbef3a0cd0613035358b74c3e7e0bb",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f1_seed20261012_ablation.json",
+    "bytes": 2441,
+    "sha256": "870997927ebf91979c0028819d5eecafd7c34de45fde7490d13a80094e583bc4",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f1_seed20261017_ablation.json",
+    "bytes": 2444,
+    "sha256": "60ec96ee3769d998ef0d5cea47446847563ca3bac3c0fbebd89f286a6e4db551",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f1_seed20261018_ablation.json",
+    "bytes": 2444,
+    "sha256": "4e27ad1a7fc559a7f3cb8bc08422780d6b64457e99a6cd624154d4dde6502a2a",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f2_frozen_prior.json",
+    "bytes": 3793,
+    "sha256": "14ecc67e206654d9ab07d7dee419f1708cafd32fe8c1e553cd941518e335306d",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f2_seed20261012_ablation.json",
+    "bytes": 2443,
+    "sha256": "212a6706c64d6d922481fe2177fff621dca7f99c0fd2e6d93eaa071438628f21",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f2_seed20261017_ablation.json",
+    "bytes": 2447,
+    "sha256": "994e556729b6a5e9bcf55429827f3e99367ada334ebb0ff466125c34a528dadc",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f2_seed20261018_ablation.json",
+    "bytes": 2450,
+    "sha256": "5fff78bceebefc7a24d8f802927094de4f4844ecf348772a79787f3b2af40e73",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f3_frozen_prior.json",
+    "bytes": 3793,
+    "sha256": "2fec911f4cb509d03b88303554b32198747511a66014f29535da4983506c8510",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f3_seed20261012_ablation.json",
+    "bytes": 2450,
+    "sha256": "4341009abb1eb455f60d0554406017b4d8d358cd8d8c46e620986f6125f5e432",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f3_seed20261017_ablation.json",
+    "bytes": 2446,
+    "sha256": "cb72a290651f797ee77644600518625b3bf326b6a76b9056d1aa682d3b1e8f19",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f3_seed20261018_ablation.json",
+    "bytes": 2445,
+    "sha256": "d4759afb5399baf604e1224b8d67f51529c48cfd5adc1c81bac0c15206611fe6",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f4_frozen_prior.json",
+    "bytes": 3791,
+    "sha256": "aed9980f87ac64ddaa311afbb48a6e065bbaf39bd3fc5a9167a651a992b166e3",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f4_seed20261012_ablation.json",
+    "bytes": 2447,
+    "sha256": "897ef409f3af409d5d7ccffec1e42c5ba0d160a71abf93df210a7314eb12340f",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f4_seed20261017_ablation.json",
+    "bytes": 2443,
+    "sha256": "f1bee6383d46d88aad8e6fffb9611b0ca04e5d311aefe82d54123474410d7ff9",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/bib_davis_target_id_f4_seed20261018_ablation.json",
+    "bytes": 2444,
+    "sha256": "79d71b72580d0193c3deb78edc675cc94444c1cbf3f7af0dfdf7833996dc541e",
     "group": "repository"
   },
   {
@@ -18210,6 +18384,126 @@
     "group": "repository"
   },
   {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f0_frozen_prior_predictions.csv",
+    "bytes": 618251,
+    "sha256": "55cc4333ebb5cdc06a66f532c7ab589e351abda02709d36ef601284c94cc2ab2",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f0_seed20261012_ablation_predictions.csv",
+    "bytes": 985149,
+    "sha256": "5be47840df7ad030e4dadd241ab5f2db263f9137b65a1c0dd0db4355ae13172f",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f0_seed20261017_ablation_predictions.csv",
+    "bytes": 979809,
+    "sha256": "5775cc39b67255758699efcb66a7115ea60c641edebc868de4c1b6786d14de2b",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f0_seed20261018_ablation_predictions.csv",
+    "bytes": 984661,
+    "sha256": "540731b7abc497809d1c50e351183abfed3579c7a047fc60dbe89ad3dff22b1a",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f1_frozen_prior_predictions.csv",
+    "bytes": 598285,
+    "sha256": "e3362f5950694301a645671698746bc5d36e98e27a9207f93efbfaa7331b7c0b",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f1_seed20261012_ablation_predictions.csv",
+    "bytes": 967786,
+    "sha256": "ca4645f469e44760c9a9ac2ac08a62b93bb3d119f676ac2aa92cecb045a68f2f",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f1_seed20261017_ablation_predictions.csv",
+    "bytes": 969410,
+    "sha256": "22e2047610742b65f555b6e5eb11c08f2dfc3180b9ce16cb66ade6decf3e2281",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f1_seed20261018_ablation_predictions.csv",
+    "bytes": 970554,
+    "sha256": "6a460776bc3894b3bfaed74b2de4200cce6b380ea0e0c6e7cba59111101c1ad4",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f2_frozen_prior_predictions.csv",
+    "bytes": 567706,
+    "sha256": "f8ddc5fb47cdfe5792230110e69a4a0bf71e59fabf95aa964b03c10909b8f794",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f2_seed20261012_ablation_predictions.csv",
+    "bytes": 932864,
+    "sha256": "5158081d29bad1c650816379a72d0318f190819066848c9d3118cfee1b699262",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f2_seed20261017_ablation_predictions.csv",
+    "bytes": 933008,
+    "sha256": "39a5db4e5904f239be2fd17cf2966169bac8444d60d8017db4bd52c88eedd02f",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f2_seed20261018_ablation_predictions.csv",
+    "bytes": 935154,
+    "sha256": "97235e94f60e49d7a7d7fff1311e5fddd0323af834cb5d73e50a77320a8bafef",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f3_frozen_prior_predictions.csv",
+    "bytes": 605721,
+    "sha256": "c96ccae2b731a666c0bd066b209d1e2b661d706a5f0c23fbaca43ea2f822ca39",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f3_seed20261012_ablation_predictions.csv",
+    "bytes": 976133,
+    "sha256": "9b33218409bfd9720e330624fa5b9af095703a538c7dcd701089e99339dcd59d",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f3_seed20261017_ablation_predictions.csv",
+    "bytes": 977201,
+    "sha256": "872c13993c430c06a430466c79707bf77dc1c064795d8b8287f8e27378bce74a",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f3_seed20261018_ablation_predictions.csv",
+    "bytes": 975285,
+    "sha256": "8d8e4e843390176f04ddf060fb2a6b6894b6c9145675efe47c1e5bd66a7db312",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f4_frozen_prior_predictions.csv",
+    "bytes": 614762,
+    "sha256": "61df365666679b83ea95bf39882fac5723bd1b27baab9d0c99ddca869a2dbe13",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f4_seed20261012_ablation_predictions.csv",
+    "bytes": 980179,
+    "sha256": "2f75681b094282230207112bc549f8360bcdfbf56eb1a5c81922215e6fddedc2",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f4_seed20261017_ablation_predictions.csv",
+    "bytes": 979088,
+    "sha256": "c3e3b82f321f7f340f199466d0d96a0e4d5929a203892f540faf07f68ce22da8",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/results/predictions/bib_davis_target_id_f4_seed20261018_ablation_predictions.csv",
+    "bytes": 978489,
+    "sha256": "007b22d409958aac6108b2cab0992ae52fdbfba9f2c9e86d99071d90198bb135",
+    "group": "repository"
+  },
+  {
     "path": "DTA_affinity/results/predictions/bib_kiba_drug_id_f0_seed20261017_ablation_predictions.csv",
     "bytes": 4147360,
     "sha256": "86ea5a7ca3331435f4200b1164fead810fbc27398feaef5db1edb3be1d3cc479",
@@ -18912,6 +19206,12 @@
     "group": "repository"
   },
   {
+    "path": "DTA_affinity/scripts/evaluate_target_id_similarity_prior.py",
+    "bytes": 8031,
+    "sha256": "e80d6596e53d79d9788bd249bf5885fd57f386e661be5295f8371532b33b2aca",
+    "group": "repository"
+  },
+  {
     "path": "DTA_affinity/scripts/evaluate_validation_ensemble.py",
     "bytes": 5290,
     "sha256": "c85d1cb1309b8e80da1247a1f668ca6acaa981d319466068c67034acf2c8f987",
@@ -19059,6 +19359,12 @@
     "path": "DTA_affinity/scripts/qc_bib_selectivity.py",
     "bytes": 4943,
     "sha256": "6e2197f820a53e98fb8202e9ebff508ab406273aae44e8dbcdd8a45cbfae3723",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/scripts/recalculate_davis_target_id.py",
+    "bytes": 12817,
+    "sha256": "d68df46722273a7b0d9f5acd9008c44939e0e700713c63899aee89d90bdbdadc",
     "group": "repository"
   },
   {
@@ -19239,6 +19545,12 @@
     "path": "DTA_affinity/scripts/verify_bib_target_retrieval.py",
     "bytes": 15366,
     "sha256": "bdcbe9ff75c5b02d2321e08683c1318de36108f424369c0e4d9fd05a9f3e0218",
+    "group": "repository"
+  },
+  {
+    "path": "DTA_affinity/scripts/verify_davis_target_id.py",
+    "bytes": 4221,
+    "sha256": "d0af03623272b3741e6bf24d65c259cb3e825806e952392dfa5c19737f26d035",
     "group": "repository"
   },
   {

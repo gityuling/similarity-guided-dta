@@ -35,22 +35,34 @@ training seed 20261012.
 
 ## Neighbor prediction and fusion
 
-`evaluate_drug_similarity_prior.py` retrieves training measurements with the
-same protein sequence, using radius-2, 2,048-bit Morgan fingerprints. It selects
+`evaluate_target_id_similarity_prior.py` retrieves training measurements with the
+same experimental target ID, using radius-2, 2,048-bit Morgan fingerprints. It selects
 the number of references and similarity exponent on the validation partition.
 Use `--stable-neighbors` for KIBA to reproduce its tie ordering.
 
 ```bash
-python DTA_affinity/scripts/evaluate_drug_similarity_prior.py \
+python DTA_affinity/scripts/evaluate_target_id_similarity_prior.py \
   --data-table DTA_affinity/data/processed/kiba_dtiam_protocol/table.csv \
   --manifest-file DTA_affinity/data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_0.csv \
-  --target-column kiba_score --stable-neighbors --output-stem reproduction_kiba_f0_prior
+  --target-column kiba_score --reference-key protein_id --stable-neighbors --output-stem reproduction_kiba_f0_prior
 ```
 
 `evaluate_affinity_ablation.py` combines the neural and neighbor prediction CSVs
 using `--deep`, `--prior`, `--data-table`, `--manifest-file`, `--target-column`
 and a new `--output-stem`. Both the constant weight and the similarity gate are
 fitted on validation rows. Saved fold JSON files contain the fitted parameters.
+
+For the Davis correction, all three seeds reuse their existing neural outputs:
+
+```bash
+python DTA_affinity/scripts/recalculate_davis_target_id.py
+python DTA_affinity/scripts/verify_davis_target_id.py
+```
+
+This rebuilds five target-ID neighbor pools, refits 15 fusion models and
+recomputes the matched analyses. It writes to the dated correction directory;
+the original sequence-pool results are retained. `--reference-key Sequence`
+is available for reproducing the legacy neighbor calculation.
 
 ## Check a saved model
 

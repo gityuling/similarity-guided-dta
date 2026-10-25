@@ -5,9 +5,9 @@
     {
       "name": "reproduction-data.tar.gz",
       "group": "reproduction-data",
-      "bytes": 180302945,
-      "sha256": "44ab04d58b5a2e148704059acc0e43aec9edcfb224186062af82c0bd6cc87d7a",
-      "files": 69
+      "bytes": 182332005,
+      "sha256": "f7bdd9fd0fbee4db8e531f4f9eadebd801f3b534e2cf2e2ac9886f2f9f8d887b",
+      "files": 70
     },
     {
       "name": "affinity-checkpoints.tar.gz",

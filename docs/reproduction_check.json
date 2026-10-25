@@ -3,7 +3,7 @@
   "checks": [
     {
       "check": "file_checksums",
-      "files": 3654,
+      "files": 3706,
       "groups": [
         "affinity-checkpoints",
         "davis-features",
@@ -19,12 +19,12 @@
     },
     {
       "check": "benchmark_predictions",
-      "new_fold_results": 30,
+      "new_fold_results": 45,
       "reference_folds": 10,
       "results": {
-        "davis_reference_gate_mse": 0.5686658263232796,
+        "davis_reference_gate_mse": 0.5884336549475269,
         "kiba_reference_gate_mse": 0.29843133447786213,
-        "davis_three_seed_gate_mse": 0.5678390302930176,
+        "davis_three_seed_gate_mse": 0.5880586654960165,
         "kiba_three_seed_gate_mse": 0.29782975956003027,
         "kiba_scaffold_gate_mse": 0.3672079840597897
       }

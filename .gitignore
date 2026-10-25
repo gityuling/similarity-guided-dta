@@ -2708,6 +2708,7 @@ verification/
 /DTA_affinity/reports/bib_fusion_20261017/kiba_oof.csv
 /DTA_affinity/reports/bib_nanobret_20261018/sources/PMC12951567/jm5c02916_si_004.xlsx
 /DTA_affinity/reports/davis_supplement_20261016.csv
+/DTA_affinity/reports/davis_target_id_20261025/davis_oof.csv
 /DTA_affinity/results/checkpoints/nexusdti_bib_davis_drug_id_f0_seed20261017.pt
 /DTA_affinity/results/checkpoints/nexusdti_bib_davis_drug_id_f0_seed20261018.pt
 /DTA_affinity/results/checkpoints/nexusdti_bib_davis_drug_id_f1_seed20261017.pt

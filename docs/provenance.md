@@ -23,9 +23,9 @@ It records the extractor hash, settings, device and encoder hashes:
 ## Davis
 
 The benchmark uses 68 molecular arrays and 379 protein arrays for 442 target
-IDs. Target IDs assigned the same input sequence share a feature array and a
-training-reference pool. Some such IDs describe distinct mutant or experimental
-constructs in the source benchmark.
+IDs. Target IDs assigned the same input sequence share a feature array.
+Neighbor retrieval uses a separate pool for each experimental target ID,
+preserving distinctions between annotated mutants and constructs.
 
 The historical Davis extraction checkpoint lineage is incomplete. The original
 arrays are therefore distributed directly, with their recorded hashes, to
@@ -51,3 +51,13 @@ Training settings are in `configs/bib_validation_20261017.json`. The later
 chemical-identity bootstrap, superseding the earlier within-fold description.
 The original freeze and source snapshot are retained unchanged. The release
 manifest records the files distributed in this version.
+
+The Davis target-ID correction is recorded in
+`DTA_affinity/reports/davis_target_id_20261025/amendment.json`.
+It reuses all 15 saved neural prediction files, reselects neighbor parameters
+on the original validation partitions, and refits fusion weights for every
+fold and seed. The directory contains the updated analysis and repeated-seed
+summary used by the manuscript, along with a target-isolation verification.
+The original sequence-pool reports remain under their historical paths.
+The earlier retrieval source is retained alongside the amendment so the
+original protocol hashes can still be checked.

@@ -28,10 +28,15 @@ MSE and Pearson correlations from individual predictions, checks fusion weights
 and fold averaging, and recalculates NanoBRET and ABL1 metrics. Its report is
 written to `verification/reproduction.json`.
 
-The main benchmark gate MSEs are 0.56784 for Davis and 0.29783 for KIBA, averaged
+The main benchmark gate MSEs are 0.58806 for Davis and 0.29783 for KIBA, averaged
 over three training seeds. The KIBA scaffold result is 0.36721. ABL1 Top-10
 retrieval is 8 versus 5 under deposited labels and 5 versus 5 under the repeat
 rule; the latter leaves three additional fusion selections unresolved.
+
+Davis references are grouped by experimental target ID. The correction record
+in `DTA_affinity/reports/davis_target_id_20261025/` preserves the original
+sequence-pool results and confirms unchanged neural predictions. The gate's
+reference-seed Davis MSE is 0.58843; equal blending obtains 0.58402.
 
 ## Models and feature caches
 

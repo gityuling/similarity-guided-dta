@@ -25,6 +25,8 @@ def main():
     parser.add_argument('--project', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--assets', type=Path, required=True)
+    parser.add_argument('--reuse-model-assets', action='store_true',
+                        help='Reuse checkpoint/feature archives after checking their contents and hashes.')
     args = parser.parse_args()
     project = args.project.resolve()
     workspace = project.parent
@@ -61,9 +63,11 @@ def main():
                     'manuscript/bib/tables/*.csv', 'manuscript/bib/tables/*.tex']:
         glob(pattern)
     for name in ['bib_fusion_20261017', 'bib_nanobret_20261018', 'bib_downstream_20261022',
-                 'bib_cellular_case_reviewed_20261018', 'bib_comparator_audit_20261017']:
+                 'bib_cellular_case_reviewed_20261018', 'bib_comparator_audit_20261017',
+                 'davis_target_id_20261025']:
         for suffix in ['csv', 'json']:
             glob(f'reports/{name}/*.{suffix}')
+    add(project / 'reports/davis_target_id_20261025/legacy_evaluate_drug_similarity_prior.py')
     for path in ['results/kiba_drugcold_supplement_status.json',
                  'results/kiba_drugcold_supplement_5fold.json',
                  'manuscript/bib/tools/build_tables.py']:
@@ -104,8 +108,26 @@ def main():
 
     entries = []
     assets = []
+    previous = {}
+    previous_assets = {}
+    if args.reuse_model_assets:
+        previous = {r['path']: r for r in json.loads((output / 'manifests/files.json').read_text())}
+        previous_assets = {r['group']: r for r in json.loads((output / 'manifests/assets.json').read_text())['assets']}
     for group, paths in groups.items():
         print(f'{group}: {len(paths)} files, {sum(p.stat().st_size for p in paths)/1e6:.1f} MB', flush=True)
+        if args.reuse_model_assets and group not in ('repository', 'reproduction-data'):
+            current = [{'path': p.relative_to(workspace).as_posix(), 'bytes': p.stat().st_size,
+                        'sha256': digest(p), 'group': group} for p in paths]
+            old = sorted((r for r in previous.values() if r['group'] == group), key=lambda r: r['path'])
+            if current != old:
+                raise RuntimeError(f'Model asset inputs changed: {group}')
+            asset = previous_assets[group]
+            archive = args.assets / asset['name']
+            if archive.stat().st_size != asset['bytes'] or digest(archive) != asset['sha256']:
+                raise RuntimeError(f'Model asset archive changed: {group}')
+            entries.extend(current)
+            assets.append(asset)
+            continue
         archive = None
         if group != 'repository':
             archive = args.assets / f'{group}.tar.gz'
