@@ -59,8 +59,15 @@ def main():
         portable = None
         if relative in {'DTA_affinity/manuscript/bib/tools/build_case_studies.py',
                         'DTA_affinity/manuscript/bib/tools/build_target_report.py'}:
-            portable = source.read_text().replace(
-                'sys.path.append("/home/lsy/.agents/skills/figure-layout-hygiene/scripts")\n','').encode()
+            portable = ''.join(line for line in source.read_text().splitlines(keepends=True)
+                               if not line.startswith('sys.path.append(')).encode()
+            sha = hashlib.sha256(portable).hexdigest()
+        elif source.name in {'plot_adora2a_screening.py','plot_adra2b_screening.py',
+                             'plot_bib_g2cp_reference.py','plot_bib_target_retrieval.py'}:
+            portable = ''.join(
+                'sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "manuscript/bib/tools"))\n'
+                if line.startswith('sys.path.insert(0,') else line
+                for line in source.read_text().splitlines(keepends=True)).encode()
             sha = hashlib.sha256(portable).hexdigest()
         if relative in rows:
             if rows[relative]['sha256'] != sha:

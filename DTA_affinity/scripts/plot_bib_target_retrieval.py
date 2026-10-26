@@ -14,7 +14,7 @@ import pandas as pd
 
 from bib_g2cp_common import PROJECT, check_records, record, save_json
 
-sys.path.insert(0, "/home/lsy/.agents/skills/figure-layout-hygiene/scripts")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "manuscript/bib/tools"))
 from check_overlap import assert_figure_clean, check_png
 
 OUT = PROJECT / "reports/bib_target_retrieval_20261019"
