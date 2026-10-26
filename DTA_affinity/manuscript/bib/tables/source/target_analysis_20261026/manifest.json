@@ -1,0 +1,14 @@
+{
+  "target_summary.csv": "53a981a70a4ce0e2650a271b2f8a1dc68c6278a9bb38f011cde9cf303b04f9a7",
+  "verification.json": "973684baae57c29c253faa01f758686544d35774bf41a0ee459f434dcab04021",
+  "README.md": "6de8751033a06eafceae70b5c861969a776c1ca9c4280655825f637504023f83",
+  "report_state.json": "bfeaaaa809bc14d81bb30e71f0b0c0fe04adb2befd6fef773ed964b4e691d7b6",
+  "davis_drug_id_targets.csv": "40bb2592edece3969e81cddf791259a09613df84d3d5b2e8701235e7452fd309",
+  "davis_drug_id_analysis.json": "8a709e87e32abdd69c64578e559a17a84b4f6dafe770461dd0d1b2ffa83636b4",
+  "kiba_drug_id_targets.csv": "cf02996f4bbd59572446332cfb3d3b4922db1e7391a05b19155877ec15972b36",
+  "kiba_drug_id_analysis.json": "dfc48d330af36904fefb5d60f7d3d67b1f886b953e77d62d810c1cdcbda9d768",
+  "kiba_identity_targets.csv": "133457f0236efe7f74a2884b6899d9aa8e9cb640c01016c08a5d36a9601b9a6e",
+  "kiba_identity_analysis.json": "b82dbc05c8ff1bd42625c919fbab797f89126590acf151285794a8d6cd4572a0",
+  "kiba_scaffold_targets.csv": "5b3e5456d3088203ac9bf478961603543ee01adb4e8d16f4fac285ebd7f75e16",
+  "kiba_scaffold_analysis.json": "7836b94b50a112e8489f5cd701e52e4e530491ef7ff021ac05d8ab2df3ca5bb1"
+}

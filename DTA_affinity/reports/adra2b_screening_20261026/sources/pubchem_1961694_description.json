@@ -1,0 +1,139 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1961694,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL5291737"
+              }
+            }
+          },
+          "name": "Binding affinity towards human ADRA2B in an in vitro assay with cellular components measured by scintillation proximity assay",
+          "description": [
+            "Title: A preclinical secondary pharmacology resource illuminates target-adverse drug reaction associations of marketed drugs.",
+            "",
+            "Abstract: In vitro secondary pharmacology assays are an important tool for predicting clinical adverse drug reactions (ADRs) of investigational drugs. We created the Secondary Pharmacology Database (SPD) by testing 1958 drugs using 200 assays to validate target-ADR associations. Compared to public and subscription resources, 95% of all and 36% of active (AC50 < 1 µM) results are unique to SPD, with bias towards higher activity in public resources. Annotating drugs with free maximal plasma concentrations, we find 684 physiologically relevant unpublished off-target activities. Furthermore, 64% of putative ADRs linked to target activity in key literature reviews are not statistically significant in SPD. Systematic analysis of all target-ADR pairs identifies several putative associations supported by publications. Finally, candidate mechanisms for known ADRs are proposed based on SPD off-target activities. Here we present a freely-available resource for benchmarking ADR predictions, explaining phenotypic activity and investigating clinical properties of marketed drugs."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Nat Commun",
+            "Year: 2023",
+            "Volume: 14",
+            "Issue: 1",
+            "First Page: 1",
+            "Last Page: 17",
+            "DOI: 10.1038/s41467-023-40064-9",
+            "",
+            "Target ChEMBL ID: CHEMBL1942",
+            "ChEMBL Target Name: Alpha-2B adrenergic receptor",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: H - Homologous protein target assigned",
+            "Confidence: Homologous single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 37468498
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL5291737"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Activity Comment",
+              "description": [
+                "Additional comments"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 7,
+              "name": "Data Validity Comment",
+              "description": [
+                "Comment reflecting whether the values for this activity measurement are likely to be correct"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Alpha-2B adrenergic receptor",
+              "mol_id": {
+                "protein_accession": "P18089"
+              },
+              "descr": "Alpha-2B adrenergic receptor"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 37468498"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -24,14 +24,17 @@ repository, sign in with an account that has access. To use previously downloade
 assets, pass `--asset-dir /path/to/assets`.
 
 The CPU check verifies file hashes and partition coverage, recalculates benchmark
-MSE and Pearson correlations from individual predictions, checks fusion weights
-and fold averaging, and recalculates NanoBRET and ABL1 metrics. Its report is
-written to `verification/reproduction.json`.
+MSE and Pearson correlations from individual predictions, and checks fusion weights
+and fold averaging. It also checks the 30 shared-backbone comparison runs,
+target-wise error distributions, NanoBRET rankings, and the ABL1 and ADRA2B
+case studies. Its report is written to `verification/reproduction.json`.
 
 The main benchmark gate MSEs are 0.58806 for Davis and 0.29783 for KIBA, averaged
-over three training seeds. The KIBA scaffold result is 0.36721. ABL1 Top-10
-retrieval is 8 versus 5 under deposited labels and 5 versus 5 under the repeat
-rule; the latter leaves three additional fusion selections unresolved.
+over three training seeds. The KIBA scaffold result is 0.36721. The ABL1 case
+retrieves 8 active compounds among its top 10 using deposited labels; 5 meet
+the repeat-consistency rule and 3 remain unresolved. The ADRA2B case retrieves
+3 active compounds among its top 10. Complete component comparisons and
+experimental labels accompany both cases.
 
 Davis references are grouped by experimental target ID. The correction record
 in `DTA_affinity/reports/davis_target_id_20261025/` preserves the original
@@ -40,8 +43,9 @@ reference-seed Davis MSE is 0.58843; equal blending obtains 0.58402.
 
 ## Models and feature caches
 
-Release assets contain the 40 trained affinity checkpoints and the exact feature
-arrays used for the benchmark and external analyses. Download them with:
+Release assets contain the 40 original affinity checkpoints and exact feature
+arrays, 60 shared-backbone comparison checkpoints, and 10 checkpoints for the
+ADRA2B and exploratory ESR1 cases. Download all model and data assets with:
 
 ```bash
 python tools/load_assets.py --groups all
@@ -74,7 +78,12 @@ Davis and KIBA use the benchmark inputs and drug-ID partition convention from
 the [DTIAM source data](https://doi.org/10.6084/m9.figshare.27896790.v1).
 The external analyses use the [NanoBRET panel](https://doi.org/10.1021/acs.jmedchem.5c02916)
 and [PubChem AID 1963317](https://pubchem.ncbi.nlm.nih.gov/bioassay/1963317).
+ADRA2B references come from [ChEMBL target CHEMBL1942](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1942),
+with external measurements from [PubChem AID 1961694](https://pubchem.ncbi.nlm.nih.gov/bioassay/1961694).
 Source identifiers and measurement-level mappings accompany the saved results.
+
+For the individual comparisons, case studies and figure builders, see
+[additional analyses](docs/additional-analyses.md).
 
 Third-party source files retain their original notices. The manuscript and
 author information are maintained separately from this repository.

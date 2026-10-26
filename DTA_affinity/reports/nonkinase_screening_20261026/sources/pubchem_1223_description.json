@@ -1,0 +1,422 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1223,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NMMLSC",
+              "source_id": {
+                "str": "ER_ALPHA_BINDING_DOSE_RESPONSE"
+              }
+            }
+          },
+          "name": "Estrogen Receptor (alpha) binding:  Dose Response of Primary Screen Assay",
+          "description": [
+            "University of New Mexico Assay Overview:",
+            "Assay Support: 1X01 MH077627-01",
+            "Assay for Ligands of GPR30 and Classical Estrogen Receptors",
+            "PI: Eric Prossnitz, PhD ",
+            "Assay Development: Megan Dennis ",
+            "Assay Implementation: Megan Dennis, Mark Haynes, PhD ",
+            "Target Team Leader for the Center: Eric Prossnitz, PhD (EProssnitz@salud.unm.edu)",
+            "",
+            "Assay Background and Significance:",
+            "The physiological effects of estrogen are diverse and numerous, with roles in growth, development and homeostasis of numerous tissues. Roles for estrogen in mammalian female reproductive development are among the best defined, but estrogen also plays a part in regulation of skeletal cancer, (cardio)vascular function, the central nervous system as well as in the immune system. Stimulation with estrogen induces many signaling pathways, leading to an array of cellular responses including adhesion, migration, survival, proliferation and angiogenesis in both normal and neoplastic tissues [Edwards et al., 2005]. ",
+            "",
+            "Effects of estrogen are mediated by cellular receptors including ERalpha and ERbeta; members of the steroid receptor family of the nuclear receptor superfamily. These receptors act as transcription factors to regulate the expression of estrogen responsive genes in response to estrogen exposure, as well as mediating rapid signaling responses to estrogen [Lange et al., 2007]. In addition to the classical estrogen receptors, GPR30, a GPCR, has been shown to bind estrogen and mediate rapid signaling events in an expression-dependent manner following estrogen stimulation via the MAPK and PI3K pathways [Filardo et al., 2000; Ahola et al., 2002]. ",
+            "",
+            "The existence of several receptors mediating estrogen response via multiple pathways complicates the investigation of the independent effects of each receptor. In addition to estrogen, a variety of steroidal and non-steroidal compounds bind and modulate estrogen receptor activity, often with varying results depending on the receptor in question. For example, antagonists of the classical estrogen receptors, such as tamoxifen and fulvestrant, are commonly used in the clinic to treat cancer and osteoperosis; however, these compounds act as agonists of GPR30, complicating treatment as well as basic research on the various receptors [Prossnitz et al., 2008]. To this end, it would be beneficial to identify small molecules with distinct binding activities for each receptor as well as differential functional characteristics. These small molecule probes will be potentially useful not only in the study and characterization of ERalpha, ERbeta and GPR30 but will also have possible therapeutic value as specific agonists and antagonists of a single receptor in cancer therapy as well as treatment of other estrogen-mediated pathologies.",
+            "",
+            "To characterize binding of small molecules that compete for binding with estrogen on ERalpha, a series of dose-response curves were completed for compounds with suggested ERalpha binding ability in primary screening using a competitive binding approach using whole cells. This assay assesses the affinity of small molecules with unknown ERalpha binding affinity to compete with an Alexa633-conjugated estrogen derivative for binding to ERalpha in permeabilized whole cells expressing ERalpha-GFP [Revankar et al., 2005]. Assessment of the agonist or antagonist characteristics of molecules that bind ERalpha will be assessed using various secondary assays."
+          ],
+          "protocol": [
+            "The assay is conducted in 384- well tissue culture plates with an assay volume of 20 microL. 2x10^6 Cos7 cells (ATCC #CRL-1651) are seeded in 100mm tissue culture plates and transfected with ERalpha-GFP using Lipofectamine2000 (Invitrogen; per manufacturer's instructions). Twenty-four hours following transfection, media is changed from DMEM supplemented with 10% FBS, Pen/Strep 2 mM L-glutamine to serum-free, phenol-red free DMEM F-12 supplemented with Pen/Strep 2 mM L-glutamine and cells are grown an additional 24 hours. Cells are harvested via mechanical scraping and resuspended at 1x10^7/mL in serum-free, phenol-red free DMEM F-12. ",
+            "",
+            "The assay is conducted as follows. Column 1 contains cells with vehicle control, column 23 contains positive control (1 microM estrogen), and columns 2 and 24 contain untransfected cells. Dose-response curves are arrayed across the plate in duplicate with low concentrations in columns 3 and 14 and increasing concentrations of compounds (in 1/2-log increments) in columns 4-11 and 15-22, respectively. Columns 12 and 13 contain untransfected cells. Sixteen unknown compounds per plate were assayed in dose-responses in this manner. Immediately prior to assay, compounds in DMSO are diluted 1:50 in ligand dilution buffer (10 mM HEPES pH7.6, 0.1% BSA in dH20). Wells containing 9 microL of cells (approximately 90,000 cells) and 1 microL of compound are incubated 10 minutes at 37 degreesC. Following incubation, 10 microL of permeabilization buffer (5 mM EGTA, 100 mM NaCl, 1 mM MgCl(2), 80mM PIPES [Piperazine-N-N-bis(2-ethane sulfonic acid]-KOH, in dH2O, pH 6.8) containing 20 nanoM E2-Alexa633 and 0.05% saponin is added to each well, mixed, and the plate is incubated 5 minutes in the dark at room temperature. Wells are then washed with 100 microL PBS containing 2% BSA, pelleted, and resuspended in 25 microL PBS +2% BSA. Individual wells are sampled using the HyperCyt(R) high throughput flow cytometry system and a Cyan flow cytometer (Dako). Forward scatter, side scatter and GFP fluorescence (FL-1) are collected using a 488nM laser, while E2-Alexa633 fluorescence is collected using a 633nM laser (FL-8). ",
+            "",
+            "Calculations:",
+            "",
+            "Acquired data were analyzed using IDLQuery software, developed by Bruce Edwards. IDLQuery identifies 384-discrete data sets, each corresponding to a single sample well. The cell population is identified based on forward and side scatter parameters and transfected cells are gated on for analysis on the basis of GFP expression. Each well is analyzed for E2-Alexa633 fluorescence on the basis of mean channel fluorescence. The vehicle control wells are pooled from each plate and defined as having 100% binding E2-Alexa633 binding. Sample wells are assigned a value based on their E2-Alexa633 fluorescence relative to control wells using:",
+            "",
+            "%Binding = 100 * Sample MCF / Negative Control MCF",
+            "",
+            "where Sample MCF is the mean channel fluorescence in FL-8 from sample well and Negative Control MCF is the mean channel fluorescence in FL-8 from wells with vehicle (DMSO) control. These %Binding data were fitted by Prism(R) software (GraphPad Software, Inc., San Diego, CA) using nonlinear least-squares regression on a sigmoidal dose response model. Some dose response data converged with variable slopes (four parameter logistics equation) and some dose response data converged with Hill Slope set to 1 (three parameter logistics equation), see column entitled HILLSLOPE. Curve fit statistics reported concentration of compound at 50% effect (EC50, nanoM), low and high boundaries of the 95% confidence interval of the EC50 estimate, the Hill Slope, and the correlation coefficient (RSQR) indicative of goodness-of-fit.",
+            "",
+            "Reporting of EC50 estimates were made only for compound data that converged in Prism with a 95% confidence interval. Maximum EC50 reported was set at 10 microM or 10,000 nanoM. Any compound with estimate EC50 greater than this cutoff was noted with > in the ACTIVITY_QUALIFIER column.",
+            "",
+            "The PUBCHEM_ACTIVITY_SCORE was computed based on three parameters of the dose-response curves: %Binding at 10 microM, estimated EC50 value, magnitude of binding change over entire concentration range. ",
+            "",
+            "A score of 0-30 was assigned to each compound based on %Binding of fluorescent ligand at the 10 microM point of the dose-response curve, where:",
+            "",
+            "0 = 70% < %Binding",
+            "10 = 50 < %Binding < 70%",
+            "20 = 30 < %Binding < 50%",
+            "30 = %Binding < 30%",
+            "",
+            "A score of 0-50 was assigned to each curve based on the estimated EC50 value (in M), where:",
+            "",
+            "0 = 10^-5 < EC50",
+            "10 = 10^-6 < EC50 < 10^-5",
+            "20 = 10^-7 < EC50 < 10^-6",
+            "30 = 10^-8 < EC50 < 10^-7",
+            "40 = 10^-9 < IC50 < 10^-8",
+            "50 = EC50 < 10^-9",
+            "",
+            "A score of 0-20 was assigned to each curve based on the magnitude of the dose-response curve of E2-Alexa633 binding using: MAGNITUDE = TOP - BOTTOM values from the Prism curve-fit, where:",
+            "",
+            "0 = MAGNITUDE < 30 or MAGNITUDE > 100",
+            "10 = 30 < MAGNITUDE < 45",
+            "20 = 45 < MAGNITUDE < 100",
+            "",
+            "These three scoring parameters were summed to give the possible maximum PUBCHEM_ACTIVITY_SCORE of 100. ",
+            "",
+            "Compounds were considered \"Active\" if the PUBCHEM_ACTIVITY_SCORE was 50 or greater and given PUBCHEM_ACTIVITY_OUTCOME of 2. \"Non-Active\" compounds have PUBCHEM_ACTIVITY_SCORE less than 50 given PUBCHEM_ACTIVITY_OUTCOME of 1.",
+            "",
+            "Keywords: Estrogen receptor, E2, alpha, flow cytometry, dose response"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "aid": 1211
+              }
+            },
+            {
+              "xref": {
+                "aid": 1210
+              }
+            },
+            {
+              "xref": {
+                "aid": 1212
+              }
+            },
+            {
+              "xref": {
+                "aid": 1213
+              }
+            },
+            {
+              "xref": {
+                "gene": 2099
+              }
+            },
+            {
+              "xref": {
+                "mim": 133430
+              }
+            },
+            {
+              "xref": {
+                "taxonomy": 9606
+              }
+            },
+            {
+              "xref": {
+                "mesh": "D047628"
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://nmmlsc.health.unm.edu"
+              }
+            },
+            {
+              "xref": {
+                "pmid": 16520733
+              }
+            },
+            {
+              "xref": {
+                "pmid": 15709962
+              }
+            },
+            {
+              "xref": {
+                "pmid": 11043579
+              }
+            },
+            {
+              "xref": {
+                "pmid": 12193550
+              }
+            },
+            {
+              "xref": {
+                "pmid": 18262661
+              }
+            },
+            {
+              "xref": {
+                "pmid": 15705806
+              }
+            },
+            {
+              "xref": {
+                "pmid": 17037979
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "ACTIVITY_QUALIFIER ",
+              "description": [
+                "Qualifier for EC50"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "EC50_MICROM",
+              "description": [
+                "Effective concentration of half maximal binding of fluorescent ligand as estimated by curve fit"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "EC50_95CI_LOW",
+              "description": [
+                "Lower 95% confidence interval boundary for the EC50 curve fit estimate"
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 4,
+              "name": "EC50_95CI_HIGH",
+              "description": [
+                "Upper 95% confidence interval boundary for the EC50 curve fit estimate"
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 5,
+              "name": "HILLSLOPE",
+              "description": [
+                "Hill slope estimate for the fitted dose response curve or set at 1"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "RSQR",
+              "description": [
+                "Correlation coefficient for the fitted dose response curve"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "N_POINTS",
+              "description": [
+                "Number of data points for each dose response curve with at least 2 replicates per concentration"
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "RESPONSE_100.0_MICROM (100.0uM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 100.0 micromolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 100,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 9,
+              "name": "RESPONSE_10.0_MICROM (10.0uM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 10.0 micromolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 10,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 10,
+              "name": "ACTIVATION_1.00_MICROM (1.00uM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 1.00 micromolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 11,
+              "name": "RESPONSE_0.316_MICROM (0.316uM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 0.316 micromolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.316000014543533,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 12,
+              "name": "RESPONSE_100_NANOM (100.0nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 100.0 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.100000001490116,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 13,
+              "name": "RESPONSE_31.6_NANOM (31.6nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 31.6 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0315999984741211,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 14,
+              "name": "RESPONSE_10.0_NANOM (10.0nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 10.0 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00999999977648258,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 15,
+              "name": "RESPONSE_3.16_NANOM (3.16nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 3.16 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00316000008024275,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 16,
+              "name": "RESPONSE_1.0_NANOM (1.0nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 1.0 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00100000004749745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 17,
+              "name": "RESPONSE_0.1_NANOM (0.1nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 0.1 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.99999974737875e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 18,
+              "name": "RESPONSE_0.01_NANOM (0.01nM)",
+              "description": [
+                "Average percent binding of fluorescent ligand at 0.01 nanomolar concentration of test compound"
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.99999974737875e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "estrogen receptor alpha [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "AAD52984.1"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "dr": [
+            {
+              "id": 1,
+              "descr": "CR Plot Labels 1",
+              "dn": "Concentration",
+              "rn": "Response"
+            }
+          ],
+          "project_category": 1
+        }
+      }
+    }
+  ]
+}

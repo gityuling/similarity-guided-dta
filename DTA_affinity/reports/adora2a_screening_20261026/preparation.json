@@ -1,0 +1,31 @@
+{
+  "target": "P29274",
+  "target_family": "GPCR",
+  "source_activity_records": 9055,
+  "eligible_measurements": 4419,
+  "training_compounds": 4126,
+  "training_parent_groups": 4060,
+  "documents": 316,
+  "assays": 443,
+  "pKi_range": [
+    4.0,
+    11.0
+  ],
+  "external_source_records": 1216,
+  "external_source_compounds": 1202,
+  "external_compounds": 1170,
+  "external_outcomes": {
+    "Inactive": 1155,
+    "Active": 15
+  },
+  "external_exclusion_reasons": {
+    "": 1170,
+    "repeated_parent": 40,
+    "structure": 5,
+    "threshold_ambiguous": 1
+  },
+  "training_measurements_removed_for_external_overlap": 582,
+  "conformer_failure_compounds": 29,
+  "training_external_parent_overlap": 0,
+  "config_sha256": "a1ea0019453ebd4318c7339863ff95502498dec69f50e080bf27fa633c679dab"
+}

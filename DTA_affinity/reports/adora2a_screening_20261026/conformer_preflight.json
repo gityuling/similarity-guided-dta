@@ -1,0 +1,1665 @@
+{
+  "table_sha256": "99f50c568be4fe00bb2938f93fd4c248669d1a55de0d632365d5ee2026a7474b",
+  "encoder_algorithm": "ETKDG seed 20261016, then EmbedMolecule seed 20261016 useRandomCoords=True",
+  "pending_count": 207,
+  "workers": 8,
+  "complete": true,
+  "checks": [
+    {
+      "smiles": "C/C(=C\\C(=O)OCCCCCCCCC(=O)O)C[C@@H]1OC[C@H](C[C@@H]2O[C@H]2[C@@H](C)[C@H](C)O)[C@@H](O)[C@H]1O",
+      "md5": "6cb7dfac1db25df8a37896eddd517bac",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09025122699677013
+    },
+    {
+      "smiles": "C/C=C/C[C@@H](C)[C@@H](O)[C@H]1C(=O)N[C@@H](CC)C(=O)N(C)CC(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](C(C)C)C(=O)N1C",
+      "md5": "f10590a93482d70165f5dcbe7a1ac726",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.5974902579910122
+    },
+    {
+      "smiles": "C=CCCCCCCCCCCOCCOCCOCCOCCOc1ccc(-c2nc3c([nH]2)c(=O)n(C)c(=O)n3C)cc1",
+      "md5": "0d255b0ff27ea245041928dd9729effc",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0919824430020526
+    },
+    {
+      "smiles": "C=CC[N+]1([C@H]2C[C@H]3[C@@H]4CC[C@H]5C[C@H](O)[C@@H](N6CCOCC6)C[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2OC(C)=O)CCCC1",
+      "md5": "1fa28932340698cd110aa545e699a5ee",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1251650320191402
+    },
+    {
+      "smiles": "C=CC[N@@+]12CC[C@@]34c5ccccc5N5/C=C6/[C@H]7C[C@H]8[C@@]9(CC[N@@+]8(CC=C)C/C7=C/CO)c7ccccc7N(/C=C(/[C@@H](C[C@@H]31)/C(=C\\CO)C2)[C@H]54)[C@@H]69",
+      "md5": "5ee05fd4c110817150ce66fd54ed67ec",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.13666912601911463
+    },
+    {
+      "smiles": "C=C[C@@]1(C)CC(=O)[C@]2(O)[C@@]3(C)[C@@H](O)CCC(C)(C)[C@@H]3[C@H](OC(=O)CCN(C)C)[C@H](OC(C)=O)[C@@]2(C)O1",
+      "md5": "2fcfedf9ed54ec0166bc4edf711a18f3",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.12220636798883788
+    },
+    {
+      "smiles": "CC(=O)NCCn1cc(CCCCC(=O)NCCNC(=O)COc2ccc(CCCn3ncc4c3nc(N)n3nc(-c5ccco5)nc43)cc2)nn1",
+      "md5": "9d223284f0d03fd918fbe8b75c5ab535",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11285763801424764
+    },
+    {
+      "smiles": "CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)[C@H](O)C3=C(C)[C@@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C",
+      "md5": "4f78c6ee161583e03a9550a1aeded58d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.21445757598849013
+    },
+    {
+      "smiles": "CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O",
+      "md5": "6b376ce0b25b2b9719a65a93e8f37e59",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.24699731700820848
+    },
+    {
+      "smiles": "CC(=O)O[C@H]1C[C@@H]2CC[C@@H]3[C@H](CC[C@@]4(C)[C@H]3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1N1CCCCC1",
+      "md5": "d700c3cd8dbad7d9e0d2b8d8f4a39d77",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10943013298674487
+    },
+    {
+      "smiles": "CC(=O)O[C@H]1C[C@@H]2CC[C@@H]3[C@H](CC[C@@]4(C)[C@H]3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1[N+]1(C)CCCCC1",
+      "md5": "42b58f7de085dac5297e16d9ae25b8cf",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.15220785699784756
+    },
+    {
+      "smiles": "CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(N)=O)NC(=O)c1ccc2ccccc2n1",
+      "md5": "c515a2caf4124872312d3fb02f7d6f24",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1310777509934269
+    },
+    {
+      "smiles": "CC(C)(C)OC(=O)N1[C@H]2CC[C@H]1[C@H](Nc1ncnc3c1ncn3[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O)C2",
+      "md5": "b29b2a880adc6f137d77968dcdff0162",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 40.48234773799777
+    },
+    {
+      "smiles": "CC(C)(C)c1cc(C(=O)NCCC(=O)Nc2ccc(-c3cn4c(=O)n(-c5ccccc5)nc4c(N)n3)cc2)cc(C(C)(C)C)c1O",
+      "md5": "9e54d355addd3c3c16c473a37eac593d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07594692800194025
+    },
+    {
+      "smiles": "CC(C)(C)c1cc(C(=O)NCCOc2ccc(-c3cn4c(=O)n(-c5ccccc5)nc4c(N)n3)cc2)cc(C(C)(C)C)c1O",
+      "md5": "fc2d36c87efaa312b3db1f30400a3894",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06173223699443042
+    },
+    {
+      "smiles": "CC(C)(Sc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1)Sc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1",
+      "md5": "4ea3535e96c50115a5f7e2c3dc4d37f3",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06065578298876062
+    },
+    {
+      "smiles": "CC(C)=CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C=C(\\C)CCC=C(C)C",
+      "md5": "021d83e54827eb331bfe0bbf197ffa0e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08878950800863095
+    },
+    {
+      "smiles": "CC(C)C(=O)N[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4cn(C(C)C)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "09a0592e5144479a7484b6612876c75f",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09254864702234045
+    },
+    {
+      "smiles": "CC(C)C(=O)OCC(=O)[C@@]12O[C@H](C3CCCCC3)O[C@@H]1C[C@H]1[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]12C",
+      "md5": "70630f070231c8edfdbb824d93b12f38",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10816237799008377
+    },
+    {
+      "smiles": "CC(C)C[C@H](NC(=O)[C@@H](Cc1cccc2ccccc12)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NCC(N)=O",
+      "md5": "f914612877b8791cf03fb5d5430bf6b8",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.694350072008092
+    },
+    {
+      "smiles": "CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)[C@@H]3C=C4c5cccc6[nH]c(Br)c(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12",
+      "md5": "ef62eab79dbf1fe26df01a255d93d22b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08133243501652032
+    },
+    {
+      "smiles": "CC(C)[C@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@@H](N)CCCN=C(N)N)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O",
+      "md5": "aa9d9466878e2ce5becbebd0276e8d87",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11744335200637579
+    },
+    {
+      "smiles": "CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1",
+      "md5": "3ebde3d1584de61bfcd36970265e431d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.12486027900013141
+    },
+    {
+      "smiles": "CC(C)n1cnc(CCNc2nc(NCC(c3ccccc3)c3ccccc3)c3ncn([C@@H]4C[C@H](NC(=O)C(C)(C)C)[C@@H](O)[C@H]4O)c3n2)c1",
+      "md5": "b6fdb79a0031b9a5ae85500cde5e12d4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.14390495300176553
+    },
+    {
+      "smiles": "CC(C)n1cnc(CCNc2nc(NCC(c3ccccc3)c3ccccc3)c3ncn([C@@H]4C[C@H](NC(=O)C5CC5)[C@@H](O)[C@H]4O)c3n2)c1",
+      "md5": "16e63ee70e7c978c79dcef3bccb81996",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10640659698401578
+    },
+    {
+      "smiles": "CC(C)n1cnc(CCNc2nc(NCC(c3ccccc3)c3ccccc3)c3ncn([C@@H]4C[C@H](NC(=O)C5CCC5)[C@@H](O)[C@H]4O)c3n2)c1",
+      "md5": "c0486780b0ef4986b265115a15a76191",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10057086302549578
+    },
+    {
+      "smiles": "CC(C)n1cnc(CCNc2nc(NCC(c3ccccc3)c3ccccc3)c3ncn([C@@H]4C[C@H](NC(=O)CCc5ccccc5)[C@@H](O)[C@H]4O)c3n2)c1",
+      "md5": "fccfc45dbb19a93155220e26067f6632",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1524853580049239
+    },
+    {
+      "smiles": "CC(C)n1cnc(CCNc2nc(NCC(c3ccccc3)c3ccccc3)c3ncn([C@@H]4C[C@H](NC(=O)Cc5ccccc5)[C@@H](O)[C@H]4O)c3n2)c1",
+      "md5": "366c40c4295dfb544721a120a7a8f736",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11734900399460457
+    },
+    {
+      "smiles": "CC1(C)C(/C=C/C=C/C=C2/N(CCCS(=O)(=O)O)c3ccc(S(=O)(=O)O)cc3C2(C)CCCCCC(=O)NCCCCNC(=O)COc2ccc(CCCn3ncc4c3nc(N)n3nc(-c5ccco5)nc43)cc2)=[N+](CCCS(=O)(=O)O)c2ccc(S(=O)(=O)[O-])cc21",
+      "md5": "215e022911c111f68f0bb1ed3d7ffa19",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.37626322099822573
+    },
+    {
+      "smiles": "CC1(C)C(/C=C/C=C/C=C2/N(CCCS(=O)(=O)O)c3ccc(S(=O)(=O)O)cc3C2(C)CCCCCC(=O)NCCNC(=O)COc2ccc(CCCn3ncc4c3nc(N)n3nc(-c5ccco5)nc43)cc2)=[N+](CCCS(=O)(=O)O)c2ccc(S(=O)(=O)[O-])cc21",
+      "md5": "d5d3f6bc402fff8bbb10a2b0021eecf8",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.3830794290115591
+    },
+    {
+      "smiles": "CC1(C)C(/C=C\\C=C\\C=C\\C=C2/N(CCCCS(=O)(=O)[O-])c3ccc4ccccc4c3C2(C)C)=[N+](CCCCS(=O)(=O)O)c2ccc3ccccc3c21",
+      "md5": "2dec0bd0e6652a0f2411a557bf7ece95",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11278301800484769
+    },
+    {
+      "smiles": "CC1(C)[C@@H](OC(=O)CCC(=O)O)CC[C@]2(C)[C@H]3C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@@]4(C)[C@]3(C)CC[C@@H]12",
+      "md5": "7abe104b923fc394bbf49b7290c2c6f7",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.12074023199966177
+    },
+    {
+      "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)Oc2c(C)c(C)c3c(c2C)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O3)C(C)(C)CCC1",
+      "md5": "d3ffa25960608203814101193260ce9e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.26874503400176764
+    },
+    {
+      "smiles": "CCC(=O)N[C@H]1C[C@@H](n2cnc3c(NC(CC)CC)nc(NCCc4cn(C(C)C)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "eaab9636cba016a6612a8c80c1c77f91",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07298701201216318
+    },
+    {
+      "smiles": "CCC(=O)N[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4c[nH]cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "4e785db98e3b89776016da7ab6244afa",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07280854601413012
+    },
+    {
+      "smiles": "CCC(=O)N[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4cn(C)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "096d07ceae5153026c1f7e1201eac05c",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0962536440056283
+    },
+    {
+      "smiles": "CCC(=O)N[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4cn(CC(=O)O)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "71a7d35bbbee27632dc9ea7e56ab9284",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09809473602217622
+    },
+    {
+      "smiles": "CCC(=O)N[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4cn(CC)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "a39cf18be85bab58b916f32af3139071",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08668175400816835
+    },
+    {
+      "smiles": "CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OCC5COC(Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O",
+      "md5": "0527d3368b3f4dddec209de48bdfbf5b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07643762000952847
+    },
+    {
+      "smiles": "CCC(CC)CNc1nc(NCCc2cn(CC)cn2)nc2c1ncn2[C@@H]1C[C@H](n2cc(CO)cn2)[C@@H](O)[C@H]1O",
+      "md5": "ee911c0084ceecd5d355f7fa1c127c94",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0699915389996022
+    },
+    {
+      "smiles": "CCCC(=O)N[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4cn(C(C)C)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "56a194e8db8d843cfd84b220f1af8868",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09864737599855289
+    },
+    {
+      "smiles": "CCCCCCCCCCCCCCCCCCCCCC(=O)Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)n1",
+      "md5": "f70eb643dd5bec891388a62c7cafefcf",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10918017200310715
+    },
+    {
+      "smiles": "CCCCCCCCOc1ccccc1C(=O)Nc1ccc(C(=O)OCC[N+](C)(CC)CC)cc1",
+      "md5": "a770ee7e4b3b1a022ac22ebac8127a20",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.05484653901658021
+    },
+    {
+      "smiles": "CCCCCCOC(=O)/N=C(/N)c1ccc(NCc2nc3cc(C(=O)N(CCC(=O)OCC)c4ccccn4)ccc3n2C)cc1",
+      "md5": "17ef0ad178ab0e7f9d8a26ea3be17357",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07205421800608747
+    },
+    {
+      "smiles": "CCCCNc1ccc(C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC)cc1",
+      "md5": "e2c35d26d14f445c295c2206ef2262d5",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08091449900530279
+    },
+    {
+      "smiles": "CCCCn1c(=O)c2c(nc3n2CCCN3CCc2ccc(OCCN(CC)CC)cc2)n(CCCC)c1=O",
+      "md5": "fa94040c6b78c3cd27b27ce5bfe5fab7",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.057120423996821046
+    },
+    {
+      "smiles": "CCCCn1c(=O)c2c(nc3n2CCCN3c2ccc(OCCN(CC)CC)cc2)n(CCCC)c1=O",
+      "md5": "745756c85eb9119b36d3a6cca5b012e9",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.04838832400855608
+    },
+    {
+      "smiles": "CCCCn1c(=O)c2c(nc3n2CCCN3c2ccc(OCCN3CCCCC3)cc2)n(CCCC)c1=O",
+      "md5": "3d776a56a804ab6f3bfce3ccf6208d26",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.04088688801857643
+    },
+    {
+      "smiles": "CCC[C@H](NC(=O)[C@@H]1[C@H]2CCC[C@H]2CN1C(=O)[C@@H](NC(=O)[C@@H](NC(=O)c1cnccn1)C1CCCCC1)C(C)(C)C)C(=O)C(=O)NC1CC1",
+      "md5": "ab1cf280fed531e370a10c0d9f5fd8d9",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.3856536390085239
+    },
+    {
+      "smiles": "CCCn1c(=O)[nH]c2nc(-c3ccc(OCC(=O)NCCCCCC4=C5C(C)=CC(C)=[N+]5[B-](F)(F)n5c(C)cc(C)c54)cc3)[nH]c2c1=O",
+      "md5": "4f5aead3ab33a80c938416c7bee65632",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10755708097713068
+    },
+    {
+      "smiles": "CCCn1c(=O)[nH]c2nc(-c3ccc(OCC(=O)NCCCCCCCCCCC4=C5C(C)=CC(C)=[N+]5[B-](F)(F)n5c(C)cc(C)c54)cc3)[nH]c2c1=O",
+      "md5": "0bf0a1fbe32ed0db107f948c4e8f221c",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.13204400800168514
+    },
+    {
+      "smiles": "CCCn1c(=O)[nH]c2nc(-c3ccc(S(=O)(=O)N4CCN(Cc5ccc(OCCOCCOC)cc5)CC4)cc3)[nH]c2c1=O",
+      "md5": "042579228d4f3ebe00137a35270b127e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0651579289988149
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OC(C)(C)C(=O)N4CCN(c5ccccc5)CC4)cc3)cc2n(CCC)c1=O",
+      "md5": "f6309ebade454bce36f16bc89d84243c",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.060025678016245365
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OCC(=O)N4CCC(c5ccccc5)(c5ccccc5)CC4)cc3)cc2n(CCC)c1=O",
+      "md5": "cd51a71317b040552fe5a436ea4f1842",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07199636899167672
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OCC(=O)N4CCN(C(=O)OCc5ccccc5)CC4)cc3)cc2n(CCC)c1=O",
+      "md5": "07428daae70253ca1371aa84ced428c2",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.059047127986559644
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OCC(=O)N4CCN(C(c5ccccc5)c5ccccc5)CC4)cc3)cc2n(CCC)c1=O",
+      "md5": "8ce0ffddcea36c01fa22804fb004897c",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07661282000481151
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OCC(=O)N4CCN(Cc5ccccc5)CC4)cc3)c(O)c2n(CCC)c1=O",
+      "md5": "ea480166b295e3ae97b124c333ddaf14",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.05968624897650443
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OCC(=O)Nc4ccc(C(=O)NCCc5ccc(OC)cc5)cc4)cc3)cc2n(CCC)c1=O",
+      "md5": "2da690870a03546ae45e8be6cc88ce45",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07121602099505253
+    },
+    {
+      "smiles": "CCCn1c(=O)c2[nH]c(-c3ccc(OCC(=O)Nc4ccc(CS(=O)(=O)N5CCCC5)cc4)cc3)cc2n(CCC)c1=O",
+      "md5": "fb5bf2a035f3e2b95610305738e8835f",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06451508999452926
+    },
+    {
+      "smiles": "CCCn1c(=O)n(C)c(=O)c2[nH]c(-c3ccc(OCC(=O)N4CCC(c5ccccc5)(c5ccccc5)CC4)cc3)cc21",
+      "md5": "7ea42763e28ec686aae100517723303c",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.05914982099784538
+    },
+    {
+      "smiles": "CCN(c1cc(-c2ccc(CN3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[nH]c2=O)c1C)C1CCOCC1",
+      "md5": "96fc64517b8428568c27536de09681c3",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.039684426999883726
+    },
+    {
+      "smiles": "CCN1/C(=C\\C=C\\C=C\\C2=[N+](CCCCCC(=O)NCCNC(=O)CCC#Cc3nc(NCc4cccc(Cl)c4)c4ncn([C@H]5[C@H](O)[C@H](O)[C@@]6(C(=O)NC)C[C@H]56)c4n3)c3ccccc3C2(C)C)C(C)(C)c2cc(S(=O)(=O)[O-])ccc21",
+      "md5": "b92f675d032b5f72b679f4350c976fa7",
+      "first_status": -1,
+      "fallback_status": 0,
+      "success": true,
+      "elapsed_seconds": 396.4490102510026
+    },
+    {
+      "smiles": "CCN1/C(=C\\C=C\\C=C\\C2=[N+](CCCCCC(=O)NCCNC(=O)CCC#Cc3nc(NCc4cccc(Cl)c4)c4ncn([C@H]5[C@H](O)[C@H](O)[C@]6(C(=O)NC)C[C@H]56)c4n3)c3ccc(S(=O)(=O)[O-])cc3C2(C)C)C(C)(C)c2cc(S(=O)(=O)O)ccc21",
+      "md5": "41d7efd13812ffae67e5573a7668d54b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.34138748701661825
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1OC(n2cnc3c(NCCCCCCCCCCNc4ccc([N+](=O)[O-])c5nonc45)ncnc32)[C@H](O)[C@@H]1O",
+      "md5": "9fc79ce8217cfe1df0b4c83d3dfd66e7",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1014163420186378
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(N4CCN(c5ccc(OCCCc6ccccc6)cc5)CC4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "72ae64b15f78b9730a35bcde33ef1f2d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08030145699740387
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(N4CCN(c5ccc(OCc6ccc(C(F)(F)F)cc6)cc5)CC4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "d4a7ee2e83104eb46a77845b0ea3cdfb",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06694165299995802
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCN4CCN(c5ccc(OCCOC)cc5)CC4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "022344b87b474bc4e4da317b9cc5bb52",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07540689199231565
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](CC(=O)O)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "9a1dc5b62e3aceca28df0ceed6781249",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08056524198036641
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](CCCNC(=N)N)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "cfac585b331c997d973efbdffe7187de",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10643311598687433
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](Cc5c[nH]c6ccccc56)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "2516852307f486e83b4eb8cdeffb23b7",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10122463302104734
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](Cc5c[nH]c6ccccc56)C(=O)OC)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "18479943bf77447cdb776cc8903dba93",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.13655241602100432
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](Cc5c[nH]cn5)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "3d7ee5540a11f9cabda0deeeab2d3b4d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08474807802122086
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](Cc5ccccc5)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "5718a8da55d882e332036df208c6e989",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08024634298635647
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@@H](Cc5ccccc5)C(=O)OC)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "bc2c8ae65fe7600f2706cb6045ba148b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.15015947399660945
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](CC(=O)O)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "3a4c5eb6dfd3e7ff35d6dbe237bc29d8",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07698788499692455
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](CCCNC(=N)N)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "368f40239558bcb2ecbea7636b21887d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.14846612999099307
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](Cc5c[nH]c6ccccc56)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "0b1d416d73560d371915f44cfff59360",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.16625838697655126
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](Cc5c[nH]c6ccccc56)C(=O)OC)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "d944af5cd2b45bc82d70a883c7d0805d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1336811859800946
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](Cc5c[nH]cn5)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "6720abd0bea6a59c8ca182e177e75016",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08221277000848204
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](Cc5ccccc5)C(=O)O)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "4dcfd1e1e31d8060489f7589b6273f02",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08176161200390197
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)N[C@H](Cc5ccccc5)C(=O)OC)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "f932ff38f3fe7b89bc7970653521cf1e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09325021601398475
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)Nc5ccc(O)c([N+](=O)[O-])c5)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "07bc77bc6678404eaf8b1c917afe8c0d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06963641100446694
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)Nc5ccc(OC(=O)CCCCN=[N+]=[N-])c([N+](=O)[O-])c5)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "2c4359950036e09de0a5ecb7baf51dbd",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1339395830000285
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)Nc5ccc(OC(=O)CCCC[C@@H]6SC[C@@H]7NC(=O)N[C@@H]76)c([N+](=O)[O-])c5)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "7e19f801a9eb86212aa63f6155b58085",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.24282577200210653
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(N)nc(NCCc4ccc(CCC(=O)Nc5ccc(OC(C)=O)c([N+](=O)[O-])c5)cc4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "c250c81bcfb2f9f30c4108c5ad59929e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09299233101774007
+    },
+    {
+      "smiles": "CCNC(=O)[C@H]1O[C@@H](n2cnc3c(NCCCCCCCCCCNc4ccc([N+](=O)[O-])c5nonc45)ncnc32)[C@H](O)[C@@H]1O",
+      "md5": "5a5342ef67c48d8db85aac41de2cf25f",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10124914901098236
+    },
+    {
+      "smiles": "CCOc1ccc(C[C@H]2NC(=O)CCSSC[C@@H](C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCN)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H]([C@@H](C)CC)NC2=O)cc1",
+      "md5": "15087f3b39f09cd8cc35f65522fa4080",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.20470519599621184
+    },
+    {
+      "smiles": "CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+      "md5": "03563158c3712543e6f7462e6354dab4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.059139752003829926
+    },
+    {
+      "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)/C(=N\\OCOCCOC)[C@H](C)[C@@H](O)[C@]1(C)O",
+      "md5": "e6ba41171fa6f0a165bb406ce58a47cc",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.4632487260096241
+    },
+    {
+      "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O",
+      "md5": "98f3f8a53b729bbd4438ee0c18118c9d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.7087360029981937
+    },
+    {
+      "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+      "md5": "608b4789d7d1df251989202b35fed508",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.3908515740185976
+    },
+    {
+      "smiles": "CC[C@]1(O)C[C@@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@H]3[C@@](O)(C(N)=O)[C@H](O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1",
+      "md5": "095375502928e463448e9654cdec85f6",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.18781512600253336
+    },
+    {
+      "smiles": "CC[N+](CC)(CC)CCOc1cccc(OCC[N+](CC)(CC)CC)c1OCC[N+](CC)(CC)CC",
+      "md5": "390c955bf7a26a35d4e1018e7aff3f9e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09431563000543974
+    },
+    {
+      "smiles": "CC[N+](CC)(CCNC(=O)C(=O)NCC[N+](CC)(CC)Cc1ccccc1Cl)Cc1ccccc1Cl",
+      "md5": "286409a468484c81b09276704377ae49",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.029233353008748963
+    },
+    {
+      "smiles": "CCc1c(Cl)c(O)c(Cl)c(O)c1C(=O)O[C@H]1[C@H](O)[C@H](OC)[C@H](OC/C2=C\\C=C\\C[C@H](O)/C(C)=C/[C@H](CC)[C@@H](O[C@@H]3OC(C)(C)[C@@H](OC(=O)C(C)C)[C@H](O)[C@@H]3O)/C(C)=C/C(C)=C/C[C@@H]([C@@H](C)O)OC2=O)O[C@@H]1C",
+      "md5": "87d2d21ee9a12a1fcd711a7c58ce6863",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 1.1413814389961772
+    },
+    {
+      "smiles": "CCc1cn([C@H]2C[C@@H](n3cnc4c(NCC(CC)CC)nc(NCCc5cn(CC)cn5)nc43)[C@H](O)[C@@H]2O)nn1",
+      "md5": "a437e40df2a3b45d83c2d1c4907e09f6",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06989184202393517
+    },
+    {
+      "smiles": "CCc1cnn([C@H]2C[C@@H](n3cnc4c(NCC(CC)CC)nc(NCCc5cn(CC)cn5)nc43)[C@H](O)[C@@H]2O)c1",
+      "md5": "63ecf2c5f57481c298541fed0fdcfd40",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0802340790105518
+    },
+    {
+      "smiles": "CCc1cnn([C@H]2C[C@@H](n3cnc4c(NCC(c5ccccc5)c5ccccc5)nc(NCCc5cn(CC)cn5)nc43)[C@H](O)[C@@H]2O)c1",
+      "md5": "da6b3eecd0abec86148dd23b26ad42ac",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10864852298982441
+    },
+    {
+      "smiles": "CCn1nnc([C@H]2O[C@@H](n3cnc4c(N[C@H]5C[C@@H]6CC[C@@H]5C6)nc(Cl)nc43)[C@H](O)[C@@H]2O)n1",
+      "md5": "d551a265e8db4401984b9f96da53c5de",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 12.65098678600043
+    },
+    {
+      "smiles": "CCn1nnc([C@H]2O[C@@H](n3cnc4c(N[C@H]5C[C@@H]6CC[C@@H]5C6)ncnc43)[C@H](O)[C@@H]2O)n1",
+      "md5": "6618840ec292f6583e0f368b12873846",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 12.93318178600748
+    },
+    {
+      "smiles": "CN(C)[C@@H]1C(=O)C(C(=O)NCNCCCC[C@H](N)C(=O)O)=C(O)[C@@]2(O)C(=O)C3=C(O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12",
+      "md5": "1db6b4180255498cdde503ca29557fe0",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08513377400231548
+    },
+    {
+      "smiles": "CN(C)c1cc(CNCC(C)(C)C)c(O)c2c1C[C@H]1C[C@H]3[C@H](N(C)C)C(=O)C(C(N)=O)=C(O)[C@@]3(O)C(=O)C1=C2O",
+      "md5": "07fb3203277a442a7a98fe464495eb2f",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07396761598647572
+    },
+    {
+      "smiles": "CN(C)c1cc(NC(=O)CNC(C)(C)C)c(O)c2c1C[C@H]1C[C@H]3[C@H](N(C)C)C(=O)C(C(N)=O)=C(O)[C@@]3(O)C(=O)C1=C2O",
+      "md5": "772629f287ad1ed3cab1d4e5c0858c52",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0688770730048418
+    },
+    {
+      "smiles": "CN(C)c1ccc2c(-c3ccc(C(=O)NCCNC(=O)COc4ccc(CCCn5ncc6c5nc(N)n5nc(-c7ccco7)nc65)cc4)cc3C(=O)[O-])c3ccc(=[N+](C)C)cc-3oc2c1",
+      "md5": "eb9ff64118d33bdf5d91aa2476899bd4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1574368090077769
+    },
+    {
+      "smiles": "CN1C[C@H](C(=O)N[C@]2(C)O[C@@]3(O)[C@@H]4CCCN4C(=O)[C@H](Cc4ccccc4)N3C2=O)C=C2c3cccc4[nH]cc(c34)C[C@H]21",
+      "md5": "67f61714c79e20c87d087d552999c33e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08700374999898486
+    },
+    {
+      "smiles": "CN1C[C@H](C(=O)N[C@]2(C)O[C@@]3(O)[C@@H]4CCCN4C(=O)[C@H](Cc4ccccc4)N3C2=O)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21",
+      "md5": "1483e36b135bf2d3bdd9b2bff24d6839",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08416421999572776
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(-c5ccc(N)cc5)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "d16b1b35c752b0e0a21c58274ad6e5c9",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08692031301325187
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(-c5cccc([N+](=O)[O-])c5)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "a6d8c97bbc0ef821bfc4ce94439a791d",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09363287501037121
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(C(Br)C(=O)c5ccccc5)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "f564291a08e8c82ce95550f540ad5c19",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0896876170008909
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(C56CC7CC(CC(C7)C5)C6)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "f1b3fcf75e2ce578eb3d9bd43fd8c1ef",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11810335298650898
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(CCCCN)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "4744cb4779e9dbbc74bcd2b02e17f5eb",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08331613498739898
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(CCCCNC(C)=O)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "fb89310ab7ec1bca4edaca7f4d29bec5",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09799734299303964
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCc4cn(CCNC(C)=O)nn4)nc31)[C@H](O)[C@@H]2O",
+      "md5": "0741b8f931a4dd50f6f9b07146bec338",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07778382202377543
+    },
+    {
+      "smiles": "CNC(=O)[C@@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#Cc4ccc5ccc6cccc7ccc4c5c67)nc31)[C@H](O)[C@@H]2O",
+      "md5": "78e8b458b10b4df123b7eb04f29e73d5",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06178926400025375
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NC4CC4c4ccccc4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "96c6607f2e8b23fdb007e1863a96fdcf",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 27.289095393993193
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NC4CCCC4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "248874ee42a54ddbf09b5c70cadfad63",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 21.36717732899706
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NC4CCCC4)ncnc31)[C@H](O)[C@@H]2O",
+      "md5": "8a10e56c11914301fd3cc5d8d084a6cf",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 20.942085449001752
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCC(c4ccccc4)c4ccccc4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "d57e3296db566561ebf226ceaafc73aa",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 86.98803472498548
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cc(Cl)ccc4Cl)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "a526170a9054490f1c60cdd166f821f4",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 18.26953748802771
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cc(Cl)ccc4OCC(N)=O)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "a52a74679d9b4e46409ed2d2fa825583",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 28.678221658978146
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cc(Cl)ccc4OCc4ccccc4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "b932a34862c7383ad7d718922d29ca40",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 38.68450965301599
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cc(I)ccc4Cl)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "e0252ecaf77de7d40d8d412080fc8ad0",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 17.799747709010262
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cc(I)ccc4OC)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "fc6fd1c0fc4bbf51515d5c961ca56f4d",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 23.62130641800468
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cc(OC)ccc4OC)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "5027725f08d804fc0fbb7706c1387317",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 28.785678912012372
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Br)c4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "fbd08edc41ef7b340b2819f19254028d",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 20.989932716998737
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(C)c4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "7895475ba01c80d8a131f73a54b9b1b9",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 24.333603626000695
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCC(=O)NCCCCN)nc31)[C@H](O)[C@@H]2O",
+      "md5": "0b7e30380719ab43b2afac9021726948",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 61.34082513398607
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCC(=O)NCCCN)nc31)[C@H](O)[C@@H]2O",
+      "md5": "9278e4e53417aa146d82ce3d18e5ef65",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 56.97270742600085
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCC(=O)NCCN)nc31)[C@H](O)[C@@H]2O",
+      "md5": "9433a49f801b3088b382c9349fd24980",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 50.741123795975
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCC(=O)NCCNCCN)nc31)[C@H](O)[C@@H]2O",
+      "md5": "e9f810f112064b24e34838e748bb5a5a",
+      "first_status": -1,
+      "fallback_status": 0,
+      "success": true,
+      "elapsed_seconds": 25.75186942401342
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCC(=O)NCCN)nc31)[C@H](O)[C@@H]2O",
+      "md5": "f65cd2ad5bca4e344207e283c769f496",
+      "first_status": -1,
+      "fallback_status": 0,
+      "success": true,
+      "elapsed_seconds": 14.419348044990329
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(C#CCCCCC(=O)OC)nc31)[C@H](O)[C@@H]2O",
+      "md5": "619efd9018869167532e49b91b8400fb",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 48.451816357002826
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "04ef1d7779e0822173ba1e02c405ddd2",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 20.954721671005245
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(Cl)c4)nc(SC)nc31)[C@H](O)[C@@H]2O",
+      "md5": "02016594a9b87e353b6b953c523eb936",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 26.701084548025392
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(F)c4)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "2ba436862a0f1b119319486e151ddef1",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 20.538579190993914
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4cccc(I)c4)ncnc31)[C@H](O)[C@@H]2O",
+      "md5": "70b35c71c1f836e9d873b43e45d135e4",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 21.251115960010793
+    },
+    {
+      "smiles": "CNC(=O)[C@]12C[C@@H]1[C@@H](n1cnc3c(NCc4ccccc4C)nc(Cl)nc31)[C@H](O)[C@@H]2O",
+      "md5": "dd6f1ff0410ac57f9b65ec60c2f7572b",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 22.058812911011046
+    },
+    {
+      "smiles": "CN[C@@H]1[C@H](O[C@H]2[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](NC(=N)N)[C@@H](O)[C@@H]3N=C(N)N)O[C@@H](C)[C@]2(O)C=O)O[C@@H](CO)[C@H](O)[C@H]1O",
+      "md5": "5f2379cb508a8f8bab45c68b05ffc1d4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08135861399932764
+    },
+    {
+      "smiles": "CN[C@H](CC(C)C)C(=O)N[C@H]1C(=O)N[C@@H](CC(N)=O)C(=O)N[C@H]2C(=O)N[C@H]3C(=O)N[C@H](C(=O)N[C@H](C(=O)O)c4cc(O)cc(O)c4-c4cc3ccc4O)[C@H](O)c3ccc(c(Cl)c3)Oc3cc2cc(c3O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@H]2C[C@](C)(N)[C@H](O)[C@H](C)O2)Oc2ccc(cc2Cl)[C@H]1O",
+      "md5": "1423a22d9eee9780f917ef177847bd2a",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.5197602570115123
+    },
+    {
+      "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC(C)(C)CN(C)CCC(c2ccccc2)c2ccccc2)C1c1cccc([N+](=O)[O-])c1",
+      "md5": "1b3d944d076cc4b367d9cdb7f8b90e5b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07936458397307433
+    },
+    {
+      "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN2CCN(C(c3ccccc3)c3ccccc3)CC2)C1c1cccc([N+](=O)[O-])c1",
+      "md5": "54fb3d5e9dee664d885b97c103863e1b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06323344199336134
+    },
+    {
+      "smiles": "COC(=O)N[C@H](C(=O)N1CCC[C@H]1c1ncc(-c2ccc(-c3ccc(-c4cnc([C@@H]5CCCN5C(=O)[C@@H](NC(=O)OC)C(C)C)[nH]4)cc3)cc2)[nH]1)C(C)C",
+      "md5": "51dcd4d3ab6f990b7bfcd8ce3f14785a",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.20489735098090023
+    },
+    {
+      "smiles": "COC(=O)N[C@H](C(=O)N[C@@H](Cc1ccccc1)[C@@H](O)CN(Cc1ccc(-c2ccccn2)cc1)NC(=O)[C@@H](NC(=O)OC)C(C)(C)C)C(C)(C)C",
+      "md5": "cdf1551e47646f81746f53608b77efd3",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.15008515398949385
+    },
+    {
+      "smiles": "COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)/C=C/c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC",
+      "md5": "921cea66bf75db9669e1ecef80d38cdc",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11970927700167522
+    },
+    {
+      "smiles": "COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC",
+      "md5": "6c65ea39b7de2cb1cb758b646edacb9c",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07911560501088388
+    },
+    {
+      "smiles": "COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5ccccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC",
+      "md5": "0d7ae8311c4d85d1d75910e9ca02e4ec",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07431530000758357
+    },
+    {
+      "smiles": "COCCCOc1cc(C[C@@H](C[C@H](N)[C@@H](O)C[C@H](C(=O)NCC(C)(C)C(N)=O)C(C)C)C(C)C)ccc1OC",
+      "md5": "6393466ad1a5e4ea2560f2091097a129",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11320758200599812
+    },
+    {
+      "smiles": "COCCOc1ccc(N2CCN(C(=O)c3cnc4c(CNC(=O)c5nc(N)nc6c(F)cccc56)cccc4c3)CC2)cc1",
+      "md5": "818b094f49e0668b3d2a01239da93281",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06161759400856681
+    },
+    {
+      "smiles": "CO[C@@H]1[C@@H](OC(N)=O)[C@@H](O)[C@H](Oc2ccc3c(O)c(NC(=O)c4ccc(O)c(CC=C(C)C)c4)c(=O)oc3c2C)OC1(C)C",
+      "md5": "30af45cdbb0a3ecba5630af63224a708",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08050886599812657
+    },
+    {
+      "smiles": "CO[C@@H]1[C@@H](O[C@@H]2O[C@H](C)[C@@H](O[C@H]3C[C@@](C)(O)[C@@H](OC(=O)CC(C)C)[C@H](C)O3)[C@H](N(C)C)[C@H]2O)[C@@H](CC=O)C[C@@H](C)[C@@H](O)/C=C/C=C/C[C@@H](C)OC(=O)C[C@H]1OC(C)=O",
+      "md5": "f9996de60cb7f9c81a68383afe88718a",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.28705715099931695
+    },
+    {
+      "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C",
+      "md5": "491c303cfe51f38838a7f8b7937f832e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.4326849640056025
+    },
+    {
+      "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c5c(nc6cc(C)ccn65)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C",
+      "md5": "af18349915dca02cd7280a749283e383",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.17664023698307574
+    },
+    {
+      "smiles": "CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](O)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",
+      "md5": "8525cef3914974c79f7a3bb1f27cb50e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.7329321269935463
+    },
+    {
+      "smiles": "CO[C@H]1C[C@H](O[C@H]2[C@H](C)[C@@H](O[C@@H]3O[C@H](C)C[C@H](N(C)C)[C@H]3OC(C)=O)[C@@H](C)C[C@@]3(CO3)C(=O)[C@H](C)[C@@H](OC(C)=O)[C@@H](C)[C@@H](C)OC(=O)[C@@H]2C)O[C@@H](C)[C@@H]1OC(C)=O",
+      "md5": "c7710e5d3a23770245f1fd9bd98a4814",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.2446847659884952
+    },
+    {
+      "smiles": "COc1cc(C(=O)OCCCN2CCCN(CCCOC(=O)c3cc(OC)c(OC)c(OC)c3)CC2)cc(OC)c1OC",
+      "md5": "52174bf07126cbe9a3a4cc3017ba1982",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06833066698163748
+    },
+    {
+      "smiles": "COc1ccc(CC2c3cc(OC)c(OC)cc3CC[N+]2(C)CCC(=O)OCCCCCOC(=O)CC[N+]2(C)CCc3cc(OC)c(OC)cc3C2Cc2ccc(OC)c(OC)c2)cc1OC",
+      "md5": "71fea0e45e2d653558feaf620ef1f76e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.20817949299816974
+    },
+    {
+      "smiles": "COc1cccc2cc(C(=O)NCCCN3CCN(CCCNC(=O)c4cc5cccc(OC)c5oc4=N)CC3)c(=N)oc12",
+      "md5": "e2f2599c29b42eafaa594a567b5f00fc",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0690549889986869
+    },
+    {
+      "smiles": "COc1cccc2cc(C(=O)NCCCOCCCCOCCCNC(=O)c3cc4cccc(OC)c4oc3=N)c(=N)oc12",
+      "md5": "f1ceee81a0ab27e43fbd6af5b7c5c3e3",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06272044702200219
+    },
+    {
+      "smiles": "CSCC[C@H](NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)CCNC(=O)OC(C)(C)C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](Cc1ccccc1)C(N)=O",
+      "md5": "8cca2b20a2c21088cc64ed5f632b3bfa",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1344383719842881
+    },
+    {
+      "smiles": "C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2",
+      "md5": "bb97d3611bbb79b3772f975f9e207013",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.49125680900760926
+    },
+    {
+      "smiles": "C[C@@H]1O[C@@H](O[C@@H]2C=C3CC[C@@H]4[C@H](CC[C@]5(C)[C@@H](c6ccc(=O)oc6)CC[C@]45O)[C@@]3(C)CC2)[C@H](O)[C@H](O)[C@H]1O",
+      "md5": "cc99e486ef5da22c9c5505c5175cff83",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08786252298159525
+    },
+    {
+      "smiles": "C[C@@H]1[C@H](O)[C@@H](C)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)C[C@@H]2O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@H]1C)C[C@H](O)[C@H]2C(=O)O",
+      "md5": "2f3eb8c41f0752b0c4883d360a666908",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.2906215229886584
+    },
+    {
+      "smiles": "C[C@H](N)C(=O)NCC(=O)N[C@H]1CSSC[C@@H](C(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCCCN)NC1=O",
+      "md5": "073651d37f59d472317f452906589802",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.8654764169768896
+    },
+    {
+      "smiles": "C[C@H]1O[C@@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3[C@@H](O)C[C@H](O[C@H]4CC[C@@]5(C)[C@H](CC[C@@H]6[C@@H]5C[C@@H](O)[C@]5(C)[C@@H](C7=CC(=O)OC7)CC[C@]65O)C4)O[C@@H]3C)O[C@@H]2C)C[C@H](O)[C@@H]1O",
+      "md5": "2306152f2503daff1107a13a52f2c148",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.29482666999683715
+    },
+    {
+      "smiles": "C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@H]3[C@H](O)[C@@H](O)C(O)O[C@@H]3CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
+      "md5": "a1aa15c1ed433f2787c06c497235f0b4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.05877848400268704
+    },
+    {
+      "smiles": "C[C@]12CC[C@@H]3c4ccc(O)cc4C[C@@H](CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)[C@H]3[C@@H]1CC[C@@H]2O",
+      "md5": "a0e8f7d2b36e26c3f24e625509212a69",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.13506242600851692
+    },
+    {
+      "smiles": "Cc1cc(C)cc(-c2nc(NC3CC4CCC3C4)c3ncn([C@@H]4O[C@H](Cn5nc(C)cc5C)[C@@H](O)[C@H]4O)c3n2)c1",
+      "md5": "17a2987397d9d7584c3ed2c9a0bd44fd",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06444099202053621
+    },
+    {
+      "smiles": "Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O",
+      "md5": "14933492958c632e909151d645dbd61b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.11489644600078464
+    },
+    {
+      "smiles": "Cc1nnnn1[C@H]1C[C@@H](n2cnc3c(NCC(c4ccccc4)c4ccccc4)nc(NCCc4cn(C(C)C)cn4)nc32)[C@H](O)[C@@H]1O",
+      "md5": "79263da474cf67abe4217394ced6dcbe",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08340880900504999
+    },
+    {
+      "smiles": "Cn1c(=O)c2[nH]c([C@]34C[C@@H]5C[C@H](C[C@H]3C5)C4)nc2n(C)c1=O",
+      "md5": "e2f84a9ced6acbd6a9e443f5eeea2d46",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 4.6205844880023506
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)CCCc3cn(CCCCCCNC(=O)c4ccc(-c5c6ccc(=N)c(S(=O)(=O)O)c-6oc6c(S(=O)(=O)O)c(N)ccc56)c(C(=O)O)c4)nn3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "49d57ec212010704012a474c1879b871",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.15454485002555884
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCCCNC(=O)OC(C)(C)C)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "0f9bcecf7e21155742551a1b90d382b8",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.0600157709850464
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCCCNC(=S)Nc4ccc(-c5c6ccc(=O)cc-6oc6cc(O)ccc56)c(C(=O)O)c4)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "599a89b51134c744d13ef16df95a1321",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1069780369871296
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCCNC(=O)OC(C)(C)C)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "54db9a65521ab48d2dbdeafae80f642f",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.058841222984483466
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCCNC(=S)Nc4ccc(-c5c6ccc(=O)cc-6oc6cc(O)ccc56)c(C(=O)O)c4)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "84841b461136ee1fbc1dab98c2e32ba1",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.10601861300528981
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCNC(=S)Nc4ccc(-c5c6ccc(=O)cc-6oc6cc(O)ccc56)c(C(=O)O)c4)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "4b7a88cacf3c98073c23507d6d89bafb",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.12987258701468818
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCOCCOCCOCCCN)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "eeded7770b9c0e6ea51bbc3c9b4057d4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.04446192499017343
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCOCCOCCOCCCNC(=O)OC(C)(C)C)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "a34365662310d5286031c324e049a879",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.09163470598286949
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCCOCCOCCOCCCNC(=S)Nc4ccc(-c5c6ccc(=O)cc-6oc6cc(O)ccc56)c(C(=O)O)c4)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "87cb7401cbfb4d506db6aaee0fe5055e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.17669884700444527
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCOCCOCCNC(=O)OC(C)(C)C)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "ef793c28933dfa1c710b0de0a60693d9",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07145629299338907
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NC(=O)Nc3ccc(CC(=O)OCCOCCOCCNC(=S)Nc4ccc(-c5c6ccc(=O)cc-6oc6cc(O)ccc56)c(C(=O)O)c4)cc3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "b5b653b6c1161745e2687df56bd6dd84",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.14393910698709078
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCCCNC(=S)Nc3ccc(-c4c5ccc(=O)cc-5oc5cc(O)ccc45)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "99474ae5c9fde7fc227c504820ea4f06",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06859864000580274
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCCCNC(=S)Nc3ccc(C4c5ccc(O)cc5OC5=CC(=O)C=CC54)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "a24008357dd9614099b5e12c80e1fbb8",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08290702500380576
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCCNC(=S)Nc3ccc(-c4c5ccc(=O)cc-5oc5cc(O)ccc45)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "7c6f680fcf157921962071aa2f7894df",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06446316398796625
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCCNC(=S)Nc3ccc(C4c5ccc(O)cc5OC5=CC(=O)C=CC54)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "2d15c8c4c3fd774aadde4350ab007194",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07004256499931216
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCNC(=S)Nc3ccc(-c4c5ccc(=O)cc-5oc5cc(O)ccc45)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "d5b080e8a42c5913617b8cd9033982d1",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07342499599326402
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCNC(=S)Nc3ccc(C4c5ccc(O)cc5OC5=CC(=O)C=CC54)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "86f3b16b65ac2fd92896abae2880903e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.06457740801852196
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCOCCOCCCOCCOCCCNC(=S)Nc3ccc(C4c5ccc(O)cc5OC5=CC(=O)C=CC54)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "1e3658a551759c1f89eb1d4b43684c77",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.16573572301422246
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCOCCOCCOCCCNC(=O)OC(C)(C)C)n3nc(-c4ccco4)nc23)n1",
+      "md5": "559837907c29c85c952f609e7acfce48",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.054885594989173114
+    },
+    {
+      "smiles": "Cn1cc2c(nc(NCCCOCCOCCOCCCNC(=S)Nc3ccc(-c4c5ccc(=O)cc-5oc5cc(O)ccc45)c(C(=O)O)c3)n3nc(-c4ccco4)nc23)n1",
+      "md5": "5186214d4982bad7f88e47c0f9a3abbb",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.12399970399565063
+    },
+    {
+      "smiles": "N=c1ccc2c(-c3ccc(C(=O)NCCCCCCn4cc(CCCC(=O)Nc5nc6ccc(Cl)cc6c6nc(-c7ccco7)nn56)nn4)cc3C(=O)O)c3ccc(N)c(S(=O)(=O)O)c3oc-2c1S(=O)(=O)O",
+      "md5": "b34520860910ef11ae4473817a09e0d9",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1979757259832695
+    },
+    {
+      "smiles": "N=c1ccc2c(-c3ccc(C(=O)NCCCCNC(=O)COc4ccc(CCCn5ncc6c5nc(N)n5nc(-c7ccco7)nc65)cc4)cc3C(=O)O)c3ccc(N)c(S(=O)(=O)O)c3oc-2c1S(=O)(=O)O",
+      "md5": "46522205ad267e8df6a03f21363cf98b",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.15161348797846586
+    },
+    {
+      "smiles": "N=c1ccc2c(-c3ccc(C(=O)NCCNC(=O)COc4ccc(CCCn5ncc6c5nc(N)n5nc(-c7ccco7)nc65)cc4)cc3C(=O)O)c3ccc(N)c(S(=O)(=O)O)c3oc-2c1S(=O)(=O)O",
+      "md5": "a3745eae7a710418df232cccedeaf8a5",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1428917569865007
+    },
+    {
+      "smiles": "NCCCC[C@@H]1NC(=O)[C@@H](Cc2c[nH]c3ccccc23)NC(=O)[C@H](c2ccccc2)NC(=O)[C@@H]2C[C@@H](OC(=O)NCCN)CN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](Cc2ccc(OCc3ccccc3)cc2)NC1=O",
+      "md5": "6836932b1eda36645dbfa2a060c89f28",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.33939927199389786
+    },
+    {
+      "smiles": "NCCCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSC[C@H](NC(=O)CNC(=O)CNC(=O)CN)C(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O",
+      "md5": "15a302259274c10ab83cf9a2e10b324a",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.3693714909895789
+    },
+    {
+      "smiles": "NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O",
+      "md5": "4d2eebdd0fe1b657917fe531f5768ae4",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.08256400897516869
+    },
+    {
+      "smiles": "Nc1nc(-c2ccc(OCCCN3CCCCC3)cc2)c2c(n1)-c1ccc(OCCCN3CCCCC3)cc1C2",
+      "md5": "1b902c89b03366312082fbddbff8fca3",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07197858500876464
+    },
+    {
+      "smiles": "Nc1nc(-c2ccc(OCCCN3CCCCC3)cc2)c2c(n1)-c1ccc(OCCCN3CCCCC3)cc1C2=O",
+      "md5": "a20f360f8193f7f18d3d333228f2d80a",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.05207631201483309
+    },
+    {
+      "smiles": "Nc1nc2c(cnn2CCCc2ccc(OCC(=O)NCCCCNC(=O)CCCCCNC(=O)COc3ccc(/C=C/C4=[N+]5C(=Cc6ccc(-c7cccs7)n6[B-]5(F)F)C=C4)cc3)cc2)c2nc(-c3ccco3)nn12",
+      "md5": "2b7172d9a77cd1b764c13e3637fed42f",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.21109896199777722
+    },
+    {
+      "smiles": "Nc1nc2c(cnn2CCCc2ccc(OCC(=O)NCCNC(=O)CCCCc3cn(CCCCCCC(=O)CCOCCOCCOCCOCCNC(=O)CCCC[C@@H]4SC[C@@H]5NC(=O)N[C@@H]54)nn3)cc2)c2nc(-c3ccco3)nn12",
+      "md5": "3ccd0ebe039044139cefd2deb5f2bf1e",
+      "first_status": -1,
+      "fallback_status": 0,
+      "success": true,
+      "elapsed_seconds": 0.6583404460106976
+    },
+    {
+      "smiles": "Nc1nc2c(cnn2CCCc2ccc(OCC(=O)NCCNCCNC(=O)CCCCCNC(=O)COc3ccc(/C=C/C4=[N+]5C(=Cc6ccc(-c7ccc[nH]7)n6[B-]5(F)F)C=C4)cc3)cc2)c2nc(-c3ccco3)nn12",
+      "md5": "9f4be360456d705c406719a7228a76ed",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.1828348649723921
+    },
+    {
+      "smiles": "Nc1ncnc2c1ncn2[C@@]12C[C@H]1[C@H](CO)[C@@H](O)[C@H]2O",
+      "md5": "4ad2b067a4a9aec6c27bfa6dec871588",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 6.020000374002848
+    },
+    {
+      "smiles": "Nc1ncnc2c1ncn2[C@H]1[C@H](O)[C@H](O)[C@@]2(CO)C[C@H]12",
+      "md5": "f87305cbe8c7b3ed9dbf09d8ea559084",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 5.789460619009333
+    },
+    {
+      "smiles": "O=C(COc1ccc(Nc2nc(OCCc3c[nH]c4cc(Br)ccc34)nc3c2ncn3[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)cc1)Nc1ccccc1",
+      "md5": "6fec6b92d90e9331e65874f4e4267998",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.07096734398510307
+    },
+    {
+      "smiles": "O=C(NCCNC(=O)c1nc(NCC(c2ccccc2)c2ccccc2)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)c2n1)NC1CCN(c2ccccn2)CC1",
+      "md5": "6f969463196238e0b31d6bc1fd791a6e",
+      "first_status": 0,
+      "fallback_status": null,
+      "success": true,
+      "elapsed_seconds": 0.12006441398989409
+    },
+    {
+      "smiles": "O[C@@H]1[C@H](O)[C@@H]2C[C@@H]2[C@H]1n1cnc2c(N[C@@H]3C[C@H]4CC[C@H]3C4)nc(Cl)nc21",
+      "md5": "fa2ec1f2a6ff2376c15df36856d8705d",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 8.288140189019032
+    },
+    {
+      "smiles": "O[C@@H]1[C@H](O)[C@@H]2C[C@@H]2[C@H]1n1cnc2c(N[C@H]3C[C@H]4CC[C@H]3C4)nc(Cl)nc21",
+      "md5": "fc3dd661110bd9d9273505fe241b129f",
+      "first_status": -1,
+      "fallback_status": -1,
+      "success": false,
+      "elapsed_seconds": 8.044126455992227
+    }
+  ]
+}

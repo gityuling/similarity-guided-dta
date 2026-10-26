@@ -1,0 +1,11 @@
+{
+  "pubchem_1961683_description.json": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1961683/description/JSON",
+  "pubchem_1961683_data.csv": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1961683/CSV",
+  "chembl_adora2a_target.json": "https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL251.json",
+  "chembl_external_assay.json": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL5291726.json",
+  "uniprot_P29274.json": "https://rest.uniprot.org/uniprotkb/P29274.json",
+  "chembl_adora2a_ki_page0.json": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL251&standard_type=Ki&limit=1000&offset=0",
+  "spd_si_tables_release.xlsx": "https://zenodo.org/api/records/7378746/files/SI_tables_release.xlsx/content",
+  "spd_zenodo_record.json": "https://zenodo.org/api/records/7378746",
+  "spd_github_tree.json": "https://api.github.com/repos/Novartis/SPD/git/trees/main?recursive=1"
+}

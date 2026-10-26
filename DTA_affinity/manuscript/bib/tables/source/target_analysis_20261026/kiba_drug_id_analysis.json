@@ -1,0 +1,679 @@
+{
+  "protocol": "kiba_drug_id",
+  "seeds": [
+    20261012,
+    20261017,
+    20261018
+  ],
+  "complete_expected_seeds": true,
+  "pairs": 118254,
+  "targets": [
+    {
+      "protocol": "kiba_drug_id",
+      "minimum_identities": 0,
+      "control": "deep",
+      "targets": 229,
+      "improved": 211,
+      "worsened": 18,
+      "tied": 0,
+      "median_mse_difference": -0.06068852072002079,
+      "macro_mse_difference": -0.09298813616444651,
+      "macro_gate_mse": 0.4050827311054213,
+      "macro_control_mse": 0.49807086726986777,
+      "remaining_targets_after_best_decile": 206,
+      "remaining_pooled_mse_difference": -0.06685650738849731
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "minimum_identities": 0,
+      "control": "neighbor_prior",
+      "targets": 229,
+      "improved": 206,
+      "worsened": 23,
+      "tied": 0,
+      "median_mse_difference": -0.02075001295773482,
+      "macro_mse_difference": -0.04841670988153926,
+      "macro_gate_mse": 0.4050827311054213,
+      "macro_control_mse": 0.45349944098696054,
+      "remaining_targets_after_best_decile": 206,
+      "remaining_pooled_mse_difference": -0.02336107134673041
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "minimum_identities": 0,
+      "control": "fixed_blend",
+      "targets": 229,
+      "improved": 169,
+      "worsened": 60,
+      "tied": 0,
+      "median_mse_difference": -0.00208265279473277,
+      "macro_mse_difference": -0.006138109302076909,
+      "macro_gate_mse": 0.4050827311054213,
+      "macro_control_mse": 0.4112208404074981,
+      "remaining_targets_after_best_decile": 206,
+      "remaining_pooled_mse_difference": -0.0018096065746532532
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "minimum_identities": 20,
+      "control": "deep",
+      "targets": 215,
+      "improved": 201,
+      "worsened": 14,
+      "tied": 0,
+      "median_mse_difference": -0.06068852072002079,
+      "macro_mse_difference": -0.08854784240005353,
+      "macro_gate_mse": 0.38562215467041566,
+      "macro_control_mse": 0.47416999707046925,
+      "remaining_targets_after_best_decile": 193,
+      "remaining_pooled_mse_difference": -0.0652150343565236
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "minimum_identities": 20,
+      "control": "neighbor_prior",
+      "targets": 215,
+      "improved": 193,
+      "worsened": 22,
+      "tied": 0,
+      "median_mse_difference": -0.020433389283043737,
+      "macro_mse_difference": -0.04297787459805214,
+      "macro_gate_mse": 0.38562215467041566,
+      "macro_control_mse": 0.42860002926846785,
+      "remaining_targets_after_best_decile": 193,
+      "remaining_pooled_mse_difference": -0.02228535583352281
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "minimum_identities": 20,
+      "control": "fixed_blend",
+      "targets": 215,
+      "improved": 158,
+      "worsened": 57,
+      "tied": 0,
+      "median_mse_difference": -0.002041968832563773,
+      "macro_mse_difference": -0.0050250499867954745,
+      "macro_gate_mse": 0.38562215467041566,
+      "macro_control_mse": 0.39064720465721114,
+      "remaining_targets_after_best_decile": 193,
+      "remaining_pooled_mse_difference": -0.0016747240617386995
+    }
+  ],
+  "config_sha256": "6dda30402183869ad40bb5fd2c594a16667d9c4f86f63c41cb2a0a7d73ce1147",
+  "input_sha256": {
+    "results/predictions/kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv": "d9a5cb0a190d74c2980acbaeacd1e3f85a2c9733ba20206e65a824299d3cf177",
+    "results/kiba_dtiam_drugcold_f0_scratch_b64_lr1e4_e20_seed20261012_ablation.json": "78ffdacf824c6906b56bb7841246f0ce3a109fc155213c7982d77df5fed9c4f0",
+    "results/predictions/kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv": "1c3fd3b617f1760d9dfb97c4ee5ca842193438611df8ddf35666c7b82ad81e4f",
+    "results/kiba_dtiam_drugcold_f1_scratch_b64_lr1e4_e20_seed20261012_ablation.json": "a9863a9e7728c899992e0ad1f98e688ef1f9331c8ed5d3cf4e5e5f2ec5f830df",
+    "results/predictions/kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv": "0e71d07be030b5577820b0ad77e8755ff79743137c5b09829a14e912f5c14363",
+    "results/kiba_dtiam_drugcold_f2_scratch_b64_lr1e4_e20_seed20261012_ablation.json": "11ed82f5ffe29ef707069b4cff4bcd724512bf04e5089bee5bcb0a6ad6482334",
+    "results/predictions/kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv": "cdafb48fe19b2e7aa182b858e16db54f7e8a882e6abd7194716fc1cf1a131459",
+    "results/kiba_dtiam_drugcold_f3_scratch_b64_lr1e4_e20_seed20261012_ablation.json": "18347bcf5ba82c7fc7792b3011d935835e62ebbe070687b3e9f94395e81d8dc2",
+    "results/predictions/kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_ablation_predictions.csv": "52a511b044c39a3663dc2d52e086cbee9b08332bd1aac56b91500d30f4c357ed",
+    "results/kiba_dtiam_drugcold_f4_scratch_b64_lr1e4_e20_seed20261012_ablation.json": "3f046011da82a0953dd0c840b96af764b0080a5286cbec22cfafe1d28102b631",
+    "results/predictions/bib_kiba_drug_id_f0_seed20261017_ablation_predictions.csv": "86ea5a7ca3331435f4200b1164fead810fbc27398feaef5db1edb3be1d3cc479",
+    "results/bib_kiba_drug_id_f0_seed20261017_ablation.json": "f904e60272402894961ca27d40a7accf65b71227a0074350e748489e931df944",
+    "results/predictions/bib_kiba_drug_id_f1_seed20261017_ablation_predictions.csv": "0d5314c2fbbc878dc10d1974bc181b673b6dbe09faec18e087205f0c26abb6b9",
+    "results/bib_kiba_drug_id_f1_seed20261017_ablation.json": "e0ca92b869ee129a53993393250607df47fc2babe8fe46246de44259007950f6",
+    "results/predictions/bib_kiba_drug_id_f2_seed20261017_ablation_predictions.csv": "cd196b0d34d7a3cb30b54968e583e1ef8b0b8b57e6befbbf8051e10212236113",
+    "results/bib_kiba_drug_id_f2_seed20261017_ablation.json": "24f8c9faa6c3693ebaece5eb331737b4ac518469fcbc8a4ffccb4b6418cfc4b8",
+    "results/predictions/bib_kiba_drug_id_f3_seed20261017_ablation_predictions.csv": "5754b4694b69a6e0692f35f419bff3edab68da79fcdf86e1cb4fabafab312a31",
+    "results/bib_kiba_drug_id_f3_seed20261017_ablation.json": "d49c1b30e9b4d0705fb5d26b9a12306657f20b6ee4edff5f8379a75d51ab8d36",
+    "results/predictions/bib_kiba_drug_id_f4_seed20261017_ablation_predictions.csv": "bcaea468a29c26255d7ddec83273229baedbce2492452f1c03e6b46e8412a1d0",
+    "results/bib_kiba_drug_id_f4_seed20261017_ablation.json": "8f0bc4ae5114823361d41198f9c6b448b9fd159fa1e66918e1b4ca2d43463265",
+    "results/predictions/bib_kiba_drug_id_f0_seed20261018_ablation_predictions.csv": "4fa599a343b10e6234679ceae5c1189e0d4d2eee36c04c2862d30f38e16c9f64",
+    "results/bib_kiba_drug_id_f0_seed20261018_ablation.json": "8a265431916664e4e3d067b07be83fbb2a14600336f79d17b17d1ca234adfb52",
+    "results/predictions/bib_kiba_drug_id_f1_seed20261018_ablation_predictions.csv": "8cc45840af451481dcb813a4279910e5ede40b6c41ff07860f66f5b5179b1f8c",
+    "results/bib_kiba_drug_id_f1_seed20261018_ablation.json": "9342d44349e428e39fac879a75e8b60e68451e73a5e9dd94179e7b6ca6351711",
+    "results/predictions/bib_kiba_drug_id_f2_seed20261018_ablation_predictions.csv": "d43b3add8d6b237a9e2d24fd765630aed439234b563ae66ddb59acfc74a01c19",
+    "results/bib_kiba_drug_id_f2_seed20261018_ablation.json": "fcc7fa5355c508beb71ff86ba81553034a7511ad3f8bb9af396a1cb8e8c3953b",
+    "results/predictions/bib_kiba_drug_id_f3_seed20261018_ablation_predictions.csv": "40eb4c92b12b8b23c82d6eb6e088796be1d7689ed92c43a98f3c4d0109f6ffff",
+    "results/bib_kiba_drug_id_f3_seed20261018_ablation.json": "b2ee09ad86ba2d2a68b5a3184f8f727488b8402adaea79a9624c5b4019f1c206",
+    "results/predictions/bib_kiba_drug_id_f4_seed20261018_ablation_predictions.csv": "be95c48c471e04a3f0c1e7f51d795761d85a30a6ec684f3f734d25b112cdaf55",
+    "results/bib_kiba_drug_id_f4_seed20261018_ablation.json": "75d360c2e04025f66177f3cf68da7b4fdacecc1c6f2810528c0f59a6ba879174"
+  },
+  "aggregation": "Mean errors over seeds, then pooled rows for target/stratum metrics; not ensemble-prediction error.",
+  "all_fold_seed_metrics": [
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "deep",
+      "mse": 0.41115411957726844,
+      "pearson": 0.6641067988952264,
+      "mae": 0.3855631030833775
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "neighbor_prior",
+      "mse": 0.36978862004374263,
+      "pearson": 0.6994278386590844,
+      "mae": 0.3608059145667978
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "fixed_blend",
+      "mse": 0.3433836018428687,
+      "pearson": 0.7230986897794178,
+      "mae": 0.3454387684267768
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "similarity_gate",
+      "mse": 0.34177186575872737,
+      "pearson": 0.7246919910051742,
+      "mae": 0.34344395203770445
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "deep",
+      "mse": 0.358212666316149,
+      "pearson": 0.6878070172211886,
+      "mae": 0.3692152637736652
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "neighbor_prior",
+      "mse": 0.29204850076790745,
+      "pearson": 0.7414708986551518,
+      "mae": 0.3320830541162671
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "fixed_blend",
+      "mse": 0.27471040106468475,
+      "pearson": 0.7591606335097617,
+      "mae": 0.3199164655444307
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "similarity_gate",
+      "mse": 0.27450623568879856,
+      "pearson": 0.7594021714989334,
+      "mae": 0.3195760526358513
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "deep",
+      "mse": 0.37065769550509986,
+      "pearson": 0.7134711821055496,
+      "mae": 0.3727238372246116
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "neighbor_prior",
+      "mse": 0.3153469262730704,
+      "pearson": 0.7589387808885669,
+      "mae": 0.3366787804821067
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "fixed_blend",
+      "mse": 0.28782237748812267,
+      "pearson": 0.7785062875276424,
+      "mae": 0.3253462130917256
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "similarity_gate",
+      "mse": 0.28704735722952734,
+      "pearson": 0.779288879439146,
+      "mae": 0.3237547207110031
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "deep",
+      "mse": 0.32884302257781356,
+      "pearson": 0.7092511752654556,
+      "mae": 0.3503760425130183
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "neighbor_prior",
+      "mse": 0.29776398327359077,
+      "pearson": 0.7436731333701484,
+      "mae": 0.32049709475997906
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "fixed_blend",
+      "mse": 0.2677669804715702,
+      "pearson": 0.7649050745437458,
+      "mae": 0.3089897321298507
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "similarity_gate",
+      "mse": 0.2634881204020721,
+      "pearson": 0.769322889558615,
+      "mae": 0.3044742473818095
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "deep",
+      "mse": 0.4134011581410869,
+      "pearson": 0.689301002284669,
+      "mae": 0.39937747856661426
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "neighbor_prior",
+      "mse": 0.34813930985143154,
+      "pearson": 0.7396274052621329,
+      "mae": 0.3563295473919781
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "fixed_blend",
+      "mse": 0.33020801795157867,
+      "pearson": 0.7590775917112809,
+      "mae": 0.35116327515969503
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "similarity_gate",
+      "mse": 0.32534309331018535,
+      "pearson": 0.7631990747233443,
+      "mae": 0.3451192276247541
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "deep",
+      "mse": 0.41532446478751883,
+      "pearson": 0.6616687477047692,
+      "mae": 0.3888195226589548
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "neighbor_prior",
+      "mse": 0.36978862004374263,
+      "pearson": 0.6994278386590844,
+      "mae": 0.3608059145667978
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "fixed_blend",
+      "mse": 0.3431800060284625,
+      "pearson": 0.723275202036782,
+      "mae": 0.3451731080781883
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "similarity_gate",
+      "mse": 0.3415629737180983,
+      "pearson": 0.7248549485298008,
+      "mae": 0.3431439816078381
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "deep",
+      "mse": 0.34864264164269326,
+      "pearson": 0.6946275391958664,
+      "mae": 0.36563691412465443
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "neighbor_prior",
+      "mse": 0.29204850076790745,
+      "pearson": 0.7414708986551518,
+      "mae": 0.3320830541162671
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "fixed_blend",
+      "mse": 0.2722079553125255,
+      "pearson": 0.7621939919391714,
+      "mae": 0.31918199844768336
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "similarity_gate",
+      "mse": 0.27209536593855316,
+      "pearson": 0.7623220496532163,
+      "mae": 0.31903910207808395
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "deep",
+      "mse": 0.3707382155676019,
+      "pearson": 0.7132051409540684,
+      "mae": 0.36935113587290447
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "neighbor_prior",
+      "mse": 0.3153469262730704,
+      "pearson": 0.7589387808885669,
+      "mae": 0.3366787804821067
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "fixed_blend",
+      "mse": 0.28828740443765094,
+      "pearson": 0.7782041016388492,
+      "mae": 0.3253414364034538
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "similarity_gate",
+      "mse": 0.28774568939693207,
+      "pearson": 0.7787296020929515,
+      "mae": 0.32386665964729283
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "deep",
+      "mse": 0.33058165108518706,
+      "pearson": 0.7094183853524392,
+      "mae": 0.35234664471121363
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "neighbor_prior",
+      "mse": 0.29776398327359077,
+      "pearson": 0.7436731333701484,
+      "mae": 0.32049709475997906
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "fixed_blend",
+      "mse": 0.2680367368244119,
+      "pearson": 0.7650275184765426,
+      "mae": 0.30886870006957085
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "similarity_gate",
+      "mse": 0.2632561233885237,
+      "pearson": 0.7698496216372175,
+      "mae": 0.30393677788779944
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "deep",
+      "mse": 0.40252370824742956,
+      "pearson": 0.6991740995125685,
+      "mae": 0.3939727271175017
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "neighbor_prior",
+      "mse": 0.34813930985143154,
+      "pearson": 0.7396274052621329,
+      "mae": 0.3563295473919781
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "fixed_blend",
+      "mse": 0.3255961692486017,
+      "pearson": 0.7622075448256098,
+      "mae": 0.3490016360153264
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "similarity_gate",
+      "mse": 0.32145711305230884,
+      "pearson": 0.7656598725991042,
+      "mae": 0.34355605782184945
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "deep",
+      "mse": 0.4093980872417083,
+      "pearson": 0.663749447519845,
+      "mae": 0.38480265756181015
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "neighbor_prior",
+      "mse": 0.36978862004374263,
+      "pearson": 0.6994278386590844,
+      "mae": 0.3608059145667978
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "fixed_blend",
+      "mse": 0.34230251512384097,
+      "pearson": 0.7244760457387587,
+      "mae": 0.3457642904891557
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "similarity_gate",
+      "mse": 0.3405394292770953,
+      "pearson": 0.7261601447373722,
+      "mae": 0.3435151677779124
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "deep",
+      "mse": 0.3514416857684713,
+      "pearson": 0.6939741836688822,
+      "mae": 0.366000825611572
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "neighbor_prior",
+      "mse": 0.29204850076790745,
+      "pearson": 0.7414708986551518,
+      "mae": 0.3320830541162671
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "fixed_blend",
+      "mse": 0.2729955954933312,
+      "pearson": 0.761096296427784,
+      "mae": 0.3198418291702672
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "similarity_gate",
+      "mse": 0.2728603825348471,
+      "pearson": 0.7612540939003531,
+      "mae": 0.31963033549933256
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "deep",
+      "mse": 0.3708171853362015,
+      "pearson": 0.7114600475983949,
+      "mae": 0.3718270279118757
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "neighbor_prior",
+      "mse": 0.3153469262730704,
+      "pearson": 0.7589387808885669,
+      "mae": 0.3366787804821067
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "fixed_blend",
+      "mse": 0.28849144278131283,
+      "pearson": 0.7779153968053518,
+      "mae": 0.3261831135238978
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "similarity_gate",
+      "mse": 0.28763083099908326,
+      "pearson": 0.7787028414421884,
+      "mae": 0.32474480540420503
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "deep",
+      "mse": 0.33175172682489684,
+      "pearson": 0.7048931314805108,
+      "mae": 0.35155208075287203
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "neighbor_prior",
+      "mse": 0.29776398327359077,
+      "pearson": 0.7436731333701484,
+      "mae": 0.32049709475997906
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "fixed_blend",
+      "mse": 0.26868769832439837,
+      "pearson": 0.7640946483532974,
+      "mae": 0.3096078623104286
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "similarity_gate",
+      "mse": 0.26418673991201996,
+      "pearson": 0.7686685677797775,
+      "mae": 0.30475856038851956
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "deep",
+      "mse": 0.4039387784906582,
+      "pearson": 0.6992717987047321,
+      "mae": 0.3916553605032577
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "neighbor_prior",
+      "mse": 0.34813930985143154,
+      "pearson": 0.7396274052621329,
+      "mae": 0.3563295473919781
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "fixed_blend",
+      "mse": 0.3272433693636586,
+      "pearson": 0.7613472858249509,
+      "mae": 0.3489892757843504
+    },
+    {
+      "protocol": "kiba_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "similarity_gate",
+      "mse": 0.32395507279368113,
+      "pearson": 0.7641375708283833,
+      "mae": 0.3443454492582642
+    }
+  ],
+  "reference_audit_sha256": "f125daadc8fc9e027e2242b7439f722e40073e375ead2aa89e0e67d70e75fc43"
+}

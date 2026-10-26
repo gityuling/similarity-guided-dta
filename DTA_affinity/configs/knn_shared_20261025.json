@@ -1,0 +1,57 @@
+{
+  "experiment": "knn_shared_20261025",
+  "paper": "https://arxiv.org/html/2407.15202v1",
+  "comparison": "shared-backbone local implementations of the complete label and representation aggregation mechanisms",
+  "datasets": ["davis", "kiba"],
+  "folds": [0, 1, 2, 3, 4],
+  "seeds": [20261012, 20261017, 20261018],
+  "backbone": {
+    "features": "existing frozen Uni-Mol2 and ESM-2 token means",
+    "input_standardization": "training-pair weighted mean and population SD, separately per modality",
+    "entity_hidden": 256,
+    "latent_dim": 128,
+    "head_hidden": 256,
+    "dropout": 0.1,
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "epochs": 100,
+    "patience": 10,
+    "loss": "MSE on training-standardized labels",
+    "selection": "lowest validation MSE",
+    "gradient_clip": 1.0
+  },
+  "fixed": {
+    "k": [2, 4, 8, 16, 32, 64, 128],
+    "temperature": [10.0, 100.0, 1000.0, 10000.0, 100000.0],
+    "base_weight": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+    "search": "independent drug, protein, and label searches; combine the representation choices; then two coordinate passes over drug, protein, label using the same grids",
+    "coordinate_passes": 2,
+    "score_batch_size": 8192,
+    "distance": "negative squared L2; stable datastore order for ties"
+  },
+  "adaptive": {
+    "k": "effective k values selected for fixed aggregation on the same validation set",
+    "hidden_dim": 32,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 256,
+    "steps": 5000,
+    "evaluate_every": 250,
+    "selection": "lowest full-validation fitting MSE, including initialization",
+    "distance_scaling": "each modality divided by its validation-neighbor RMS distance, floored at 1e-6",
+    "initialization": "zero final weights; prior mass 0.5 on query or model and 0.5 uniformly on neighbors",
+    "head": "frozen, evaluation mode; gradients propagate through inputs",
+    "gradient_clip": 1.0
+  },
+  "sgf": {
+    "reference_pool": "experimental target ID",
+    "prior": "reuse the existing validation-selected Morgan predictions for each fold",
+    "gate": "validation-fit sigmoid(a+b*z); z uses validation sample SD; L2 slope penalty 0.001"
+  },
+  "metrics": ["MSE", "Pearson", "target-macro Spearman"],
+  "aggregation": "mean of three seeds within each fold; mean and sample SD over five folds",
+  "local_choices": ["shared backbone architecture and training", "squared L2 convention and stable ties", "coordinate search schedule", "adaptive optimizer, initialization, distance scaling, and checkpoint selection"],
+  "test_labels": "read only after fitting and parameter selection for a run"
+}

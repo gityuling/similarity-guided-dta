@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Local method comparison under fivefold drug-ID-cold evaluation. Values are means and sample SDs across folds after averaging three training seeds within each fold. SGF-DTA uses its full prediction backbone; the kNN methods use the vector backbone specified for the local implementations.}
+\label{tab:knn_overall}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{Davis} & \multicolumn{2}{c}{KIBA} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Method & MSE & Pearson & MSE & Pearson \\
+\midrule
+kNN-DTA & $0.63930 \pm 0.07263$ & $0.44726 \pm 0.08852$ & $0.32503 \pm 0.03138$ & $0.73487 \pm 0.01619$ \\
+Ada-kNN-DTA & $0.73688 \pm 0.09984$ & $0.35100 \pm 0.05759$ & $0.33422 \pm 0.03529$ & $0.72572 \pm 0.01930$ \\
+SGF-DTA & $0.58806 \pm 0.09455$ & $0.54413 \pm 0.09724$ & $0.29783 \pm 0.03331$ & $0.75975 \pm 0.02044$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,59 @@
+{
+  "selected_utc": "2026-10-26T07:01:05.535240+00:00",
+  "target": "ADRA2B",
+  "external_assay": 1961694,
+  "criteria": "Selected before generating any ADRA2B model predictions for a large systematic human direct-binding panel with more deposited actives than the preceding ADORA2A case and available public Ki references.",
+  "previous_cases": [
+    "nonkinase_screening_20261026",
+    "adora2a_screening_20261026"
+  ],
+  "primary_budget": 10,
+  "prediction_results_examined": false,
+  "prepared_data": {
+    "target": "P18089",
+    "target_family": "GPCR",
+    "source_activity_records": 1631,
+    "eligible_measurements": 314,
+    "training_compounds": 294,
+    "training_parent_groups": 272,
+    "documents": 67,
+    "assays": 69,
+    "pKi_range": [
+      4.070000019492821,
+      9.940058111938045
+    ],
+    "external_source_records": 1220,
+    "external_source_compounds": 1209,
+    "external_compounds": 1177,
+    "external_outcomes": {
+      "Inactive": 1017,
+      "Active": 160
+    },
+    "external_exclusion_reasons": {
+      "": 1177,
+      "repeated_parent": 37,
+      "structure": 6
+    },
+    "training_measurements_removed_for_external_overlap": 548,
+    "conformer_failure_compounds": 0,
+    "training_external_parent_overlap": 0,
+    "config_sha256": "bad6b22becd58ca42936e989a5e86c7f0be4822fb759b3354a7684d7e716ed3c"
+  },
+  "prefitting_sha256": {
+    "DTA_affinity/configs/adra2b_screening_20261026.json": "bad6b22becd58ca42936e989a5e86c7f0be4822fb759b3354a7684d7e716ed3c",
+    "DTA_affinity/reports/adra2b_screening_20261026/training_table.csv": "de2cad8578d839dee10e10ed661ea8bb9bb66043145ec90b3d568edea56738ab",
+    "DTA_affinity/reports/adra2b_screening_20261026/query_table.csv": "9ef7122a6fdd2f76c7e7f6901ee273a0c220efd497a0219c259911df2dc8b3fe",
+    "DTA_affinity/reports/adra2b_screening_20261026/partitions.csv": "d428f235c54b435656b205669acc1e13622ea8524d22045f5acfbcb46917f810",
+    "DTA_affinity/reports/adra2b_screening_20261026/labels.csv": "5d48b8837465cbd1bac0a25884e7d5e8f1556745b11e25012af25494f39e3f50",
+    "DTA_affinity/reports/adra2b_screening_20261026/preparation_inputs.json": "366e91c0d07149c90e159f1715ecdbf034b7df4447159a7ea6dcb1cafc8b05e8",
+    "DTA_affinity/data/processed/adra2b_screening_20261026/tokens/build_audit.json": "bed6f13a5fec7d1dd94d6837b7521a2ad05d93086b401490ce4ad4d181da7a30",
+    "DTA_affinity/data/processed/adra2b_screening_20261026/tokens/verified_reuse.json": "8b0e8bcb84de59b2dadab0aac24a157e6566f007a27daf459249dbe775d693cc"
+  },
+  "features": {
+    "available_drugs": 1471,
+    "copied_drugs": 1127,
+    "generated_drugs": 344,
+    "failed_drugs": 0,
+    "new_proteins": 1
+  }
+}

@@ -1,0 +1,7 @@
+dataset,method,backbone,mse_mean,mse_fold_sd,pearson_mean,pearson_fold_sd
+davis,SGF-DTA,SGF-DTA token-interaction backbone,0.5880586654960165,0.09454767768250298,0.5441327689014017,0.09724026425534356
+davis,kNN-DTA,shared vector backbone; local aggregation implementation,0.6392956514781735,0.0726291697101508,0.4472618248278698,0.0885186814826052
+davis,Ada-kNN-DTA,shared vector backbone; local aggregation implementation,0.7368782212096365,0.0998429348517253,0.3510020139271559,0.0575894400985436
+kiba,SGF-DTA,SGF-DTA token-interaction backbone,0.29782975956003027,0.03330564842449089,0.7597496212950383,0.020442606138716318
+kiba,kNN-DTA,shared vector backbone; local aggregation implementation,0.3250291519434022,0.0313843157611992,0.7348681491079906,0.0161893858890061
+kiba,Ada-kNN-DTA,shared vector backbone; local aggregation implementation,0.3342209965578351,0.0352944990190967,0.7257217361054399,0.0192978937405635

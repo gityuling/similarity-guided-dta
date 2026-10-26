@@ -1,0 +1,62 @@
+{
+  "case": "ADORA2A_AID1961683",
+  "target": "P29274",
+  "family": "GPCR",
+  "training_source": "ChEMBL CHEMBL251 exact Ki, human binding assays with confidence 9, literature source and no annotated variant",
+  "label": "pKi = 9 - log10(Ki in nM)",
+  "external_assay": 1961683,
+  "primary_budget": 10,
+  "secondary_budgets": [
+    5,
+    20
+  ],
+  "controls": [
+    "deep",
+    "neighbor_prior",
+    "equal_blend",
+    "fixed_blend",
+    "similarity_gate",
+    "pure_similarity"
+  ],
+  "training_seed": 20261012,
+  "validation_folds": 5,
+  "partition_seed": 0,
+  "external_aggregation": "unweighted mean of five validation-fold models",
+  "architecture": "existing full SGF-DTA affinity network; frozen Uni-Mol2 and ESM-2 features; freshly trained affinity head and interaction branch",
+  "latent_dim": 512,
+  "pool_fusion": true,
+  "hybrid": true,
+  "drug_attention": false,
+  "pocket_fusion": false,
+  "dropout": 0.1,
+  "k_ratio": 0.15,
+  "batch_size": 64,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "epochs": 20,
+  "patience": 5,
+  "neighbor_k": [
+    1,
+    3,
+    5,
+    10,
+    20,
+    40
+  ],
+  "neighbor_gamma": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "gate_slope_penalty": 0.001,
+  "failed_standard_conformer_smiles": [],
+  "feature_exclusion": "Standard encoder capacity and conformer feasibility checked before affinity fitting.",
+  "selection_basis": "Chosen after the ESR1 exploratory case because of a larger systematically measured candidate panel, a direct binding endpoint, a confirmed human GPCR and public Ki reference coverage. No ADORA2A predictions or model performance examined when choosing the target.",
+  "scope": "Second exploratory non-kinase screening case; retrospective parent-disjoint evaluation. ESR1 is retained as the first attempted case.",
+  "external_document": "CHEMBL5291721",
+  "external_activity_cutoff_nM": 10000,
+  "external_endpoint": "AC50 from direct ADORA2A binding in the Secondary Pharmacology Database; concentration threshold 10 micromolar",
+  "candidate_policy": "Exclude missing/invalid structures, unsupported encoder size and all repeated standardized parent groups, without using activity to choose representatives. Assign Active for exact AC50 <= 10000 nM, Inactive for exact AC50 > 10000 nM or a strict lower bound >= 10000 nM; exclude threshold-ambiguous bounds.",
+  "target_mapping": "Original author Zenodo 7378746 SI_tables_release.xlsx Table S2 row 8 identifies assay 3177 as human ADORA2A binding. ChEMBL5291726 has confidence 8 (homologous) despite its human description; original experimental annotation establishes the species."
+}

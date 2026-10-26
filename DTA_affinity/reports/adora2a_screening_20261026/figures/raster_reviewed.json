@@ -1,0 +1,11 @@
+{
+  "source": "DTA_affinity/reports/adora2a_screening_20261026/figures/adora2a_screening.png",
+  "n_boxes": 341,
+  "ok": true,
+  "collisions": [],
+  "notes": [
+    "PNG 2160x840, ink_fraction=0.064, components_kept=341/411, max_component_area=2721.",
+    "PNG mode is heuristic (label-sized components + bbox IoU).",
+    "Prefer artist mode inside the plotting script when possible."
+  ]
+}

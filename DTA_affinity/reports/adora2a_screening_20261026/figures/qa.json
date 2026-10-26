@@ -1,0 +1,52 @@
+{
+  "artist_check": "passed including ticks",
+  "contract": "Primary: Top-10 active retrieval for SGF and its neural baseline. Supporting: average precision over the entire fixed external panel.",
+  "legend": "Direct method labels; dotted reference lines explained in the footer.",
+  "source_sha256": {
+    "summary.csv": "0fa581799cc74af7f8a1e3a0165d67fb2a4500c132b9242a93e169b5fc5aaace",
+    "analysis.json": "45a1b97d9478989112fd841ba544f3ce7fb0b9339992cec1e6876c42bc66fc0a",
+    "predictions.csv": "93f8cbd60bcc2c1bc718686a4ff9f92da61cedb7eb9186f2b98522f25e56f5be",
+    "fold_predictions.csv": "c5f204030346c900e06761ad5f935a94f5e2217935d069a2cc45cb9061cdc8af",
+    "labels.csv": "293ce167b2a23f5d8f9ff68126ade0571ddb7f371037ff22cc1a73e74d0627e4",
+    "budget_curves.csv": "8c5c5793b1214234d2a440430cf9a8298e652f7053232ec2837594dec528bdf2",
+    "fold_metrics.csv": "30db999bc95d9d0b837dd2dd57c74593494a27beeb24ce7105538b2044271e42",
+    "preparation.json": "9dfde876ebe7a3cda0255d7bef20b50b4af757c4edfa5d9c7cfac4be6e1424e7",
+    "candidate_scores.csv": "d60f6d261c914a5c6f01e09734f45d5eccdb010e27a5de31f3042f255276e453"
+  },
+  "script_sha256": "00b5071d4c9110c10fe574f6444cf281f85589916e8436b27067154aa771eade",
+  "raster_raw": {
+    "source": "DTA_affinity/reports/adora2a_screening_20261026/figures/adora2a_screening.png",
+    "n_boxes": 341,
+    "ok": false,
+    "collisions": [
+      {
+        "a": "cc44:a192",
+        "b": "cc47:a247",
+        "area": 132.0,
+        "iou": 0.13524590163934427,
+        "kind": "png-component"
+      }
+    ],
+    "notes": [
+      "PNG 2160x840, ink_fraction=0.064, components_kept=341/411, max_component_area=2721.",
+      "PNG mode is heuristic (label-sized components + bbox IoU).",
+      "Prefer artist mode inside the plotting script when possible."
+    ]
+  },
+  "raster_reviewed": {
+    "source": "DTA_affinity/reports/adora2a_screening_20261026/figures/adora2a_screening.png",
+    "n_boxes": 341,
+    "ok": true,
+    "collisions": [],
+    "notes": [
+      "PNG 2160x840, ink_fraction=0.064, components_kept=341/411, max_component_area=2721.",
+      "PNG mode is heuristic (label-sized components + bbox IoU).",
+      "Prefer artist mode inside the plotting script when possible."
+    ]
+  },
+  "pixel_review": "Passed. The sole raw bounding-box collision is normal T/o kerning in the panel-a title; overlay inspection shows no overlapping ink or separate labels. The sensitivity check at IoU 0.18 is clean.",
+  "exports": {
+    "adora2a_screening.svg": "6ade39b2586536f7c2b0dd48fb592340b394cd1d0dbb7d792aa7ad98585cdd87",
+    "adora2a_screening.png": "8a0c63b074c3bf3053a45de993f0899d2904539391f390b8343613482a2f00c4"
+  }
+}

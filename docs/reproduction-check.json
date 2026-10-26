@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "file_checksums",
+      "files": 6115,
+      "groups": [
+        "affinity-checkpoints",
+        "case-study-models",
+        "davis-features",
+        "external-features",
+        "kiba-features",
+        "repository",
+        "reproduction-data",
+        "shared-backbone-models"
+      ]
+    },
+    {
+      "check": "partition_coverage_and_support",
+      "folds": 20
+    },
+    {
+      "check": "benchmark_predictions",
+      "new_fold_results": 45,
+      "reference_folds": 10,
+      "results": {
+        "davis_reference_gate_mse": 0.5884336549475269,
+        "kiba_reference_gate_mse": 0.29843133447786213,
+        "davis_three_seed_gate_mse": 0.5880586654960165,
+        "kiba_three_seed_gate_mse": 0.29782975956003027,
+        "kiba_scaffold_gate_mse": 0.3672079840597897
+      }
+    },
+    {
+      "check": "nanobret_rankings",
+      "pairs": 1167,
+      "metric_rows": 80,
+      "bootstrap_intervals_recomputed": true
+    },
+    {
+      "check": "abl1_screen",
+      "candidates": 80,
+      "budget_rows": 960,
+      "top10": [
+        {
+          "label_rule": "outcome",
+          "model": "deep",
+          "confirmed_hits": 5,
+          "unknown_selected": 0
+        },
+        {
+          "label_rule": "outcome",
+          "model": "similarity_gate",
+          "confirmed_hits": 8,
+          "unknown_selected": 0
+        },
+        {
+          "label_rule": "strict_outcome",
+          "model": "deep",
+          "confirmed_hits": 5,
+          "unknown_selected": 0
+        },
+        {
+          "label_rule": "strict_outcome",
+          "model": "similarity_gate",
+          "confirmed_hits": 5,
+          "unknown_selected": 3
+        }
+      ]
+    },
+    {
+      "check": "shared_backbone",
+      "runs": 30,
+      "methods": [
+        "ada_knn_dta",
+        "base",
+        "knn_dta",
+        "neighbor",
+        "sgf"
+      ]
+    },
+    {
+      "check": "adra2b",
+      "training_compounds": 294,
+      "candidate_compounds": 1177,
+      "top10_active": 3
+    },
+    {
+      "check": "target_wise_errors",
+      "comparisons": 24,
+      "improved": {
+        "davis_drug_id": 331,
+        "kiba_drug_id": 211,
+        "kiba_identity": 210,
+        "kiba_scaffold": 212
+      }
+    }
+  ],
+  "scope": "CPU recalculation from saved predictions; no model retraining."
+}

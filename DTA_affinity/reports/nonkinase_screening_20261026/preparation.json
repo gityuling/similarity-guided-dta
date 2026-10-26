@@ -1,0 +1,24 @@
+{
+  "target": "P03372",
+  "target_family": "nuclear receptor",
+  "source_activity_records": 1739,
+  "eligible_measurements": 380,
+  "training_compounds": 360,
+  "training_parent_groups": 345,
+  "documents": 43,
+  "assays": 45,
+  "pKi_range": [
+    4.42021640338319,
+    10.154901959985743
+  ],
+  "external_source_compounds": 63,
+  "external_compounds": 63,
+  "external_outcomes": {
+    "Inactive": 46,
+    "Active": 17
+  },
+  "training_measurements_removed_for_external_overlap": 3,
+  "conformer_failure_compounds": 1,
+  "training_external_parent_overlap": 0,
+  "config_sha256": "4200fb8c0b2f57bc209b44edf949aa6fd3612704670cde8c91716c402002d899"
+}

@@ -1,0 +1,11 @@
+{
+  "reviewed_utc": "2026-10-26T07:10:38.293721+00:00",
+  "artist_check": "passed including ticks",
+  "pixel_review": "passed",
+  "heuristic_flag": "Single bounding-box overlap between T and o in the Top-10 title; normal font kerning, no overlapping ink or separate labels. Full-size image and overlay visually reviewed.",
+  "files": {
+    "adra2b_screening.png": "8467cbf9b41a1e5a63a30620e07c467134cb4ecd2397b88082441e136774c6dc",
+    "adra2b_screening.svg": "6754ff23349d19e9f0f83291e03e5b810194198ba5f1d015333e50f36d3caf09",
+    "overlap_review.png": "bb519e22275f9379c4087950ff0fc0785f30b755664e74eeff2f72b61600ee75"
+  }
+}

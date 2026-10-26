@@ -1,0 +1,7 @@
+{
+  "sources": {
+    "reports/davis_target_id_20261025/progress_summary.json": "296860906c7285ddf5892403851d324b23430ede80636a2bdfc69d169db91a3b",
+    "reports/knn_shared_20261025/summary.csv": "26729e8e47316b73dc78ae41207150d8f4158920cde37fc36c822c57dd5612bf"
+  },
+  "scope": "overall local implementations plus matched-backbone mechanism comparison"
+}

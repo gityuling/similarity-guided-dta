@@ -1,0 +1,71 @@
+{
+  "case": "ADRA2B_AID1961694",
+  "metrics": [
+    {
+      "model": "deep",
+      "n": 1177,
+      "actives": 160,
+      "top10_hits": 2,
+      "top10_hit_rate": 0.2,
+      "top10_enrichment": 1.47125,
+      "average_precision": 0.17689446676710202,
+      "roc_auc": 0.5827372173058014
+    },
+    {
+      "model": "neighbor_prior",
+      "n": 1177,
+      "actives": 160,
+      "top10_hits": 3,
+      "top10_hit_rate": 0.3,
+      "top10_enrichment": 2.2068749999999997,
+      "average_precision": 0.1733477446243298,
+      "roc_auc": 0.5944567354965585
+    },
+    {
+      "model": "equal_blend",
+      "n": 1177,
+      "actives": 160,
+      "top10_hits": 3,
+      "top10_hit_rate": 0.3,
+      "top10_enrichment": 2.2068749999999997,
+      "average_precision": 0.1861844024468603,
+      "roc_auc": 0.6024151917404129
+    },
+    {
+      "model": "fixed_blend",
+      "n": 1177,
+      "actives": 160,
+      "top10_hits": 3,
+      "top10_hit_rate": 0.3,
+      "top10_enrichment": 2.2068749999999997,
+      "average_precision": 0.18228590885038432,
+      "roc_auc": 0.5953416912487709
+    },
+    {
+      "model": "similarity_gate",
+      "n": 1177,
+      "actives": 160,
+      "top10_hits": 3,
+      "top10_hit_rate": 0.3,
+      "top10_enrichment": 2.2068749999999997,
+      "average_precision": 0.18330763383312218,
+      "roc_auc": 0.5922443461160276
+    },
+    {
+      "model": "pure_similarity",
+      "n": 1177,
+      "actives": 160,
+      "top10_hits": 8,
+      "top10_hit_rate": 0.8,
+      "top10_enrichment": 5.885,
+      "average_precision": 0.37686022180569323,
+      "roc_auc": 0.7873187069813177
+    }
+  ],
+  "random_top10_expected_hits": 1.3593882752761257,
+  "endpoint": "AC50 <= 10 micromolar vs measured values or lower bounds above 10 micromolar in direct ADRA2B binding",
+  "prediction_selection": "parameters frozen on ChEMBL validation compounds; no PubChem outcomes used",
+  "primary_budget": 10,
+  "prediction_sha256": "2dbf4f2498862c0f5e123a8e435de8313891e83b920ec55d5c1764a32c8a7a0b",
+  "labels_sha256": "5d48b8837465cbd1bac0a25884e7d5e8f1556745b11e25012af25494f39e3f50"
+}

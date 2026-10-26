@@ -1,0 +1,51 @@
+{
+  "experiment": "knn_comparison_20261025",
+  "paper": "https://arxiv.org/html/2407.15202v1",
+  "datasets": ["davis", "kiba"],
+  "folds": [0, 1, 2, 3, 4],
+  "training_seeds": [20261012, 20261017, 20261018],
+  "protocol": "existing five-fold drug-ID-cold manifests; identical row IDs and native labels",
+  "sgf_analysis": "reports/davis_target_id_20261025/analysis.json",
+  "sgf_amendment": "reports/davis_target_id_20261025/amendment.json",
+  "stage_1": {
+    "name": "complete_method_comparison",
+    "methods": ["SGF-DTA", "kNN-DTA", "Ada-kNN-DTA"],
+    "backbones": "each method retains its own published backbone",
+    "required_external_assets": ["original molecule MLM checkpoint", "original protein MLM checkpoint", "matching token dictionaries", "verified backbone implementation"],
+    "external_backbone_status": "awaiting_verified_assets"
+  },
+  "stage_2": {
+    "name": "matched_backbone_comparison",
+    "backbone": "same fold-specific kNN-DTA backbone checkpoints as stage 1",
+    "methods": ["base", "base+kNN-DTA", "base+Ada-kNN-DTA", "base+SGF"],
+    "retrain_backbone": false
+  },
+  "selection": {
+    "data_store": "training rows only",
+    "parameter_selection": "validation rows only",
+    "test_access": "score predictions after parameters are selected",
+    "smoke_run": "davis fold 0 seed 20261012; tests correctness and timing, not method selection"
+  },
+  "published_knn_parameters": {
+    "k": [2, 4, 8, 16, 32, 64, 128],
+    "temperature": [10.0, 100.0, 1000.0, 10000.0, 100000.0],
+    "base_weight": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+    "adaptive_hidden_dim": 32,
+    "adaptive_max_steps": 5000
+  },
+  "reference_implementation": {
+    "status": "equation-level local implementation; not official code",
+    "distance": "negative squared Euclidean distance (FAISS L2 convention)",
+    "tie_order": "stable datastore order",
+    "small_datastore": "cap k at available unique entities or pairs and record effective k",
+    "representation_entities": "unique molecular input and unique protein input; preserve experimental target IDs in labels",
+    "adaptive_optimizer_and_stopping": "unresolved; pin before any benchmark training",
+    "fixed_joint_search_schedule": "unresolved; pin before any benchmark training"
+  },
+  "metrics": {
+    "primary": "MSE",
+    "secondary": ["Pearson", "target-macro Spearman"],
+    "aggregation": "average seeds within each fold, then report the mean and sample SD over five folds",
+    "paired_differences": "same-fold, same-seed comparisons; seeds are not independent dataset replicates"
+  }
+}

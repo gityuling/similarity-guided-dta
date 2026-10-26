@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "config": "a81c36c69edecfad6e352a5db6ea41c8f8055ecaa3259a1a7bd956d9dbcb49c5",
+    "runner": "c1cdd90cd56196f7d77129eb60fdce99ea9923cdb6a069796f7aa5ecc66e7dfc",
+    "core": "21551944b686c4b6d5c66f00c8291803aaecc164baf4c8e71a6ddbbda9ed2268",
+    "prepared": "9f25f50b37e063b8ef31c903afe6e3c33c0b91b81f1b2d0318ce65d2450ec2e7",
+    "dataset": "kiba",
+    "fold": 4,
+    "seed": 20261012
+  },
+  "fixed": {
+    "label": {
+      "k": 32,
+      "temperature": 10.0,
+      "base_weight": 0.1
+    },
+    "drug": {
+      "k": 16,
+      "temperature": 100.0,
+      "base_weight": 0.1
+    },
+    "protein": {
+      "k": 128,
+      "temperature": 100000.0,
+      "base_weight": 0.7
+    }
+  },
+  "adaptive": {
+    "ks": [
+      32,
+      16,
+      128
+    ],
+    "best_step": 5000,
+    "validation_mse": 0.2675256133079529,
+    "distance_scale": [
+      48.621917724609375,
+      36.47458267211914,
+      266.01617431640625
+    ],
+    "history": [
+      {
+        "step": 0,
+        "validation_mse": 0.3230092525482178
+      },
+      {
+        "step": 250,
+        "validation_mse": 0.2893241047859192
+      },
+      {
+        "step": 500,
+        "validation_mse": 0.28703805804252625
+      },
+      {
+        "step": 750,
+        "validation_mse": 0.2835058867931366
+      },
+      {
+        "step": 1000,
+        "validation_mse": 0.28149643540382385
+      },
+      {
+        "step": 1250,
+        "validation_mse": 0.28028222918510437
+      },
+      {
+        "step": 1500,
+        "validation_mse": 0.2778874337673187
+      },
+      {
+        "step": 1750,
+        "validation_mse": 0.2771788537502289
+      },
+      {
+        "step": 2000,
+        "validation_mse": 0.2764010429382324
+      },
+      {
+        "step": 2250,
+        "validation_mse": 0.2752847373485565
+      },
+      {
+        "step": 2500,
+        "validation_mse": 0.27452585101127625
+      },
+      {
+        "step": 2750,
+        "validation_mse": 0.27696534991264343
+      },
+      {
+        "step": 3000,
+        "validation_mse": 0.272724449634552
+      },
+      {
+        "step": 3250,
+        "validation_mse": 0.2717331647872925
+      },
+      {
+        "step": 3500,
+        "validation_mse": 0.2707725167274475
+      },
+      {
+        "step": 3750,
+        "validation_mse": 0.27057209610939026
+      },
+      {
+        "step": 4000,
+        "validation_mse": 0.27029985189437866
+      },
+      {
+        "step": 4250,
+        "validation_mse": 0.2688048481941223
+      },
+      {
+        "step": 4500,
+        "validation_mse": 0.2687211334705353
+      },
+      {
+        "step": 4750,
+        "validation_mse": 0.26773059368133545
+      },
+      {
+        "step": 5000,
+        "validation_mse": 0.2675256133079529
+      }
+    ]
+  },
+  "gate": {
+    "a": -0.9114216887692402,
+    "b": -0.7426805107803819,
+    "mean": 0.6010891784522799,
+    "std": 0.21241156875590547
+  },
+  "prior_sha256": "8efb8a0e8465667aaf963ad11e07fc2dbbd1950d591757545c560b7f4fd6c1d2"
+}

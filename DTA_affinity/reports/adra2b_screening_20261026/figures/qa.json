@@ -1,0 +1,17 @@
+{
+  "artist_check": "passed including ticks",
+  "contract": "Primary: Top-10 active retrieval across all six prespecified methods. Supporting: average precision over the entire fixed external panel.",
+  "legend": "Direct method labels; dotted reference lines explained in the footer.",
+  "source_sha256": {
+    "summary.csv": "6405b779214802ed5beeedea4f6056e1aa5f987c3084a7c5bb83f2c4a78922fd",
+    "analysis.json": "794b522874a9bce131ebce6a080e564087ab46861c864cc9f119e26ca56a2fd7",
+    "predictions.csv": "2dbf4f2498862c0f5e123a8e435de8313891e83b920ec55d5c1764a32c8a7a0b",
+    "fold_predictions.csv": "c03c23dc55091e83fff0411bb83d4d06548d1e01eff7ac502f75b92a2f6ebb57",
+    "labels.csv": "5d48b8837465cbd1bac0a25884e7d5e8f1556745b11e25012af25494f39e3f50",
+    "budget_curves.csv": "f48e4ceac5ac93d27b850b39558a415bd5e7869ddf37844d77da1451021cc2bd",
+    "fold_metrics.csv": "ccfa046cc92600fd1c03e5fed8cb1a67eb170cd4eb423628bd3158c0b2ef99e5",
+    "preparation.json": "3f893956efe74bf9f5481a742da2826441d351ac232e18eb04170f68ea4349df",
+    "candidate_scores.csv": "cc85aacef8a2efd1ecbe0b59a99616d98b7cfade1a79d497bfe5205eab380785"
+  },
+  "script_sha256": "0047094985c84170c6b3213da82ceac61b1e95120badeee7b88b990ac9e4c74d"
+}

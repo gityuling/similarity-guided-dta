@@ -1,0 +1,452 @@
+{
+  "case": "ADRA2B_AID1961694",
+  "created_utc": "2026-10-26T07:10:38.430301+00:00",
+  "scope": "Sources, configurations, scripts, reports, all five checkpoints and feature provenance. Token matrices remain in the local feature cache.",
+  "files": [
+    {
+      "path": "configs/adra2b_screening_20261026.json",
+      "bytes": 2303,
+      "sha256": "bad6b22becd58ca42936e989a5e86c7f0be4822fb759b3354a7684d7e716ed3c"
+    },
+    {
+      "path": "data/processed/adra2b_screening_20261026/tokens/build_audit.json",
+      "bytes": 1991,
+      "sha256": "bed6f13a5fec7d1dd94d6837b7521a2ad05d93086b401490ce4ad4d181da7a30"
+    },
+    {
+      "path": "data/processed/adra2b_screening_20261026/tokens/verified_reuse.json",
+      "bytes": 433805,
+      "sha256": "8b0e8bcb84de59b2dadab0aac24a157e6566f007a27daf459249dbe775d693cc"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/README.md",
+      "bytes": 5656,
+      "sha256": "5edbae279af0ce1ba051bc43e2c09c3a677ba1229046fa2650c48ad31d5fc241"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/analysis.json",
+      "bytes": 2092,
+      "sha256": "794b522874a9bce131ebce6a080e564087ab46861c864cc9f119e26ca56a2fd7"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/budget_curves.csv",
+      "bytes": 456989,
+      "sha256": "f48e4ceac5ac93d27b850b39558a415bd5e7869ddf37844d77da1451021cc2bd"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/candidate_audit.csv",
+      "bytes": 225236,
+      "sha256": "1d9f5a006f5e50932ab49a0d75f6949c4547d9682abc5daac51e3b1546f98072"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/candidate_scores.csv",
+      "bytes": 293416,
+      "sha256": "cc85aacef8a2efd1ecbe0b59a99616d98b7cfade1a79d497bfe5205eab380785"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/case_history.json",
+      "bytes": 6351,
+      "sha256": "c7bf0b4536dd49a89b95e0e475eb03b0bd93b72c133551b8d7dd988f8155f1d7"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/drug_names_by_parent.json",
+      "bytes": 87704,
+      "sha256": "dddcf2a5167e31e8e9a50e6edcb6b9a7d2bf9ca2328fbe076eb7d347ab269ea4"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/drug_names_from_author_table.json",
+      "bytes": 436013,
+      "sha256": "dc6f4379ea9a17c0c296a99a071b83d8349a46209bd2a0aaf4d6092b2dfe854d"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/feature_reuse.log",
+      "bytes": 79,
+      "sha256": "3684a522df6fde5d93bfb3a8973c7b8908571a98f208be8310668745cdd5991c"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/feature_table.csv",
+      "bytes": 774773,
+      "sha256": "beac7273acf5dda9ab8326fee7ccc70b3d528a258f99b83d07aabf2de5fec9e1"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/features.log",
+      "bytes": 13576,
+      "sha256": "14c1fdcc8c6e8d2177b5a467e0571ddc49515335ea0497680143b6dbb2966b1f"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/fetch.log",
+      "bytes": 323,
+      "sha256": "9001f650e0a9dfa6c2bd26109b4da8a8b52dbbd504cb0959bad289007a7ff4a9"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/figures/adra2b_screening.png",
+      "bytes": 144759,
+      "sha256": "8467cbf9b41a1e5a63a30620e07c467134cb4ecd2397b88082441e136774c6dc"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/figures/adra2b_screening.svg",
+      "bytes": 14539,
+      "sha256": "6754ff23349d19e9f0f83291e03e5b810194198ba5f1d015333e50f36d3caf09"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/figures/overlap_review.png",
+      "bytes": 115468,
+      "sha256": "bb519e22275f9379c4087950ff0fc0785f30b755664e74eeff2f72b61600ee75"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/figures/qa.json",
+      "bytes": 1221,
+      "sha256": "c569e9267fbdd7af245b5219435369def3b41ab6f96fd8280bb099d215607e46"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/figures/raster_check.json",
+      "bytes": 538,
+      "sha256": "a1ea397c32593d24d901eea53e8a3d22a5b94d67464825324696c20e532a6649"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/figures/raster_reviewed.json",
+      "bytes": 627,
+      "sha256": "851be2d0a78fa40b13db895d03e30479a1f680e0dccdde1faa00cc78a0a6b4d5"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/fold_metrics.csv",
+      "bytes": 2516,
+      "sha256": "ccfa046cc92600fd1c03e5fed8cb1a67eb170cd4eb423628bd3158c0b2ef99e5"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/fold_predictions.csv",
+      "bytes": 1078174,
+      "sha256": "c03c23dc55091e83fff0411bb83d4d06548d1e01eff7ac502f75b92a2f6ebb57"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/labels.csv",
+      "bytes": 121606,
+      "sha256": "5d48b8837465cbd1bac0a25884e7d5e8f1556745b11e25012af25494f39e3f50"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/partitions.csv",
+      "bytes": 38581,
+      "sha256": "d428f235c54b435656b205669acc1e13622ea8524d22045f5acfbcb46917f810"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/predictions.csv",
+      "bytes": 215817,
+      "sha256": "2dbf4f2498862c0f5e123a8e435de8313891e83b920ec55d5c1764a32c8a7a0b"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/preparation.json",
+      "bytes": 779,
+      "sha256": "3f893956efe74bf9f5481a742da2826441d351ac232e18eb04170f68ea4349df"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/preparation.log",
+      "bytes": 779,
+      "sha256": "3f893956efe74bf9f5481a742da2826441d351ac232e18eb04170f68ea4349df"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/preparation_inputs.json",
+      "bytes": 1910,
+      "sha256": "366e91c0d07149c90e159f1715ecdbf034b7df4447159a7ea6dcb1cafc8b05e8"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/query_table.csv",
+      "bytes": 675769,
+      "sha256": "9ef7122a6fdd2f76c7e7f6901ee273a0c220efd497a0219c259911df2dc8b3fe"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/reference_coverage.json",
+      "bytes": 382,
+      "sha256": "20f56a232c1e3abcd3b503260042456e8a4c2189f82a65b876387d3dc6a6a0aa"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/selection.json",
+      "bytes": 2653,
+      "sha256": "2197cb4efcd1d234f182a97ce509b4a2cd3175f6c94424bf9039775fbbc76169"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_adra2b_assays_0.json",
+      "bytes": 48406,
+      "sha256": "72616690d11b94adcae5f16b2fe8c5bc780fda00f00f84ef1765bf1937f19a9f"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_adra2b_assays_1.json",
+      "bytes": 66449,
+      "sha256": "bbe6587ff9c1159a79b7e28a4ac597120cbc9f2d212f1a195fa5520f4f0d983c"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_adra2b_assays_2.json",
+      "bytes": 29834,
+      "sha256": "1eded481b93a6c4b4a2613f5177ec50c5570042f8eb865f9bbb0c779edf40033"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_adra2b_ki_page0.json",
+      "bytes": 1474777,
+      "sha256": "c6cceb1060b7d0c6583b10f9f32aaa25dbd51e1c15dd8303bb92fd9f5f40fefc"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_adra2b_ki_page1.json",
+      "bytes": 984452,
+      "sha256": "aeae4a4ceca2e38ebff124a2cea919f0650145881e4d51f30bdd42669a5fd6db"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_adra2b_target.json",
+      "bytes": 5903,
+      "sha256": "5fa4af36e2e42109b094ca71fb772077c9d99241ed6e54eb372ed18279b483e7"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/chembl_external_assay.json",
+      "bytes": 969,
+      "sha256": "4de53396d66881a8a75201e09431205a04b7f91639edb309fcb024aa4615aaad"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/download_urls.json",
+      "bytes": 597,
+      "sha256": "793557c8693403436079d40b81386626356919cacd0ebbbb46d934cd44c3b8a5"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/provenance.json",
+      "bytes": 4706,
+      "sha256": "239f11f6c97098f0cb3eb96e164fc5538e61956fffba4e2139430c9e613a8a98"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/pubchem_1961694_data.csv",
+      "bytes": 285274,
+      "sha256": "26aa472326b96ff8c43057282dbd79b6b69b198baff50909e00b952494844888"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/pubchem_1961694_description.json",
+      "bytes": 5361,
+      "sha256": "efbbaad6874f6aab168008f94605ea0b4abee5cc276204611c4d87627252bc42"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/spd_si_tables_release.xlsx",
+      "bytes": 1687857,
+      "sha256": "34dfb8f11b68d4cd894271b8d34a9ede659d0dbee3100542b339d1f80460cbd4"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/sources/uniprot_P18089.json",
+      "bytes": 56434,
+      "sha256": "5558c4c18a9e1f4bddacecfcfc827a10698afb16eec31d7002ed78a3ddb89b6a"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/summary.csv",
+      "bytes": 573,
+      "sha256": "6405b779214802ed5beeedea4f6056e1aa5f987c3084a7c5bb83f2c4a78922fd"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/summary.log",
+      "bytes": 454,
+      "sha256": "588f2f80c8b5ce508369edb0ebc91ac06b20551f22425f6db36b87334c8e87ba"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/target_annotation.json",
+      "bytes": 2444,
+      "sha256": "c19001c756d6832f745ae01eaf5ddd60634f07048fd4a890c58fc2bdac28a758"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/top10_candidates.csv",
+      "bytes": 7634,
+      "sha256": "f957450a6fe69b026b5b6673de8f4775883f8f367750e70d8b9fe5f800c75b16"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/training.log",
+      "bytes": 6892,
+      "sha256": "60fa82a28e7a90c598361ea311ea775d50852bf0e31b522f81c99c96bd4984e8"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/training_record_audit.csv",
+      "bytes": 322434,
+      "sha256": "f149a6e89c07c3503ba6c5e700a863a9ffcf62e4a135f04b94a7a5ee1af611b3"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/training_table.csv",
+      "bytes": 182488,
+      "sha256": "de2cad8578d839dee10e10ed661ea8bb9bb66043145ec90b3d568edea56738ab"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/verification.json",
+      "bytes": 1245,
+      "sha256": "08fca0284ecd3b853fd06accea382c89708ec6ed4de68b2a35aef2819e99c441"
+    },
+    {
+      "path": "reports/adra2b_screening_20261026/verification.log",
+      "bytes": 1245,
+      "sha256": "08fca0284ecd3b853fd06accea382c89708ec6ed4de68b2a35aef2819e99c441"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_0/external_predictions.csv",
+      "bytes": 214775,
+      "sha256": "7dd431e0109626c1e51e0ce0843d862587009bdc7404cab69b4c07782bdffbb7"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_0/model.pt",
+      "bytes": 37414252,
+      "sha256": "55ccd7e5d685cf812998b340be9c0b7f11bd87a941552188456ac72cab77cc8d"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_0/selected.json",
+      "bytes": 5050,
+      "sha256": "3c5d87ae54655b1e1dfddccdc7583ab64f179c34579c16baa149626a7572ff39"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_0/validation_predictions.csv",
+      "bytes": 10862,
+      "sha256": "893bac0ecfb84a8d5bdf9b14fd7cc59ea09f932bdc2bd20d3e7715b158f03b24"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_1/external_predictions.csv",
+      "bytes": 216458,
+      "sha256": "b553c3439ca91fc8661a5fc6189505c299a48ad83a01d82d11e7eb66d8b8779a"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_1/model.pt",
+      "bytes": 37413868,
+      "sha256": "af1cc43d6b4e595b76e81a0c15a5a037a59c625ae50d0e86999ef08c6d34f463"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_1/selected.json",
+      "bytes": 4127,
+      "sha256": "aeea7343a4b90c5f3f52fd3e91b6886c74f56c3427f9908cebf04a740a9b53a8"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_1/validation_predictions.csv",
+      "bytes": 10427,
+      "sha256": "47eb01e8aa185af04e833ad52b4019bb76580cfda3e6c509cb5b13ad9fee5c6b"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_2/external_predictions.csv",
+      "bytes": 215469,
+      "sha256": "3963a62debe4c8af112f9beb8649482ce8d92ea00e06e7055c380945f4fe5be6"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_2/model.pt",
+      "bytes": 37414252,
+      "sha256": "14b27d780b6766d2d0bde35293877ce335c1e25922ad5a948adbce07c72db87e"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_2/selected.json",
+      "bytes": 5054,
+      "sha256": "2374681f32daa5ff223c93317054da610faa457414618b39750ce14e1d6221a9"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_2/validation_predictions.csv",
+      "bytes": 10055,
+      "sha256": "ebaa8775c284644c956bd3fcdb2e8007b3236b12d79fb3a017a84e033a1dfeb2"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_3/external_predictions.csv",
+      "bytes": 217122,
+      "sha256": "96b45ca540f508c1080e4baf8c0acf7413fd86707e9056f2b72e1bc88aa1effa"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_3/model.pt",
+      "bytes": 37414124,
+      "sha256": "d15a17705b871900731a9242f454a949b6c34dc1ec1c7272b0cc935ea45b83e6"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_3/selected.json",
+      "bytes": 4645,
+      "sha256": "d4a28d1096f15e568a196eaa5afeab3133e1da063f3091da689b5832f214ac5a"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_3/validation_predictions.csv",
+      "bytes": 9716,
+      "sha256": "82a2db2e5f6c46f09854fd42eeb4d3bc686d4edb45a30717d8a61f858d67e052"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_4/external_predictions.csv",
+      "bytes": 214886,
+      "sha256": "1970ca3393945fbbd759ab726730e812935a53f2fec53af5a5579de1cc24a5ca"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_4/model.pt",
+      "bytes": 37414060,
+      "sha256": "79ab4c6cb110c3921059da78d54163fd81105274d6b61f34d58bc151dcaf8c36"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_4/selected.json",
+      "bytes": 4525,
+      "sha256": "c358d0ce37da6d8c5a5374ca93d50535b0a1686f8d7de7d1c7a3e3036e889da0"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/fold_4/validation_predictions.csv",
+      "bytes": 9892,
+      "sha256": "6846a582fd5b62d15ba8be60940e0d0e7c6afd52364db7723cd93215e8a10454"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/frozen_inputs.json",
+      "bytes": 1327,
+      "sha256": "c9a21de200af2fa949f2b7c7d0e97e312e49cdf5825cbf3c68764aea95b9bb8d"
+    },
+    {
+      "path": "results/adra2b_screening_20261026/status.json",
+      "bytes": 434,
+      "sha256": "88ff029265fe532e033c9d9c46fa4da39256506cbce6803ecbbdce515e51e27b"
+    },
+    {
+      "path": "scripts/analyze_bib_fusion.py",
+      "bytes": 14572,
+      "sha256": "46e39f848a472e83b73565ff207c4714c5d2b50b88159628eba6abae8747b72f"
+    },
+    {
+      "path": "scripts/build_bindingdb_articles_kd_tokens.py",
+      "bytes": 18225,
+      "sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8"
+    },
+    {
+      "path": "scripts/build_kiba_benchmark_tokens.py",
+      "bytes": 7868,
+      "sha256": "e81bef964ea15f78e4c960018597763912e24ad661b6149c8d58dd435ccc681b"
+    },
+    {
+      "path": "scripts/evaluate_adra2b_screening.py",
+      "bytes": 3416,
+      "sha256": "a0aa0a0f0f7ec602fe26e929a7f43a69b64c0fa55a17dfc5446ccf03f1448363"
+    },
+    {
+      "path": "scripts/fetch_adra2b_screening.py",
+      "bytes": 2958,
+      "sha256": "77c8ee868c61f79c495f1ca2a16b4100134c5111189c4c0122b9f4a87411803c"
+    },
+    {
+      "path": "scripts/plot_adra2b_screening.py",
+      "bytes": 3728,
+      "sha256": "0047094985c84170c6b3213da82ceac61b1e95120badeee7b88b990ac9e4c74d"
+    },
+    {
+      "path": "scripts/predict_bib_cellular_affinity.py",
+      "bytes": 10330,
+      "sha256": "e86975dd0c7bd260a33b12d8559e7146969e216fd517c74051e955d9433abbd8"
+    },
+    {
+      "path": "scripts/prepare_adra2b_screening.py",
+      "bytes": 10531,
+      "sha256": "8b83be1a8dfb1ee276e050d81e39eb25e80710f437fa98b0b3fecf892ae6da6d"
+    },
+    {
+      "path": "scripts/reuse_verified_screening_tokens.py",
+      "bytes": 3287,
+      "sha256": "4b75771e547b6f96fb8d75fc94a1f3338cd35f1c05c9b4ba89840dace0b0ac98"
+    },
+    {
+      "path": "scripts/run_adra2b_screening.py",
+      "bytes": 11452,
+      "sha256": "c153884dc499fe3528b1921d1d2f0db5f6e1462982048622065815285f6bab6a"
+    },
+    {
+      "path": "scripts/summarize_adra2b_screening.py",
+      "bytes": 7863,
+      "sha256": "95b7dbc3e7385acbfb4fb5d8b63b839ea73fca2505bf2759a42a31a13429df4d"
+    },
+    {
+      "path": "scripts/train_nexusdti_regressor.py",
+      "bytes": 48331,
+      "sha256": "8a10e31535a64a9e0d732804381beb68568b7311b91e30f927fd14c70df2060b"
+    },
+    {
+      "path": "scripts/verify_adra2b_screening.py",
+      "bytes": 8435,
+      "sha256": "7e380face5d222341e8e6af8588d920727ab08606ac1a537705254680ded2daa"
+    }
+  ]
+}

@@ -15,6 +15,7 @@ import pandas as pd
 from scipy.special import expit
 from scipy.stats import pearsonr, spearmanr
 from sklearn.metrics import average_precision_score, roc_auc_score
+from reproduce_extensions import run_checks as extended_checks
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT / 'DTA_affinity'
@@ -229,6 +230,8 @@ def main():
                       ('benchmarks',benchmark),('NanoBRET',nanobret),('ABL1',abl1)]:
         print(f'Checking {name}...',flush=True)
         call()
+    print('Checking shared-backbone comparisons, ADRA2B and target-wise errors...',flush=True)
+    CHECKS.extend(extended_checks())
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps({'status':'passed','checks':CHECKS,
         'scope':'CPU recalculation from saved predictions; no model retraining.'},indent=2)+'\n')

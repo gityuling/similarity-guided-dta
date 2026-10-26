@@ -1,0 +1,922 @@
+{
+  "config": {
+    "path": "configs/knn_comparison_20261025.json",
+    "sha256": "615ca3e68e2eefb7d34f384e2c2342c30cb6843ced141ac898451ae448477593"
+  },
+  "sgf_amendment_sha256": "4bd221d5eb40d88a12cfd03a81c414f87b0e5d5654dc56f21bcc8b878d09a5bb",
+  "folds": [
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "native_label": "pKd_floor",
+      "rows": {
+        "train": 21658,
+        "val": 2210,
+        "test": 6188
+      },
+      "drug_ids": {
+        "train": 49,
+        "val": 5,
+        "test": 14
+      },
+      "target_ids": 442,
+      "input_sequences": 379,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 0,
+        "train/test": 0,
+        "val/test": 0
+      },
+      "source_table": {
+        "path": "data/processed/davis_dtiam_protocol/table.csv",
+        "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+      },
+      "source_manifest": {
+        "path": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+        "sha256": "cfffe941c252508691a6cf757ba25f6f09bf4fc0d7a4d54498b1639e3af63e63"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/drugs.csv",
+          "sha256": "93dab47d83591d082ed897184e0e248e514268fd78a874e9d279e888b7e8c37e"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/targets.csv",
+          "sha256": "aa5077355133af12c56bbd8d662b8fc9e34485868f0e7745117d5197e03b0d12"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_0/train_inputs.csv",
+          "sha256": "7d38125b138f4dc39684d09ac7299bbedb7a1d15d4f952972bea1480c6ec6d43"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_0/train_labels.csv",
+          "sha256": "e2052ddbf0731f1b2516a0903a4c49f8e55fb6b9c90b3bdea240e22ab9f46a75"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_0/val_inputs.csv",
+          "sha256": "9f9060d32b01226e036e361bd51c69221917cf7b01c6b8ab64462c3719588989"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_0/val_labels.csv",
+          "sha256": "c55c2e1b5ba5ad1e35331cc0e79ad0e1e9be0e46eb01a6a194b47f362ff502a5"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_0/test_inputs.csv",
+          "sha256": "4f36cfe575f48cd2d891a01b15a9b8cf6938c5bb06bc06ef408d7a00aa3b9923"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_0/test_labels.csv",
+          "sha256": "ac2ce4f2600e99a0012eb9bdacc2186ef222a882985159653a9b636d8b48a466"
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "native_label": "pKd_floor",
+      "rows": {
+        "train": 21658,
+        "val": 2210,
+        "test": 6188
+      },
+      "drug_ids": {
+        "train": 49,
+        "val": 5,
+        "test": 14
+      },
+      "target_ids": 442,
+      "input_sequences": 379,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 0,
+        "train/test": 0,
+        "val/test": 0
+      },
+      "source_table": {
+        "path": "data/processed/davis_dtiam_protocol/table.csv",
+        "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+      },
+      "source_manifest": {
+        "path": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+        "sha256": "10b7a299015f0b9ac99ed34e78b9c37cf0a42404c3800d177a2439adb4b8b85d"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/drugs.csv",
+          "sha256": "93dab47d83591d082ed897184e0e248e514268fd78a874e9d279e888b7e8c37e"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/targets.csv",
+          "sha256": "aa5077355133af12c56bbd8d662b8fc9e34485868f0e7745117d5197e03b0d12"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_1/train_inputs.csv",
+          "sha256": "ddea1bf49bf9f3d0da366437dd2e42619c801bc45c6fa4a15d9d94e39334e56e"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_1/train_labels.csv",
+          "sha256": "798321833b2f526fa19c2e80b16d0847f9ee818c0de1810fd2eb9358c68a7695"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_1/val_inputs.csv",
+          "sha256": "1e069989efd0a93ebbf9340575648ac9ed49ce9c0ea40a250d109e8389ae04b9"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_1/val_labels.csv",
+          "sha256": "3c717435472177b3944aef6d19294761ac8ab410adedfdae748ce5e2f1b8bc3f"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_1/test_inputs.csv",
+          "sha256": "039efcfde4b94c9db48fc8db441affdc8c63b752b014f8a5243472981d59fb9e"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_1/test_labels.csv",
+          "sha256": "06cf5b829489af0f16ec9f86b46ba9e53a48464c115a8722ba282c547a58ca97"
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "native_label": "pKd_floor",
+      "rows": {
+        "train": 21658,
+        "val": 2210,
+        "test": 6188
+      },
+      "drug_ids": {
+        "train": 49,
+        "val": 5,
+        "test": 14
+      },
+      "target_ids": 442,
+      "input_sequences": 379,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 0,
+        "train/test": 0,
+        "val/test": 0
+      },
+      "source_table": {
+        "path": "data/processed/davis_dtiam_protocol/table.csv",
+        "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+      },
+      "source_manifest": {
+        "path": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+        "sha256": "d54a75e3d995e2d84e042e123a546191db953310f80ea96cbc8b34fc70016b4f"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/drugs.csv",
+          "sha256": "93dab47d83591d082ed897184e0e248e514268fd78a874e9d279e888b7e8c37e"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/targets.csv",
+          "sha256": "aa5077355133af12c56bbd8d662b8fc9e34485868f0e7745117d5197e03b0d12"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_2/train_inputs.csv",
+          "sha256": "5858225235de8538263ebe3006fffc05cf50f4c83c60c6ada1701cd10ad45164"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_2/train_labels.csv",
+          "sha256": "8675b9a4e28744d4b924fed4af840c224a26a12630afd7b6765c19ae7f4d3c30"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_2/val_inputs.csv",
+          "sha256": "029262fef66d04439a675a85f1df684446a2d5411a0a1017b45ff913ff6858bc"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_2/val_labels.csv",
+          "sha256": "a54b61f94f5eed384bc9b6af3ffe441309dab9ea34c4476d18c24c73d8195e50"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_2/test_inputs.csv",
+          "sha256": "ea8f8e77da1f44c4af9af3c78c105b0b694bab4dee3642beca99ac954234f4d9"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_2/test_labels.csv",
+          "sha256": "ec97c727432fed5d80b365ea37b8742c31270249728b35530b8b06e6c970b3df"
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "native_label": "pKd_floor",
+      "rows": {
+        "train": 21658,
+        "val": 2652,
+        "test": 5746
+      },
+      "drug_ids": {
+        "train": 49,
+        "val": 6,
+        "test": 13
+      },
+      "target_ids": 442,
+      "input_sequences": 379,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 0,
+        "train/test": 0,
+        "val/test": 0
+      },
+      "source_table": {
+        "path": "data/processed/davis_dtiam_protocol/table.csv",
+        "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+      },
+      "source_manifest": {
+        "path": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+        "sha256": "dbe9ae2e62dc9e4022b74f74e73d3eb6b9e01edb69dda06e901f58f8712067c9"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/drugs.csv",
+          "sha256": "93dab47d83591d082ed897184e0e248e514268fd78a874e9d279e888b7e8c37e"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/targets.csv",
+          "sha256": "aa5077355133af12c56bbd8d662b8fc9e34485868f0e7745117d5197e03b0d12"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_3/train_inputs.csv",
+          "sha256": "88456e8d5cda703b167eefa70bcbf05d732cc5377867da5fd5b302d6664b31dc"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_3/train_labels.csv",
+          "sha256": "a09acbe6cc6eb46863808f1506c6ae71fc3bfc8dbb6df3916b185a433a89a1fb"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_3/val_inputs.csv",
+          "sha256": "62f055d132d049c3c8861349b5f56352dec7bed91a225705369133040b2f9e35"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_3/val_labels.csv",
+          "sha256": "3e360952be3ef217e6be6f5ec4f5fbda62dff8a751766a8b14215706c5ff2259"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_3/test_inputs.csv",
+          "sha256": "37f934c7c5d39a9c46b1dafd1db408bbdf8510d632c2d1cfcdff421ee8c58564"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_3/test_labels.csv",
+          "sha256": "5b095b6aa3de64c707c2d51fac4915d0300ca2ea7d6bd933d4c82db1d79168ac"
+        }
+      }
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "native_label": "pKd_floor",
+      "rows": {
+        "train": 21658,
+        "val": 2652,
+        "test": 5746
+      },
+      "drug_ids": {
+        "train": 49,
+        "val": 6,
+        "test": 13
+      },
+      "target_ids": 442,
+      "input_sequences": 379,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 0,
+        "train/test": 0,
+        "val/test": 0
+      },
+      "source_table": {
+        "path": "data/processed/davis_dtiam_protocol/table.csv",
+        "sha256": "eb0cf6fe0043ae1dc498ac3974b9776c74c53d20b81bd27a49ac4a699c4b7c1d"
+      },
+      "source_manifest": {
+        "path": "data/processed/davis_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+        "sha256": "1697321cc80d4e28061ab73e517ea34f0b40557f5af9528c340c110dd288f529"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/drugs.csv",
+          "sha256": "93dab47d83591d082ed897184e0e248e514268fd78a874e9d279e888b7e8c37e"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/targets.csv",
+          "sha256": "aa5077355133af12c56bbd8d662b8fc9e34485868f0e7745117d5197e03b0d12"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_4/train_inputs.csv",
+          "sha256": "1d1c018f65b22e032bbc1ae75903c22c195c63fe961f19e6fb90214f6e53ccad"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_4/train_labels.csv",
+          "sha256": "608d8d6bbb6b194e3418e039012598739234a3978a19956ebc75af2d57c9dad4"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_4/val_inputs.csv",
+          "sha256": "7c87e82d989e13eccff1da59838b9f0e29a57172e88a32c3295731ae723c14ce"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_4/val_labels.csv",
+          "sha256": "6c37cce160d8be786b76b967b63bb3d4d5ddd93cecd63d77b01a8a344175b912"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_4/test_inputs.csv",
+          "sha256": "c96b0b7cf9eea1847c4542c1bbba54de9192a741b1ddb1ee04402e7099da1a24"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/davis/fold_4/test_labels.csv",
+          "sha256": "6f9ec1b5ad1155c6b6af16e7eb26c57fb7b10cc88c8d8d3e92dc72b1309ed839"
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "fold": 0,
+      "native_label": "kiba_score",
+      "rows": {
+        "train": 83984,
+        "val": 9719,
+        "test": 24551
+      },
+      "drug_ids": {
+        "train": 1519,
+        "val": 169,
+        "test": 423
+      },
+      "target_ids": 229,
+      "input_sequences": 229,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 3,
+        "train/test": 10,
+        "val/test": 4
+      },
+      "source_table": {
+        "path": "data/processed/kiba_dtiam_protocol/table.csv",
+        "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+      },
+      "source_manifest": {
+        "path": "data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_0.csv",
+        "sha256": "de80ab172f4bd19faba4070dbfa8ae2d6a96bcb6bdd4c7fa305e68fa22882fcc"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/drugs.csv",
+          "sha256": "1d6e6b4d724aff8de20ef75f30efd5a9884dcc9f1b26c4940355114100143ba0"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/targets.csv",
+          "sha256": "f72025420402c339ca47c45e891afd89f8a18f28de85d043bdb2bbe2494aea42"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_0/train_inputs.csv",
+          "sha256": "b05c3207fd7f75a955bb1483ad6b8be29c5cd55e64119df8c986d668a385227c"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_0/train_labels.csv",
+          "sha256": "9bb1b93000b5167473217b839d7c349967821ff40a7943852c9d9a591f9b881e"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_0/val_inputs.csv",
+          "sha256": "32060ea2c90354c7599839fac9e6e990f289688ec8445151cef3f2f37790b88a"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_0/val_labels.csv",
+          "sha256": "10a2b1d688fbb2783a802c9994a27376a0ea1543a69b3b4d125a0d4f60168f60"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_0/test_inputs.csv",
+          "sha256": "ce979016f23979adc8dc62bbf6b74d4ae27323396adcb4f993c7ce86a7dd68ec"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_0/test_labels.csv",
+          "sha256": "5d52866604c11d32bda2e06b8f80f9584b56af7be819b2bc57f7ccfc404ef675"
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "fold": 1,
+      "native_label": "kiba_score",
+      "rows": {
+        "train": 85379,
+        "val": 9370,
+        "test": 23505
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "target_ids": 229,
+      "input_sequences": 229,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 4,
+        "train/test": 12,
+        "val/test": 4
+      },
+      "source_table": {
+        "path": "data/processed/kiba_dtiam_protocol/table.csv",
+        "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+      },
+      "source_manifest": {
+        "path": "data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_1.csv",
+        "sha256": "41b64986834ea7dc88468a48d8bfea863e20c8c82e8019a12d3505408d31676c"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/drugs.csv",
+          "sha256": "1d6e6b4d724aff8de20ef75f30efd5a9884dcc9f1b26c4940355114100143ba0"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/targets.csv",
+          "sha256": "f72025420402c339ca47c45e891afd89f8a18f28de85d043bdb2bbe2494aea42"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_1/train_inputs.csv",
+          "sha256": "9914aba8ce2a0dd78009ff46edee230718c2d2af684f97161a7027ae45f63994"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_1/train_labels.csv",
+          "sha256": "d37dc9932b541ba220d5ecb48e1767ab97a7cbeed9ec86198fccdf25e91619a1"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_1/val_inputs.csv",
+          "sha256": "e57dab1e6432c7578fd22adaaba03498b3cbd2b4477967cb6279b118d19205f4"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_1/val_labels.csv",
+          "sha256": "0292e142790936e55f0f1afde1033e946b4f3aef5051526e32534e32d0828eb8"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_1/test_inputs.csv",
+          "sha256": "59e528a208ec501bd250a7f5d0527478d30ee3a4e4f2d956e3d9c83ef8f34d73"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_1/test_labels.csv",
+          "sha256": "dcc6175e2e9514275f39c8b614621735ad9f5e8952ff415282df36ea4fca7c04"
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "fold": 2,
+      "native_label": "kiba_score",
+      "rows": {
+        "train": 86122,
+        "val": 9346,
+        "test": 22786
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "target_ids": 229,
+      "input_sequences": 229,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 2,
+        "train/test": 10,
+        "val/test": 1
+      },
+      "source_table": {
+        "path": "data/processed/kiba_dtiam_protocol/table.csv",
+        "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+      },
+      "source_manifest": {
+        "path": "data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_2.csv",
+        "sha256": "39084b67e1c1b5d8724a87147589541b23fdb7c647e6bbb8578ba67c98d47f99"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/drugs.csv",
+          "sha256": "1d6e6b4d724aff8de20ef75f30efd5a9884dcc9f1b26c4940355114100143ba0"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/targets.csv",
+          "sha256": "f72025420402c339ca47c45e891afd89f8a18f28de85d043bdb2bbe2494aea42"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_2/train_inputs.csv",
+          "sha256": "395def3fec78ef93c5ea0a95afcb27d47f0e2cbe3675363ab127be7291aac7b5"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_2/train_labels.csv",
+          "sha256": "aa04dff1cb0f81550688f3c829162b28576ad827600edd8dde7ee24258aa8b1e"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_2/val_inputs.csv",
+          "sha256": "5b7f8ac291c9cbf729c51ad596e35c3dd07c6e7de11859cc385163b8443dda83"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_2/val_labels.csv",
+          "sha256": "58b22ba9b76263fb49ac1f32609fb3e539b63561222e90cfc2977588c20756f7"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_2/test_inputs.csv",
+          "sha256": "3dc60dcf3a4375002096ad043a50d472dcefb53c8537dbd79cbb1e48274c7a39"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_2/test_labels.csv",
+          "sha256": "5d1c798b362508d989577c970e3b96c896ac2eca2ef8298362856c15ea8f3d52"
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "fold": 3,
+      "native_label": "kiba_score",
+      "rows": {
+        "train": 84316,
+        "val": 8781,
+        "test": 25157
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "target_ids": 229,
+      "input_sequences": 229,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 9,
+        "train/test": 7,
+        "val/test": 3
+      },
+      "source_table": {
+        "path": "data/processed/kiba_dtiam_protocol/table.csv",
+        "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+      },
+      "source_manifest": {
+        "path": "data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_3.csv",
+        "sha256": "e3a3229dd1d52b1febfdb530d0de788fb9a953bfa6290232108de44a3e5ba0e8"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/drugs.csv",
+          "sha256": "1d6e6b4d724aff8de20ef75f30efd5a9884dcc9f1b26c4940355114100143ba0"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/targets.csv",
+          "sha256": "f72025420402c339ca47c45e891afd89f8a18f28de85d043bdb2bbe2494aea42"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_3/train_inputs.csv",
+          "sha256": "373d9af34a5b76cd3b72761bec94f5904c2b9d219affbde55e4c64a26bc014f9"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_3/train_labels.csv",
+          "sha256": "81b60911e8007b2a62ac006c2af49689e95ea8cc13317daa8dacc43df75c3a3e"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_3/val_inputs.csv",
+          "sha256": "bef1496327ebe295bb697cb6a29d9406adfe877b551ae248851d49c6eed85268"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_3/val_labels.csv",
+          "sha256": "c08ba01c3a5a5094aea62ee2916d78b9fc95160f0f192c6ced9a7bd9df14c109"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_3/test_inputs.csv",
+          "sha256": "35f3dd70a3baf14796290a38014326dd6ddf7506b3b9504016783a8e2e19cf9f"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_3/test_labels.csv",
+          "sha256": "a4f8eaf3910e97f7c9f4059d2b2ae5fd73aacc11a35d7f833b25fdfadab20d13"
+        }
+      }
+    },
+    {
+      "dataset": "kiba",
+      "fold": 4,
+      "native_label": "kiba_score",
+      "rows": {
+        "train": 87832,
+        "val": 8167,
+        "test": 22255
+      },
+      "drug_ids": {
+        "train": 1520,
+        "val": 169,
+        "test": 422
+      },
+      "target_ids": 229,
+      "input_sequences": 229,
+      "drug_id_overlap": 0,
+      "canonical_structure_overlap": {
+        "train/val": 4,
+        "train/test": 12,
+        "val/test": 2
+      },
+      "source_table": {
+        "path": "data/processed/kiba_dtiam_protocol/table.csv",
+        "sha256": "1cad54d634d80c45359cad6f5339885fb7074831a82ed260e6f2b3ff27924a7f"
+      },
+      "source_manifest": {
+        "path": "data/processed/kiba_dtiam_protocol/folds/drug_coldstart/fold_4.csv",
+        "sha256": "881b435b97beb5c9848066aec078c35759784f699f2772ea5878687e19010cf5"
+      },
+      "entities": {
+        "drugs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/drugs.csv",
+          "sha256": "1d6e6b4d724aff8de20ef75f30efd5a9884dcc9f1b26c4940355114100143ba0"
+        },
+        "targets.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/targets.csv",
+          "sha256": "f72025420402c339ca47c45e891afd89f8a18f28de85d043bdb2bbe2494aea42"
+        }
+      },
+      "files": {
+        "train_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_4/train_inputs.csv",
+          "sha256": "a1ad28f64703778bdf416cb7276f58432705a171600475b64921b3f52d378d01"
+        },
+        "train_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_4/train_labels.csv",
+          "sha256": "7b5094de20f54251c0a36861eea277f53309a4ae9562541f315d7515e9bd5ab4"
+        },
+        "val_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_4/val_inputs.csv",
+          "sha256": "35973209093d71a31a6b10b92bf20400bc8f96b7172c745e333810522f7ea1cb"
+        },
+        "val_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_4/val_labels.csv",
+          "sha256": "8c891cdbd0950dbe23637c7935ce573c4c750267e821f2988f5272f4989694e4"
+        },
+        "test_inputs.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_4/test_inputs.csv",
+          "sha256": "8f02e7b01fd425d0c258f91cef795cdb9a7257cc7cf2cfca26c5c97b6e4725be"
+        },
+        "test_labels.csv": {
+          "path": "reports/knn_comparison_20261025/inputs/kiba/fold_4/test_labels.csv",
+          "sha256": "dd09441f88cb4f4ff77259905bbfc4a83d660bab6dc21b2b0716540408b6ab85"
+        }
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 0,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 0,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 0,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 1,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 1,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 1,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 2,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 2,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 2,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 3,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 3,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 3,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 4,
+      "seed": 20261012,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 4,
+      "seed": 20261017,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    },
+    {
+      "dataset": "kiba",
+      "fold": 4,
+      "seed": 20261018,
+      "external_backbone": "awaiting_verified_assets",
+      "complete_method_comparison": "pending",
+      "matched_backbone_comparison": "pending"
+    }
+  ],
+  "result_status": "inputs_prepared; no new benchmark predictions generated"
+}

@@ -1,0 +1,21 @@
+{
+  "target": "P29274",
+  "target_chembl_id": "CHEMBL251",
+  "external_assay": "CHEMBL5291726 / PubChem AID 1961683",
+  "original_assay_id": 3177,
+  "original_author_annotation": {
+    "source": "sources/spd_si_tables_release.xlsx",
+    "sheet": "Table S2",
+    "row_1based": 8,
+    "species": "Human (Homo sapiens)",
+    "protein_class": "GPCR",
+    "format": "in vitro assay with cellular components",
+    "technology": "scintillation proximity assay"
+  },
+  "database_annotation": {
+    "confidence_score": 8,
+    "relationship": "Homologous single protein target assigned",
+    "description_species": "human"
+  },
+  "resolution": "Use the species and assay format explicitly given in the original author experimental annotation; retain the database mapping flag in the provenance."
+}

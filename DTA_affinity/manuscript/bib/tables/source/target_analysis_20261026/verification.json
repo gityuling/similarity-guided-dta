@@ -1,0 +1,80 @@
+{
+  "state": "passed",
+  "checks": {
+    "davis_drug_id": {
+      "state": "passed",
+      "seeds": [
+        20261012,
+        20261017,
+        20261018
+      ],
+      "reference_queries_independently_replayed": 120,
+      "maximum_reference_replay_error": 2.6645352591003757e-15,
+      "all_target_and_stratum_point_estimates": "passed",
+      "independent_bootstrap_intervals": "overall and high-disagreement group, chemical identity and scaffold clusters as applicable"
+    },
+    "kiba_drug_id": {
+      "state": "passed",
+      "seeds": [
+        20261012,
+        20261017,
+        20261018
+      ],
+      "reference_queries_independently_replayed": 120,
+      "maximum_reference_replay_error": 5.329070518200751e-15,
+      "all_target_and_stratum_point_estimates": "passed",
+      "independent_bootstrap_intervals": "overall and high-disagreement group, chemical identity and scaffold clusters as applicable"
+    },
+    "kiba_identity": {
+      "state": "passed",
+      "seeds": [
+        20261012
+      ],
+      "reference_queries_independently_replayed": 120,
+      "maximum_reference_replay_error": 5.329070518200751e-15,
+      "all_target_and_stratum_point_estimates": "passed",
+      "independent_bootstrap_intervals": "overall and high-disagreement group, chemical identity and scaffold clusters as applicable"
+    },
+    "kiba_scaffold": {
+      "state": "passed",
+      "seeds": [
+        20261012
+      ],
+      "reference_queries_independently_replayed": 120,
+      "maximum_reference_replay_error": 5.329070518200751e-15,
+      "all_target_and_stratum_point_estimates": "passed",
+      "independent_bootstrap_intervals": "overall and high-disagreement group, chemical identity and scaffold clusters as applicable"
+    }
+  },
+  "files": {
+    "davis_drug_id_references.csv.gz": "5b1b74b373860f12163b2a3b5d5325b7cb4f5dc6cfef674b125de9f04b22758d",
+    "davis_drug_id_reference_audit.json": "7834786786bf201165964cff4bf305e877879120c0c0cdf278ad77f2b76ef6b5",
+    "davis_drug_id_targets.csv": "40bb2592edece3969e81cddf791259a09613df84d3d5b2e8701235e7452fd309",
+    "davis_drug_id_fold_seed_metrics.csv": "272f307bf9ce99e4fb94c0e11e04467e319d3bd41b25be817aa36a0f3223ea12",
+    "davis_drug_id_strata.csv": "00beb3b583f2597eacb3ea598d3c79ca1b1aec31b0cb429ac13933eb2dc1fa56",
+    "davis_drug_id_strata_by_seed.csv": "59f52c82c2147db979c84d95a9bb0a610aed40f29f9e109f8fe38ce64784af67",
+    "davis_drug_id_analysis.json": "8a709e87e32abdd69c64578e559a17a84b4f6dafe770461dd0d1b2ffa83636b4",
+    "kiba_drug_id_references.csv.gz": "974fcad358dd0dd7aa911da6792422354ae78cac51c1149ff3c87b6da6a0ae69",
+    "kiba_drug_id_reference_audit.json": "f125daadc8fc9e027e2242b7439f722e40073e375ead2aa89e0e67d70e75fc43",
+    "kiba_drug_id_targets.csv": "cf02996f4bbd59572446332cfb3d3b4922db1e7391a05b19155877ec15972b36",
+    "kiba_drug_id_fold_seed_metrics.csv": "3cb91bae9f075b4e6fc05fc5f25ef925e391a463747738283f45ad649062c760",
+    "kiba_drug_id_strata.csv": "8fa1050e86acf4f62a7329ae50214dc3c304dc9f64c781fa52a4d32c67b5cd06",
+    "kiba_drug_id_strata_by_seed.csv": "64e1b88fdbaf924e3e9745a3e0b8ebcbbd63b4d64dd1fdf1793051a540152c8b",
+    "kiba_drug_id_analysis.json": "dfc48d330af36904fefb5d60f7d3d67b1f886b953e77d62d810c1cdcbda9d768",
+    "kiba_identity_references.csv.gz": "e0f9a66bf8b37c8afeae94fe89db3690fe8f25e4fb9982cbbde11f9ae2d0f98f",
+    "kiba_identity_reference_audit.json": "bb3971450e5ffd0b8ac4645cc20ce25c27b61d9d6f64c923ad47e0c6ad91a3b2",
+    "kiba_identity_targets.csv": "133457f0236efe7f74a2884b6899d9aa8e9cb640c01016c08a5d36a9601b9a6e",
+    "kiba_identity_fold_seed_metrics.csv": "89a7ce7d060be8d3d8a18a75a839c628288c7700c013fd7c726c3e65094ba0a9",
+    "kiba_identity_strata.csv": "567b06f726e6e26a69379b6bd1b559ceb746ad188f6008a9848b54f834d20c85",
+    "kiba_identity_strata_by_seed.csv": "98a952164507d9e55516a7aa81392b07fb47fd4c4ac76f69a21cfd84cddbd22a",
+    "kiba_identity_analysis.json": "b82dbc05c8ff1bd42625c919fbab797f89126590acf151285794a8d6cd4572a0",
+    "kiba_scaffold_references.csv.gz": "c98f5c8ef7dab1415f619a7e3a73a89f8a9281c71a541283f67fc6a40cee6c71",
+    "kiba_scaffold_reference_audit.json": "1fd6b4591ab49c7245bf3b71bcd25e6d4f6d734788380dc1b0bf4eb0b3376dbc",
+    "kiba_scaffold_targets.csv": "5b3e5456d3088203ac9bf478961603543ee01adb4e8d16f4fac285ebd7f75e16",
+    "kiba_scaffold_fold_seed_metrics.csv": "8fb79158a043a4e7af9ebd4487d78b96b166e135eabbb1c92c8c9c0cbbb9c24c",
+    "kiba_scaffold_strata.csv": "a44b6177899657d391a646746df62d81765c026684b51ebf631c3b832f4e0134",
+    "kiba_scaffold_strata_by_seed.csv": "c191b7508cef2edb84407dd8d032a1235a552ec659c3d0d71cf9f9b8b56a3bcf",
+    "kiba_scaffold_analysis.json": "7836b94b50a112e8489f5cd701e52e4e530491ef7ff021ac05d8ab2df3ca5bb1",
+    "analysis_freeze.json": "44212d076aa8758ea3474238a44ab53329a617403b569de665688b88037dade1"
+  }
+}

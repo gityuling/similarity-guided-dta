@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "config": "a81c36c69edecfad6e352a5db6ea41c8f8055ecaa3259a1a7bd956d9dbcb49c5",
+    "runner": "c1cdd90cd56196f7d77129eb60fdce99ea9923cdb6a069796f7aa5ecc66e7dfc",
+    "core": "21551944b686c4b6d5c66f00c8291803aaecc164baf4c8e71a6ddbbda9ed2268",
+    "prepared": "9f25f50b37e063b8ef31c903afe6e3c33c0b91b81f1b2d0318ce65d2450ec2e7",
+    "dataset": "kiba",
+    "fold": 0,
+    "seed": 20261017
+  },
+  "fixed": {
+    "label": {
+      "k": 128,
+      "temperature": 10.0,
+      "base_weight": 0.4
+    },
+    "drug": {
+      "k": 64,
+      "temperature": 100000.0,
+      "base_weight": 0.3
+    },
+    "protein": {
+      "k": 2,
+      "temperature": 10.0,
+      "base_weight": 1.0
+    }
+  },
+  "adaptive": {
+    "ks": [
+      128,
+      64,
+      2
+    ],
+    "best_step": 5000,
+    "validation_mse": 0.27682551741600037,
+    "distance_scale": [
+      164.3040313720703,
+      119.11871337890625,
+      68.04206085205078
+    ],
+    "history": [
+      {
+        "step": 0,
+        "validation_mse": 0.3376161754131317
+      },
+      {
+        "step": 250,
+        "validation_mse": 0.29557257890701294
+      },
+      {
+        "step": 500,
+        "validation_mse": 0.2944371998310089
+      },
+      {
+        "step": 750,
+        "validation_mse": 0.29342782497406006
+      },
+      {
+        "step": 1000,
+        "validation_mse": 0.29372963309288025
+      },
+      {
+        "step": 1250,
+        "validation_mse": 0.29213008284568787
+      },
+      {
+        "step": 1500,
+        "validation_mse": 0.2914740741252899
+      },
+      {
+        "step": 1750,
+        "validation_mse": 0.29122042655944824
+      },
+      {
+        "step": 2000,
+        "validation_mse": 0.28961217403411865
+      },
+      {
+        "step": 2250,
+        "validation_mse": 0.28837883472442627
+      },
+      {
+        "step": 2500,
+        "validation_mse": 0.2861423194408417
+      },
+      {
+        "step": 2750,
+        "validation_mse": 0.285526305437088
+      },
+      {
+        "step": 3000,
+        "validation_mse": 0.2854999601840973
+      },
+      {
+        "step": 3250,
+        "validation_mse": 0.28297337889671326
+      },
+      {
+        "step": 3500,
+        "validation_mse": 0.28213930130004883
+      },
+      {
+        "step": 3750,
+        "validation_mse": 0.28129842877388
+      },
+      {
+        "step": 4000,
+        "validation_mse": 0.28015151619911194
+      },
+      {
+        "step": 4250,
+        "validation_mse": 0.27920326590538025
+      },
+      {
+        "step": 4500,
+        "validation_mse": 0.278502494096756
+      },
+      {
+        "step": 4750,
+        "validation_mse": 0.27690020203590393
+      },
+      {
+        "step": 5000,
+        "validation_mse": 0.27682551741600037
+      }
+    ]
+  },
+  "gate": {
+    "a": -0.41274978249264316,
+    "b": -0.21563109307865364,
+    "mean": 0.584253350528478,
+    "std": 0.2037071848712529
+  },
+  "prior_sha256": "0445088fcb92315401589f4eea3badbf670c17052ea518c7ed5ba0b8a782e6df"
+}

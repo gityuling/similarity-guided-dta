@@ -1,0 +1,12 @@
+{
+  "configs/nonkinase_screening_20261026.json": "4200fb8c0b2f57bc209b44edf949aa6fd3612704670cde8c91716c402002d899",
+  "scripts/run_nonkinase_screening.py": "fa4ad229d182c76da84842893162b35e526616e2285510df258416a858a1b27d",
+  "scripts/train_nexusdti_regressor.py": "8a10e31535a64a9e0d732804381beb68568b7311b91e30f927fd14c70df2060b",
+  "scripts/analyze_bib_fusion.py": "46e39f848a472e83b73565ff207c4714c5d2b50b88159628eba6abae8747b72f",
+  "scripts/predict_bib_cellular_affinity.py": "e86975dd0c7bd260a33b12d8559e7146969e216fd517c74051e955d9433abbd8",
+  "reports/nonkinase_screening_20261026/training_table.csv": "966b5d066c61aabe899f11c907f4c422d6ba9ecefab626acf0a4c6faf373af63",
+  "reports/nonkinase_screening_20261026/query_table.csv": "1993d45c45da969329e6fc2547601079254db319d12d1d0b856447d7e56fbd7d",
+  "reports/nonkinase_screening_20261026/partitions.csv": "ab87629c8c8da5a31328a3923d6a6c17edca14e4fcb6ab27307e948a812f09bc",
+  "reports/nonkinase_screening_20261026/preparation_inputs.json": "5123a2ebe2ab041af919a55b11c6e6ba3199ff0afce0b16168d4b738159dd4d5",
+  "data/processed/nonkinase_screening_20261026/tokens/build_audit.json": "712c3ad2537c0b4079f4e275e1080160f6f53f9179ceb8cbfe75fd69046be741"
+}

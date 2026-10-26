@@ -1,0 +1,16 @@
+{
+  "configs/adra2b_screening_20261026.json": "bad6b22becd58ca42936e989a5e86c7f0be4822fb759b3354a7684d7e716ed3c",
+  "reports/adra2b_screening_20261026/sources/chembl_adra2b_assays_0.json": "72616690d11b94adcae5f16b2fe8c5bc780fda00f00f84ef1765bf1937f19a9f",
+  "reports/adra2b_screening_20261026/sources/chembl_adra2b_assays_1.json": "bbe6587ff9c1159a79b7e28a4ac597120cbc9f2d212f1a195fa5520f4f0d983c",
+  "reports/adra2b_screening_20261026/sources/chembl_adra2b_assays_2.json": "1eded481b93a6c4b4a2613f5177ec50c5570042f8eb865f9bbb0c779edf40033",
+  "reports/adra2b_screening_20261026/sources/chembl_adra2b_ki_page0.json": "c6cceb1060b7d0c6583b10f9f32aaa25dbd51e1c15dd8303bb92fd9f5f40fefc",
+  "reports/adra2b_screening_20261026/sources/chembl_adra2b_ki_page1.json": "aeae4a4ceca2e38ebff124a2cea919f0650145881e4d51f30bdd42669a5fd6db",
+  "reports/adra2b_screening_20261026/sources/chembl_adra2b_target.json": "5fa4af36e2e42109b094ca71fb772077c9d99241ed6e54eb372ed18279b483e7",
+  "reports/adra2b_screening_20261026/sources/chembl_external_assay.json": "4de53396d66881a8a75201e09431205a04b7f91639edb309fcb024aa4615aaad",
+  "reports/adra2b_screening_20261026/sources/download_urls.json": "793557c8693403436079d40b81386626356919cacd0ebbbb46d934cd44c3b8a5",
+  "reports/adra2b_screening_20261026/sources/provenance.json": "239f11f6c97098f0cb3eb96e164fc5538e61956fffba4e2139430c9e613a8a98",
+  "reports/adra2b_screening_20261026/sources/pubchem_1961694_data.csv": "26aa472326b96ff8c43057282dbd79b6b69b198baff50909e00b952494844888",
+  "reports/adra2b_screening_20261026/sources/pubchem_1961694_description.json": "efbbaad6874f6aab168008f94605ea0b4abee5cc276204611c4d87627252bc42",
+  "reports/adra2b_screening_20261026/sources/uniprot_P18089.json": "5558c4c18a9e1f4bddacecfcfc827a10698afb16eec31d7002ed78a3ddb89b6a",
+  "scripts/prepare_adra2b_screening.py": "8b83be1a8dfb1ee276e050d81e39eb25e80710f437fa98b0b3fecf892ae6da6d"
+}

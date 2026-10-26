@@ -1,0 +1,53 @@
+{
+  "retrieved_utc": "2026-10-26T02:19:16.065298+00:00",
+  "files": [
+    {
+      "file": "chembl_esr1_target.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?target_components__accession=P03372&limit=100",
+      "bytes": 768423,
+      "sha256": "2aeceeb4ef4957c45105e06d859e74f7a18d2e7e816482fcd328efbbc9d6bc78"
+    },
+    {
+      "file": "chembl_esr1_ki_page0.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL206&standard_type=Ki&limit=1000&offset=0",
+      "bytes": 1459995,
+      "sha256": "11686fe6858eeb2d8e2fc10c95eb25510d3d91c5f244220ff3336926742000bb"
+    },
+    {
+      "file": "chembl_esr1_ki_page1.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1000&offset=1000&target_chembl_id=CHEMBL206&standard_type=Ki",
+      "bytes": 1345637,
+      "sha256": "e0bfdd1fee4996cd4cf2836c1b1f0fbf20ac0bf32d8f5933b21dd621c36696be"
+    },
+    {
+      "file": "chembl_esr1_assays_0.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/assay.json?assay_chembl_id__in=CHEMBL1022890,CHEMBL1028192,CHEMBL1028195,CHEMBL1100140,CHEMBL1166108,CHEMBL1218773,CHEMBL1219993,CHEMBL1220637,CHEMBL1226309,CHEMBL1805658,CHEMBL1909145,CHEMBL1914153,CHEMBL2037903,CHEMBL2051158,CHEMBL2051166,CHEMBL2395269,CHEMBL3370904,CHEMBL3591297,CHEMBL3705057,CHEMBL3706041,CHEMBL3706107,CHEMBL3755031,CHEMBL3998977,CHEMBL4013737,CHEMBL4132007,CHEMBL4200112,CHEMBL4233980,CHEMBL4233983,CHEMBL4233985,CHEMBL4398449,CHEMBL4480098,CHEMBL4822802,CHEMBL4824520,CHEMBL4880802,CHEMBL5045826,CHEMBL5326431,CHEMBL5337703,CHEMBL5342100,CHEMBL5350430,CHEMBL5350431,CHEMBL5371108,CHEMBL5516987,CHEMBL5528325,CHEMBL5729848,CHEMBL5729984,CHEMBL5729987,CHEMBL5730838,CHEMBL5732098,CHEMBL5735206,CHEMBL5735207&limit=1000",
+      "bytes": 69442,
+      "sha256": "a114ffba3d32a34a63e685afa53a2bb54765739a1d5500778228112cc3e76b6c"
+    },
+    {
+      "file": "chembl_esr1_assays_1.json",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/assay.json?assay_chembl_id__in=CHEMBL5737372,CHEMBL5737373,CHEMBL5739232,CHEMBL6086856,CHEMBL673861,CHEMBL677874,CHEMBL677875,CHEMBL677876,CHEMBL681150,CHEMBL681151,CHEMBL682296,CHEMBL682297,CHEMBL682298,CHEMBL682299,CHEMBL682301,CHEMBL682302,CHEMBL682303,CHEMBL829781,CHEMBL829990,CHEMBL839531,CHEMBL840199,CHEMBL855028,CHEMBL858794,CHEMBL867043,CHEMBL872900,CHEMBL881238,CHEMBL881339,CHEMBL887185,CHEMBL889118,CHEMBL896315,CHEMBL896664,CHEMBL896871,CHEMBL897773,CHEMBL897997,CHEMBL899643,CHEMBL902632,CHEMBL911193,CHEMBL912467,CHEMBL951130,CHEMBL976498,CHEMBL983675&limit=1000",
+      "bytes": 42343,
+      "sha256": "cb30406f3e7b8f1b1991525b3419aa74476d0a32c6620d9c2c1e3d3459ecc92d"
+    },
+    {
+      "file": "pubchem_1223_description.json",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1223/description/JSON",
+      "bytes": 19854,
+      "sha256": "e1e85c542c5de87ce0704e6f9dbe45eeeeec0bfeeb71bbd48feb10828ff6b0ce"
+    },
+    {
+      "file": "pubchem_1223_data.csv",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1223/CSV",
+      "bytes": 12492,
+      "sha256": "23d6076a3f1b00c6575a243a368b820fcb37d276eb5cc7aca0c9f56ee8dfd772"
+    },
+    {
+      "file": "uniprot_P03372.json",
+      "url": "https://rest.uniprot.org/uniprotkb/P03372.json",
+      "bytes": 304651,
+      "sha256": "5f6464bbe967bd3baa3fdfdad41d5b36369e963f16826a9ed1b8a86db90efa38"
+    }
+  ]
+}

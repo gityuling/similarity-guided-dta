@@ -1,0 +1,211 @@
+{
+  "scope": "Exploratory non-kinase candidate prioritization cases, in evaluation order",
+  "cases": [
+    {
+      "order": 1,
+      "case": "ESR1_AID1223",
+      "report": "reports/nonkinase_screening_20261026",
+      "status": "completed",
+      "metrics": [
+        {
+          "model": "deep",
+          "n": 63,
+          "actives": 17,
+          "top10_hits": 2,
+          "top10_hit_rate": 0.2,
+          "top10_enrichment": 0.7411764705882353,
+          "average_precision": 0.22138898833590032,
+          "roc_auc": 0.3273657289002557
+        },
+        {
+          "model": "neighbor_prior",
+          "n": 63,
+          "actives": 17,
+          "top10_hits": 4,
+          "top10_hit_rate": 0.4,
+          "top10_enrichment": 1.4823529411764707,
+          "average_precision": 0.32401891433502483,
+          "roc_auc": 0.4833759590792838
+        },
+        {
+          "model": "equal_blend",
+          "n": 63,
+          "actives": 17,
+          "top10_hits": 2,
+          "top10_hit_rate": 0.2,
+          "top10_enrichment": 0.7411764705882353,
+          "average_precision": 0.2621658786076214,
+          "roc_auc": 0.3593350383631714
+        },
+        {
+          "model": "fixed_blend",
+          "n": 63,
+          "actives": 17,
+          "top10_hits": 3,
+          "top10_hit_rate": 0.3,
+          "top10_enrichment": 1.111764705882353,
+          "average_precision": 0.30151174651567003,
+          "roc_auc": 0.45524296675191817
+        },
+        {
+          "model": "similarity_gate",
+          "n": 63,
+          "actives": 17,
+          "top10_hits": 3,
+          "top10_hit_rate": 0.3,
+          "top10_enrichment": 1.111764705882353,
+          "average_precision": 0.3041257639610876,
+          "roc_auc": 0.45780051150895146
+        },
+        {
+          "model": "pure_similarity",
+          "n": 63,
+          "actives": 17,
+          "top10_hits": 4,
+          "top10_hit_rate": 0.4,
+          "top10_enrichment": 1.4823529411764707,
+          "average_precision": 0.42160505456084874,
+          "roc_auc": 0.6086956521739131
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "case": "ADORA2A_AID1961683",
+      "report": "reports/adora2a_screening_20261026",
+      "status": "completed",
+      "selection_file": "reports/adora2a_screening_20261026/selection.json",
+      "metrics": [
+        {
+          "model": "deep",
+          "n": 1170,
+          "actives": 15,
+          "top10_hits": 2,
+          "top10_hit_rate": 0.2,
+          "top10_enrichment": 15.600000000000001,
+          "average_precision": 0.06673974074827753,
+          "roc_auc": 0.7041269841269842
+        },
+        {
+          "model": "neighbor_prior",
+          "n": 1170,
+          "actives": 15,
+          "top10_hits": 0,
+          "top10_hit_rate": 0.0,
+          "top10_enrichment": 0.0,
+          "average_precision": 0.027906181360479093,
+          "roc_auc": 0.6015007215007215
+        },
+        {
+          "model": "equal_blend",
+          "n": 1170,
+          "actives": 15,
+          "top10_hits": 1,
+          "top10_hit_rate": 0.1,
+          "top10_enrichment": 7.800000000000001,
+          "average_precision": 0.07383445191168678,
+          "roc_auc": 0.6905050505050505
+        },
+        {
+          "model": "fixed_blend",
+          "n": 1170,
+          "actives": 15,
+          "top10_hits": 1,
+          "top10_hit_rate": 0.1,
+          "top10_enrichment": 7.800000000000001,
+          "average_precision": 0.06857847652287748,
+          "roc_auc": 0.6742857142857143
+        },
+        {
+          "model": "similarity_gate",
+          "n": 1170,
+          "actives": 15,
+          "top10_hits": 1,
+          "top10_hit_rate": 0.1,
+          "top10_enrichment": 7.800000000000001,
+          "average_precision": 0.0867623408851094,
+          "roc_auc": 0.7381240981240982
+        },
+        {
+          "model": "pure_similarity",
+          "n": 1170,
+          "actives": 15,
+          "top10_hits": 2,
+          "top10_hit_rate": 0.2,
+          "top10_enrichment": 15.600000000000001,
+          "average_precision": 0.1795717724855948,
+          "roc_auc": 0.7453391053391053
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "case": "ADRA2B_AID1961694",
+      "report": "reports/adra2b_screening_20261026",
+      "status": "completed",
+      "selection_basis": "Selected before generating any ADRA2B model predictions for a large systematic human direct-binding panel with more deposited actives than the preceding ADORA2A case and available public Ki references.",
+      "metrics": [
+        {
+          "model": "deep",
+          "n": 1177,
+          "actives": 160,
+          "top10_hits": 2,
+          "top10_hit_rate": 0.2,
+          "top10_enrichment": 1.47125,
+          "average_precision": 0.17689446676710202,
+          "roc_auc": 0.5827372173058014
+        },
+        {
+          "model": "neighbor_prior",
+          "n": 1177,
+          "actives": 160,
+          "top10_hits": 3,
+          "top10_hit_rate": 0.3,
+          "top10_enrichment": 2.2068749999999997,
+          "average_precision": 0.1733477446243298,
+          "roc_auc": 0.5944567354965585
+        },
+        {
+          "model": "equal_blend",
+          "n": 1177,
+          "actives": 160,
+          "top10_hits": 3,
+          "top10_hit_rate": 0.3,
+          "top10_enrichment": 2.2068749999999997,
+          "average_precision": 0.1861844024468603,
+          "roc_auc": 0.6024151917404129
+        },
+        {
+          "model": "fixed_blend",
+          "n": 1177,
+          "actives": 160,
+          "top10_hits": 3,
+          "top10_hit_rate": 0.3,
+          "top10_enrichment": 2.2068749999999997,
+          "average_precision": 0.18228590885038432,
+          "roc_auc": 0.5953416912487709
+        },
+        {
+          "model": "similarity_gate",
+          "n": 1177,
+          "actives": 160,
+          "top10_hits": 3,
+          "top10_hit_rate": 0.3,
+          "top10_enrichment": 2.2068749999999997,
+          "average_precision": 0.18330763383312218,
+          "roc_auc": 0.5922443461160276
+        },
+        {
+          "model": "pure_similarity",
+          "n": 1177,
+          "actives": 160,
+          "top10_hits": 8,
+          "top10_hit_rate": 0.8,
+          "top10_enrichment": 5.885,
+          "average_precision": 0.37686022180569323,
+          "roc_auc": 0.7873187069813177
+        }
+      ]
+    }
+  ]
+}

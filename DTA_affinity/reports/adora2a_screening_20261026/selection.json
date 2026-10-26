@@ -1,0 +1,74 @@
+{
+  "case": "ADORA2A_AID1961683",
+  "config_sha256": "bb880cf06ad909499624ee58835b13255c1b3003d2c70ae2884befd3078b42df",
+  "previous_case": "ESR1_AID1223",
+  "manuscript_action": "No replacement yet; run this exploratory case and assess alongside ESR1.",
+  "selection_basis": "Chosen after the ESR1 exploratory case because of a larger systematically measured candidate panel, a direct binding endpoint, a confirmed human GPCR and public Ki reference coverage. No ADORA2A predictions or model performance examined when choosing the target.",
+  "pretraining_audit_utc": "2026-10-26T05:25:06.857678+00:00",
+  "prepared_data": {
+    "target": "P29274",
+    "target_family": "GPCR",
+    "source_activity_records": 9055,
+    "eligible_measurements": 4449,
+    "training_compounds": 4155,
+    "training_parent_groups": 4085,
+    "documents": 317,
+    "assays": 444,
+    "pKi_range": [
+      4.0,
+      11.0
+    ],
+    "external_source_records": 1216,
+    "external_source_compounds": 1202,
+    "external_compounds": 1170,
+    "external_outcomes": {
+      "Inactive": 1155,
+      "Active": 15
+    },
+    "external_exclusion_reasons": {
+      "": 1170,
+      "repeated_parent": 40,
+      "structure": 5,
+      "threshold_ambiguous": 1
+    },
+    "training_measurements_removed_for_external_overlap": 582,
+    "conformer_failure_compounds": 0,
+    "training_external_parent_overlap": 0,
+    "config_sha256": "bb880cf06ad909499624ee58835b13255c1b3003d2c70ae2884befd3078b42df"
+  },
+  "model_performance_available": false,
+  "final_pretraining_config_sha256": "a1ea0019453ebd4318c7339863ff95502498dec69f50e080bf27fa633c679dab",
+  "final_prepared_data": {
+    "target": "P29274",
+    "target_family": "GPCR",
+    "source_activity_records": 9055,
+    "eligible_measurements": 4419,
+    "training_compounds": 4126,
+    "training_parent_groups": 4060,
+    "documents": 316,
+    "assays": 443,
+    "pKi_range": [
+      4.0,
+      11.0
+    ],
+    "external_source_records": 1216,
+    "external_source_compounds": 1202,
+    "external_compounds": 1170,
+    "external_outcomes": {
+      "Inactive": 1155,
+      "Active": 15
+    },
+    "external_exclusion_reasons": {
+      "": 1170,
+      "repeated_parent": 40,
+      "structure": 5,
+      "threshold_ambiguous": 1
+    },
+    "training_measurements_removed_for_external_overlap": 582,
+    "conformer_failure_compounds": 29,
+    "training_external_parent_overlap": 0,
+    "config_sha256": "a1ea0019453ebd4318c7339863ff95502498dec69f50e080bf27fa633c679dab"
+  },
+  "final_data_fixed_utc": "2026-10-26T05:52:20.990579+00:00",
+  "conformer_audit_sha256": "ea65961f7d294b6922f889a956d98f587e68bc771635b8e42191ad8cb2dc8eb3"
+}

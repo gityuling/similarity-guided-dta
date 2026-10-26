@@ -1,0 +1,30 @@
+{
+  "target": "P18089",
+  "target_family": "GPCR",
+  "source_activity_records": 1631,
+  "eligible_measurements": 314,
+  "training_compounds": 294,
+  "training_parent_groups": 272,
+  "documents": 67,
+  "assays": 69,
+  "pKi_range": [
+    4.070000019492821,
+    9.940058111938045
+  ],
+  "external_source_records": 1220,
+  "external_source_compounds": 1209,
+  "external_compounds": 1177,
+  "external_outcomes": {
+    "Inactive": 1017,
+    "Active": 160
+  },
+  "external_exclusion_reasons": {
+    "": 1177,
+    "repeated_parent": 37,
+    "structure": 6
+  },
+  "training_measurements_removed_for_external_overlap": 548,
+  "conformer_failure_compounds": 0,
+  "training_external_parent_overlap": 0,
+  "config_sha256": "bad6b22becd58ca42936e989a5e86c7f0be4822fb759b3354a7684d7e716ed3c"
+}

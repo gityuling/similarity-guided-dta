@@ -1,0 +1,1798 @@
+{
+  "cache_sha256": "b3bf34256f34fb73fc5c1220d03164c425c2141bad4e1facd84d2d68f5301e84",
+  "entity_hashes": {
+    "drugs.csv": "93dab47d83591d082ed897184e0e248e514268fd78a874e9d279e888b7e8c37e",
+    "targets.csv": "aa5077355133af12c56bbd8d662b8fc9e34485868f0e7745117d5197e03b0d12"
+  },
+  "sources": [
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/8364b39dc231f149732f9919037c7cb4.npy",
+      "sha256": "a32cb3945b0e7865939f1d5df06df08ae3b0dc926b6fca1116b4b1f4c0e2882e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/137f8f0117915bab01a24c8b68d5b0e3.npy",
+      "sha256": "ad98bd630296cf971acf165791064842b21100e289c9aeff1102ef3d984e79c9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/b5ef37ab6bed73909de24c215e78e865.npy",
+      "sha256": "14a6d58317210e0d8495bcfa2c22c369b1247b9ca8187a5370a25d8234bf70d5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/cee5eb61b8d592bb45432dd3b3a538ee.npy",
+      "sha256": "db15ccb1e0a6ed90bbb1e47186e13a2f19cdaa36a743b73596bd1667df8c946a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/f4378ad85feb91a7d1c4b3515ea31e98.npy",
+      "sha256": "8095aabb5c2da38aa32440b5bf874efc4592bc7ee07b2baf7d054b756fd94d26"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/e8ca89f8f446b9270456e90c81d07ddb.npy",
+      "sha256": "a2204c7a4363fc29fc3a0b22ef54319f4ec7918974179cf46832d440064741a9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/0c2f5c36b318c813470b30e4916bda46.npy",
+      "sha256": "2cb3caedf42a5117cf217528f6ec00dd69f92cc2e09a50e0c6b9475ec896ae46"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/80ce6667c94bcab14057ed4b3d35ff41.npy",
+      "sha256": "056d8b5e7e796be48f679155467c3ce8489882e0bfe9bc74ac1cc87dda63f948"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/304579c9ae849367ddf51cd5bf303990.npy",
+      "sha256": "9100943cf36deb03bd474cd5ed5fa575ce38c7a32f6e7080dc404b597d1b3325"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/92bdd63e400c889ff2331941f94c905a.npy",
+      "sha256": "d74bab40f7f1f73e1fcedec63959ef539e118d5b889b64ca1f0af60ccd210173"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/afb996812ee33368803c2ca96cc78aae.npy",
+      "sha256": "01c2b23d3b57089e4e0f5309c36610b4ee0f0c2e05c98ff23fa041ba90a3687e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/fed6289e1664f316b9a2b5810116c726.npy",
+      "sha256": "e57e9f743a56575ee0af0ff25a86bca0e367f8642f8ec753e6d10a4799e92f74"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/3e8d031bdc82586b2175c6e06fbe5563.npy",
+      "sha256": "73e73b3c62556cde56451099ff2380538ebd2eeb04280707dca88d8640c3c7ad"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/de32ce194b01409997376ad1554bd824.npy",
+      "sha256": "f86acbc2c358459cd60506b45901659b7539812486435c9dc9af2d6540a7dc37"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/41ab2156030c6a8023cce0ab54d8e1a6.npy",
+      "sha256": "4400e62229cc462fda6884445ddd88e5f4465fc42ff2a19af111876e08138d6f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/537285486b4d597570acd7c53815e0f7.npy",
+      "sha256": "00a9619ae31f411dbd59fcb4dc179d9dceed784e18ffabfb87c40d9ce34bcdae"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/44f9ab8e6111ee2f775e009d783d508a.npy",
+      "sha256": "ea6f02ae0742438c6b146851644cb5125c0dc6f8cd0b3d4993284cc7ee3b43da"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/510f9d44ec26c5c1f66ca314507be159.npy",
+      "sha256": "934eb1b5e4f29673d15d55f726afeaa1a59b454b1b18dba88c523f2ed5397494"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/2e31987ed3c8cf0df1362b5ec4659fa5.npy",
+      "sha256": "57f34b4409d62840b402fdd1efdd078579dadf07563070c8d6b52b4a934472cf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/f7f4b13fbe4b4245738ae2e72873452d.npy",
+      "sha256": "fe2e5bc046ba7f077850a398b67868cccaae5f6658e35f1e430f30c63e7846a7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/dc9a07fed19ced6da52b08ffaad7f8f3.npy",
+      "sha256": "d57595d13ea565743f1a0e478cc61ab21e88b9e04b8eda9c5605036feedde6f4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/7c51d0774c402eab5a8d2026ce0f8bca.npy",
+      "sha256": "03aef9716a2bfcb1a01ae19820d249f2e9cd62f2a58b2b3f6f8bd627a84b1146"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/155da14602971d76c5a2fd213b1964b1.npy",
+      "sha256": "d8970b5f64653d083e2c62ab0fbc6a4edc7d3e2667e9cdaba0a45d8f36cbde4e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/8ba99f3f41339a7d436b052f4ddf4e68.npy",
+      "sha256": "158cd41c09bef3fd10fa4f8bfc289ef9c7ac79b06828709830e7ed497b4cb6e0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/7c93a8cb12d4515b9f8ac37e02900122.npy",
+      "sha256": "90cb88c9147fb5f52eb0874f9b8d4bf28da1c992c8a67bf0871d79ca19994c45"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/6ed68e4e3fcf1077cbc891face5738b4.npy",
+      "sha256": "7c498371b46cdd3e25142d3af319d309d4416504fcaef8742f8b538d4b17374d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/987a61b84e2002fd3e1cf9e7e7ebb352.npy",
+      "sha256": "e4002e96ac203298bbfb90a7d705f36255e79a54e248f3c65e0da6ac4ebe8dbb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/221df7ae4d3fe3cc902dc9d72be68dfa.npy",
+      "sha256": "4f30f9ce7ee2ebb7c47ac489e3182f29fd32ebe4bab7f483d36677c59d637c6a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/066fde43b97ff2dff568f0fe5dd7ebb1.npy",
+      "sha256": "d906efe08795f8f964e098238e14c9ed7bb51eb9273e52d9493307a9976d2f30"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/4590420be303ffd153be0bab8d65f7d9.npy",
+      "sha256": "d34b8be7125702c3ca067b0bb3db706e137566bf3bb57418a8331672ab4f1c92"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/348461673622babb375f2ef99490b383.npy",
+      "sha256": "8904693b10771a322406e9a8fb7fc74e4795ef9e6e541a92ac67b05cdfbf0f11"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/b2285d209501c6b9935f7b49985b91a3.npy",
+      "sha256": "e6427b7ee0302de03f19d542ec42769af8b0d47c3aacb716f4cefa0d1db828e5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/04cb36716e760f20370b43c5ddd082f0.npy",
+      "sha256": "5631abc5aaf4f85a51d44e5081175f0d8c2ebbdc90abfe2be88296f378ef93e4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/04335385da1b4921044c6f15361860ef.npy",
+      "sha256": "a40eea6ea50a55791af0a139b7c1e6f0e141cd07b96fd12210e34071f439b71e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/19063d6900b670e57145dca8637fa502.npy",
+      "sha256": "892a967a31ca9622fb04f54721822008a0b9b016c92f472930cdc2bb804f65e7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/e8f5be9b0c526cb52d8d06257bf29276.npy",
+      "sha256": "57cf238c7a120e2126e67bb5638e74171f80cecf07c635604a1d4b6634edfd5d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/f0b939aef786c74b63a16d5f74dcdc0d.npy",
+      "sha256": "705581f06f86f09c5db6b2bc4852249e0b974948d5a6937aebc33e923217789c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/8ace4b456067e1a83e7d009c571e8aa3.npy",
+      "sha256": "331a7e8ef95f5c72eed35d57d4397a49c36e8c53f22d1f93a3ffc2f39a14d85d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/bbb8b2394a310f4f22fd4ea5e33de83d.npy",
+      "sha256": "8a732960a3697635a818edb2309cc9cc5959d3b3a86724082906ee5ff1c697c9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/7298f569076ee10f5f83826d235170d7.npy",
+      "sha256": "47b0bd71d799c9a9ad01fedb002d48ec285031daee0198eaeaa095067d3b5730"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/f1692555830db4d8b863ad6e22a1b702.npy",
+      "sha256": "84705bc02b14f21794ec7bb97ccfbd557ffdcab494bd00cde113f2860d55a1cf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/c303f60aa2e56fdb096876d744db3eb7.npy",
+      "sha256": "32f7ef7d4891233922c62784148d87c04176a48b34334c96f421765b174ca8d4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/62d962fb8b1cedb45e703d0da8077a3a.npy",
+      "sha256": "0dfb69fe34bc6fe70ea8331272226db8b6c2a7f9f1006389e6f80e45c08a0e5f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/76b2ea5ba999708ce27f0003a26a5f7a.npy",
+      "sha256": "dd4b2ae86b6e028ef8b91071100c51cefb81abddead167de3d09fd99a7736422"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/3905a01710ff9540a76df0363c59e0b2.npy",
+      "sha256": "e7c83b3a654306cd648c4a38f068a4c2ac00418e500c9b9e0da50754e4331299"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/8e2612df3db9198b6ff140b7ff666f4c.npy",
+      "sha256": "a61de4031bfbd63be43a2e0348372bb0e22f30994b574b536a5010a74b440c4c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/152a1120012bc563f2cc0056f365d836.npy",
+      "sha256": "787bc8b7dde7998bcdd2412197357422a3605776dcf4983caf5c5e53ca64e4b5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/efe081eaebe6f093e29c76242532347e.npy",
+      "sha256": "c2832a65546998fff965e6c04416288dc241d652393655b3881de2feb36c2dfb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/17b4183b141aa6f9d8afe36b4e9feb75.npy",
+      "sha256": "007f93a73a9b5a8b2572c66fe4c827c14b7add1fb2bfd340f675de12e6a63556"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/c30a758d3b6fa8012c71212176b6ef86.npy",
+      "sha256": "3b791baad96fa1b133df0c52b3d82234543da585db7de115b56ab6cded689ed8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/2bd8ca85714caf2f6706b8588ce5d518.npy",
+      "sha256": "49486914c3e53e747b8fa69dc46d05f1e5ba38816f0925daa8ec0fdc10b0fc2f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/f0491888005aad28746b945b5d5300a8.npy",
+      "sha256": "3a60844125fb0b00ba76c96b421ac1a8500a3cd947b10a44d1431b3a68c10bee"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/1dbcd439c2b7a1641afcffd8872a6874.npy",
+      "sha256": "7e50af774565125246ff535627668d03c264142fa380e90d830d971cf7160bde"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/8fd451529fc7470818f0a2c9985814e1.npy",
+      "sha256": "a08e08202bc4b23274593a6514a71a332ab5166028ead44f010aa85a25aa0888"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/a149a034b758838f3e76771be2d2a1c5.npy",
+      "sha256": "42dc6921ede2e9b3174c0af474ea09c619f0f330fd653ddd5add8990d6ddbf61"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/aed5ff4800a7b5182ecd6f0d77d7b0c4.npy",
+      "sha256": "dd8b4535f93e83bcc746e72bec94453d98cbb049cfc57e96d5c4f69b00b928ad"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/7e9258ef71dd4cbb841207c13ffb95c5.npy",
+      "sha256": "b5bfe7130714f3e379d5ae14c8c829250bcaae45a5742258dcf2883112a814d5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/ccf689321be0d7959c6ab143aa3555a7.npy",
+      "sha256": "1702ab38d498e2f8ba92b60893fb4cd138d94ee0f5327fa30a97d35ffdbfc3c1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/5902a13d0b5f55fd12870559c0b2a0bc.npy",
+      "sha256": "cb4bbf24914be8225e0c97e63838b314b510385652d9ed79dba94248535da0b1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/6618ae695931c6819c64076e1685149c.npy",
+      "sha256": "7bc3eb60ba6c5527fbdeb5d774a9eb51ab3b5eb7f02abe4a559c2f92f11f0a5c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/6e16d028ef2eeb9b7e1496d7a5ead2a6.npy",
+      "sha256": "a7093308c4a8010066917d02bb9167bbf6c06cb59d3044bd04b3fad2d8a56d99"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/fa2961d55a9c672f1bf20059b264fed5.npy",
+      "sha256": "afb0afcd1717abad7481c416fb90c9ce9f0b65d80962125a2add2dff0c2d51b9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/4e4e1ac5251e57606352a9a8b12914e4.npy",
+      "sha256": "6acb4f298a1fe00122bef48823c7542f493935c35be9eb49373617f6610a7735"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/7815d03ce8e85003ecf98072d0cd1c7f.npy",
+      "sha256": "489728dad357fe0f871b14b0e5ddc8de430d0ab98f6dc230f7ac96475f9d0346"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/b402ef072b612e5a8a673289e499d1f0.npy",
+      "sha256": "21998f34b21b63544b922e564cdfc0c9ad41f2080ea757171ec8dc62a69fa44a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/c6c4d7aadd64cc0f4558252f5c2bebc3.npy",
+      "sha256": "215c9589a1905d192b5c01288471404cc24f67ba05648616627b7724c5528ea0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/a1723a5617d3fb98dd1e0476544a4a2e.npy",
+      "sha256": "09f14234a3214578ff47ee3ead31c7a238656a31ca2d1beafe2556af82c8b1aa"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/drugs/c9e1ba1dc9c35fb061b99ca0fc3163b0.npy",
+      "sha256": "43e911276ea052aa420519b4a4a2ed729cc18146a1ce601f233b15dc26e23726"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/67eafa5307f0359e9a7135718ff4b664.npy",
+      "sha256": "aeb7b98a96ea92b4207a42f11985a9c959e2b24528c7de196651702067f5ee08"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/eb095781b16f22aad2fd44d91b8bf4da.npy",
+      "sha256": "2acd0f16e6fbde10bd595a18127106cb97ad9a588e6ba4441186f0320fc65918"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8e53f59e52ec351e230f1133a1713d06.npy",
+      "sha256": "fae8a7900bbaf042a1ccc3ac046cf401e4e0ee090f905aa70896ea825d82c3f2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/38076712723ed5bb2ee9dafeab2448d3.npy",
+      "sha256": "9ffd560a569bcdb204167bb834d1e72841307942f998745bdc04cf5185c07cfb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/43a6f16359244be76787bfd502af8233.npy",
+      "sha256": "1b13120c522f876684b660a9fffeae2c7adf85b385add77b1db090d2d1bb7c79"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e4424b5a69493c924ea966f06a7848fa.npy",
+      "sha256": "4602021199fe6d8bdd1599c717c181cac1af5ad953e6ed2933e497c50217d642"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ccb174681d880da0eae8c0c11a73434c.npy",
+      "sha256": "444a241b86bcc67082336b68af657ede30c00c4877bc17468e0325cd78dd534e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8501faf469e77a9fbdc0166f5a18bcf6.npy",
+      "sha256": "e4462a0b199c360c1245b721fc7bc7c93ca45d6ccec9a8b30d73f1b7f9d0eb1b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9a58596b282353f4ec6627519574a871.npy",
+      "sha256": "441de4b6b91d87db38c56325219ec79a7e28904b929a2712b62d16f91c15ef08"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cc92bcd03971f1bbcb8a674eb1c03830.npy",
+      "sha256": "1ce5d7250522f8c4bfb1f9d9a994d432f1754ddb56d92dbcf7d26c4e2817eaa2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0e2177d0ec35139563c13faca02901f5.npy",
+      "sha256": "1264c59454db0d3842b7d071d27217bcabdb9065530af76edcb61d96f3bfedb2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/040929a2c7cd26691c84820dc4ba1aaf.npy",
+      "sha256": "418ca8692dd7826f0379462771c5479f31c8d5be93eacef416d47d693548e8c6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/74c9b69323bd112084c1b5b385e7e6c5.npy",
+      "sha256": "8631e82a602de045bc64283f424433b889c9a12d4aebeb8e0f26e7b5c883243a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a020591d3f9f5954a3b0181d979c1b46.npy",
+      "sha256": "47d4867424797747c9a4477135452cb9d7ca92288e251373ae282a09d5583899"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8580c0c660d37d9762c7359968fdc105.npy",
+      "sha256": "24f22c9c701fb6e417717d8cb1f99c66c8ce14a240add2164878de2dd64b01c7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/61dd6dd9bf52d71c01e823a2438ddaaf.npy",
+      "sha256": "1588cd6c3e56ed36e8c2601cbade3a003a9b4e3437d46b63ac5870c0f0c8fbd0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/79f0254280dc2125d346cda79cd68870.npy",
+      "sha256": "f6d20f9edbfaca9992e74274db87eec5e730f1048c72fbd16df53b15c61232a2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1ddfa8dc48dc78391c08cee6fa77bfb9.npy",
+      "sha256": "82ecc5b2bce35ed2c8a735600ee83c83b2fa8314d46ec439af2403a7936250c9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6a65231319515480ab3643977a8a47cd.npy",
+      "sha256": "784414ed0c6de2bee1b5c43be792686cff2463da23a710f486e18eaeb1f879a7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8cbc37ff4423a48219f1f50e08f68475.npy",
+      "sha256": "fa37af5e8933b76668c13ffe4564b0c5ef0416c1b618bb12503fb754385178e8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4052e4eb097cb7cc7e3f2c98f707a618.npy",
+      "sha256": "fbd0d64100f537ae18d52551343e5657cda5b2e29b412fda6ccc23bcc38252d2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d2338540fce8e2755f238b1d5066a1a4.npy",
+      "sha256": "a4d29440a3d38195df24fc09cc9e3b1939777780c3bd89cd27b688872508afc1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f63ddc4afdeeef5cda779b688fd8492c.npy",
+      "sha256": "a21e1c7b15000f3e34de5bf718738621ba2d4746fe80c655739eb110bc87e0f5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/54e39ac752f1533b6fde2a72715d5d74.npy",
+      "sha256": "c98c4c5e436d975138e527054a079e0980497fe87d806490eb0af8f602d73a79"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/067c96504c9d928ed2f9f0c859f4a95f.npy",
+      "sha256": "94337f4ed4747caf25f49f0afb07c767f7f61081dfa71240f1950c9535025ba1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d86d95c0324f1fdb3e1fd11a9b7ef0d5.npy",
+      "sha256": "c3f28a63249e7a69b02ee91f3962fb6d63ea810c8afc149b7517c72ce1d0dbab"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/27493a72f646f480a9a0c925dac07f90.npy",
+      "sha256": "5b0bf1c3830e4542ddf4f5bfcb74c9fd8ba1b51823e0f9ee465f9881f6a5bea1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f30c5da7d0357e12075b4495b2eefd86.npy",
+      "sha256": "d5e1a8e290bd9a1776d42a1a9bc4681bf4839054a94c943f77ab703b2e62e868"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7c465f9a42dc946204c257c884beda6a.npy",
+      "sha256": "441f21c199ca5a0d7246ea54d9e118afb4ba64e8d27079e22c52a498f4870e3a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9f6ae88d2fb149ddbc8df249385c2cd2.npy",
+      "sha256": "bd9a5b5a3ffdf5bc1ef58c68fe961ff2ecbed26e4fcf6176a1359dbc162f73cd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/14942b3a0d7c80df112f0a18cca04f47.npy",
+      "sha256": "5f1adaa233d96f4c9baf59a9aaf3f309b13db467ef7bd4d97cefb033aa1a0325"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e871a8fb2f7d058bf253f8da4ae11dda.npy",
+      "sha256": "5f6873467a01eeda464a24075c6406dbf9d30c2a82b050fdd2745272798c4169"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d634034626aa2dab0ad84d3986d74444.npy",
+      "sha256": "032f58d1833786adaabd05e9f6ec3d03a61172d7a3df8b36ca4f171d59105bde"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d173f13ecc581085b0ae5d8128ba1603.npy",
+      "sha256": "51a1c58ed548c87b84d51c0fb427784dc7cf9a4aba3667dffc1b2cee4d5551d3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/62e9af939ba47084598b1661c0691b0e.npy",
+      "sha256": "93e0f615989c793583eaa4bf0ca0f14ff4d49ee0b05f15dcccbc36f1a72a45e6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/997284a844c2ac28a5afc67b8226f17b.npy",
+      "sha256": "26a4cfe33168d4efb732e1e1c00ac788b3fd54d98b7019367e8d4514127f401c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/bb8f1ec47dd040b2e3d576191a033ff3.npy",
+      "sha256": "0ed8978a7daab32d4631b71bc28b5229fb61b98fcc6ad3257360e46fbf756a23"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1b3c30c557eb4bf28243fad1bdd2c8b3.npy",
+      "sha256": "fdcddda00ff551a12a927a911fca8dfcfa8f02325524ccd7792c2b421459de88"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7a5c3333a1ec6555dbaefa5c6303cb2b.npy",
+      "sha256": "9a78c1ac82b2dc800aac989380eb6e4ccae6c0817379031131e7c4a6dacdba68"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2dec54fb2329f1ded5671e4a5c94123e.npy",
+      "sha256": "e380bf3c26a498a73215087a172861533fc944e5e0f8a94176876ca6f8c585af"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/efac0ba2abc8f0b14c6b6689a0f2d676.npy",
+      "sha256": "1a6c53cf04a5c94e59362aa27bbb1fcc8cb95de79a111edf079f0cbe3a236ef3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1a8896170fbf6efcc913d02d247690c3.npy",
+      "sha256": "03d7856fa8b5e81b01de3eaaff863d2b512222ae4fed390c59835b8acbb7cf79"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9ece8f2e893fcfdd0f35522f09dbaf3d.npy",
+      "sha256": "75380d86ed4fba6f0bacaa41cac14ad4b6429957c302f6a4e5f0e3e3ac892189"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/03c31c0d78bf5ee48b282332738ced2c.npy",
+      "sha256": "93421a901a2e151fa1688d00ab8ff18b48e0a70d057a32ac3da506fc2ab54baa"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0e089d854429c19cf72237b0adf75fe5.npy",
+      "sha256": "e36374972894cec7487d7bd99127d1e36c3de939ba2742b60f85e6bf20ab8bb3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b9b059e043f10b1262626bde494b2620.npy",
+      "sha256": "d6474564b773e37895c194b4d6e14e6ef8b6579090111afeee71815d155e2adc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/157cb45739494ead4f9c74c5b405a631.npy",
+      "sha256": "4ce0de048eae54d227d772a04b4af2820451534c70fcc4d6dd7d0e32b39c830c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2af1ef6a9ee25274037975b1bb5f262b.npy",
+      "sha256": "04b35866e61fb1c38485383980a0d2f2ce4ad8840e782641beaa3484d3078f78"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6067ec91d17b40c80ee27fab40d80eb0.npy",
+      "sha256": "f360053dfdd2f7528c4e2da5e374cfb5c1633d1ffefb26bb2a2b5077082032c7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/fa6952670d41351705747f0b091d37ae.npy",
+      "sha256": "21f6edd667f6c8b79ad448346fc650d5bd2b58e6fca8c85afb216a4902fa017f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c30946c08ab398346fe2e6bd336ca8f4.npy",
+      "sha256": "c08971d792028f51d0b322a3c09786b905eb2ff55f9d0da4e5d830e63967cc4d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/298eb2b0a64ce9a00143db9fa208db71.npy",
+      "sha256": "28c9dd8c34cb3b074aaef905b5015f8c078fa91ac29a3f03de043df8ec4c07e0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ea23e433f5a0c6913d2c37946d4fbbd0.npy",
+      "sha256": "88a4ed33543cecaecc608d783a09c6bbe8a127443fc2bbf1f8dfe2909c617768"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a2092d9052d9794255e32e8e525ff988.npy",
+      "sha256": "99e9d3d91e65d0b7e59695a2ae179c2577a4b34cf7eedad525eacee310919c3e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/409ac9e5d5311eede6882d3667ab8fc5.npy",
+      "sha256": "8d2d6b92f0576241f118ad144c179626674b190725035e84c0c96bf11a498182"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/82c96c351a3b58cbca8fed3796ac306a.npy",
+      "sha256": "7ace291a8eaeb213ec1f0df791efcf9be19c75f4a3895a8477c0189a825606d0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2aeabf3a06284a441e14dd03449bb30b.npy",
+      "sha256": "8f0ff805a18812ce2551e2378af9969cf5fc49b696a99774c872c05e3a4c70d3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2649c5bf571237ec98d7917e160a2140.npy",
+      "sha256": "65ac983bb86c4903bfd6435aa84f75a96bc45ab14fb95877ef7643c5355dbfbd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3493f966633c0810d7651f97b71543bf.npy",
+      "sha256": "af032c5279491e3ff97f8a93b838bb6925b05d7828e73a6af0f0b2142cddd08c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/52a29988773d26caa526f2e7fa6dd61e.npy",
+      "sha256": "bf92866ec4d02682543c0bc4326370a755171cdc6fd9b3801af9791b826f3498"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9881e7f1fbeb971605a72097fd1e8f74.npy",
+      "sha256": "cbf2028a2e7e03367a21703589b268a98a661c972532ddd116e22ea266e021f9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8014f731ebb9cd8202f732ab6628d989.npy",
+      "sha256": "928eb11c8f9596ba88d46f53bd014b02d2e899d957723e064aa709e95fbcc8f6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/378e539100996a97b13c23b7b49ad350.npy",
+      "sha256": "c990d022c2f31dcf14e1670f2258572e085ba139e6b311f2ab20fba1457e4c84"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3e6cff96e130915b466d864c4e1daf6c.npy",
+      "sha256": "eb71f8a7670872348bbc25e9339993eed485a9a91b371c9e2e8a2625ca58fb92"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/17dbd30c3a3ccb7420537914a95d3f54.npy",
+      "sha256": "6e8600dc92ab0f19d0d3ff155f2959b6747cabf39cb34c0dfd146677401455db"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9fe8ffab125eb4793d7239317e2eac60.npy",
+      "sha256": "60b836706fbc1f90e4f5a116de139aef7c5632af7f017c0ae83320912814467d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f15a59b73b5223e67fe6af605e0033f1.npy",
+      "sha256": "b5e1b229824f32f130db35d4ec32ffb07fa960a27831294c8fce0471238409be"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/850e4b328d778fa0693b3ea54afd5bf8.npy",
+      "sha256": "15452c27a45a639f5aac3d686fbba250fa823e2ce8735df096382ebc39d6ed37"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/588a9529ca3945950ab346adc729f62b.npy",
+      "sha256": "4a3cca0be0bde266cb46b4eb70725f1be299c2ad193d6799f9d193c29b167917"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/84bb8714a4ef48c051962bddca849932.npy",
+      "sha256": "023f4041176493c1819a652982502154950c2923cb60ded00759fa535a5161bc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2b7018a774a883c2c7404de9d40e9a42.npy",
+      "sha256": "83d7e99dd3a118acca8005d4084b2df5bcd53d575121607c2cd8cd0b250ad2a4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1afe3d29f85272281507e040960704df.npy",
+      "sha256": "91cc0a0899ba6e8128405c30512c468661e4c395c41d53fddb0757f2455f815d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8d4c7216ece41bfb701355146ed4f9c4.npy",
+      "sha256": "314e7d575e274d6b55a438488975760398c6ef1357424e1b315d0301a5f8386a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8eb04104be33f0a0cb376ed145e684ff.npy",
+      "sha256": "0ae774a189288565f704bb7937a491f21e4f9d51ba486e147ad26c24e97741ec"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/396fb1c0679818238c7a4f02b2f5483e.npy",
+      "sha256": "e1a1d0602fc2905c7625feb412d9332814b217471fb0d5c1dcfc9ca3267f2cbb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f2274c019b864269cc028c5a676ebcb7.npy",
+      "sha256": "0639a80f1c517bcf632fc5c51b65227d1813207e38a169f91222e624cbef4259"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d963c8f9d6e36940b564cbd1087ef21a.npy",
+      "sha256": "0b23f67a7a21fdc68ff557346c225dcc4ac93591ae470237335ed482fde26eb1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/14af4e847b53f1b22ddeeb4d1ea574ed.npy",
+      "sha256": "4915fcb4a17c713f5b2fe46eb5f3016ecaa8832f7be4ca429869fc3753f2e4d2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a7304385fbc7627192b1408cd0b46dda.npy",
+      "sha256": "b91062b5761c715b8a905fd22a039bcfd8aedb781958bf3f870bc973df4fdee7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8be8a7f8e1c9ca3efbd704414e0c0723.npy",
+      "sha256": "578ecc142d47203e520dadea5b4f284a4b356f725642c7cd3be75bcc4aaff42a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/87553ad0c49853d39756807180b1b257.npy",
+      "sha256": "0b632626a6a24f95bad4152fb9f8e619b36538be9ee647e2ecc0614dea4d35a2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/362e54774b909b6b783ca54be8166e47.npy",
+      "sha256": "a92a07e4c31510913a9a7d872a338466509036de50c11cd6731796b972eca591"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/45e842000c350ae09c6081eade5c781f.npy",
+      "sha256": "28694530c0129ee5646a44b847bdc6d06f1abd472147e1286303c0862614ef25"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c4259e74930f741eb0f249fd8e6b4164.npy",
+      "sha256": "5717792eb5e745d9e453e1d82a4bcca8e92a9df61a3db7232b0a0ff2626a7e10"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c537c319ba44771c70857064839b3689.npy",
+      "sha256": "90edfd1737773b331204a5f8e27e3214680e4ad3ab75bc1b912cdd4445d602f8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/572900d08288730a7a26fd2890027fb7.npy",
+      "sha256": "1c65a3092feba4c07722cb741f5da0ed29a4b5d6a875007b9a15956d6b6dab5a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e4ad0bf258e23778e3a4bdc673c5d82a.npy",
+      "sha256": "9db3ea13f65dfde9d8efc81c6b5e8ca14ea03bf41e1166ca066a26fee0df0223"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8796575e0fb5dd7e832a65b1b3995fab.npy",
+      "sha256": "a496dc216c79dd23a24bf560a7555c82ad2c059296a30b5aba39f1f1696ddf06"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6991d31d5dd38564988f1ed895622a16.npy",
+      "sha256": "e023a1c62b606819bee65415c5efe5269434f0dbd6dcd73afb641b8843446599"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8764f6a5f8c2def1a89a456cdb5ed1b2.npy",
+      "sha256": "e378f98014ef65acfb993056a05ee2296e50982ce36fd3d7fff1fc8c167eeb83"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7788769b15e452b03ec905d21c76bea3.npy",
+      "sha256": "72dd29531e77367e40026a915468b328b7c85bab39da613a035bb47367e331cf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8444e8f764c5995948dcd432a4560d64.npy",
+      "sha256": "add4d57cbdf57c0d201279214d93e4b18eba094f670cd90e28a99a48f419e262"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e2640b1edc13d90daa1791a3f5c5e2d9.npy",
+      "sha256": "8c138df5dee16f67d2195e4250347f005c580798925f2514c602d3cc53e04082"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/986a9393aebc695a16c7b3e597670046.npy",
+      "sha256": "bc60243530dedd13d8acffac1af705e804791f7065fefd1e01ca9b2668c7fb9a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d0e3e3930a82f1094a16b8beeef6be54.npy",
+      "sha256": "cbe1860d7885a50dd9568fd4aa92149b079cd5f72d635897bf3e5d1c1a7e8407"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/83fdf9dc3039c42339bc941a0847a1c3.npy",
+      "sha256": "d85abc5530dc9b2275259c8564dacbb75834f8cdb8ceaf1c18b6ff406b6ac96d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a18600725417b9d75740650d1e056c8d.npy",
+      "sha256": "580e8da6917820a0968d8b7a010885bc3325e4c638018704907ea69071fda44a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b2898aa8c8a6789e7b4d1df7c54e8a85.npy",
+      "sha256": "acfd14df2d45217b933321679406fc5e143c8b8542fe0f63017aee09fc073935"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a3194ee57a6c080d2b8abc416d90f76e.npy",
+      "sha256": "d37f238aa2113a4fcbb8d291c3021af21db0358998720e4ed03da8d5298d7cb9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2af0621df719b5ad0bc5777f989987ab.npy",
+      "sha256": "9051857a0ec8c293d23a30500ecae309437eb8e3c51cdeb0e1afcff5bb8d9b10"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b27a37c1dba99fbfbae12c3fce72a9ca.npy",
+      "sha256": "3985d97601f3c201956c094903d9732d8603272683146de74cead4018fa0ab8c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/fd362a797e55160e725e287cda5b74d0.npy",
+      "sha256": "0118ad125af3f0ecc3719909b024edfb682e23ea570fb5b38ef52d561302b636"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3ddf02bac0f78c1fd4c1f0a93ab1c58d.npy",
+      "sha256": "62bed831dc0db922cd5c085cc18efef21c774156cf02fa9fba1b051b7fca2f01"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9c91e351def88da35f1a3e60c94dfb6b.npy",
+      "sha256": "85385756b61cdc5983ffb18bc1bdef247eb3d8506a22c54bb79403fe0bdde867"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c1e8589e21da02f05e1a688a075debff.npy",
+      "sha256": "5b1edc08b46e5b044d947d46094a0ebb0b6c78bac6ba570cc53ac328d8ba9408"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b4c3b6180393cd6dcfc1f6de00e93952.npy",
+      "sha256": "3416b53ccdf7a4231d5bac96ad0d208d85517c15804b48de4229f74c2ac1c484"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/44f844fe30f2e4338cf57ed9d1f5f6c3.npy",
+      "sha256": "d827b378a596e49c5f3216168dcc056432ced3088f0acde42d71c55a8b329776"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ffa33b20a6193bbcabaca30bbccb53be.npy",
+      "sha256": "a2635424f95aab45b194240e688f3f4c32a7c56a53669e5b3d0e63dd3d0f186d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/047cc4511c5431f13dacb3aa77cb555c.npy",
+      "sha256": "fc648d7ec3e1d2a611f064b8884d49d4aa851c5c3ae09a74e79a5f09712e9c93"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2f7226008705915f13913ac61a9faa99.npy",
+      "sha256": "7e814dee5f69d30833dc076a61fa6fed839acb8c124482869f9a6ae394290906"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/55d9582b969948fcda3098f410b53e15.npy",
+      "sha256": "36a0228e1ced156d2427838284b92192640c21ce6470c7b009e6a8f995b6c032"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/99a4b6e0cdd1cea7849a6e4b244c8d30.npy",
+      "sha256": "7d1a824047ee0b6bd8c9a7275281899994a029d6ed9eaaac50f7bf6d4946c755"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/68890ebfbaef7a43297d6a7c4324f0fb.npy",
+      "sha256": "28249cb2d8c225d4007a4b70e0a9d993b1face18e6c65f2ee76efd9628d0ef9d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ef4bde4c2bdf1b63842a0c77e84fc437.npy",
+      "sha256": "18f4d0037f8215d3e73d99f58ace5629db69862aa608858573c479ad0d82edff"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/572e4a542b2a0965f318925d94d9bd0d.npy",
+      "sha256": "f15f1074fd22d031f93e08526eb2f329d0450e56aabe2ad69dca4b6031394727"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/33e15bc8613804a0c2bc26b23864e60d.npy",
+      "sha256": "8be741d4b25468ae772ef18866a73002a88b8188aa134b952319df73b444a209"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/54d9871a73fe6ccceb540add353ee758.npy",
+      "sha256": "bff123175e85d71f88473d3a9349e11bf21823381ed5c6f329a5bc4c518acc40"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ad6ffd58b089c6844b983ea0841272cb.npy",
+      "sha256": "2c5ef3de02a54f97f65ff529384e824181e145978cbab5f253d111de6df67235"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d231d020cb5d921e3a7c5bbe10089245.npy",
+      "sha256": "c7a5e03a10c790733b326f800dae14e2086d112ce2c4b3b20b7b572724c477ab"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/96c4f59c21ded7e5c1011b6e42db6b31.npy",
+      "sha256": "db49185a0a19e7751427c831d4b2e97a990eb317ea88dc6cce7f30bfeee1d331"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c81e0b8538d3272e79d99d9823ee5d98.npy",
+      "sha256": "06d66b5eaae79b1d78221c106167165a198938590ee9552879e80ebfb24edac2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/de6e81a4ba2b468a10d0039f052a6463.npy",
+      "sha256": "1ada4babca8903684237db2a9b38b32f2360a73c6aeb6191ac8963cccdc22927"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cfc0f17e3397427256a71fb88b7c373e.npy",
+      "sha256": "fd26690a76b4e0840c3ce8f43ab326d25e459b919db486ae9d3f72ba17451b61"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8004d7eb798ffefaed9b14e2f6f675d7.npy",
+      "sha256": "62c276c12dc2ece6f7cdfc79572e0a00143c8e63752a18898cf5674bd8d4dab4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/07bc4395a7bacf678287cffc95377d6b.npy",
+      "sha256": "7119aaad71628358e89ed768b241b743aeddb3c47a0b067e24474ad238894ceb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d89a90920775435179a0d5281a800f78.npy",
+      "sha256": "ec33748b5e3f2bf84abd7a0865535b2e9705160a06b402c548ef67e4967c3cc4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/95b0e4752620561e87cdd738298d457c.npy",
+      "sha256": "07f79b04d22755302c6e6b2b4f9468b01dc0c1483cf46a8b0eaeda8fc6758f48"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a09c33bf46654db6fad51846f9219e6c.npy",
+      "sha256": "e6cf6da16881e7157124828db899760bea8149a9af8dfb40e80eb533fcecc1d0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/577215e2e723c7a88690b08fcd9c74a2.npy",
+      "sha256": "0ac69113b262674b8e6ad7aa359cd0e5f7dff67aa41a6f7da7d7877f8d51cf0c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/fc6a0ba2b38224e46ec7c739be097fd7.npy",
+      "sha256": "82179063586221d9bdeb5bead1deaec9a3f337a36a03eefe9cf1223903d52e60"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4c7ce0120dfad6c1beb343b57d7ce9c5.npy",
+      "sha256": "f10ed3e04aeac4cea12019643af62e2eacc6f83cef5e8cf892d74a036b74d3a3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/751c83ccaa7e8981affa3780720de9ec.npy",
+      "sha256": "bab6d1551c7f3c9dd25731c748dcdcad9847e2fdf273e308deeb9983899092d7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7f34fb4ef08d9050f8fe27c6d6f995bb.npy",
+      "sha256": "efa010ad143ac4bc341104886574bea8a44e9cf4cfa6ed01f285ff5a0598580e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f6cb250af125a396596a42297e16bc0a.npy",
+      "sha256": "a29a91011f05df753ef22e860ddfeffe1b88931fc4b69bd362bab874209a1414"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/94f65206094f6f174279ed73c53d749a.npy",
+      "sha256": "6a2e7f9d190a87e7f6f3a3115a64196f7529a4a73a0b65fadc2061e1e04489cc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/678eaa66d457ed5c74e667880d10eab6.npy",
+      "sha256": "f983401bd6d998891db96089cdcf9671439f995d30d0c9d11b5587c30d3d6798"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e738af340c97db8838eaaca382c140e1.npy",
+      "sha256": "06b62bdfcb40b4af70966ce5e28a75bab6d281388c958ddd6631d1fbdde03bf7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/bb69344caee31e39f3db73bccdcb9171.npy",
+      "sha256": "03af6f6fb62c337887ca7ffde99a8e89c74439ce806f99e9d8bb419f211c39c2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f4d8af21819414fddabe0b9f660a4c04.npy",
+      "sha256": "f264b542c8efc99ae7ee6fe9ed1987d26be4bfc1959ced79cf71a560a0bbdaec"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c26ff33bdbe0e78410bbdb19e92c5ab8.npy",
+      "sha256": "b164f9ce50d17233b7cd82432a31c0f3ffb2614a0a427ab523fce7602dc4def2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/eaf7bf4ae65244dfebe5fd03f1e42a58.npy",
+      "sha256": "582eeaff5abedc0de38b291a8bbe5b97466b4a51ab6765f58ce68e05bea79911"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/70ae0f4d12c76a65b6e0e49cee557282.npy",
+      "sha256": "bb2ee9997af10776e36f2334e82194e5a4e6c1fe54643321535dcd6a7610a533"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/50ff5c8e696e1310ea19fdc4c894ebc3.npy",
+      "sha256": "6a4c34d7065914de2131c77eff7bb5347738323f4dc9b0349f83b07ac68725b4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/05bd88ca5f9f9aee47d59eea7c9b344c.npy",
+      "sha256": "e21e9ad51d4b44755321e29ee6fa54c86ddf892f32e9f71552b45dade98919e4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/446ab468a56cbcddbfa576a3fe4f3a6a.npy",
+      "sha256": "3a154913e7e8653c053e6acbd6347b703c90275fb4e6d5cfbed9311f7e8cebea"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/36f0ca6fc74a06363476d0c88c1e15b3.npy",
+      "sha256": "84950c196c02d522d32d2d4e2794316ac31b55e20226075876e6a54b7d4680ad"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/63a0d68b945f4cf5844c2c7efa43b058.npy",
+      "sha256": "cce0cbff38a957afdc84d5ef2600906ad1dcd1808ba4166b8b4f8ba7e1f585bd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3db2c3fc46849dd4f64bec865c929961.npy",
+      "sha256": "899b91d12d69406282dd5d386b2ba10dd57927493558693406ea5a18f42a6d89"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/37651753ac367085eee54832cb277f81.npy",
+      "sha256": "296bc63da88d59c035241e26ae98c4fef0ebe503fae0e8e32969215c01709d34"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f183670f5817ceb296bcc3417d468b64.npy",
+      "sha256": "7dec905e3dcb8fbc6b5cc06867b6951d2f1383b7be62203dc5380e193c456b64"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6c2d2f4426b898eb5aea5626e7175348.npy",
+      "sha256": "1c775d0a6c7d68a0303054de9d3124ad016615bde333654c261f6c7e5034b223"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/121a1cc9e7ee9e20e99a14daf8bbe3d0.npy",
+      "sha256": "b933a5bfb642c1520e9114792fcdb63c4066f59970b9c59994d9fe0231658e32"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f2f8bb4872f5b5807c5f0d903f09b056.npy",
+      "sha256": "71ff38a739d62eb543278b37c43e7ab0d57f83136c1633aa0cab63227c38d65b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4abe2000697d8d6763c31b275609c47d.npy",
+      "sha256": "c16daf4c30ad09ce72c3a7efa43b4d3bafc9684fff205f5cb638cbccfe7ebe94"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/11c19b1c244e80a4edb2b19da9145a81.npy",
+      "sha256": "2a51c93e217efd249f2dbfd0db14156f230b5a75af1b95add4cf85c92ec4358c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1d06a3ddce3a4ca00df65110aa4ea447.npy",
+      "sha256": "1695c939f55c9fa176e19af860487a9f46d7f9ef1c3f8dee0bddc551a3c4bdb8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/22b838d24d13b1a0768a8c4750a19051.npy",
+      "sha256": "dab7f79893eb8488e81203fae61a3ec3600d64dab705b810dffc14b008fb1ed0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d75fafa6d628fddd44e3697dc5d47926.npy",
+      "sha256": "f52d764332b4fe474c5605c740764304aaade0908eb5560ee4e7a5c1f7b80587"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d83c475709f92a87a9566a4ea520cd60.npy",
+      "sha256": "ec3b703fcdab4f8a995691cc9e721d5e1be528530ddce873dbcd77279db93160"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7b2b0c50bf2c12be32fb45209f67d255.npy",
+      "sha256": "84038f9122bc0e28d9e7dc562b5f2d935a03d68d258df424fe675b309c4481a0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5ce711f3e4272b427621d6a1b96259c8.npy",
+      "sha256": "d79e286660b5892e08bd4daa79907fe9a295b54e8d47fced5f1c35597aaa078f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/638c4a64d52d6951aeba1a615d93068f.npy",
+      "sha256": "b5094c0eb1390100071a3477ebb50c3a4d364a6a22d85fea334dde36e87b7912"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/de41b2f31ca8190f4cb229dc9d6cb76b.npy",
+      "sha256": "b833eb83a4fe5d7562028b8073993444be297f15f8fd3c0beab99857869e942b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4da4a28a5ddea0c62c113e19a4a784f7.npy",
+      "sha256": "4efd076c04d451c3cbc9350c575974504373c45cd806994cf3fedd3945145114"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cfa5e46a13b97a4e61374b1180cfc383.npy",
+      "sha256": "9a1ac82ab1689ad314aba51da661c341ff2c2f1c93caa3b4d705ffb2fb568f7a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cd9f151f8e30e534d4064f4d850ebfcb.npy",
+      "sha256": "2c2728e3b50f9ced3662a501efa4069cddd83f91f9565d165ea9136d1297e7ed"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/408c333701ec7e889d495aeb32d7ae10.npy",
+      "sha256": "ea4dccd40c3764632439132df131d52033d374dc6ca946e538553549bec5afd7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a4554222869c00fd751dc364e23f6a4d.npy",
+      "sha256": "605bb1dc3545953e88c11482ecaefd54795dfcdca8a6375b7e053d2e2d9d2cc8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f3a0bdc4353e4ea4a196667871ac3d6d.npy",
+      "sha256": "4d2c63b9d77f3c43b6d78a2955b4419fb8cad3893dfd275d2084cc30ded4fabc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e855d2b1a5703611f79ea65ce6f048da.npy",
+      "sha256": "ed0bac45c26b3903ba9aabe49ba9a021eb0e0df11c7412c96f86681c7452310e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3f4809bd211de7e653155ffd55e867f6.npy",
+      "sha256": "e30d865fb390a839faaa8acbfad170a9afd0666bc88331775c8ef5b6b136bb2f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5468b76ef67ee32a99c84edd63e82b88.npy",
+      "sha256": "cb3fdd876691e111756171652addd08e6acfcf79249215de426cd7c87fdfd6e9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/66131fda098c42a876c1a261fdab289c.npy",
+      "sha256": "c8b8c010754978a5346f3b9382352634bcd4cec91ca838345a15b585b379d334"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7f92278498a105fffa782a04873e8dd9.npy",
+      "sha256": "1fc5faf61b0a81ca1d4b59e97274f1ca4aa4ee85f2852b92ce74443f2adb0e65"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d7b557e3c789e6436b0e0c7ca23ef7e0.npy",
+      "sha256": "bf98bdb070913b6da9794d1545b32fc3b0e06786224daf2bc04cc6b3d7835085"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0d99ea64aea10e16e68ea12154b2915c.npy",
+      "sha256": "7ba72ea3326f6f6768561ccb7c82a6c6fe778fc8fb2a6a5511d559210db08dad"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c699ae0a92fc5cd855420130fb067bab.npy",
+      "sha256": "6856bfbc343a9b5c444b2baa72a0ec8dab3e62ab0c14a581ed064f900a75ba8e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cc00dbec823a59dccd71aabdc435614e.npy",
+      "sha256": "2002ca9956f5c911e21cb6ed9610927cf2e4dc95e93d12a6f19a02b8a45f4121"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2ba7da319f1fe10bab89f2a89c0ad159.npy",
+      "sha256": "27fd8d0e27fd796d986967451961fd34e29789b5b8b74e3b5521c35dce24e08a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/35ea5d3eb8e6033a985d9ab60b5f3b5e.npy",
+      "sha256": "068598788efa438170fa2de745a4ca5d0b12dc364b48bda7c526919647e88ac4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/01b1e20fa3f8b5c5dcf6905976627bb9.npy",
+      "sha256": "8dd01108f3b9f2e31c74383348eb6d7b115fbdd287b68925ef5310a1fb55e316"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/00718825aef7214920cf726a2ce6e7d6.npy",
+      "sha256": "1c50bc5f0443436b1ca067a8f4520a8ad4912a454e6e77fd245ae15df8ca4a6f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/06a47ffcc300b3340ae364cbdaf040be.npy",
+      "sha256": "5312325a17de66ee84ea38f1719f88b5bb6c5390359b90013531e596a72a60b4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f9f01faa42b67ad656136609dacd4e9a.npy",
+      "sha256": "08fcc75fc3d000dacc8c80ed363468ef65c70254d0aa1ec160be205bfa2f09fc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c636ab9e52c09404269d250fc260150c.npy",
+      "sha256": "43693d7cc20529232f53efd81b8f7c3991416a3167402feb35bce4e9cd24f261"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9d86072d7de176f6bd300aeb3f1a84a9.npy",
+      "sha256": "e1bbad16bfd70940e11492e25c8f69250ba4d1e6a4ac5b44dc9dcaa3a75ec240"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/041c0dff2609f422b3dacd5ae146dc94.npy",
+      "sha256": "4e5c93042c6a67f5a1075e7868e9af6d4a762ad61cd3a9392a6b6ab9efdcf096"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ecf54d89a60264a682a4dfc85a7ade07.npy",
+      "sha256": "d505de9e971bdcb403b206ba4e9148dae44546277a4fa16bbc6ab7030c985628"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9264bdf2992309a1eb17cacba71846a9.npy",
+      "sha256": "2017f7b2955ae07281b43b1e0b2406b05f3572d85f56abc6b534a17aed550e40"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8d988d2500c4f5a5b5e4062cdc2e0551.npy",
+      "sha256": "dd8852059bd71a69f8a9a32a6288927d9362e456918ba81e895d14d5d32a5be6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4d69623f20554d5af5cab211247937ec.npy",
+      "sha256": "128483cf6b78a08c834b24b81e973d278dbbf3e39fae1adffe827d45221f3622"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5f3c51957684d959aef27fe1997c2728.npy",
+      "sha256": "3800ce71a9f7006f2f913e92d3b50d35da2638eb8920ebca13d576bc9c432681"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2b5bfd5f37a80501db34c8eb4f2cfe1a.npy",
+      "sha256": "9461cd1a266da8827e6bd914d9244a2e4360a6bd6cb79e8ef32ccd83af1c2d71"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b34856872be278010271203e00bee542.npy",
+      "sha256": "9f1a6c6011d55859bce3742b547da888cef99273a16f8697b384c1d0c4b75c0b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/312ca57791f95f6dc515db8edb69595a.npy",
+      "sha256": "d5d32166539ea7c0883a0d6075f7816e3286db782c98c1e0ad5c29034eba1831"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a6d5668e6f8a2e8004fd184d3d35af31.npy",
+      "sha256": "3fb7006c3cd11f1142ed23bec65f2165d2ef94305fd86d9c8039d02346d03741"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ea72b9cc246e4c0f46055e8fb71cd1b6.npy",
+      "sha256": "3c7b513c4f20def6738aef8d5082d2e93367ead87c3e8d1c46ebd2328305694e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/83c9b5b6d53ee7620f6693c533ab8428.npy",
+      "sha256": "bccb021d35933d75c6aab2a34f70aeddd07c6d1dd45aa5b1f3ca4e0965d712d2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2d08539d96bfcf232fef5c4c1b6fdb30.npy",
+      "sha256": "617b62b381cc8516c90e3bf9e6deb268c5499b846939814b14b3a087cb6d234f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d8b382042fe9e7f89caecc6650d69efe.npy",
+      "sha256": "3edf9edb639183d11980ba29d19fa79818c8437f382bce6c0181e3f46e7edabc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ee0753c4f68e188bddb0c66890beee23.npy",
+      "sha256": "67f1f5b0c04f939efde093bbad45c2aa53b93821177d0ae0f5ba090fb6422c3f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6b8130cbabd4a6cf226098056d1e81c3.npy",
+      "sha256": "dcac6c38e4f35e1a1497c44008164b2a1764f576e1f658bbfff3fbfbb60513bc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5c9f2e954c582525203fac666a8f1ee6.npy",
+      "sha256": "87b224ecd5050b5430c65568df209ec74cd6f617f46816dffaee47f189348bfe"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d8dedeee4a4e4f1fbac44e31240d6e3a.npy",
+      "sha256": "d029ac5802b6a53ce3e22ba00775eefa96c00b487846700108b240ca8dfa94b1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1a213bd272d6c250d234b11511157626.npy",
+      "sha256": "572f5cc232b3b986a58fc93a41d9ea80c7d7de582e4cd40a6a77ac8b7fe47f02"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6e5509ded394c629acb1714a5c491f9c.npy",
+      "sha256": "33860bbc2c4f722e20568110650ffca6220859a53412832aea0e16a40a00583e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ec9c15ee7e279b4f6887a9b95c12338b.npy",
+      "sha256": "92af3386c762ac2624395508aad6e0e24352baa0ecfbda2d3c24d22ab6242966"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/be9f30b4429aa11c191c6f5375ac4670.npy",
+      "sha256": "88bbeae82c0cac2f01050f6c2cb78495bef721c8c1805dfe2b965a89392a6dda"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/69f18bd2bccdc73111154f2d23b9e30a.npy",
+      "sha256": "1859a25da1330d0d8cf8729ff3a482836ba7bc70825fa9fbf5fbe696c3ab6d4b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/427b0012f5464bdd5b2c4f015a5cb648.npy",
+      "sha256": "739e6eb49d503df4c3424c5de55621c449a0253508438705ed2941c3799803d6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/44d9556e88310965195c5ca33127ee52.npy",
+      "sha256": "42bada63f44944cb8785773207926c5e02e7e0563831b138a7bad90b671cf4d8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7319b21e0d5b3e8342fa71c29192f156.npy",
+      "sha256": "754ae4f1745b68a6cdecea9896b34bf2ac3593b559ba94eb4870c69094b646a7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/295f0645dd81840477341044a84d1c19.npy",
+      "sha256": "3511e756647b82588cbfc4a928716e0178bf12cb7a4529645d37c130694744bf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/de9451041ffb0df392ef598a718e1cc7.npy",
+      "sha256": "8e5496e1de10010e059c2b3240bfc770ca8aa65a493f6fe430a7cbe67b507abb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7948b05b7667086c771b5ab7aeb51f78.npy",
+      "sha256": "91eadc1ee027ec5fce1c18c033c7d5e167b4f0c5c277a48c067cf1b1904cc126"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d3be1a657b7fdb5ab4c03e12d4452164.npy",
+      "sha256": "c3a0e459e9c4f5c93eec3b0994a24fe7bef7172ac30e726ad4085aea4a03c83f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0f94f5b37caa54434e48234364eaebc8.npy",
+      "sha256": "83451071c869498a954bfe6b18372c8641096c81719bc8ee38847b223afd4109"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/904c208d5b7f91e24c6f131fccf60073.npy",
+      "sha256": "ba6aaccbb6e5edac0e33ab13893281179cfec9e85a7a6fbe013bab7003eef809"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/eafee617edffea0bd5f9613619ad8ec9.npy",
+      "sha256": "23ed0512f167a57f2784b95a04a658af8cfadf6000496e5ad00f36cfc22effc4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/52f3eb8fa3a33513cddf950ecbd2a286.npy",
+      "sha256": "f8cffeba132dafea874cddba6885280a7113f9d98d158e9869684a5fe5f4ba86"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/04928476e933618a1e21c78830e0a392.npy",
+      "sha256": "52c9dc373279ea531d051b642cf1b60f47434b37bc05759b46aef3eed1e95abf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8327a2021ef972c9fd08b00c654310be.npy",
+      "sha256": "0ac749eac7f2c16091f790b3f8336c998e2380c44e244c2842fb1512fd3cde21"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7473cf69a8f15804b1969ea1db333004.npy",
+      "sha256": "8e55b6b9c8609e1f08875af81ee875e162f0556c9bf7efc2c6b2a3fd052cb668"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/212e37452fafca806dbf1dd1fbb8d559.npy",
+      "sha256": "ebc68bd6b93d236ddac7d827597e81bb4b8d4644e48b9994c1225decc1962b1f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7f3da8eb583f47952286dec1d00988b1.npy",
+      "sha256": "2d2b4722d87123684dc73253d8d072ef493c1ba6a55ca6ab9a177b9a9befd812"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d7850bb1808aa7f3a2aabff57fe2b949.npy",
+      "sha256": "246373d079f87c00fcce768405d32d8410e9cb5cc30c832763d1c9ac93703bd4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/159c047122396b5e4be8f9058d812929.npy",
+      "sha256": "933641a090431c357eda5c36ec24a3ccd7c1c4c276e5ffb777e435a637965dde"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/68b99c3e1ac5798d34d84de46a1bf420.npy",
+      "sha256": "062c1a74dbcdbcebc7737f67f2911513ea62e9a1a7701902186fe0b4414f0639"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1837c1cd2fcc4cdca9350d2a19b5b1db.npy",
+      "sha256": "da4f6bfe7834f588b67e62cc989e155886846fa79bd7947bae1bfaf3f19af333"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2921a4e0c0a83444ba36d21a2bfec06f.npy",
+      "sha256": "b74055238b49929cd4e38d2cd22d9de6af6b3d4502e73694da06434e9e56e931"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f2585a2c0b6996fe51629fd1f2c903e1.npy",
+      "sha256": "6e3374455175bec159741e243fa7e380648a950f4748904e305aa62c6590a835"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1dd26f451aea463f58467576eff14899.npy",
+      "sha256": "13a5f5964a155afebc304eb2335a4ef2eec2fc2fbf5f60210ebb7edfc81ae0a1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ca634f32a8d0fe2439b576206ef6d50c.npy",
+      "sha256": "ea1a598702f66cf6b60ceece2748e688e2a01cbfddd1ed610c93fe089de401a0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9fab357664bcb6aaf6d68320f38ad955.npy",
+      "sha256": "93d1c1ba50989a44ffb5e2999932acdfff395f5ad3b19e650fd86789085370cc"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7268c70554be57a866fd90ed8056f69b.npy",
+      "sha256": "431934ef9446dad1ad1ff8e670f3551739392af8718c31750a38a7d7f995e61f"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/bc739105238eb6e59a00ef883d06430b.npy",
+      "sha256": "bf98beb36fe2b95c973563297d8b8a445f1b11b9fc0259c24c5ffd93893f0764"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/350d1687ede89fa32181473348763493.npy",
+      "sha256": "524e814219c8563375010699d05c321ad61ce1aa2de1d8b030402b5e26a21b76"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cee004ae0e88e31b2081890da1a07e59.npy",
+      "sha256": "17baaa6329333fd3daa184849df249295b36ed29c6753353d6fd3c0217e784dd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/05a0fa43d2081656e825c0f4f91d079c.npy",
+      "sha256": "8c6cf71ab105efaccf00d0e508800c8bce92f80393bc95a50c600a18ca071ee8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2b9757183ebaaa447f6f0d3fef589f21.npy",
+      "sha256": "de7b0b1ed20fc8309c4731451369230589503ed22a2159352297f0bc64cf562c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b9dd5d352c78e0fd2e83e2a6847f05c3.npy",
+      "sha256": "e979aacaeaf25aeaf347e63015de58040ffedd43a5c230bfe1f1de4dd951930b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5d3aedc2cdcf7b145380ccd8e677b1fa.npy",
+      "sha256": "011cefe7d7ce7e1fd01c718676aa374b012d0874b159014e1732dcaf619dbddb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6574ba1e70c583c832d735e0e65e280d.npy",
+      "sha256": "7d96e6c1e33529389379e8870c7fb4bafaec3f2592bb172654b38bd22a1f9e30"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0efc251039fdec3701d49161200b4f51.npy",
+      "sha256": "7d3b3b2aba69b11280b1a6453e7a8d71966d7f8f1bfa8b4bdab36f87384f5398"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e3b2d80f9b7f4b32b0d58fa7a52e2d11.npy",
+      "sha256": "9d53f97a04c13d90b57205ce092d2cf68b83700dcb66c774a43dc244a6657b8b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e1b98e9e9860af72c52228381c77726c.npy",
+      "sha256": "c70779778a8ec9daa4763ac3169e38012a70fd69b1779f4f8d998bb4d1ce5172"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d71aca87c9c759db458a90aeca532e01.npy",
+      "sha256": "fe66679dcc434d6d587968243dc6f21ebe48b4b37e58b20a952b0e7df5f7e6ca"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3f490da953d0c1399bcf00f7a6746b5e.npy",
+      "sha256": "a195088d78ce24fc3477644a3642950796392436e8b1cc4f976eba332343f908"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f551ff58c2776de1376b4f8830643b0f.npy",
+      "sha256": "7f9f5817c6260e9e447a1d24c829d2e0dc579034789ad391ec52dff704bd892d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ab1904d340738a9e47ee28ec228dc6cd.npy",
+      "sha256": "a5a10e785f08b16bf5da59b8ffe2fb1e6a5e1337dfc5dbdff113a7bb15430696"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/805bae60f57cdd008ca3aa26c44edba9.npy",
+      "sha256": "765aa7b8a65573ea3c4c31c1c827b58613bf265967a6c44a6d47f048c8a1fddb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b042873d6b5cb29dcaf26721af6c5995.npy",
+      "sha256": "b1ad6e8813723efefd84ae9bfa16e34e27a63603e6abb2fff6299f991e8a2998"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/281176f6331d962dc37690a120e0acd1.npy",
+      "sha256": "5e0a3582d00559af75c7451dc1df1fefbc83c7a5eb88f661a7abf639f4978d4b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/69f91a46a5356658458e344ea4a78bca.npy",
+      "sha256": "c194344f5707786dac1495b3acf4c973e1ef186fab9b2b0df0612646c9c87ed3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e53ad859e866ab459a5d5251888b4b40.npy",
+      "sha256": "d9b21eaea5390c2836f7d8f0d7940e4a492470a4fc91d018ff1aad404b7b8561"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/2384b8303cf754fa1b560afd8a02eeb3.npy",
+      "sha256": "8bf8eb33a45d2f26c2a9b23d47e0fc3eb490d49ffe6df836fb216d5574ebb972"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b7eba0f2f92ad245dc0cdafc864b37bd.npy",
+      "sha256": "7c2059d3cb7503c5dcd20bfc048760b406cd9b181a7c1ec4645c2a695c153934"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/abeeffb4813a878cbfd9a08ddd6a7c16.npy",
+      "sha256": "66d0235a7be9091cc2b8c16952b53c1e77827f0feb35e4e9c17fdbe5b74ff0f8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/955a0b1f912681537125328f43c515c6.npy",
+      "sha256": "1ed882dcf0a9a469ae2353bda8ab53ee683c61baf5cf957dea3442d56f5967ac"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/09f453c1d3cb772c44c5334072c276e5.npy",
+      "sha256": "3de961e9085567012b6f87d3fb2d4f2d36ff8e5e28cd570151a5b2004ab0a17e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/556c8910728e80204c4d5810f42cdfa3.npy",
+      "sha256": "8ab42c294b0b59ba4b21ae763a16a548bc5a954fefccde4d5a1f4056808ee439"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/546a04bed9fe8b8813fd3526806b3708.npy",
+      "sha256": "a1cd0ef4d63aa5474b411784d1df11d1f755ecd9d929b3660129adbade0a127c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cffe1e33249ca6a4834688b9150248c3.npy",
+      "sha256": "eff62de5046250202a946d37f679b34649152da481fb3a776778636f17f2a038"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/259f91067e4215f9dc29a11d6cad461f.npy",
+      "sha256": "e662a04a915ead96e0aec920099c339895ea57fad1378055a32eabbebeb99a38"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1e6544f1539195eeda77573e594ae6bf.npy",
+      "sha256": "3ccc9c9e830109d1e74750d1d68bb2493dde639d1fe8c624853ecd496a756609"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0aac7e1ad3de868d74674b74f06cc8f2.npy",
+      "sha256": "c19088956f6ef614bd97e5da28a87a462ff96e0aed898d9e16280359553a51cf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/79f2c0e04d10d98c088cc5b5d495043c.npy",
+      "sha256": "c6dd76ffd012f09730af9e928a145c499375db5b07bc7e870fc1452032525178"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3b93a11bc1683dc849a09618fb5af54b.npy",
+      "sha256": "51b9c16a4f29128288ca6d05503d039cbaf796610c4e44828e60b146de7fda5d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d7cb57dfd70769758593c4ff8882c5dd.npy",
+      "sha256": "e6ed15d450758dc424c8a5a42c356f4f679613b49ecb1e3ea5abe8afa8d14993"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ea019cf79d039a451dece6c8a25e0050.npy",
+      "sha256": "9298dd8799a5f276dcc0caf736c13fdcbb9de16cfef51b5266510cd8fbff9c9b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/933420e3eac5be8b1760cde731133e4a.npy",
+      "sha256": "156a99e2d98c22288b6224a206994889cff9bef7569393efb83f1960d08c8629"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4a991f48f32cfa86f990aab1b861bed4.npy",
+      "sha256": "2ee5535e94a1454f3967c34ec05bc4db20ca3ce7afd1f3c03a7ddfce61e02282"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b6a712661bf0e544de78a892500824a7.npy",
+      "sha256": "1689f8ae6bbbb5e43eab287a40eff0c0c2688e0dade4e84a9e827b2218968b8d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/82d558b6b30ed4e47dfe1e69afe04bc8.npy",
+      "sha256": "50e2b37e936884838cf051cc0dc77b54b2748f96a6433582c3b39c5a981a314c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f753f2b2d9752a30646c83e8630d1df8.npy",
+      "sha256": "ab1ae2dd7cb72676f4be03fe3b743b88aaff084ddfeac7b024c59a968177c719"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b1a5f8955722032e01871e8bd04716cd.npy",
+      "sha256": "1b56fc300d95ee8f35e6cd16df360970f9324299d2754b066809fe2398a60f34"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/eb68eedd814790f1bcd916dd9ff50be2.npy",
+      "sha256": "2a2b45ed1215f895748ad150b744cc9edbeb44ccfe1f28af8737ea82081cf4be"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7c1799511d958ca6462d45549ac92b5d.npy",
+      "sha256": "e36190a496711170d3eb98e0188e45b4538e4bc28fd7f3048292bdf75e67024e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/0c799cd8eb4a963b013291894bf69e69.npy",
+      "sha256": "e88ad4e2f5ab6c0b4d65523b807010fb40e0135233c98a1f2e7179c5cd57c0bf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/34b17396116c8742909b0facca8bd675.npy",
+      "sha256": "68ff44a6f2df6014b7e34ec66efc29efa40bcdb8b164a87e02a5545d27d0baf1"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ea9b80ac17130f0ebc1681a55d9cf179.npy",
+      "sha256": "7474ba20c74a49bb20fa29157a54b30ed6bbad86b879ad446ea194a052f8aad4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/99d03b567dbcdd7fb0dd21fb40d5d283.npy",
+      "sha256": "3069f0c34666a5be8b4cb8706f8f2acd4582cdd2d85a92b454298d20037b47ba"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/676dc3992822c9654f4f67c3eea7f843.npy",
+      "sha256": "32bd8e340356e6b70efd75b6222e810b713c244c7db46f2c94cab79873caea29"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7c70ba1d36e2a071b194f662aeb256d0.npy",
+      "sha256": "d2cf8257ae20e5782972462866a3cef4161c63aaf7103e1b3fc699e247aad5f9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3d2dfdf3c586ba722e1d4d2688e63d1d.npy",
+      "sha256": "808bb166d1d5b0500d00c80ee5ef4a1019c8c7ad4eb42d804ed3216d27f8b89a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/64384450345881b482b0cb08336f85ee.npy",
+      "sha256": "1a9123e110ef943ae931b9b07e2652a1d8e4355793f7f085cc7e52db37254314"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7992d3f13204316fb12f9620793f7961.npy",
+      "sha256": "6db635695f36536351cd6bbb0475fc38a3f67e5441f407e2ba360ab81ee909ed"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/64016a73cb830d06c4225bede18f3ee5.npy",
+      "sha256": "2409d7636ec6517b76bc8fc3bd370c6c30a800363c851c4dba081b521b7603cd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/106f30384a8d2a22ca841d7e8111b446.npy",
+      "sha256": "a542620a45523264cb95e735a7dadb7ea6d6e0ed83f2322ec220c256e990c8fe"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1aef751c8e841a4cdc44d2669c45418b.npy",
+      "sha256": "e9c3e8f5f70d5727fec6c9a9f1255c11b5dabb6537309814d1ced33c1caac775"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d0899c0e8db8e72a19abd172f5ad7f45.npy",
+      "sha256": "731cbb78a022fd538043fc6a54834a295ccef7a0f19dd13a63957f8aac141996"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/59b5717aef295bfdaba454042788fe8c.npy",
+      "sha256": "d0239813760652773411a910224795cbaab208f9ff899f851ae0694cda897f7d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/88ac65432712894ab95df2a8f398011a.npy",
+      "sha256": "a86d4feaa21f5e29687029c00557d519eb31b287bf3af74d18d80f075744f9a7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9020f30e22debf8c24762eecb8577da9.npy",
+      "sha256": "cb29d19c21e1dc47ebe2b080c3e042c37a66094044e916a8e58076a505c4a18a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3773b36eb9e8df4e378b85b2b7ea48bb.npy",
+      "sha256": "25b54014953313f433b2627fa1dc0bbc8cbe541f8bf0351901df7f7631c30f7b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8df8e84eba129585f62ad70d760b1689.npy",
+      "sha256": "da03633cb3eb2c1d3a2effab5ec4185995b6fdf8b4a8b374f8f1b8d0de5044fd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/344a92c32093386f463765b4fc3583fb.npy",
+      "sha256": "631ee4e4d775b629bea617afb0b2b192489525fc7a5c03584031a2b9c1a5e9a6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/232807c43dc580dd765cb1f1183ec9b7.npy",
+      "sha256": "c8461e0d2d53d3cd2ac7829433e74735724da3db165dc5d00d237d8039b0aff0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1620296e269940b19bafa78ca71e003a.npy",
+      "sha256": "b2a405680ea1c97b0f727edc7897cb6ddcc6e0206240e402c61f33f52a6ca314"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9c8ee75c7abd6c87bd994f32741fc53c.npy",
+      "sha256": "cd0199588d9b082aa7f95ce592052a9d17e12771f87280beb355a612157e5eb5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/61404b3505964d63151cea66c13373c8.npy",
+      "sha256": "ff7314a16e15ba7cfc7c5f8d70e82d1b905fa6634797605dde4c70f3f6be9489"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9b3df9d8c08648f9bf86bb4f40823ca9.npy",
+      "sha256": "38ab6aaf3a11390a43af517ed6062e03368d1d193c81050e6cdeea7527babe60"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e13d4905ae105519cb314d29bda73ee9.npy",
+      "sha256": "6b15a58bd0cbe979090b6156baa8a1d8d485df4d6419b06243d7f36ab44e6746"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6fdcf11fcf8d897c520438f44f03a3bb.npy",
+      "sha256": "2f4beab7be6f637afe94ba28d59db9e4f9a423c94018bbad58989327520cdaf9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/21fdbad11ae64c4589b0b46f797f4a35.npy",
+      "sha256": "66cbf1aea53f16ffcd0dc30d6cb5dfb6f75aae9385a58ff1b358335c284fa231"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1dccbd79f3e7fbc3575ce11444b152f8.npy",
+      "sha256": "a60f307d94b8132ab6312bb1c5c5a77b82e724cd9568f3b86d6535f96b3aef24"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5a53c289baff7c034c2a393fab940ce2.npy",
+      "sha256": "d456a66f93ba15faa86aa786f98b74079293b690531e31c1829a555617d6bdae"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e9f351ecc03c35f79f2e8f3612d09fae.npy",
+      "sha256": "f857c893f3b365f2032c769b448aa21d18619581c5a232fb4d355a295280fafd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/13340b7f92d71f6bb33b5af0d941e3cd.npy",
+      "sha256": "f2668b39e5a989fd5a8fb0866e2f50d2c947a465263dfd8b39ed88d0fca4f525"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3452da2573da72752e984aad8a035a38.npy",
+      "sha256": "646ec81fa80e06832f42928d8ff330b7d2465aa9bc7471a6c7cd2bf25bc4136d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/e93d83c1970d960dfc0bf3c997157eef.npy",
+      "sha256": "47232730c67bd669664afc7b08b3c67b012e284cb02b782cb037a17493c6b4ad"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c0ce139ab765292d03ff3ea17fb92438.npy",
+      "sha256": "f9df3951d39635d2759fba3a04d196b7d37c8ddf4bb9c067f5f7c60921f8553b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/eff74a513866fff089a223c2f581c47b.npy",
+      "sha256": "25e561477a29d8eeb34df25fb1734b3805fd8b19495d9e49488014a94cb503f7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cf3cb484bd512a68f0d48eb1cc28c895.npy",
+      "sha256": "235a667a739b8b37c2c0097abfde207d988ac5ff4f46d66d290e84aac12f6a73"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/aa5ebc040a73c561149ab7792b896666.npy",
+      "sha256": "8e50439b0d3d47169afaf82c83acbebfc946fca52209afccdc802fcf6a28da13"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6d2bb91dbb2abcc6f0a39c6a23d7470b.npy",
+      "sha256": "32fe4389257c20249162cc1d63c51ca41f175859c79e8bad61725a3bdacfb7a0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/aeb97d0ff61f621d2c32aac788e6f779.npy",
+      "sha256": "a13f9ac069d3ca14d446840c8db87c0fc1e1d04e71e3e3a83180d8e55a37e650"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b526ef4440d1c76fc1077b8176a15081.npy",
+      "sha256": "8f8407bbec372ed4186595991e57579a6dfdc46de7f375f7902dfbb6513515c8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3e8d19052b87de5bfc4954b226c2ff8f.npy",
+      "sha256": "a6de2565b647ea0dac75c4558a7bcb6e65383bb479ae98baba8d5714c9ada2d4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/bffe28f8aa424873f7864a842f842f72.npy",
+      "sha256": "5e55ba7c600f11460a4b3d341dff8447aa1d2e541f53207f5620af61babc9600"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/4f35ee5c7e10d2f8f66e8580cd2f9708.npy",
+      "sha256": "c9fbbeb15ba03ec7bfd0f03460cf2cda14dcbe90c2d6c3c75fc5f1bbae5218c6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6a0ad3089d5b24496d0b195f03858630.npy",
+      "sha256": "7fe9f0e8e0d26939fca0483776a1905a7f492fcb88b4844719960eb2dc3fe507"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d4bfe45a8f3d01cbf5eac244d893ba1a.npy",
+      "sha256": "1e9f2153deeb0d1ca81b8bf2005672ab9ebd43c1d4c901face05973255ac4d87"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/41038873ec3575327eebb5da42172254.npy",
+      "sha256": "3d766330f2f58372e4b491c8277b95e601bb8d63bc21b1df59790a6d6d955a7e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b89f0ae73bbb390fff82f35e5b453aa1.npy",
+      "sha256": "bf57b2fea4840ad75c9870af4a014753bcaa72ea93abf93c50d6d97afa7d1cd0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/623517a1f4c11124fed81195b66db89e.npy",
+      "sha256": "a49e28caca76c1e160cb3ad00c972e2024668d0dba7f478ceb409e160b35aa20"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/23f08ee4173e567e6519e62e221a89a5.npy",
+      "sha256": "b4b94989e4d53cc0e0f9fae83105e0f4ef01e3d8137f9c391021c505222bd721"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a344473aeb2d246c0679969778ba5145.npy",
+      "sha256": "2a3c7f8d0f908bad238a5487b79b9cda2d99dae472111e717e8de3fc53db7a1e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5ebf32ad0fac45c779a41a908f76a94b.npy",
+      "sha256": "edde4190bdbfc08759a9338309d61128214a2f8fc6d7fa16b0dccb85410cbe9e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/5513e71898116cb80bd20c78c2d37f1a.npy",
+      "sha256": "095dae559f9b503a66e707a0c903f078973679d85b00bb8a18f5d41327d02bb0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/86464d54b50d43be958afad8d349c3ea.npy",
+      "sha256": "1d6d5749f6b0909ee45e86c8343974d106e2dea94502c6cf919608e42968c940"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b78f477508a2fb1765530101e9e9e861.npy",
+      "sha256": "3b3d6f83c941ad79bd4a3f7a779dd1b1c310be080614239ef4fddba2fc90ee2b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/207ff9b2e988830b7209136c4183bbdc.npy",
+      "sha256": "c24f2c19fbb8beb6d59153363ef83060580279a0cc4d7fa0744223f490950061"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/46b1536f716fc9c8c88e6f2ba055c009.npy",
+      "sha256": "2d8b0c58989b7c5e457e8343a800c7e8cad63dfb4a24b6b6b66cb52dbb0122e9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8cfa04da6ce00d2a070a4ba9e758c1a3.npy",
+      "sha256": "0187618c69f3c43c324c65695d7eccd6f872c161ea2751d0ca42a1dd470171c6"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a5659d42be2825621ce7efe1b3e906bc.npy",
+      "sha256": "bc23767d9cd4868d864472185485c4110accb563776538fcf9823682c68fa76e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b25a8414d8d8b2136d0d886d8787f2eb.npy",
+      "sha256": "23709baff6092ed88f4ab17fa79b2c0fecf1a8fc5c1beeb412a8475e8043c8c9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/069ca90c66a511a434906509b6b1c7fc.npy",
+      "sha256": "8f3db32987dbfe5a528088ce8f5319b5cd7a7a5d88ecf4d404d77b2646bc8e57"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/49017c1dc95d13d5dd4af20ad30b764b.npy",
+      "sha256": "3eceb0be8fd505e8f3d9f9af3406f34f58e86373f580f72d42d64c103d6e7b6b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c6dd47aaa3c538d2e544de17a6cc3b70.npy",
+      "sha256": "6d3076ecc8c47ac0ed0a21f4f21468fafd7fb36e062131f01d38c511a29e1da0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/092461d2e13ad54ee72be3459cc73d02.npy",
+      "sha256": "cde5d3f1bddecaa6a873ca1c1d7b3e057621b870eefd06af2cfcd2d8d807edd2"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/59ea148c699183003a9d8d3640b25a20.npy",
+      "sha256": "28809c3e2413af1406e92684664e605fb3832f13d7a2508b9359f7cce59874cf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/9559d4e8c7e80364001b76384c4ca702.npy",
+      "sha256": "c182de2f334dd1d985e3332e8070dd1f98ef15f4595ee01672addae3223140f4"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8d9531cff5570fb044861337598fa563.npy",
+      "sha256": "98393978d4f404c79644b6ad14c9aefefe2a6cb3df2ee5348c55b3d865d5a62b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3cb6b6b668ed5f7a90159f9d1dcb0ec2.npy",
+      "sha256": "3a031e35ef6c78619237362eae8e4ab1025e9918d1b0617e41a77b4b2b8ff834"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b2471c8c7f9c8ab2f5e7ed244f46f6be.npy",
+      "sha256": "fc152024a8c5c011c6a1f9b799d41dc43db37a4c25de965c6a3d4285def4fad8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/88363785642041b694cbccbc8b9657aa.npy",
+      "sha256": "e61c03c54ed199614f9cc285fb687ce64b7046c497d960e4bfc3ab43a4565f7d"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8b8f623e72b89495992f31c451969829.npy",
+      "sha256": "39153732c2c24cddd0e2d79c4a6cda6bddb045c0e470d24549f0a32ad45cf9f9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8906a15d3b30acc3f8af92da4fed9770.npy",
+      "sha256": "cee2bcef666ac862427e37ba60af1f533b0d983f2f44bb9feec47215c59ab25e"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8eb3810b40456978e2d560896156a22e.npy",
+      "sha256": "f71f6a7e1b84e6284fe6c514afbd4aa9022062ec6f714e5d8ba286a0d2b505c0"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8f82952583ef414ea4f7db2782a30fe6.npy",
+      "sha256": "2f24884936f651f58117e67156026a1db47c9de63f8cbf75c4c1c6789f8274c7"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/fd8158bbab6689d9b9a216d8cedf4d17.npy",
+      "sha256": "3a26c6a872997a3f9684a50f42c38f105a801b8be20fcab20f54a05157e7f118"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/005f9cb0fa24f63c4fa421e76fffa289.npy",
+      "sha256": "e15254f356ab529bac5725e4fc98663e299cfb1f29b6daab3baa81a96d322541"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3dbdf2c291337a30dcf5ba923b218ee4.npy",
+      "sha256": "20c34286457e127d08db8e846c47e75bb50befa86fb856f5ccb70a247b034884"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d25d18a139bb22d3f55d7753ff980cad.npy",
+      "sha256": "526f6274c52be21221e1b8104dd721430032729a04fa5eeaa0bd247bc9c04d11"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/cc0d6ac5272939256d1ee551e9cbe403.npy",
+      "sha256": "6bd365920376b331b5ae750dd1e08aab4732d5fcb7ae29f3e97adf76ab2330e8"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/234d021001b8b0cf9fcbf16338163317.npy",
+      "sha256": "3cc297613922751dbffaef1ac50fd87c0ecde0e49ba95082d0f717e6981d60de"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/463ef701deab9e03c247d4a82b274659.npy",
+      "sha256": "37137231c79ff8ccc7cddb7f53c9b883a93c6c596928724f2ed78ee621adf42b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a96cc1fde4a63ebc48b949b16e580fc2.npy",
+      "sha256": "39133a82208f572654c5d94ef7b6b1ae58cb194fa4ac8adfcf3d9dfb8f7d2bbf"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/80ce9e67bd51e4c231f65f5ecad44bff.npy",
+      "sha256": "7e11adc28b2b0fd3a9fa73de2f4b03233aa51b9e31e9a91ed8113798b08044cb"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/b9c08d241f65a89983f158b1d1f55773.npy",
+      "sha256": "217aa8477a319bbf0822ec932ee0026433a2f57c7ea06f26a8adec9fc9767746"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6520d2a857c8369cb720178ccb9ba9ac.npy",
+      "sha256": "19119a97d69b9dee717a535973380cdf27b68ab5c3477f54fb971e77d100d455"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/1fa223fdd790328d7ea8d02379764b80.npy",
+      "sha256": "daad9898382722d629cb8cb637da630dcccd771363e46456d6ea13471245f9d9"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/3c7cd7c9bc03665bd79e1c91b2e3349f.npy",
+      "sha256": "4865616a636b1994d5c904a07d4bdc99ba900be542b89179da28a3b2750cbfac"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/092ddc60cd051dfc46de654c56f0466b.npy",
+      "sha256": "9bf938e5579b8bec316afb4aa4b64cb6a2b1258faf16f7c33ad49a66fcae1976"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/6402bc6a0f336e0ccb7bf6035eb7eca6.npy",
+      "sha256": "cf3830967f2170e42981389a9dfa9718638e0a07fe8e92407013b914a51201c5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/c9be1bd12301019f6ee750057c8bf2d3.npy",
+      "sha256": "2e65c719b3ac9d7d004ea658ae56469c3a740844599c4925aa8449c5c10d1438"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/8278583234a3eda2a192d8bb50e1fab8.npy",
+      "sha256": "33c8b771f1fa41f2fde936bdc3c9a649bd10528b3f5e4ee16514628e74789f24"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/899418d99797aa41d4bc8cc50361b11e.npy",
+      "sha256": "0b5eae6fc01cefb0338a436ae79612bb2d77a4a1241e905af03980f1c48e4fb5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/d7ee634af51ee43a99fa384563ca54f2.npy",
+      "sha256": "e70f2e4b140906b67da0523a1031636563bb497dc4c63b1a655af0687b23b8bd"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/30eefe775079ad4e5fcc4ddbbeee5aa7.npy",
+      "sha256": "c5d7e481890be509c8c6c5174e470c1280436313def486169edb311cad980706"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/ef2e5a7613a699e7e634540816477ccb.npy",
+      "sha256": "48a743410f0a8c65aac44fe215851c25e28f1cdcd2724b429a8f033c186e5de3"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/79e75a9c5077e2c19f2faee1bf7e88fb.npy",
+      "sha256": "7e3544bd246c1f92c9a48c4a799bdd443f3b1c5636ac5787b46b295d6d5fdf1b"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/bb0857ef9950cd14b3bcf702ab2caf86.npy",
+      "sha256": "857f68293f017b31190b8689d1060bc7de5ed3e7b14aea133bf09dfc4e11072c"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/f0bbde8c12a07a7f8763f6bb0382e7e6.npy",
+      "sha256": "d41822086a0c33f0dd0bb289ef770f08b008368236e3594b79abb7ebef48255a"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/de570242c1c9c955f219abef2a49d1c2.npy",
+      "sha256": "49f4e9a7cd22ef0ff1223dfd3d6c292cdd2189a6ea581c9cf46ea92a4efbb597"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/a095115a650c3290fbb1884795763287.npy",
+      "sha256": "5622de9555783fa9e34c84deb4622c649a012d257966191b1e326cedf3b46d29"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/542d5a757231911b6e09f73d23d314d8.npy",
+      "sha256": "2ab0e991a1323f7044921fffec46656b2963eb4407a2597bc452fcdf5aba99c5"
+    },
+    {
+      "path": "dataset/processed_DTI_Token/token_features_davis/proteins/7030e87f5f6cce280cf75fee909145b0.npy",
+      "sha256": "e68e909c84ab0590b39456bedc43f993fec0772fda6eb146df91327abfc9af21"
+    }
+  ],
+  "pooling": "arithmetic mean of all cached token rows, matching the existing pooled branch"
+}

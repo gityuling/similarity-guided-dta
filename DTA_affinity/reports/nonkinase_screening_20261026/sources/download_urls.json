@@ -1,0 +1,5 @@
+{
+  "pubchem_1223_description.json": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1223/description/JSON",
+  "pubchem_1223_data.csv": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1223/CSV",
+  "uniprot_P03372.json": "https://rest.uniprot.org/uniprotkb/P03372.json"
+}

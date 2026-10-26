@@ -1,0 +1,679 @@
+{
+  "protocol": "davis_drug_id",
+  "seeds": [
+    20261012,
+    20261017,
+    20261018
+  ],
+  "complete_expected_seeds": true,
+  "pairs": 30056,
+  "targets": [
+    {
+      "protocol": "davis_drug_id",
+      "minimum_identities": 0,
+      "control": "deep",
+      "targets": 442,
+      "improved": 331,
+      "worsened": 111,
+      "tied": 0,
+      "median_mse_difference": -0.03355423889621201,
+      "macro_mse_difference": -0.057604962870362215,
+      "macro_gate_mse": 0.5882977235224787,
+      "macro_control_mse": 0.6459026863928409,
+      "remaining_targets_after_best_decile": 397,
+      "remaining_pooled_mse_difference": -0.03071531124743833
+    },
+    {
+      "protocol": "davis_drug_id",
+      "minimum_identities": 0,
+      "control": "neighbor_prior",
+      "targets": 442,
+      "improved": 350,
+      "worsened": 92,
+      "tied": 0,
+      "median_mse_difference": -0.024033065494728723,
+      "macro_mse_difference": -0.0547603144184833,
+      "macro_gate_mse": 0.5882977235224787,
+      "macro_control_mse": 0.643058037940962,
+      "remaining_targets_after_best_decile": 397,
+      "remaining_pooled_mse_difference": -0.027992264418227667
+    },
+    {
+      "protocol": "davis_drug_id",
+      "minimum_identities": 0,
+      "control": "fixed_blend",
+      "targets": 442,
+      "improved": 191,
+      "worsened": 251,
+      "tied": 0,
+      "median_mse_difference": 0.0024234285806511435,
+      "macro_mse_difference": -0.0025278500300523173,
+      "macro_gate_mse": 0.5882977235224787,
+      "macro_control_mse": 0.590825573552531,
+      "remaining_targets_after_best_decile": 397,
+      "remaining_pooled_mse_difference": 0.005970400844140477
+    },
+    {
+      "protocol": "davis_drug_id",
+      "minimum_identities": 20,
+      "control": "deep",
+      "targets": 442,
+      "improved": 331,
+      "worsened": 111,
+      "tied": 0,
+      "median_mse_difference": -0.03355423889621201,
+      "macro_mse_difference": -0.057604962870362215,
+      "macro_gate_mse": 0.5882977235224787,
+      "macro_control_mse": 0.6459026863928409,
+      "remaining_targets_after_best_decile": 397,
+      "remaining_pooled_mse_difference": -0.03071531124743833
+    },
+    {
+      "protocol": "davis_drug_id",
+      "minimum_identities": 20,
+      "control": "neighbor_prior",
+      "targets": 442,
+      "improved": 350,
+      "worsened": 92,
+      "tied": 0,
+      "median_mse_difference": -0.024033065494728723,
+      "macro_mse_difference": -0.0547603144184833,
+      "macro_gate_mse": 0.5882977235224787,
+      "macro_control_mse": 0.643058037940962,
+      "remaining_targets_after_best_decile": 397,
+      "remaining_pooled_mse_difference": -0.027992264418227667
+    },
+    {
+      "protocol": "davis_drug_id",
+      "minimum_identities": 20,
+      "control": "fixed_blend",
+      "targets": 442,
+      "improved": 191,
+      "worsened": 251,
+      "tied": 0,
+      "median_mse_difference": 0.0024234285806511435,
+      "macro_mse_difference": -0.0025278500300523173,
+      "macro_gate_mse": 0.5882977235224787,
+      "macro_control_mse": 0.590825573552531,
+      "remaining_targets_after_best_decile": 397,
+      "remaining_pooled_mse_difference": 0.005970400844140477
+    }
+  ],
+  "config_sha256": "6dda30402183869ad40bb5fd2c594a16667d9c4f86f63c41cb2a0a7d73ce1147",
+  "input_sha256": {
+    "results/predictions/bib_davis_target_id_f0_seed20261012_ablation_predictions.csv": "5be47840df7ad030e4dadd241ab5f2db263f9137b65a1c0dd0db4355ae13172f",
+    "results/bib_davis_target_id_f0_seed20261012_ablation.json": "4f6be8b23885ca29e3a02181245e6bc358b98c55d219bc7b24e0d38c29af0c58",
+    "results/predictions/bib_davis_target_id_f1_seed20261012_ablation_predictions.csv": "ca4645f469e44760c9a9ac2ac08a62b93bb3d119f676ac2aa92cecb045a68f2f",
+    "results/bib_davis_target_id_f1_seed20261012_ablation.json": "870997927ebf91979c0028819d5eecafd7c34de45fde7490d13a80094e583bc4",
+    "results/predictions/bib_davis_target_id_f2_seed20261012_ablation_predictions.csv": "5158081d29bad1c650816379a72d0318f190819066848c9d3118cfee1b699262",
+    "results/bib_davis_target_id_f2_seed20261012_ablation.json": "212a6706c64d6d922481fe2177fff621dca7f99c0fd2e6d93eaa071438628f21",
+    "results/predictions/bib_davis_target_id_f3_seed20261012_ablation_predictions.csv": "9b33218409bfd9720e330624fa5b9af095703a538c7dcd701089e99339dcd59d",
+    "results/bib_davis_target_id_f3_seed20261012_ablation.json": "4341009abb1eb455f60d0554406017b4d8d358cd8d8c46e620986f6125f5e432",
+    "results/predictions/bib_davis_target_id_f4_seed20261012_ablation_predictions.csv": "2f75681b094282230207112bc549f8360bcdfbf56eb1a5c81922215e6fddedc2",
+    "results/bib_davis_target_id_f4_seed20261012_ablation.json": "897ef409f3af409d5d7ccffec1e42c5ba0d160a71abf93df210a7314eb12340f",
+    "results/predictions/bib_davis_target_id_f0_seed20261017_ablation_predictions.csv": "5775cc39b67255758699efcb66a7115ea60c641edebc868de4c1b6786d14de2b",
+    "results/bib_davis_target_id_f0_seed20261017_ablation.json": "9544fd18bbf8ab6bc6a99a67a7d76b8158a00dcb67ed42e981c2819761dc8229",
+    "results/predictions/bib_davis_target_id_f1_seed20261017_ablation_predictions.csv": "22e2047610742b65f555b6e5eb11c08f2dfc3180b9ce16cb66ade6decf3e2281",
+    "results/bib_davis_target_id_f1_seed20261017_ablation.json": "60ec96ee3769d998ef0d5cea47446847563ca3bac3c0fbebd89f286a6e4db551",
+    "results/predictions/bib_davis_target_id_f2_seed20261017_ablation_predictions.csv": "39a5db4e5904f239be2fd17cf2966169bac8444d60d8017db4bd52c88eedd02f",
+    "results/bib_davis_target_id_f2_seed20261017_ablation.json": "994e556729b6a5e9bcf55429827f3e99367ada334ebb0ff466125c34a528dadc",
+    "results/predictions/bib_davis_target_id_f3_seed20261017_ablation_predictions.csv": "872c13993c430c06a430466c79707bf77dc1c064795d8b8287f8e27378bce74a",
+    "results/bib_davis_target_id_f3_seed20261017_ablation.json": "cb72a290651f797ee77644600518625b3bf326b6a76b9056d1aa682d3b1e8f19",
+    "results/predictions/bib_davis_target_id_f4_seed20261017_ablation_predictions.csv": "c3e3b82f321f7f340f199466d0d96a0e4d5929a203892f540faf07f68ce22da8",
+    "results/bib_davis_target_id_f4_seed20261017_ablation.json": "f1bee6383d46d88aad8e6fffb9611b0ca04e5d311aefe82d54123474410d7ff9",
+    "results/predictions/bib_davis_target_id_f0_seed20261018_ablation_predictions.csv": "540731b7abc497809d1c50e351183abfed3579c7a047fc60dbe89ad3dff22b1a",
+    "results/bib_davis_target_id_f0_seed20261018_ablation.json": "a6826f2570b81c62d6d3fb05422a26263896e814e8da67449058e2dacda14b58",
+    "results/predictions/bib_davis_target_id_f1_seed20261018_ablation_predictions.csv": "6a460776bc3894b3bfaed74b2de4200cce6b380ea0e0c6e7cba59111101c1ad4",
+    "results/bib_davis_target_id_f1_seed20261018_ablation.json": "4e27ad1a7fc559a7f3cb8bc08422780d6b64457e99a6cd624154d4dde6502a2a",
+    "results/predictions/bib_davis_target_id_f2_seed20261018_ablation_predictions.csv": "97235e94f60e49d7a7d7fff1311e5fddd0323af834cb5d73e50a77320a8bafef",
+    "results/bib_davis_target_id_f2_seed20261018_ablation.json": "5fff78bceebefc7a24d8f802927094de4f4844ecf348772a79787f3b2af40e73",
+    "results/predictions/bib_davis_target_id_f3_seed20261018_ablation_predictions.csv": "8d8e4e843390176f04ddf060fb2a6b6894b6c9145675efe47c1e5bd66a7db312",
+    "results/bib_davis_target_id_f3_seed20261018_ablation.json": "d4759afb5399baf604e1224b8d67f51529c48cfd5adc1c81bac0c15206611fe6",
+    "results/predictions/bib_davis_target_id_f4_seed20261018_ablation_predictions.csv": "007b22d409958aac6108b2cab0992ae52fdbfba9f2c9e86d99071d90198bb135",
+    "results/bib_davis_target_id_f4_seed20261018_ablation.json": "79d71b72580d0193c3deb78edc675cc94444c1cbf3f7af0dfdf7833996dc541e"
+  },
+  "aggregation": "Mean errors over seeds, then pooled rows for target/stratum metrics; not ensemble-prediction error.",
+  "all_fold_seed_metrics": [
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "deep",
+      "mse": 0.7474554960490396,
+      "pearson": 0.5092187248792271,
+      "mae": 0.49825102645442787
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "neighbor_prior",
+      "mse": 0.7542710061867757,
+      "pearson": 0.45958790333914906,
+      "mae": 0.5796240048916456
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "fixed_blend",
+      "mse": 0.7202789008086035,
+      "pearson": 0.5171464770277631,
+      "mae": 0.5536727151232577
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 0,
+      "model": "similarity_gate",
+      "mse": 0.7194594344621079,
+      "pearson": 0.5173828150860368,
+      "mae": 0.5537833691919246
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "deep",
+      "mse": 0.6326910707957072,
+      "pearson": 0.5014040206782443,
+      "mae": 0.4046911246444732
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "neighbor_prior",
+      "mse": 0.5925280554436398,
+      "pearson": 0.5138495391546536,
+      "mae": 0.5029048013723313
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "fixed_blend",
+      "mse": 0.5655974512118112,
+      "pearson": 0.541320751957019,
+      "mae": 0.465445602837178
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 1,
+      "model": "similarity_gate",
+      "mse": 0.5661299468261716,
+      "pearson": 0.546906870351404,
+      "mae": 0.4302249029486578
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "deep",
+      "mse": 0.558978584228362,
+      "pearson": 0.42260888624992854,
+      "mae": 0.43432990630252094
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "neighbor_prior",
+      "mse": 0.6086020270448984,
+      "pearson": 0.4897510113395191,
+      "mae": 0.4620372966946646
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "fixed_blend",
+      "mse": 0.4942934539846552,
+      "pearson": 0.5006184072085986,
+      "mae": 0.42065431477273163
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 2,
+      "model": "similarity_gate",
+      "mse": 0.48857916211970404,
+      "pearson": 0.5123309696343537,
+      "mae": 0.3982931144528531
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "deep",
+      "mse": 0.6062080336792931,
+      "pearson": 0.6257362642970135,
+      "mae": 0.3879786870518621
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "neighbor_prior",
+      "mse": 0.5586149724613715,
+      "pearson": 0.636770780629566,
+      "mae": 0.46247383451464025
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "fixed_blend",
+      "mse": 0.5359807375939891,
+      "pearson": 0.6834151335236767,
+      "mae": 0.41561679911392324
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 3,
+      "model": "similarity_gate",
+      "mse": 0.5104700162376318,
+      "pearson": 0.7045268195222582,
+      "mae": 0.39205290990961605
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "deep",
+      "mse": 0.6562814069119959,
+      "pearson": 0.45405621015957875,
+      "mae": 0.47297783137835014
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "neighbor_prior",
+      "mse": 0.6992566689640914,
+      "pearson": 0.4235484029131933,
+      "mae": 0.5589091712437595
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "fixed_blend",
+      "mse": 0.6332105833209234,
+      "pearson": 0.4562749829306179,
+      "mae": 0.5161015858570855
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261012,
+      "fold": 4,
+      "model": "similarity_gate",
+      "mse": 0.6575297150920187,
+      "pearson": 0.45520829185781153,
+      "mae": 0.5022773987664302
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "deep",
+      "mse": 0.7590355901363528,
+      "pearson": 0.5128214050142953,
+      "mae": 0.4917707278765352
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "neighbor_prior",
+      "mse": 0.7542710061867757,
+      "pearson": 0.45958790333914906,
+      "mae": 0.5796240048916456
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "fixed_blend",
+      "mse": 0.7152472279199883,
+      "pearson": 0.5334744919790794,
+      "mae": 0.5432387845428301
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 0,
+      "model": "similarity_gate",
+      "mse": 0.7040881636221145,
+      "pearson": 0.5397518248191173,
+      "mae": 0.5403817959878012
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "deep",
+      "mse": 0.6308051182281867,
+      "pearson": 0.48977619442101644,
+      "mae": 0.42017405974466715
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "neighbor_prior",
+      "mse": 0.5925280554436398,
+      "pearson": 0.5138495391546536,
+      "mae": 0.5029048013723313
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "fixed_blend",
+      "mse": 0.5753122625851238,
+      "pearson": 0.5284756957420732,
+      "mae": 0.4803586607629948
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 1,
+      "model": "similarity_gate",
+      "mse": 0.5752257918258692,
+      "pearson": 0.5302421890860571,
+      "mae": 0.4534811535118269
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "deep",
+      "mse": 0.5991196361698247,
+      "pearson": 0.38151028953229116,
+      "mae": 0.44854940534906274
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "neighbor_prior",
+      "mse": 0.6086020270448984,
+      "pearson": 0.4897510113395191,
+      "mae": 0.4620372966946646
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "fixed_blend",
+      "mse": 0.5116982813645841,
+      "pearson": 0.483291413681441,
+      "mae": 0.42761715990824195
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 2,
+      "model": "similarity_gate",
+      "mse": 0.5060606043032967,
+      "pearson": 0.49030871720681735,
+      "mae": 0.41665757008969345
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "deep",
+      "mse": 0.6522734348121678,
+      "pearson": 0.610504224122373,
+      "mae": 0.3986423749564915
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "neighbor_prior",
+      "mse": 0.5586149724613715,
+      "pearson": 0.636770780629566,
+      "mae": 0.46247383451464025
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "fixed_blend",
+      "mse": 0.5552821458938003,
+      "pearson": 0.6769898505505797,
+      "mae": 0.4237776443738153
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 3,
+      "model": "similarity_gate",
+      "mse": 0.5062932922309986,
+      "pearson": 0.7150810285875899,
+      "mae": 0.3927547697463206
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "deep",
+      "mse": 0.5829686799711913,
+      "pearson": 0.4875211368167346,
+      "mae": 0.44501708184824224
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "neighbor_prior",
+      "mse": 0.6992566689640914,
+      "pearson": 0.4235484029131933,
+      "mae": 0.5589091712437595
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "fixed_blend",
+      "mse": 0.5984410163849965,
+      "pearson": 0.4693685009783861,
+      "mae": 0.5030951930735651
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261017,
+      "fold": 4,
+      "model": "similarity_gate",
+      "mse": 0.6460959342088155,
+      "pearson": 0.45163300995823413,
+      "mae": 0.49938404393675895
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "deep",
+      "mse": 0.7175978464978809,
+      "pearson": 0.5392554575131114,
+      "mae": 0.4862060788946348
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "neighbor_prior",
+      "mse": 0.7542710061867757,
+      "pearson": 0.45958790333914906,
+      "mae": 0.5796240048916456
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "fixed_blend",
+      "mse": 0.7159127465693067,
+      "pearson": 0.5249797532362548,
+      "mae": 0.5515256492246686
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 0,
+      "model": "similarity_gate",
+      "mse": 0.7136618054446677,
+      "pearson": 0.5258388370311032,
+      "mae": 0.5514427541967865
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "deep",
+      "mse": 0.701670865046586,
+      "pearson": 0.39081496599276483,
+      "mae": 0.4464340931965094
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "neighbor_prior",
+      "mse": 0.5925280554436398,
+      "pearson": 0.5138495391546536,
+      "mae": 0.5029048013723313
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "fixed_blend",
+      "mse": 0.5857170307642601,
+      "pearson": 0.5159396536927731,
+      "mae": 0.483886694268862
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 1,
+      "model": "similarity_gate",
+      "mse": 0.589917430190214,
+      "pearson": 0.5135799454928807,
+      "mae": 0.4562654615550189
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "deep",
+      "mse": 0.5825425791857747,
+      "pearson": 0.3628033126216291,
+      "mae": 0.4465519052197802
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "neighbor_prior",
+      "mse": 0.6086020270448984,
+      "pearson": 0.4897510113395191,
+      "mae": 0.4620372966946646
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "fixed_blend",
+      "mse": 0.49375910701816794,
+      "pearson": 0.4864890366905606,
+      "mae": 0.42395661123181255
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 2,
+      "model": "similarity_gate",
+      "mse": 0.47817348806828197,
+      "pearson": 0.5100022459479916,
+      "mae": 0.40752184353029014
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "deep",
+      "mse": 0.597607909724606,
+      "pearson": 0.6325740865781221,
+      "mae": 0.39245811729899055
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "neighbor_prior",
+      "mse": 0.5586149724613715,
+      "pearson": 0.636770780629566,
+      "mae": 0.46247383451464025
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "fixed_blend",
+      "mse": 0.5321704445703784,
+      "pearson": 0.6813394002058782,
+      "mae": 0.4226303445710961
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 3,
+      "model": "similarity_gate",
+      "mse": 0.5045161111699475,
+      "pearson": 0.7052908863865328,
+      "mae": 0.394565464529161
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "deep",
+      "mse": 0.6543215360862482,
+      "pearson": 0.43283188796300776,
+      "mae": 0.46126268934911235
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "neighbor_prior",
+      "mse": 0.6992566689640914,
+      "pearson": 0.4235484029131933,
+      "mae": 0.5589091712437595
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "fixed_blend",
+      "mse": 0.624837113277859,
+      "pearson": 0.4504175192261643,
+      "mae": 0.5092086264323026
+    },
+    {
+      "protocol": "davis_drug_id",
+      "seed": 20261018,
+      "fold": 4,
+      "model": "similarity_gate",
+      "mse": 0.6546790866384076,
+      "pearson": 0.4439070825528235,
+      "mae": 0.4966263750681422
+    }
+  ],
+  "reference_audit_sha256": "7834786786bf201165964cff4bf305e877879120c0c0cdf278ad77f2b76ef6b5"
+}

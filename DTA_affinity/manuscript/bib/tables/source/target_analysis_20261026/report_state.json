@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-26T08:20:44.148395+00:00",
+  "scaffold_seeds": [
+    20261012
+  ],
+  "additional_training_complete": false,
+  "verification_sha256": "973684baae57c29c253faa01f758686544d35774bf41a0ee459f434dcab04021",
+  "builder_sha256": "993b861d9c11713a6fb309d4f0966cdbaaf57cca8b2bcf0dfdf118ce51084949"
+}

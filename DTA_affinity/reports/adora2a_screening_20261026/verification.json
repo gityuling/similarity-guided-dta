@@ -1,0 +1,28 @@
+{
+  "state": "passed",
+  "checks": {
+    "frozen_inputs": true,
+    "source_labels_and_parent_separation": true,
+    "five_fold_neighbor_and_fusion_replay": true,
+    "independent_ranking_metrics": true
+  },
+  "network_replayed": true,
+  "network_max_abs_errors": [
+    8.881784197001252e-16,
+    8.881784197001252e-16,
+    8.881784197001252e-16,
+    8.881784197001252e-16,
+    8.881784197001252e-16
+  ],
+  "files": {
+    "summary.csv": "0fa581799cc74af7f8a1e3a0165d67fb2a4500c132b9242a93e169b5fc5aaace",
+    "analysis.json": "45a1b97d9478989112fd841ba544f3ce7fb0b9339992cec1e6876c42bc66fc0a",
+    "predictions.csv": "93f8cbd60bcc2c1bc718686a4ff9f92da61cedb7eb9186f2b98522f25e56f5be",
+    "fold_predictions.csv": "c5f204030346c900e06761ad5f935a94f5e2217935d069a2cc45cb9061cdc8af",
+    "labels.csv": "293ce167b2a23f5d8f9ff68126ade0571ddb7f371037ff22cc1a73e74d0627e4",
+    "budget_curves.csv": "8c5c5793b1214234d2a440430cf9a8298e652f7053232ec2837594dec528bdf2",
+    "fold_metrics.csv": "30db999bc95d9d0b837dd2dd57c74593494a27beeb24ce7105538b2044271e42",
+    "preparation.json": "9dfde876ebe7a3cda0255d7bef20b50b4af757c4edfa5d9c7cfac4be6e1424e7",
+    "candidate_scores.csv": "d60f6d261c914a5c6f01e09734f45d5eccdb010e27a5de31f3042f255276e453"
+  }
+}

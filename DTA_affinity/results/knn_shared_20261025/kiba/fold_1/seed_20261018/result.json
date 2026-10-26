@@ -1,0 +1,566 @@
+{
+  "identity": {
+    "config": "a81c36c69edecfad6e352a5db6ea41c8f8055ecaa3259a1a7bd956d9dbcb49c5",
+    "runner": "c1cdd90cd56196f7d77129eb60fdce99ea9923cdb6a069796f7aa5ecc66e7dfc",
+    "core": "21551944b686c4b6d5c66f00c8291803aaecc164baf4c8e71a6ddbbda9ed2268",
+    "prepared": "9f25f50b37e063b8ef31c903afe6e3c33c0b91b81f1b2d0318ce65d2450ec2e7",
+    "dataset": "kiba",
+    "fold": 1,
+    "seed": 20261018
+  },
+  "feature_cache_sha256": "f0dd60e09ab2827721b8af54ef40cc6e565a867458dc2aae8ab3a12e12e22bdc",
+  "scope": "shared-backbone local implementations of the complete label and representation aggregation mechanisms",
+  "configuration": {
+    "experiment": "knn_shared_20261025",
+    "paper": "https://arxiv.org/html/2407.15202v1",
+    "comparison": "shared-backbone local implementations of the complete label and representation aggregation mechanisms",
+    "datasets": [
+      "davis",
+      "kiba"
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seeds": [
+      20261012,
+      20261017,
+      20261018
+    ],
+    "backbone": {
+      "features": "existing frozen Uni-Mol2 and ESM-2 token means",
+      "input_standardization": "training-pair weighted mean and population SD, separately per modality",
+      "entity_hidden": 256,
+      "latent_dim": 128,
+      "head_hidden": 256,
+      "dropout": 0.1,
+      "optimizer": "AdamW",
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "batch_size": 256,
+      "epochs": 100,
+      "patience": 10,
+      "loss": "MSE on training-standardized labels",
+      "selection": "lowest validation MSE",
+      "gradient_clip": 1.0
+    },
+    "fixed": {
+      "k": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "temperature": [
+        10.0,
+        100.0,
+        1000.0,
+        10000.0,
+        100000.0
+      ],
+      "base_weight": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "search": "independent drug, protein, and label searches; combine the representation choices; then two coordinate passes over drug, protein, label using the same grids",
+      "coordinate_passes": 2,
+      "score_batch_size": 8192,
+      "distance": "negative squared L2; stable datastore order for ties"
+    },
+    "adaptive": {
+      "k": "effective k values selected for fixed aggregation on the same validation set",
+      "hidden_dim": 32,
+      "optimizer": "Adam",
+      "lr": 0.001,
+      "batch_size": 256,
+      "steps": 5000,
+      "evaluate_every": 250,
+      "selection": "lowest full-validation fitting MSE, including initialization",
+      "distance_scaling": "each modality divided by its validation-neighbor RMS distance, floored at 1e-6",
+      "initialization": "zero final weights; prior mass 0.5 on query or model and 0.5 uniformly on neighbors",
+      "head": "frozen, evaluation mode; gradients propagate through inputs",
+      "gradient_clip": 1.0
+    },
+    "sgf": {
+      "reference_pool": "experimental target ID",
+      "prior": "reuse the existing validation-selected Morgan predictions for each fold",
+      "gate": "validation-fit sigmoid(a+b*z); z uses validation sample SD; L2 slope penalty 0.001"
+    },
+    "metrics": [
+      "MSE",
+      "Pearson",
+      "target-macro Spearman"
+    ],
+    "aggregation": "mean of three seeds within each fold; mean and sample SD over five folds",
+    "local_choices": [
+      "shared backbone architecture and training",
+      "squared L2 convention and stable ties",
+      "coordinate search schedule",
+      "adaptive optimizer, initialization, distance scaling, and checkpoint selection"
+    ],
+    "test_labels": "read only after fitting and parameter selection for a run"
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "training_normalized_mse": 0.7009371967148069,
+      "validation_mse": 0.550911009311676
+    },
+    {
+      "epoch": 2,
+      "training_normalized_mse": 0.5878991021485895,
+      "validation_mse": 0.5054291486740112
+    },
+    {
+      "epoch": 3,
+      "training_normalized_mse": 0.5313587385911206,
+      "validation_mse": 0.4604572355747223
+    },
+    {
+      "epoch": 4,
+      "training_normalized_mse": 0.496646672517278,
+      "validation_mse": 0.4640559256076813
+    },
+    {
+      "epoch": 5,
+      "training_normalized_mse": 0.47458220142681995,
+      "validation_mse": 0.4261106550693512
+    },
+    {
+      "epoch": 6,
+      "training_normalized_mse": 0.4579534519700134,
+      "validation_mse": 0.4436154067516327
+    },
+    {
+      "epoch": 7,
+      "training_normalized_mse": 0.4415449300219627,
+      "validation_mse": 0.42715469002723694
+    },
+    {
+      "epoch": 8,
+      "training_normalized_mse": 0.42660753325422507,
+      "validation_mse": 0.40274709463119507
+    },
+    {
+      "epoch": 9,
+      "training_normalized_mse": 0.4133249469196809,
+      "validation_mse": 0.4006485939025879
+    },
+    {
+      "epoch": 10,
+      "training_normalized_mse": 0.40455356059041003,
+      "validation_mse": 0.4061645269393921
+    },
+    {
+      "epoch": 11,
+      "training_normalized_mse": 0.39582066369958113,
+      "validation_mse": 0.3997321128845215
+    },
+    {
+      "epoch": 12,
+      "training_normalized_mse": 0.3857279333625524,
+      "validation_mse": 0.40262848138809204
+    },
+    {
+      "epoch": 13,
+      "training_normalized_mse": 0.37798137920634345,
+      "validation_mse": 0.39128291606903076
+    },
+    {
+      "epoch": 14,
+      "training_normalized_mse": 0.36939180154355516,
+      "validation_mse": 0.39621222019195557
+    },
+    {
+      "epoch": 15,
+      "training_normalized_mse": 0.3620707010734575,
+      "validation_mse": 0.38556480407714844
+    },
+    {
+      "epoch": 16,
+      "training_normalized_mse": 0.3577542913591291,
+      "validation_mse": 0.37273743748664856
+    },
+    {
+      "epoch": 17,
+      "training_normalized_mse": 0.35115041791946633,
+      "validation_mse": 0.38932761549949646
+    },
+    {
+      "epoch": 18,
+      "training_normalized_mse": 0.34662130449702555,
+      "validation_mse": 0.3727961778640747
+    },
+    {
+      "epoch": 19,
+      "training_normalized_mse": 0.34097976558067783,
+      "validation_mse": 0.3737664222717285
+    },
+    {
+      "epoch": 20,
+      "training_normalized_mse": 0.33570749242609244,
+      "validation_mse": 0.3844323754310608
+    },
+    {
+      "epoch": 21,
+      "training_normalized_mse": 0.33116069024741984,
+      "validation_mse": 0.37175464630126953
+    },
+    {
+      "epoch": 22,
+      "training_normalized_mse": 0.32581202750007504,
+      "validation_mse": 0.3752005994319916
+    },
+    {
+      "epoch": 23,
+      "training_normalized_mse": 0.3235162525395569,
+      "validation_mse": 0.3689165711402893
+    },
+    {
+      "epoch": 24,
+      "training_normalized_mse": 0.31970462485309964,
+      "validation_mse": 0.37599268555641174
+    },
+    {
+      "epoch": 25,
+      "training_normalized_mse": 0.3140327921741413,
+      "validation_mse": 0.36933308839797974
+    },
+    {
+      "epoch": 26,
+      "training_normalized_mse": 0.31132688786569673,
+      "validation_mse": 0.37663406133651733
+    },
+    {
+      "epoch": 27,
+      "training_normalized_mse": 0.3069587947226139,
+      "validation_mse": 0.3733377754688263
+    },
+    {
+      "epoch": 28,
+      "training_normalized_mse": 0.3038983163039271,
+      "validation_mse": 0.3633632957935333
+    },
+    {
+      "epoch": 29,
+      "training_normalized_mse": 0.29998720504176746,
+      "validation_mse": 0.3720952868461609
+    },
+    {
+      "epoch": 30,
+      "training_normalized_mse": 0.29663158317570565,
+      "validation_mse": 0.3774501383304596
+    },
+    {
+      "epoch": 31,
+      "training_normalized_mse": 0.29382371482791986,
+      "validation_mse": 0.3685356676578522
+    },
+    {
+      "epoch": 32,
+      "training_normalized_mse": 0.29021123810620164,
+      "validation_mse": 0.35731303691864014
+    },
+    {
+      "epoch": 33,
+      "training_normalized_mse": 0.28952264001221223,
+      "validation_mse": 0.3602037727832794
+    },
+    {
+      "epoch": 34,
+      "training_normalized_mse": 0.2846945897932402,
+      "validation_mse": 0.37106209993362427
+    },
+    {
+      "epoch": 35,
+      "training_normalized_mse": 0.28364522596481184,
+      "validation_mse": 0.3576282858848572
+    },
+    {
+      "epoch": 36,
+      "training_normalized_mse": 0.2791273301307234,
+      "validation_mse": 0.354287713766098
+    },
+    {
+      "epoch": 37,
+      "training_normalized_mse": 0.2802792340138315,
+      "validation_mse": 0.34582793712615967
+    },
+    {
+      "epoch": 38,
+      "training_normalized_mse": 0.27269380841513324,
+      "validation_mse": 0.35847917199134827
+    },
+    {
+      "epoch": 39,
+      "training_normalized_mse": 0.2711110748335349,
+      "validation_mse": 0.354195237159729
+    },
+    {
+      "epoch": 40,
+      "training_normalized_mse": 0.2672860176615566,
+      "validation_mse": 0.3645760416984558
+    },
+    {
+      "epoch": 41,
+      "training_normalized_mse": 0.26517917087195825,
+      "validation_mse": 0.36760252714157104
+    },
+    {
+      "epoch": 42,
+      "training_normalized_mse": 0.26259196299142973,
+      "validation_mse": 0.36059877276420593
+    },
+    {
+      "epoch": 43,
+      "training_normalized_mse": 0.26094288993254433,
+      "validation_mse": 0.3644883632659912
+    },
+    {
+      "epoch": 44,
+      "training_normalized_mse": 0.2590952241744254,
+      "validation_mse": 0.3531484007835388
+    },
+    {
+      "epoch": 45,
+      "training_normalized_mse": 0.2571871921249582,
+      "validation_mse": 0.34641093015670776
+    },
+    {
+      "epoch": 46,
+      "training_normalized_mse": 0.25462688231830105,
+      "validation_mse": 0.3454640805721283
+    },
+    {
+      "epoch": 47,
+      "training_normalized_mse": 0.2509749553398051,
+      "validation_mse": 0.34274786710739136
+    },
+    {
+      "epoch": 48,
+      "training_normalized_mse": 0.24890056047337483,
+      "validation_mse": 0.35217049717903137
+    },
+    {
+      "epoch": 49,
+      "training_normalized_mse": 0.2469645102066119,
+      "validation_mse": 0.3437619209289551
+    },
+    {
+      "epoch": 50,
+      "training_normalized_mse": 0.24646756838162023,
+      "validation_mse": 0.3410472571849823
+    },
+    {
+      "epoch": 51,
+      "training_normalized_mse": 0.24302996018198483,
+      "validation_mse": 0.3538895845413208
+    },
+    {
+      "epoch": 52,
+      "training_normalized_mse": 0.24189648553665355,
+      "validation_mse": 0.35146504640579224
+    },
+    {
+      "epoch": 53,
+      "training_normalized_mse": 0.24085755649387774,
+      "validation_mse": 0.34844833612442017
+    },
+    {
+      "epoch": 54,
+      "training_normalized_mse": 0.23783054751175703,
+      "validation_mse": 0.35658690333366394
+    },
+    {
+      "epoch": 55,
+      "training_normalized_mse": 0.23694389449845538,
+      "validation_mse": 0.34462884068489075
+    },
+    {
+      "epoch": 56,
+      "training_normalized_mse": 0.23469498330051639,
+      "validation_mse": 0.34975001215934753
+    },
+    {
+      "epoch": 57,
+      "training_normalized_mse": 0.232594526285007,
+      "validation_mse": 0.3496822118759155
+    },
+    {
+      "epoch": 58,
+      "training_normalized_mse": 0.23199948471854892,
+      "validation_mse": 0.3427460491657257
+    },
+    {
+      "epoch": 59,
+      "training_normalized_mse": 0.22974074660334087,
+      "validation_mse": 0.34268680214881897
+    },
+    {
+      "epoch": 60,
+      "training_normalized_mse": 0.22746575856442253,
+      "validation_mse": 0.3521263897418976
+    }
+  ],
+  "fixed": {
+    "label": {
+      "k": 16,
+      "temperature": 10.0,
+      "base_weight": 0.3
+    },
+    "drug": {
+      "k": 32,
+      "temperature": 100000.0,
+      "base_weight": 0.1
+    },
+    "protein": {
+      "k": 128,
+      "temperature": 100000.0,
+      "base_weight": 0.7
+    }
+  },
+  "adaptive": {
+    "ks": [
+      16,
+      32,
+      128
+    ],
+    "best_step": 5000,
+    "validation_mse": 0.245282843708992,
+    "distance_scale": [
+      68.13558197021484,
+      72.34307098388672,
+      413.0004577636719
+    ],
+    "history": [
+      {
+        "step": 0,
+        "validation_mse": 0.308552622795105
+      },
+      {
+        "step": 250,
+        "validation_mse": 0.2675081491470337
+      },
+      {
+        "step": 500,
+        "validation_mse": 0.2657146751880646
+      },
+      {
+        "step": 750,
+        "validation_mse": 0.26322028040885925
+      },
+      {
+        "step": 1000,
+        "validation_mse": 0.2620071768760681
+      },
+      {
+        "step": 1250,
+        "validation_mse": 0.26156845688819885
+      },
+      {
+        "step": 1500,
+        "validation_mse": 0.2585733234882355
+      },
+      {
+        "step": 1750,
+        "validation_mse": 0.2568729817867279
+      },
+      {
+        "step": 2000,
+        "validation_mse": 0.25603532791137695
+      },
+      {
+        "step": 2250,
+        "validation_mse": 0.2541082203388214
+      },
+      {
+        "step": 2500,
+        "validation_mse": 0.2529435455799103
+      },
+      {
+        "step": 2750,
+        "validation_mse": 0.2523866295814514
+      },
+      {
+        "step": 3000,
+        "validation_mse": 0.25052469968795776
+      },
+      {
+        "step": 3250,
+        "validation_mse": 0.2502167224884033
+      },
+      {
+        "step": 3500,
+        "validation_mse": 0.24939623475074768
+      },
+      {
+        "step": 3750,
+        "validation_mse": 0.24912486970424652
+      },
+      {
+        "step": 4000,
+        "validation_mse": 0.24766305088996887
+      },
+      {
+        "step": 4250,
+        "validation_mse": 0.24708373844623566
+      },
+      {
+        "step": 4500,
+        "validation_mse": 0.24782957136631012
+      },
+      {
+        "step": 4750,
+        "validation_mse": 0.24565961956977844
+      },
+      {
+        "step": 5000,
+        "validation_mse": 0.245282843708992
+      }
+    ]
+  },
+  "gate": {
+    "a": -0.8808147820486393,
+    "b": -0.18862930054146443,
+    "mean": 0.6241008122280244,
+    "std": 0.1910809776958729
+  },
+  "test": {
+    "base": {
+      "mse": 0.35490831149001606,
+      "pearson": 0.6808347134561743
+    },
+    "knn_dta": {
+      "mse": 0.30541811838030347,
+      "pearson": 0.7308218546660012
+    },
+    "ada_knn_dta": {
+      "mse": 0.3136632510477156,
+      "pearson": 0.7207232947628516
+    },
+    "sgf": {
+      "mse": 0.27471431476453034,
+      "pearson": 0.7586922308017937
+    },
+    "neighbor": {
+      "mse": 0.2920484727839601,
+      "pearson": 0.7414709055091278
+    }
+  },
+  "prediction_sha256": "d367d91a69cd220aa761f4ffc411fd69585c58734a265621c04e186244bd4fc4",
+  "wall_seconds": 33.119009276008
+}

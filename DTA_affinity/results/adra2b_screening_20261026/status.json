@@ -1,0 +1,13 @@
+{
+  "pid": 2251631,
+  "state": "completed",
+  "started_utc": "2026-10-26T07:06:38.558385+00:00",
+  "stage": "predictions_frozen",
+  "fold": 4,
+  "epoch": 15,
+  "updated_utc": "2026-10-26T07:07:25.508984+00:00",
+  "elapsed_seconds": 46.94260888299323,
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "external_outcomes_read_by_training": false,
+  "prediction_sha256": "2dbf4f2498862c0f5e123a8e435de8313891e83b920ec55d5c1764a32c8a7a0b"
+}

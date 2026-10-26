@@ -1,0 +1,71 @@
+{
+  "case": "ESR1_AID1223",
+  "metrics": [
+    {
+      "model": "deep",
+      "n": 63,
+      "actives": 17,
+      "top10_hits": 2,
+      "top10_hit_rate": 0.2,
+      "top10_enrichment": 0.7411764705882353,
+      "average_precision": 0.22138898833590032,
+      "roc_auc": 0.3273657289002557
+    },
+    {
+      "model": "neighbor_prior",
+      "n": 63,
+      "actives": 17,
+      "top10_hits": 4,
+      "top10_hit_rate": 0.4,
+      "top10_enrichment": 1.4823529411764707,
+      "average_precision": 0.32401891433502483,
+      "roc_auc": 0.4833759590792838
+    },
+    {
+      "model": "equal_blend",
+      "n": 63,
+      "actives": 17,
+      "top10_hits": 2,
+      "top10_hit_rate": 0.2,
+      "top10_enrichment": 0.7411764705882353,
+      "average_precision": 0.2621658786076214,
+      "roc_auc": 0.3593350383631714
+    },
+    {
+      "model": "fixed_blend",
+      "n": 63,
+      "actives": 17,
+      "top10_hits": 3,
+      "top10_hit_rate": 0.3,
+      "top10_enrichment": 1.111764705882353,
+      "average_precision": 0.30151174651567003,
+      "roc_auc": 0.45524296675191817
+    },
+    {
+      "model": "similarity_gate",
+      "n": 63,
+      "actives": 17,
+      "top10_hits": 3,
+      "top10_hit_rate": 0.3,
+      "top10_enrichment": 1.111764705882353,
+      "average_precision": 0.3041257639610876,
+      "roc_auc": 0.45780051150895146
+    },
+    {
+      "model": "pure_similarity",
+      "n": 63,
+      "actives": 17,
+      "top10_hits": 4,
+      "top10_hit_rate": 0.4,
+      "top10_enrichment": 1.4823529411764707,
+      "average_precision": 0.42160505456084874,
+      "roc_auc": 0.6086956521739131
+    }
+  ],
+  "random_top10_expected_hits": 2.698412698412698,
+  "endpoint": "deposited active/inactive outcome from competitive estrogen binding in permeabilized cells",
+  "prediction_selection": "parameters frozen on ChEMBL validation compounds; no PubChem outcomes used",
+  "primary_budget": 10,
+  "prediction_sha256": "072204fa8189d3da9128b1a19fd4dac195e1423b6edf3c94f8cf9d1f1931c92e",
+  "labels_sha256": "ea7794eb1d966adf1521efd1818d19d543fcc39c5f82e858214dc5957a575f9c"
+}

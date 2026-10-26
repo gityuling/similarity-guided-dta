@@ -1,0 +1,8 @@
+{
+  "pubchem_1961694_description.json": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1961694/description/JSON",
+  "pubchem_1961694_data.csv": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1961694/CSV",
+  "chembl_adra2b_target.json": "https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1942.json",
+  "chembl_external_assay.json": "https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL5291737.json",
+  "uniprot_P18089.json": "https://rest.uniprot.org/uniprotkb/P18089.json",
+  "spd_si_tables_release.xlsx": "https://zenodo.org/api/records/7378746/files/SI_tables_release.xlsx/content"
+}

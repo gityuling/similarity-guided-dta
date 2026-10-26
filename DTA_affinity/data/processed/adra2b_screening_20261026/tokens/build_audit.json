@@ -1,0 +1,48 @@
+{
+  "data_table": "DTA_affinity/reports/adra2b_screening_20261026/feature_table.csv",
+  "table_sha256": "beac7273acf5dda9ab8326fee7ccc70b3d528a258f99b83d07aabf2de5fec9e1",
+  "cache_dir": "DTA_affinity/data/processed/adra2b_screening_20261026/tokens",
+  "benchmark_pairs": 1471,
+  "unique_drugs": 1471,
+  "unique_proteins": 1,
+  "max_explicit_H_atoms": 219,
+  "molecules_over_256_atoms_retained": 0,
+  "available_at_start": {
+    "drugs": 1127,
+    "proteins": 0
+  },
+  "reusable_from_explicit_legacy_roots": {
+    "drugs": 0,
+    "proteins": 0
+  },
+  "remaining_after_reuse": {
+    "drugs": 344,
+    "proteins": 1
+  },
+  "legacy_provenance": "Explicitly selected existing caches are shape/length/finite checked; their original checkpoint hashes are not independently recoverable. Omit --reuse-cache to regenerate every entity.",
+  "requested_reuse_roots": [],
+  "copied": [],
+  "extractor": "build_bindingdb_articles_kd_tokens.py UniMol2Extractor / save_protein_tokens",
+  "unimol2_weights": "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt",
+  "esm2_model": "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model",
+  "protein_max_tokens": 1024,
+  "drug_max_batched_atoms": 96,
+  "dry_run": false,
+  "reuse_only": false,
+  "model_sha256": {
+    "/home/lsy/\u6587\u6863/Drug_repurpose/unimol2/checkpoint.pt": "48e1ba230119a5f286b81dd71bec4889aebebffa03e66d9241f3ceb7bede9a5e",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/config.json": "16d490981c34b2d73e6b967a53d4dd7b9d6100ddb933382dc5256446935970e4",
+    "/home/lsy/\u6587\u6863/Drug_repurpose/ESM2/esm2_model/model.safetensors": "c82661e60305b0c3d747e3c4ba308f4762f6df99ef0c1911712871cdcb6d6d15"
+  },
+  "extractor_sha256": "0377767f88698b073e71f8791d9b0b22180ce8bd80df8a5f8e86d8f9963c1cb8",
+  "device": "NVIDIA GeForce RTX 5090 D v2",
+  "generated_drugs": 344,
+  "generated_proteins": 1,
+  "failed_drugs": 0,
+  "failed_proteins": 0,
+  "remaining": {
+    "drugs": [],
+    "proteins": []
+  },
+  "complete": true
+}

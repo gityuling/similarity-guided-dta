@@ -1,0 +1,14 @@
+{
+  "configs/nonkinase_screening_20261026.json": "4200fb8c0b2f57bc209b44edf949aa6fd3612704670cde8c91716c402002d899",
+  "reports/nonkinase_screening_20261026/sources/chembl_esr1_assays_0.json": "a114ffba3d32a34a63e685afa53a2bb54765739a1d5500778228112cc3e76b6c",
+  "reports/nonkinase_screening_20261026/sources/chembl_esr1_assays_1.json": "cb30406f3e7b8f1b1991525b3419aa74476d0a32c6620d9c2c1e3d3459ecc92d",
+  "reports/nonkinase_screening_20261026/sources/chembl_esr1_ki_page0.json": "11686fe6858eeb2d8e2fc10c95eb25510d3d91c5f244220ff3336926742000bb",
+  "reports/nonkinase_screening_20261026/sources/chembl_esr1_ki_page1.json": "e0bfdd1fee4996cd4cf2836c1b1f0fbf20ac0bf32d8f5933b21dd621c36696be",
+  "reports/nonkinase_screening_20261026/sources/chembl_esr1_target.json": "2aeceeb4ef4957c45105e06d859e74f7a18d2e7e816482fcd328efbbc9d6bc78",
+  "reports/nonkinase_screening_20261026/sources/download_urls.json": "860b609d45db2c45e6e1569a93448ba6bc20fec03ab842ec2f49b71c5e6a06f9",
+  "reports/nonkinase_screening_20261026/sources/provenance.json": "afe4ba8d9d6a0e328f7ee7c40c3a282785e110112b3b8ef3e802717458f421d8",
+  "reports/nonkinase_screening_20261026/sources/pubchem_1223_data.csv": "23d6076a3f1b00c6575a243a368b820fcb37d276eb5cc7aca0c9f56ee8dfd772",
+  "reports/nonkinase_screening_20261026/sources/pubchem_1223_description.json": "e1e85c542c5de87ce0704e6f9dbe45eeeeec0bfeeb71bbd48feb10828ff6b0ce",
+  "reports/nonkinase_screening_20261026/sources/uniprot_P03372.json": "5f6464bbe967bd3baa3fdfdad41d5b36369e963f16826a9ed1b8a86db90efa38",
+  "scripts/prepare_nonkinase_screening.py": "8407ffe15e7b45f4d74bf5420eac2b8833135568fad756b9b0e11e94b7c61f31"
+}

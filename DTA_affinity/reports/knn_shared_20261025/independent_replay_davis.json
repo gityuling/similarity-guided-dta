@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "runs": 15,
+  "sampled_pairs": 240,
+  "method": "independent NumPy/SciPy encoder, head, exact full-distance retrieval, and aggregation",
+  "tolerance": 0.0002,
+  "results": [
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "seed": 20261012,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.148533984642654e-07,
+        "knn_dta": 4.667737449892684e-07,
+        "ada_knn_dta": 9.519836323690356e-07,
+        "sgf": 5.604521557955877e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "seed": 20261017,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 2.937470844344148e-07,
+        "knn_dta": 4.737621335237918e-07,
+        "ada_knn_dta": 9.131520233296442e-07,
+        "sgf": 4.066046610518015e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 0,
+      "seed": 20261018,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.6951473170176996e-07,
+        "knn_dta": 6.5269638405141e-07,
+        "ada_knn_dta": 4.838307265941921e-07,
+        "sgf": 1.8709371829572774e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "seed": 20261012,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.969989919028194e-07,
+        "knn_dta": 4.3283528139426153e-07,
+        "ada_knn_dta": 9.607348294693452e-07,
+        "sgf": 1.4301728867849306e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "seed": 20261017,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 4.19119589700756e-07,
+        "knn_dta": 6.068944644610497e-07,
+        "ada_knn_dta": 5.719160967032622e-07,
+        "sgf": 9.16846509824154e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 1,
+      "seed": 20261018,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 4.0801583089944415e-07,
+        "knn_dta": 5.551946848925127e-07,
+        "ada_knn_dta": 1.1227212706188539e-06,
+        "sgf": 1.9752392343974634e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "seed": 20261012,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.7925541640504434e-07,
+        "knn_dta": 4.27144936310242e-07,
+        "ada_knn_dta": 7.005943496452005e-07,
+        "sgf": 2.0039014714257064e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "seed": 20261017,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 2.33394600535064e-07,
+        "knn_dta": 6.625955739636424e-07,
+        "ada_knn_dta": 8.993190423467468e-07,
+        "sgf": 8.348365376775746e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 2,
+      "seed": 20261018,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 4.982848320622679e-07,
+        "knn_dta": 7.828086179273441e-07,
+        "ada_knn_dta": 7.046566041779556e-07,
+        "sgf": 1.7647887595728662e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "seed": 20261012,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.4689549188726687e-07,
+        "knn_dta": 6.062112101190564e-07,
+        "ada_knn_dta": 7.893574212047838e-07,
+        "sgf": 1.2987771125239078e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "seed": 20261017,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 4.2625784946181966e-07,
+        "knn_dta": 9.491242849435366e-07,
+        "ada_knn_dta": 7.562882107237101e-07,
+        "sgf": 1.5311819723251574e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 3,
+      "seed": 20261018,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 2.29169486054559e-07,
+        "knn_dta": 4.581614643228704e-07,
+        "ada_knn_dta": 6.71581536160204e-07,
+        "sgf": 1.6248291423437422e-07
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "seed": 20261012,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.8219178399856446e-07,
+        "knn_dta": 4.936979811631659e-07,
+        "ada_knn_dta": 1.493465840773922e-06,
+        "sgf": 5.1104809273283536e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "seed": 20261017,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 2.5596062069865866e-07,
+        "knn_dta": 5.669384401940647e-07,
+        "ada_knn_dta": 1.0465138702286936e-06,
+        "sgf": 2.9032206860790666e-08
+      },
+      "affinity_head_unchanged": true
+    },
+    {
+      "dataset": "davis",
+      "fold": 4,
+      "seed": 20261018,
+      "samples": 16,
+      "maximum_absolute_errors": {
+        "base": 3.8721892625659393e-07,
+        "knn_dta": 6.032982886594596e-07,
+        "ada_knn_dta": 9.190914074252987e-07,
+        "sgf": 3.786907587510768e-08
+      },
+      "affinity_head_unchanged": true
+    }
+  ],
+  "verifier_sha256": "1bed6c833612aa28c91bff873976260bf87fb8f7a0811fd82d41951bc3b4638e"
+}

@@ -5,9 +5,9 @@
     {
       "name": "reproduction-data.tar.gz",
       "group": "reproduction-data",
-      "bytes": 182332005,
-      "sha256": "f7bdd9fd0fbee4db8e531f4f9eadebd801f3b534e2cf2e2ac9886f2f9f8d887b",
-      "files": 70
+      "bytes": 231086263,
+      "sha256": "14a84838d34fd18be27da2c27ffb0e60a3147144fe7534b75660ae8d6c8fec82",
+      "files": 118
     },
     {
       "name": "affinity-checkpoints.tar.gz",
@@ -36,6 +36,20 @@
       "bytes": 545132269,
       "sha256": "7a84baee38da611be181db89601584e782915400d05c17ecf264970b0d760598",
       "files": 385
+    },
+    {
+      "name": "case-study-models.tar.gz",
+      "group": "case-study-models",
+      "bytes": 924088934,
+      "sha256": "3c153c03fe98c464db4921bac0e34ad4b2cbbef983d8cc55961912ea480f07bc",
+      "files": 1906
+    },
+    {
+      "name": "shared-backbone-models.tar.gz",
+      "group": "shared-backbone-models",
+      "bytes": 119420912,
+      "sha256": "9cbbdc2d1c099f6fed02b50b390baecf7fe8c534b707f526470cdcdce7022878",
+      "files": 62
     }
   ]
 }

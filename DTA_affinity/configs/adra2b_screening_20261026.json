@@ -1,0 +1,60 @@
+{
+  "case": "ADRA2B_AID1961694",
+  "target": "P18089",
+  "family": "GPCR",
+  "training_source": "ChEMBL CHEMBL1942 exact Ki, human binding assays with confidence 9, literature source and no annotated variant",
+  "label": "pKi = 9 - log10(Ki in nM)",
+  "external_assay": 1961694,
+  "primary_budget": 10,
+  "secondary_budgets": [
+    5,
+    20
+  ],
+  "controls": [
+    "deep",
+    "neighbor_prior",
+    "equal_blend",
+    "fixed_blend",
+    "similarity_gate",
+    "pure_similarity"
+  ],
+  "training_seed": 20261012,
+  "validation_folds": 5,
+  "partition_seed": 0,
+  "external_aggregation": "unweighted mean of five validation-fold models",
+  "architecture": "existing full SGF-DTA affinity network; frozen Uni-Mol2 and ESM-2 features; freshly trained affinity head and interaction branch",
+  "latent_dim": 512,
+  "pool_fusion": true,
+  "hybrid": true,
+  "drug_attention": false,
+  "pocket_fusion": false,
+  "dropout": 0.1,
+  "k_ratio": 0.15,
+  "batch_size": 64,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "epochs": 20,
+  "patience": 5,
+  "neighbor_k": [
+    1,
+    3,
+    5,
+    10,
+    20,
+    40
+  ],
+  "neighbor_gamma": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "gate_slope_penalty": 0.001,
+  "selection_basis": "Selected before generating any ADRA2B model predictions for a large systematic human direct-binding panel with more deposited actives than the preceding ADORA2A case and available public Ki references.",
+  "scope": "Third exploratory non-kinase case after ESR1 and ADORA2A; both preceding cases are retained. Retrospective parent-disjoint evaluation.",
+  "external_document": "CHEMBL5291721",
+  "external_activity_cutoff_nM": 10000,
+  "external_endpoint": "AC50 from direct ADRA2B binding in the Secondary Pharmacology Database; concentration threshold 10 micromolar",
+  "candidate_policy": "Exclude missing/invalid structures, unsupported encoder size and all repeated standardized parent groups, without using activity to choose representatives. Assign Active for exact AC50 <= 10000 nM, Inactive for exact AC50 > 10000 nM or a strict lower bound >= 10000 nM; exclude threshold-ambiguous bounds.",
+  "target_mapping": "Original author Zenodo 7378746 SI_tables_release.xlsx Table S2 identifies preferred assay 3159 as human ADRA2B binding; ChEMBL external assay CHEMBL5291737."
+}

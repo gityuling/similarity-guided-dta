@@ -1,0 +1,9 @@
+dataset,method,mse_mean,mse_fold_sd,pearson_mean,pearson_fold_sd,backbone
+davis,+ Ada-kNN-DTA,0.7368782212096365,0.0998429348517253,0.3510020139271559,0.0575894400985436,same trained vector backbone within each fold and seed
+davis,Base model,0.658753520712572,0.0764336797202297,0.4324318379137954,0.0970414614218952,same trained vector backbone within each fold and seed
+davis,+ kNN-DTA,0.6392956514781735,0.0726291697101508,0.4472618248278698,0.0885186814826052,same trained vector backbone within each fold and seed
+davis,+ SGF,0.6142861674294813,0.0955481391026427,0.5137830363507405,0.0906885730919707,same trained vector backbone within each fold and seed
+kiba,+ Ada-kNN-DTA,0.3342209965578351,0.0352944990190967,0.7257217361054399,0.0192978937405635,same trained vector backbone within each fold and seed
+kiba,Base model,0.386811338685203,0.0372331359912519,0.6777649872536627,0.0199873835762031,same trained vector backbone within each fold and seed
+kiba,+ kNN-DTA,0.3250291519434022,0.0313843157611992,0.7348681491079906,0.0161893858890061,same trained vector backbone within each fold and seed
+kiba,+ SGF,0.3013187326017911,0.0342482093006838,0.7561732798581154,0.0213707719176908,same trained vector backbone within each fold and seed

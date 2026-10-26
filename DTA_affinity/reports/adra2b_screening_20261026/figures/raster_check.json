@@ -1,0 +1,19 @@
+{
+  "source": "DTA_affinity/reports/adra2b_screening_20261026/figures/adra2b_screening.png",
+  "n_boxes": 474,
+  "ok": false,
+  "collisions": [
+    {
+      "a": "cc45:a192",
+      "b": "cc48:a247",
+      "area": 132.0,
+      "iou": 0.13524590163934427,
+      "kind": "png-component"
+    }
+  ],
+  "notes": [
+    "PNG 2160x1080, ink_fraction=0.087, components_kept=474/577, max_component_area=3499.",
+    "PNG mode is heuristic (label-sized components + bbox IoU).",
+    "Prefer artist mode inside the plotting script when possible."
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "complete": true,
+  "runs": 30,
+  "config_sha256": "a81c36c69edecfad6e352a5db6ea41c8f8055ecaa3259a1a7bd956d9dbcb49c5",
+  "metric_roundtrip_max_abs_error": 1.1903934782342418e-08,
+  "methods": [
+    "base",
+    "knn_dta",
+    "ada_knn_dta",
+    "sgf",
+    "neighbor"
+  ],
+  "summary": [
+    {
+      "dataset": "davis",
+      "method": "ada_knn_dta",
+      "mse_mean": 0.7368782212096365,
+      "mse_fold_sd": 0.09984293485172538,
+      "pearson_mean": 0.35100201392715596,
+      "pearson_fold_sd": 0.05758944009854361
+    },
+    {
+      "dataset": "davis",
+      "method": "base",
+      "mse_mean": 0.658753520712572,
+      "mse_fold_sd": 0.07643367972022977,
+      "pearson_mean": 0.43243183791379547,
+      "pearson_fold_sd": 0.09704146142189525
+    },
+    {
+      "dataset": "davis",
+      "method": "knn_dta",
+      "mse_mean": 0.6392956514781735,
+      "mse_fold_sd": 0.07262916971015088,
+      "pearson_mean": 0.44726182482786986,
+      "pearson_fold_sd": 0.08851868148260524
+    },
+    {
+      "dataset": "davis",
+      "method": "neighbor",
+      "mse_mean": 0.6426545376310612,
+      "mse_fold_sd": 0.08123564759118261,
+      "pearson_mean": 0.5047015275387082,
+      "pearson_fold_sd": 0.08119507398929186
+    },
+    {
+      "dataset": "davis",
+      "method": "sgf",
+      "mse_mean": 0.6142861674294813,
+      "mse_fold_sd": 0.09554813910264277,
+      "pearson_mean": 0.5137830363507405,
+      "pearson_fold_sd": 0.09068857309197072
+    },
+    {
+      "dataset": "kiba",
+      "method": "ada_knn_dta",
+      "mse_mean": 0.33422099655783516,
+      "mse_fold_sd": 0.03529449901909674,
+      "pearson_mean": 0.7257217361054399,
+      "pearson_fold_sd": 0.019297893740563545
+    },
+    {
+      "dataset": "kiba",
+      "method": "base",
+      "mse_mean": 0.38681133868520307,
+      "mse_fold_sd": 0.03723313599125196,
+      "pearson_mean": 0.6777649872536627,
+      "pearson_fold_sd": 0.01998738357620319
+    },
+    {
+      "dataset": "kiba",
+      "method": "knn_dta",
+      "mse_mean": 0.3250291519434022,
+      "mse_fold_sd": 0.031384315761199225,
+      "pearson_mean": 0.7348681491079906,
+      "pearson_fold_sd": 0.016189385889006182
+    },
+    {
+      "dataset": "kiba",
+      "method": "neighbor",
+      "mse_mean": 0.324617442769279,
+      "mse_fold_sd": 0.03339722977520128,
+      "pearson_mean": 0.7366276140010773,
+      "pearson_fold_sd": 0.0221568677735315
+    },
+    {
+      "dataset": "kiba",
+      "method": "sgf",
+      "mse_mean": 0.3013187326017911,
+      "mse_fold_sd": 0.03424820930068384,
+      "pearson_mean": 0.7561732798581154,
+      "pearson_fold_sd": 0.021370771917690816
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "dataset": "davis",
+      "comparison": "sgf_minus_base",
+      "mse_difference": -0.04446735328309074,
+      "ci95_low": -0.09028802922631854,
+      "ci95_high": 0.006943292878353144,
+      "sgf_lower_mse_runs": 12,
+      "runs": 15,
+      "relative_mse_reduction_percent": 6.750226281142378
+    },
+    {
+      "dataset": "davis",
+      "comparison": "sgf_minus_knn_dta",
+      "mse_difference": -0.025009484048692143,
+      "ci95_low": -0.08622425618793782,
+      "ci95_high": 0.05163063478144911,
+      "sgf_lower_mse_runs": 11,
+      "runs": 15,
+      "relative_mse_reduction_percent": 3.912037253947442
+    },
+    {
+      "dataset": "davis",
+      "comparison": "sgf_minus_ada_knn_dta",
+      "mse_difference": -0.12259205378015524,
+      "ci95_low": -0.19761844051619123,
+      "ci95_high": -0.04355746253619067,
+      "sgf_lower_mse_runs": 15,
+      "runs": 15,
+      "relative_mse_reduction_percent": 16.63667757460818
+    },
+    {
+      "dataset": "davis",
+      "comparison": "sgf_minus_neighbor",
+      "mse_difference": -0.028368370201579948,
+      "ci95_low": -0.04988103303756189,
+      "ci95_high": -0.008982524749359982,
+      "sgf_lower_mse_runs": 13,
+      "runs": 15,
+      "relative_mse_reduction_percent": 4.414248797830136
+    },
+    {
+      "dataset": "kiba",
+      "comparison": "sgf_minus_base",
+      "mse_difference": -0.08549260608341197,
+      "ci95_low": -0.09398908210312525,
+      "ci95_high": -0.07707396513452072,
+      "sgf_lower_mse_runs": 15,
+      "runs": 15,
+      "relative_mse_reduction_percent": 22.10188728541591
+    },
+    {
+      "dataset": "kiba",
+      "comparison": "sgf_minus_knn_dta",
+      "mse_difference": -0.02371041934161117,
+      "ci95_low": -0.031787847476132086,
+      "ci95_high": -0.015929971755890285,
+      "sgf_lower_mse_runs": 15,
+      "runs": 15,
+      "relative_mse_reduction_percent": 7.294859307186051
+    },
+    {
+      "dataset": "kiba",
+      "comparison": "sgf_minus_ada_knn_dta",
+      "mse_difference": -0.03290226395604403,
+      "ci95_low": -0.04079572728415132,
+      "ci95_high": -0.02532230930384489,
+      "sgf_lower_mse_runs": 15,
+      "runs": 15,
+      "relative_mse_reduction_percent": 9.844463482218858
+    },
+    {
+      "dataset": "kiba",
+      "comparison": "sgf_minus_neighbor",
+      "mse_difference": -0.023298710167487895,
+      "ci95_low": -0.029139978691985827,
+      "ci95_high": -0.017915539710575818,
+      "sgf_lower_mse_runs": 15,
+      "runs": 15,
+      "relative_mse_reduction_percent": 7.177282270702686
+    }
+  ],
+  "ranking": [
+    {
+      "dataset": "davis",
+      "method": "ada_knn_dta",
+      "spearman": 0.11810791934707454
+    },
+    {
+      "dataset": "davis",
+      "method": "base",
+      "spearman": 0.19935612332758276
+    },
+    {
+      "dataset": "davis",
+      "method": "knn_dta",
+      "spearman": 0.20829899663008153
+    },
+    {
+      "dataset": "davis",
+      "method": "neighbor",
+      "spearman": 0.26337724405958657
+    },
+    {
+      "dataset": "davis",
+      "method": "sgf",
+      "spearman": 0.26606362041025816
+    },
+    {
+      "dataset": "kiba",
+      "method": "ada_knn_dta",
+      "spearman": 0.505111268154856
+    },
+    {
+      "dataset": "kiba",
+      "method": "base",
+      "spearman": 0.44471500046204465
+    },
+    {
+      "dataset": "kiba",
+      "method": "knn_dta",
+      "spearman": 0.5224383385387451
+    },
+    {
+      "dataset": "kiba",
+      "method": "neighbor",
+      "spearman": 0.5125954936610598
+    },
+    {
+      "dataset": "kiba",
+      "method": "sgf",
+      "spearman": 0.5365124678429922
+    }
+  ],
+  "provenance": [
+    {
+      "path": "results/knn_shared_20261025/davis/fold_0/seed_20261012/result.json",
+      "sha256": "170ee63277323044744addcedbe25e388e95aa6a93b8c80922354335c6717f79",
+      "wall_seconds": 14.867574495001463
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_0/seed_20261017/result.json",
+      "sha256": "2bf0b7d709e0a8894ea25b2ff5fd7c317140df1e9b44b031889038172eac709b",
+      "wall_seconds": 9.816142271010904
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_0/seed_20261018/result.json",
+      "sha256": "4506bd9ee0a45e080844f404401b4715cac9b004c09feec2f0d2a69118dc29c5",
+      "wall_seconds": 9.88359027201659
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_1/seed_20261012/result.json",
+      "sha256": "851615eb9bccf7f51e696ca4a000e38a310698cdebca2f8ea9e356705a60a71d",
+      "wall_seconds": 11.115953227999853
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_1/seed_20261017/result.json",
+      "sha256": "2768d1b91e89717d3581886b29fb635a30febf1d4217f06292b8783197687cae",
+      "wall_seconds": 10.826163924997672
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_1/seed_20261018/result.json",
+      "sha256": "3ec3f26265f64f426e66a097d55dea397eb7bf70050194143c57aaee6b5ce6ba",
+      "wall_seconds": 10.331037873984315
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_2/seed_20261012/result.json",
+      "sha256": "dbe249b1dd74a15df147b861f98609d5615216ccbd60cdc805e7307b654f1452",
+      "wall_seconds": 11.291194003017154
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_2/seed_20261017/result.json",
+      "sha256": "63adfe4aeecf5c81f3c893a2f6513ff64c59f9c86580acbc200d4885d11e8c99",
+      "wall_seconds": 10.81198483100161
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_2/seed_20261018/result.json",
+      "sha256": "6ef7cac76e19a1b3eac2294a7066e599d6eacc89894a0eb5e5871f204e86ffb2",
+      "wall_seconds": 11.010134048003238
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_3/seed_20261012/result.json",
+      "sha256": "db917da08b75482e975c7f5be513efcb20743159780a038dc83fbf1583f1e70c",
+      "wall_seconds": 11.993189411994535
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_3/seed_20261017/result.json",
+      "sha256": "578dbf71f523cc8154dac408567dcf5b0c14dffc968885e5927c4c6fdf5c15a6",
+      "wall_seconds": 10.726259178016335
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_3/seed_20261018/result.json",
+      "sha256": "243f932a429e3789f766eed8a8ceae373367e8756b32cfc86feed813cd660be2",
+      "wall_seconds": 11.122989874013001
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_4/seed_20261012/result.json",
+      "sha256": "8d517ee7d99e4a5cc3d74ba03cdb8c932bce41c82fd323a9a3f6e5ac3ae272cd",
+      "wall_seconds": 10.510945923015242
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_4/seed_20261017/result.json",
+      "sha256": "0f8b7311a17ed6a285d69a9b9b497ad7f7d1e6831ce160fee9c5af4685dba1fd",
+      "wall_seconds": 10.766342726012226
+    },
+    {
+      "path": "results/knn_shared_20261025/davis/fold_4/seed_20261018/result.json",
+      "sha256": "dcb806e5b7d5e62bd65ed60d7f3fe470759e9fa424c8e9928bab9116e613a29a",
+      "wall_seconds": 9.738555129995802
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_0/seed_20261012/result.json",
+      "sha256": "583867150f7ce4719c03499b8aa6714f91148ce6202dafd663ce383c5e673758",
+      "wall_seconds": 29.300859159993706
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_0/seed_20261017/result.json",
+      "sha256": "0b7a155f65860fd5383d447006a519f6914489dcfe0d2ffb0a15eda6c9e9fdd7",
+      "wall_seconds": 40.0450074239925
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_0/seed_20261018/result.json",
+      "sha256": "2684f132aecaecbed87805180b367bd32c2d3aa8ff9888534eeab2f8e2e50c54",
+      "wall_seconds": 24.946031644998584
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_1/seed_20261012/result.json",
+      "sha256": "9b2b2982c1a851e2390a67e46b5d14373d39a7042613c530b41a57d618d737a7",
+      "wall_seconds": 35.88961596801528
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_1/seed_20261017/result.json",
+      "sha256": "da35327cca9553e6d7f318a32f19f2d32817b2605c212488a55fa2d073bd8fc2",
+      "wall_seconds": 36.239919365005335
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_1/seed_20261018/result.json",
+      "sha256": "ed8dfa6db7936f8a1e908b187597201fa721fb167cc1bbd359d441ce2e416c2a",
+      "wall_seconds": 33.119009276008
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_2/seed_20261012/result.json",
+      "sha256": "d6bef8ec44b1995026d91020eeabf4c361cf519e5aecef2dc81db14d547771cd",
+      "wall_seconds": 38.200262967002345
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_2/seed_20261017/result.json",
+      "sha256": "0c9cdcf649f8f12249107fdcc0a6c3c8a6dd2a2b4f6bffd90ea70f16ac9cf2db",
+      "wall_seconds": 28.815470853995066
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_2/seed_20261018/result.json",
+      "sha256": "0bd28ae3c02df410b896993b17bf366492b64f9dc93d2a41ce389e309eee88a0",
+      "wall_seconds": 31.25524617001065
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_3/seed_20261012/result.json",
+      "sha256": "3b78172d5cf444652f75fdad32b49e68babc8b396bfa3ac080588d08eca61107",
+      "wall_seconds": 38.28806191799231
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_3/seed_20261017/result.json",
+      "sha256": "eaa28fcaa34f758b04beef2e699c82813e56183675d6c0aff221ec9c89783a9f",
+      "wall_seconds": 36.28935059098876
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_3/seed_20261018/result.json",
+      "sha256": "32001ac154808f48eb7fba17c94033073f18d7a459d354b5762654d198905e8a",
+      "wall_seconds": 26.940193207003176
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_4/seed_20261012/result.json",
+      "sha256": "8b067fa2d76b4db6d23b32e0082e4a13d9a97e6c8698723a4821c31ee99fdb79",
+      "wall_seconds": 27.738800599006936
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_4/seed_20261017/result.json",
+      "sha256": "e0b7582a353a0176d8df82a96b7974f4eaa77479e2268ed5a864e57d77acf062",
+      "wall_seconds": 29.2539612929977
+    },
+    {
+      "path": "results/knn_shared_20261025/kiba/fold_4/seed_20261018/result.json",
+      "sha256": "017de42dba1de20f5c17ef20af10393f793e8a7cd816587e04d24fdf4674f7a2",
+      "wall_seconds": 33.174989938008366
+    }
+  ],
+  "bootstrap": {
+    "repeats": 10000,
+    "seed": 20261025,
+    "unit": "chemical identity within each outer test fold",
+    "estimand": "mean over folds of seed-averaged MSE differences",
+    "scope": "conditional on the trained models and their fixed predictions"
+  }
+}

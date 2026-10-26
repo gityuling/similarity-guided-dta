@@ -1,0 +1,10 @@
+{
+  "external_median_mean_fold_max_similarity": 0.20678708264915158,
+  "validation_median_max_similarity": 0.7,
+  "external_mean_deep_weight": 0.4339388052156929,
+  "external_deep_weight_range": [
+    0.21999500402129546,
+    0.4886539824104921
+  ],
+  "interpretation": "Descriptive reference coverage and gate allocation; does not identify the cause of comparative performance."
+}

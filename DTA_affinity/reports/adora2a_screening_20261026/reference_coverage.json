@@ -1,0 +1,6 @@
+{
+  "external_median_ensemble_max_tanimoto": 0.2434267980452069,
+  "pooled_validation_median_max_tanimoto": 0.7971014492753623,
+  "external_mean_deep_weight": 0.7516257427566134,
+  "interpretation": "Descriptive reference coverage only; these statistics do not establish a cause of the screening results."
+}
